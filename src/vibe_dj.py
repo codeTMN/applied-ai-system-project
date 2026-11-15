@@ -32,7 +32,7 @@ from pydantic import BaseModel
 
 from src.gemini_client import FAST_THINKING, GeminiError, generate_json
 from src.knowledge import Hit, KnowledgeIndex, markdown_chunks
-from src.recommender import MODES, load_songs, normalize, recommend_songs
+from src.recommender import MODES, ScoringMode, load_songs, normalize, recommend_songs, score_song
 from src.vocab import MOOD_SYNONYMS, MOOD_TAGS, MOODS, mood_from_numbers
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -45,9 +45,12 @@ PER_SOURCE = {"slang": 3, "activity": 2, "genre": 3, "artist": 2, "song": 25}
 SEMANTIC_BONUS = 1.5                        # max points for "matches your words"
 NAMED_ARTIST_BONUS = 2.0
 SIMILAR_ARTIST_BONUS = 1.5
+EXPLICIT_GENRE_BONUS = 2.0                  # "smooth jazz", "k-pop": the asked-for genre must win over mood alone
 SAME_SCENE_BONUS = 1.75                     # same catalog genre as an artist the user named
 NO_VOCALS_PENALTY = -3.0                    # "no lyrics" is a hard ask: push vocal songs down
 NO_VOCALS_CUTOFF = 0.3                      # songs below this instrumentalness count as vocal
+CONFIDENCE_HIGH = 0.75                      # average match at or above this = "high"
+CONFIDENCE_LOW = 0.6                        # below this = "low", and the user is told
 
 # What people type -> catalog genre name
 GENRE_ALIASES = {
@@ -73,6 +76,7 @@ class RequestProfile(BaseModel):
     summary: str                   # one line: what the person wants
     requested_genre: str           # genre exactly as the person said it, "" if none
     favorite_genre: str            # closest catalog genre, "" if none
+    genre_is_explicit: bool        # they asked for this genre (or a style only it covers), not inferred
     favorite_mood: str
     target_energy: float
     target_valence: float
@@ -103,6 +107,7 @@ class Pick:
     score: float
     reasons: List[str]
     why: str = ""
+    match: float = 0.0                  # 0-1: base score / best possible score for this request
 
 
 @dataclass
@@ -119,6 +124,8 @@ class VibeResult:
     explanation_source: str = ""        # "gemini" | "gemini-retry" | "fallback" | "agent"
     trace_file: str = ""                # agent mode: saved trace (logs/traces/...md)
     trace: List[Dict] = field(default_factory=list)
+    confidence: float = 0.0             # average match of the picks (0-1)
+    confidence_label: str = ""          # high | medium | low
 
 
 # ---------------------------------------------------------------- prompts
@@ -132,6 +139,9 @@ Rules:
 - favorite_genre must be one of ALLOWED GENRES, or "" if the person didn't ask for a genre and no
   single genre clearly fits. If they asked for a genre we don't have, put their words in
   requested_genre and the closest allowed genre in favorite_genre.
+- genre_is_explicit: true when they clearly asked for that genre or a style only it covers
+  ("k-pop", "smooth jazz", "worship songs" -> gospel). False when you inferred it from a mood,
+  activity or artist. Explicit genres fill most of the playlist; inferred ones get variety.
 - favorite_mood must be one of: {moods}
 - favorite_tags: 0-3 of: {tags}
 - energy, valence: 0.0-1.0. Use -1 for speechiness/instrumentalness and 0 for preferred_decade
@@ -151,25 +161,25 @@ ALLOWED GENRES: {genres}
 FEW_SHOT = """EXAMPLES (request -> profile):
 
 "oya give me street gbedu, make my body shake"
--> {"is_music_request": true, "refusal_reason": "", "language_style": "pidgin", "summary": "Hard-hitting Nigerian street party music", "requested_genre": "", "favorite_genre": "afrobeats", "favorite_mood": "energetic", "target_energy": 0.88, "target_valence": 0.8, "acoustic": "no", "favorite_tags": ["party", "confident"], "target_speechiness": 0.25, "target_instrumentalness": -1, "preferred_decade": 0, "similar_artists": [], "scoring_mode": "balanced", "used_knowledge": ["gbedu", "street / street-pop"]}
+-> {"is_music_request": true, "refusal_reason": "", "language_style": "pidgin", "summary": "Hard-hitting Nigerian street party music", "requested_genre": "", "favorite_genre": "afrobeats", "genre_is_explicit": false, "favorite_mood": "energetic", "target_energy": 0.88, "target_valence": 0.8, "acoustic": "no", "favorite_tags": ["party", "confident"], "target_speechiness": 0.25, "target_instrumentalness": -1, "preferred_decade": 0, "similar_artists": [], "scoring_mode": "balanced", "used_knowledge": ["gbedu", "street / street-pop"]}
 
 "need calm background music for reading, no singing please"
--> {"is_music_request": true, "refusal_reason": "", "language_style": "english", "summary": "Calm instrumental focus music for reading", "requested_genre": "", "favorite_genre": "", "favorite_mood": "focused", "target_energy": 0.3, "target_valence": 0.5, "acoustic": "any", "favorite_tags": ["focused", "peaceful"], "target_speechiness": 0.05, "target_instrumentalness": 0.85, "preferred_decade": 0, "similar_artists": [], "scoring_mode": "balanced", "used_knowledge": ["studying / reading / homework"]}
+-> {"is_music_request": true, "refusal_reason": "", "language_style": "english", "summary": "Calm instrumental focus music for reading", "requested_genre": "", "favorite_genre": "", "genre_is_explicit": false, "favorite_mood": "focused", "target_energy": 0.3, "target_valence": 0.5, "acoustic": "any", "favorite_tags": ["focused", "peaceful"], "target_speechiness": 0.05, "target_instrumentalness": 0.85, "preferred_decade": 0, "similar_artists": [], "scoring_mode": "balanced", "used_knowledge": ["studying / reading / homework"]}
 
 "my head dey hot, I wan calm down small"
--> {"is_music_request": true, "refusal_reason": "", "language_style": "pidgin", "summary": "Stressed and wants to calm down", "requested_genre": "", "favorite_genre": "", "favorite_mood": "relaxed", "target_energy": 0.4, "target_valence": 0.55, "acoustic": "any", "favorite_tags": ["peaceful", "smooth"], "target_speechiness": -1, "target_instrumentalness": -1, "preferred_decade": 0, "similar_artists": [], "scoring_mode": "mood-first", "used_knowledge": ["wahala / my head dey hot"]}
+-> {"is_music_request": true, "refusal_reason": "", "language_style": "pidgin", "summary": "Stressed and wants to calm down", "requested_genre": "", "favorite_genre": "", "genre_is_explicit": false, "favorite_mood": "relaxed", "target_energy": 0.4, "target_valence": 0.55, "acoustic": "any", "favorite_tags": ["peaceful", "smooth"], "target_speechiness": -1, "target_instrumentalness": -1, "preferred_decade": 0, "similar_artists": [], "scoring_mode": "mood-first", "used_knowledge": ["wahala / my head dey hot"]}
 
 "stuff that sounds like Burna Boy for my drive home"
--> {"is_music_request": true, "refusal_reason": "", "language_style": "english", "summary": "Burna Boy-style Afro-fusion for a drive", "requested_genre": "", "favorite_genre": "afro-fusion", "favorite_mood": "chill", "target_energy": 0.65, "target_valence": 0.65, "acoustic": "no", "favorite_tags": ["groovy", "smooth"], "target_speechiness": -1, "target_instrumentalness": -1, "preferred_decade": 0, "similar_artists": ["Burna Boy"], "scoring_mode": "balanced", "used_knowledge": ["Burna Boy", "road trip / long drive"]}
+-> {"is_music_request": true, "refusal_reason": "", "language_style": "english", "summary": "Burna Boy-style Afro-fusion for a drive", "requested_genre": "", "favorite_genre": "afro-fusion", "genre_is_explicit": false, "favorite_mood": "chill", "target_energy": 0.65, "target_valence": 0.65, "acoustic": "no", "favorite_tags": ["groovy", "smooth"], "target_speechiness": -1, "target_instrumentalness": -1, "preferred_decade": 0, "similar_artists": ["Burna Boy"], "scoring_mode": "balanced", "used_knowledge": ["Burna Boy", "road trip / long drive"]}
 
 "80s synth stuff for a night run"
--> {"is_music_request": true, "refusal_reason": "", "language_style": "english", "summary": "Retro synth music for running at night", "requested_genre": "", "favorite_genre": "synthwave", "favorite_mood": "energetic", "target_energy": 0.82, "target_valence": 0.55, "acoustic": "no", "favorite_tags": ["nostalgic", "euphoric"], "target_speechiness": -1, "target_instrumentalness": -1, "preferred_decade": 1980, "similar_artists": [], "scoring_mode": "energy-focused", "used_knowledge": ["synthwave", "running / cardio"]}
+-> {"is_music_request": true, "refusal_reason": "", "language_style": "english", "summary": "Retro synth music for running at night", "requested_genre": "", "favorite_genre": "synthwave", "genre_is_explicit": true, "favorite_mood": "energetic", "target_energy": 0.82, "target_valence": 0.55, "acoustic": "no", "favorite_tags": ["nostalgic", "euphoric"], "target_speechiness": -1, "target_instrumentalness": -1, "preferred_decade": 1980, "similar_artists": [], "scoring_mode": "energy-focused", "used_knowledge": ["synthwave", "running / cardio"]}
 
 "play me some reggae roots"
--> {"is_music_request": true, "refusal_reason": "", "language_style": "english", "summary": "Roots reggae", "requested_genre": "reggae", "favorite_genre": "dancehall", "favorite_mood": "relaxed", "target_energy": 0.55, "target_valence": 0.7, "acoustic": "any", "favorite_tags": ["groovy"], "target_speechiness": -1, "target_instrumentalness": -1, "preferred_decade": 0, "similar_artists": [], "scoring_mode": "balanced", "used_knowledge": ["dancehall"]}
+-> {"is_music_request": true, "refusal_reason": "", "language_style": "english", "summary": "Roots reggae", "requested_genre": "reggae", "favorite_genre": "dancehall", "genre_is_explicit": true, "favorite_mood": "relaxed", "target_energy": 0.55, "target_valence": 0.7, "acoustic": "any", "favorite_tags": ["groovy"], "target_speechiness": -1, "target_instrumentalness": -1, "preferred_decade": 0, "similar_artists": [], "scoring_mode": "balanced", "used_knowledge": ["dancehall"]}
 
 "abeg help me write my chemistry assignment"
--> {"is_music_request": false, "refusal_reason": "That's homework, not a music request.", "language_style": "pidgin", "summary": "Homework help", "requested_genre": "", "favorite_genre": "", "favorite_mood": "chill", "target_energy": 0.5, "target_valence": 0.5, "acoustic": "any", "favorite_tags": [], "target_speechiness": -1, "target_instrumentalness": -1, "preferred_decade": 0, "similar_artists": [], "scoring_mode": "balanced", "used_knowledge": []}
+-> {"is_music_request": false, "refusal_reason": "That's homework, not a music request.", "language_style": "pidgin", "summary": "Homework help", "requested_genre": "", "favorite_genre": "", "genre_is_explicit": false, "favorite_mood": "chill", "target_energy": 0.5, "target_valence": 0.5, "acoustic": "any", "favorite_tags": [], "target_speechiness": -1, "target_instrumentalness": -1, "preferred_decade": 0, "similar_artists": [], "scoring_mode": "balanced", "used_knowledge": []}
 """
 
 PARSE_PROMPT = """{examples}
@@ -230,6 +240,38 @@ def input_problem(request: str) -> Optional[str]:
     if len(request) > MAX_REQUEST_CHARS:
         return f"That's a long one! Keep it under {MAX_REQUEST_CHARS} characters."
     return None
+
+
+def best_possible(prefs: Dict, mode: ScoringMode) -> float:
+    """The most points a song could earn for these preferences (AI bonuses not included)."""
+    points = mode.mood
+    points += mode.energy if prefs.get("target_energy") is not None else 0
+    points += mode.valence if prefs.get("target_valence") is not None else 0
+    points += mode.genre if prefs.get("favorite_genre") else 0
+    points += mode.acoustic if prefs.get("likes_acoustic") is not None else 0
+    points += mode.tags * min(2, len(prefs.get("favorite_tags") or []))
+    points += mode.decade if prefs.get("preferred_decade") is not None else 0
+    points += mode.popularity if prefs.get("target_popularity") is not None else 0
+    points += mode.speechiness if prefs.get("target_speechiness") is not None else 0
+    points += mode.instrumentalness if prefs.get("target_instrumentalness") is not None else 0
+    return points
+
+
+def add_confidence(result: "VibeResult", prefs: Dict, mode: ScoringMode) -> None:
+    """Confidence = how close each pick comes to a perfect match on the original scorer's rules.
+    Uses the base score only, so AI bonuses can't inflate it. Low confidence is shown to the user."""
+    top = best_possible(prefs, mode)
+    for pick in result.picks:
+        base, _ = score_song(prefs, pick.song, mode)
+        pick.match = round(min(1.0, base / top), 2) if top else 0.0
+    if not result.picks:
+        return
+    result.confidence = round(sum(p.match for p in result.picks) / len(result.picks), 2)
+    result.confidence_label = ("high" if result.confidence >= CONFIDENCE_HIGH
+                               else "medium" if result.confidence >= CONFIDENCE_LOW else "low")
+    if result.confidence_label == "low":
+        result.notices.append("Heads up: the catalog has no really close match for everything you asked, "
+                              "so these are the nearest fits.")
 
 
 def service_problem(exc: Exception) -> str:
@@ -336,8 +378,13 @@ class VibeDJ:
         return hits[0].chunk.title if hits else "pop"
 
     # -- step 4
-    def bonuses(self, profile: RequestProfile, knowledge: Dict[str, List[Hit]], notices: List[str]) -> Dict:
+    def bonuses(self, profile: RequestProfile, knowledge: Dict[str, List[Hit]], notices: List[str],
+                genre: str = "") -> Dict:
         bonus: Dict[int, List[Tuple[float, str]]] = {}
+        if profile.genre_is_explicit and genre:
+            for song in self.songs:
+                if song["genre"] == genre:
+                    bonus.setdefault(song["id"], []).append((EXPLICIT_GENRE_BONUS, f"the {genre} you asked for"))
         if self.use_rag and knowledge.get("song"):
             hits = knowledge["song"]
             top, bottom = hits[0].score, hits[-1].score
@@ -371,7 +418,8 @@ class VibeDJ:
 
     def rank(self, prefs: Dict, profile: RequestProfile, bonus: Dict, k: int = PLAYLIST_SIZE) -> List[Pick]:
         mode = MODES.get(profile.scoring_mode, MODES["balanced"])
-        ranked = recommend_songs(prefs, self.songs, k=k, mode=mode, diverse=True, bonuses=bonus)
+        exempt = prefs.get("favorite_genre") if profile.genre_is_explicit else None
+        ranked = recommend_songs(prefs, self.songs, k=k, mode=mode, diverse=True, bonuses=bonus, exempt_genre=exempt)
         return [Pick(song, round(score, 2), reasons.split("; ")) for song, score, reasons in ranked]
 
     # -- step 5 + 6
@@ -491,9 +539,10 @@ class VibeDJ:
         tracer.step("input_guardrail", started, prefs=prefs, notices=result.notices)
 
         started = time.time()
-        bonus = self.bonuses(profile, result.knowledge, result.notices)
+        bonus = self.bonuses(profile, result.knowledge, result.notices, genre=prefs.get("favorite_genre", ""))
         result.picks = self.rank(prefs, profile, bonus)
-        tracer.step("rank", started, mode=profile.scoring_mode, picks=[
+        add_confidence(result, prefs, MODES.get(profile.scoring_mode, MODES["balanced"]))
+        tracer.step("rank", started, mode=profile.scoring_mode, confidence=result.confidence, picks=[
             f"{p.song['title']} - {p.song['artist']} ({p.score})" for p in result.picks])
 
         self.explain(result, tracer)
@@ -510,12 +559,13 @@ def format_result(result: VibeResult) -> str:
     lines.append("")
     for n, pick in enumerate(result.picks, start=1):
         song = pick.song
-        lines.append(f"{n}. {song['title']} - {song['artist']}   [{song['genre']}, {song['mood']}, score {pick.score}]")
+        lines.append(f"{n}. {song['title']} - {song['artist']}   [{song['genre']}, {song['mood']}, score {pick.score}, match {pick.match:.0%}]")
         lines.append(f"   {pick.why}")
     if result.closing:
         lines += ["", result.closing]
     used = ", ".join(result.profile.used_knowledge) if result.profile else ""
-    lines += ["", f"(knowledge used: {used or 'none'} | explanation: {result.explanation_source})"]
+    lines += ["", f"(confidence: {result.confidence:.2f} {result.confidence_label} | knowledge used: {used or 'none'} "
+                  f"| explanation: {result.explanation_source})"]
     return "\n".join(lines)
 
 

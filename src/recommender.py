@@ -180,21 +180,23 @@ def score_song(user_prefs: Dict, song: Dict, mode: ScoringMode = BALANCED) -> Tu
 
     return score, reasons
 
-def diversity_penalty(song: Dict, picked: List[Dict]) -> Tuple[float, List[str]]:
-    """Return the points to take off a song (and why) given the songs already picked."""
+def diversity_penalty(song: Dict, picked: List[Dict], exempt_genre: Optional[str] = None) -> Tuple[float, List[str]]:
+    """Return the points to take off a song (and why) given the songs already picked.
+    `exempt_genre` (added for Vibe DJ): a genre the user explicitly asked for is not capped."""
     penalty = 0.0
     reasons = []
     if any(other["artist"] == song["artist"] for other in picked):
         penalty += ARTIST_PENALTY
         reasons.append(f"artist already in list (-{ARTIST_PENALTY:.2f})")
-    if sum(other["genre"] == song["genre"] for other in picked) >= MAX_PER_GENRE:
+    if song["genre"] != exempt_genre and sum(other["genre"] == song["genre"] for other in picked) >= MAX_PER_GENRE:
         penalty += GENRE_PENALTY
         reasons.append(f"already {MAX_PER_GENRE} {song['genre']} songs in list (-{GENRE_PENALTY:.2f})")
     return penalty, reasons
 
 def recommend_songs(user_prefs: Dict, songs: List[Dict], k: int = 5,
                     mode: ScoringMode = BALANCED, diverse: bool = False,
-                    bonuses: Optional[Dict[int, List[Tuple[float, str]]]] = None) -> List[Tuple[Dict, float, str]]:
+                    bonuses: Optional[Dict[int, List[Tuple[float, str]]]] = None,
+                    exempt_genre: Optional[str] = None) -> List[Tuple[Dict, float, str]]:
     """
     Functional implementation of the recommendation logic.
     Required by src/main.py
@@ -221,7 +223,7 @@ def recommend_songs(user_prefs: Dict, songs: List[Dict], k: int = 5,
         chosen_songs = [song for song, _, _ in picked]
         candidates = []
         for song, score, reasons in remaining:
-            penalty, penalty_reasons = diversity_penalty(song, chosen_songs)
+            penalty, penalty_reasons = diversity_penalty(song, chosen_songs, exempt_genre)
             candidates.append((song, score - penalty, reasons + penalty_reasons))
         best = max(candidates, key=lambda item: item[1])
         picked.append(best)

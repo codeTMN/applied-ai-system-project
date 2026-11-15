@@ -32,7 +32,8 @@ from google.genai import types
 from src.gemini_client import FAST_THINKING, get_client, model_chain, thinking_for
 from src.knowledge import Hit
 from src.vibe_dj import (KNOWLEDGE_FLOOR, PLAYLIST_SIZE, TONE, Explanation, Pick, PickNote, RequestProfile,
-                         VibeDJ, VibeResult, format_result, input_problem, service_problem)
+                         VibeDJ, VibeResult, add_confidence, format_result, input_problem, service_problem)
+from src.recommender import MODES
 from src.vocab import MOOD_TAGS, MOODS
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -113,7 +114,7 @@ TOOLS = types.Tool(function_declarations=[
 ])
 
 PROFILE_DEFAULTS = dict(is_music_request=True, refusal_reason="", language_style="english", summary="",
-                        requested_genre="", favorite_genre="", favorite_mood="chill", target_energy=0.5,
+                        requested_genre="", favorite_genre="", genre_is_explicit=False, favorite_mood="chill", target_energy=0.5,
                         target_valence=0.5, acoustic="any", favorite_tags=[], target_speechiness=-1,
                         target_instrumentalness=-1, preferred_decade=0, similar_artists=[],
                         scoring_mode="balanced", used_knowledge=[])
@@ -150,12 +151,12 @@ class VibeAgent:
         notices: List[str] = []
         prefs, notices = self.dj.check_profile(parsed, {})
         knowledge = {"song": self.song_hits}
-        bonus = self.dj.bonuses(parsed, knowledge, notices)
+        bonus = self.dj.bonuses(parsed, knowledge, notices, genre=prefs.get("favorite_genre", ""))
         self.dj.profile_artists = {a.strip().lower() for a in parsed.similar_artists}
         picks = self.dj.rank(prefs, parsed, bonus, k=CANDIDATES)
         for pick in picks:
             self.candidates[pick.song["id"]] = pick
-        self.profile, self.notices = parsed, notices
+        self.profile, self.notices, self.prefs = parsed, notices, prefs
         self.score_calls += 1
         return {
             "applied_profile": prefs, "notices": notices,
@@ -292,6 +293,7 @@ class VibeAgent:
             result.intro, result.closing = intro, closing
             result.picks = [Pick(p.song, p.score, p.reasons, why) for p, why in chosen]
             result.profile, result.notices = self.profile, list(self.notices)
+            add_confidence(result, self.prefs, MODES.get(self.profile.scoring_mode, MODES["balanced"]))
             result.knowledge = self.knowledge
             result.explanation_source = "agent"
         else:

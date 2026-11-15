@@ -36,7 +36,7 @@ def make_dj(closest="jazz") -> VibeDJ:
 
 def profile(**overrides) -> RequestProfile:
     base = dict(is_music_request=True, refusal_reason="", language_style="english", summary="test",
-                requested_genre="", favorite_genre="", favorite_mood="chill", target_energy=0.5,
+                requested_genre="", favorite_genre="", genre_is_explicit=False, favorite_mood="chill", target_energy=0.5,
                 target_valence=0.5, acoustic="any", favorite_tags=[], target_speechiness=-1,
                 target_instrumentalness=-1, preferred_decade=0, similar_artists=[],
                 scoring_mode="balanced", used_knowledge=[])
@@ -194,3 +194,13 @@ def test_missing_api_key_gives_setup_steps_instead_of_crashing():
     dj.index = type("Index", (), {"search_by_source": staticmethod(no_key)})()
     result = dj.recommend("songs for a road trip")
     assert not result.ok and ".env" in result.refusal and "aistudio" in result.refusal
+
+
+def test_explicit_genre_is_not_capped_at_two_songs():
+    jazz = [song(10 + i, f"Jazz {i}", f"Player {i}", "jazz", "chill", 0.5, 0.5) for i in range(4)]
+    others = [song(20 + i, f"Other {i}", f"Band {i}", "folk", "chill", 0.35, 0.5) for i in range(4)]
+    prefs = {"favorite_genre": "jazz", "favorite_mood": "chill", "target_energy": 0.35}
+    capped = recommend_songs(prefs, jazz + others, k=5, diverse=True)
+    exempt = recommend_songs(prefs, jazz + others, k=5, diverse=True, exempt_genre="jazz")
+    assert sum(s["genre"] == "jazz" for s, _, _ in capped) == 3      # cap pushes jazz down after 2
+    assert sum(s["genre"] == "jazz" for s, _, _ in exempt) == 4

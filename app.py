@@ -71,6 +71,9 @@ def show_result(result) -> None:
         return
 
     st.markdown(f"🎧 {result.intro}")
+    if result.confidence_label:
+        st.caption(f"Match confidence: **{result.confidence:.0%} ({result.confidence_label})**: how close the picks "
+                   "come to a perfect match on the scorer's rules")
     for notice in result.notices:
         st.warning(notice, icon="⚠️")
 
@@ -80,7 +83,7 @@ def show_result(result) -> None:
             left, right = st.columns([5, 1])
             left.markdown(f"**{n}. {song['title']}**  \n{song['artist']}")
             right.metric("score", f"{pick.score:.1f}", label_visibility="collapsed")
-            st.caption(f"{song['genre']} · {song['mood']} · energy {float(song['energy']):.2f} · "
+            st.caption(f"{song['genre']} · {song['mood']} · energy {float(song['energy']):.2f} · match {pick.match:.0%} · "
                        f"{int(float(song['tempo_bpm']))} BPM · {song['release_decade']}s")
             st.markdown(pick.why)
             st.caption(f"Listen: {listen_links(song)}")
