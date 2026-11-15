@@ -19,3 +19,6 @@ venv/
 
 # Run logs (agent traces we want to keep go in logs/traces/ and are committed)
 logs/*.log
+
+# Local editor/assistant settings
+.claude/

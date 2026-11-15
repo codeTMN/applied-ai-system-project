@@ -72,7 +72,8 @@ Agent mode: the same steps exposed as Gemini function-calling tools
   - Iterations driven by traces: v1 ran out of steps on a Pidgin request (pipeline fallback answered) -> 3-search cap + "turns left" reminder; guardrail false alarm on "No Love (with SZA)" -> featured artists in titles allowed
   - Speed: `thinking_level="low"` (2.2 s vs 8.8 s per call in testing) -> pipeline ~16 s -> ~7 s, agent ~45 s -> ~11 s
   - 30 offline tests total (`tests/test_agent.py` drives the loop with a scripted fake Gemini)
-- [ ] **5. Streamlit UI:** chat box, playlist cards, "why" reasons, retrieved sources, guardrail notices
+- [x] **5. Streamlit UI:** `streamlit run app.py`: chat box, 6 one-click examples, playlist cards (why, scorer reasons, Spotify/YouTube/Last.fm links), guardrail notices, "How I got this playlist" panel (understood request, knowledge used with similarity scores, step timings), Agent mode toggle, RAG/few-shot switches for baselines, friendly setup message when the Gemini key is missing
+  - Tested in the browser: pipeline (owambe example) and agent mode ("Sunday rice after church": 5 turns, re-scored once, 32.6 s)
 - [ ] **6. Setup reproducibility:** pinned `requirements.txt`, fresh-clone run-through
 - [ ] **7. Evaluation:** `eval.py`, ~20 cases (English + Pidgin + edge cases), PASS/FAIL summary + confidence score; baseline (zero-shot) vs few-shot and no-RAG vs RAG comparisons; results saved as `.txt`/markdown for the README
 - [ ] **8. Docs:** README (every section 3 item + section 6 text evidence, plain language, incl. how a grader gets their own Gemini key), final diagram, `model_card.md` (section 5 headers + baseline vs specialized + RAG before/after), portfolio paragraph, demo screenshots in `assets/`

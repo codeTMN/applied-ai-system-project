@@ -37,7 +37,7 @@ flowchart TD
     GOUT -. "agent: rejected -> problems sent back" .-> AGENTMODE
     IDX --> RET
     CSV --> SCORE
-    GOUT -- yes --> OUT(["Playlist + why + notices<br/>(CLI now, Streamlit UI in task 5)"])
+    GOUT -- yes --> OUT(["Streamlit app (app.py) or CLI<br/>playlist, why, notices, listen links,<br/>what was looked up, every step"])
     FALLBACK --> OUT
 
     AGENT -. every step timed + logged .-> LOGS[("logs/vibe_dj.log<br/>+ trace in each result")]
