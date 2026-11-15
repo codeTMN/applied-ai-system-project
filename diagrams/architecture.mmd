@@ -3,7 +3,7 @@
 flowchart TD
     subgraph BUILD["Offline build (run once)"]
         LFM[("Last.fm API<br/>top tracks + tags per genre")] --> BC["build_catalog.py<br/>Gemini estimates energy, valence, mood"]
-        BC --> CSV[("data/songs.csv<br/>~200 real songs")]
+        BC --> CSV[("data/songs.csv<br/>369 real songs, 32 genres")]
         LFM --> KB["build_knowledge.py<br/>genre wikis + artist bios"]
         KB --> KDOCS
         KDOCS[("knowledge/<br/>genres, artists, activities,<br/>Naija slang glossary")] --> IDX["Embedding index<br/>693 chunks, gemini-embedding-2"]
