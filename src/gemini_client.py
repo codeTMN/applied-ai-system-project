@@ -61,8 +61,8 @@ def get_client() -> genai.Client:
 
 def model_chain() -> list:
     """Main model first, then the fallback (if it's different)."""
-    main = _setting("GEMINI_MODEL", "gemini-3.5-flash")
-    fallback = _setting("GEMINI_FALLBACK_MODEL", "gemini-3.1-flash-lite")
+    main = _setting("GEMINI_MODEL", "gemini-3.8-flash")
+    fallback = _setting("GEMINI_FALLBACK_MODEL", "gemini-3.6-flash")
     return [main] if fallback == main else [main, fallback]
 
 

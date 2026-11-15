@@ -66,12 +66,14 @@ Set in `.env` (`GEMINI_MODEL`, `GEMINI_EMBED_MODEL`, `GEMINI_FALLBACK_MODEL`) so
 
 | Role | Model | Why |
 |---|---|---|
-| Main | `gemini-3.5-flash` | Answered in ~8s. The newer 3.8/3.7 Flash returned 503 "high demand" / 504 timeouts in testing (one call took 8 minutes with SDK retries) |
-| Fallback | `gemini-3.1-flash-lite` | Fastest (~3s); used when the main model is overloaded |
+| Main | `gemini-3.8-flash` | Newest Flash. 3/3 calls OK in ~5s once billing was linked (on the free tier it returned 503 "high demand" and one call took 8 min with SDK retries) |
+| Fallback | `gemini-3.6-flash` | ~2-3s and reliable. Used when the main model is overloaded (429/5xx/timeout) |
 | Embeddings | `gemini-embedding-2` | Newest embedding model, 3072 dims |
 
 Lesson for the build: every Gemini call needs a short timeout, limited retries, and the fallback model.
 `gemini-2.5-flash` is still listed by `models.list()` but returns 404, so the list alone isn't proof a model works.
+Aliases move: `gemini-3.5-flash` is actually served by 3.6, and `gemini-3.7-flash` by 3.8 (`response.model_version`), so we pin the real names.
+Catalog features (task 1) were estimated with `gemini-3.5-flash` (served as 3.6) before this switch.
 
 ## Rubric map
 
