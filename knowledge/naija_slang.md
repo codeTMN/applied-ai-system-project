@@ -1,6 +1,6 @@
 # Naija music slang glossary
 
-Source: hand-written for Vibe DJ (drafted with AI help; **review by a Nigerian listener pending**).
+Source: hand-written for Vibe DJ (drafted with AI help, **reviewed and approved by a Nigerian listener**, 2026-11-15).
 Each entry says what the phrase means and how it should change a music request.
 "Hints" use the same scale as the song catalog: energy and valence go from 0 to 1.
 

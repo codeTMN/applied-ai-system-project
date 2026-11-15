@@ -1,6 +1,6 @@
 # Activity and moment guide
 
-Source: hand-written for Vibe DJ (drafted with AI help; human review pending).
+Source: hand-written for Vibe DJ (drafted with AI help, reviewed and approved by me, 2026-11-15).
 Each entry turns an everyday situation into a music profile. Energy, valence, speechiness and
 instrumentalness go from 0 to 1, the same scale as the song catalog.
 

@@ -53,7 +53,7 @@ Agent mode: the same steps exposed as Gemini function-calling tools
   - [ ] Human review of Afro rows -> corrections go in `data/catalog_overrides.json`
   - Found: the API key's project was on the **free tier** (20 requests/day per model); the fallback model took over mid-build. Fixed by linking billing; full rebuild then ran on the main model
 - [x] **2. Knowledge base:** 693 chunks from 5 sources, embedded with `gemini-embedding-2` (768 dims), cached in `data/index/`
-  - `knowledge/naija_slang.md` (26 terms) and `knowledge/activities.md` (18 activities): hand-written, **human review pending**
+  - `knowledge/naija_slang.md` (26 terms) and `knowledge/activities.md` (18 activities): hand-written, **human-reviewed**
   - `knowledge/genres.md` (32) and `knowledge/artists.md` (248): `scripts/build_knowledge.py` = Last.fm wiki/bio + stats from our catalog
   - `src/knowledge.py`: per-source retrieval so 369 song cards can't crowd out 26 slang terms
   - Found: `gemini-embedding-2` merges a list of plain strings into ONE vector; each text must be its own `Content`
