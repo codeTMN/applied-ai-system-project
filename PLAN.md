@@ -52,7 +52,12 @@ Agent mode: the same steps exposed as Gemini function-calling tools
   - Gemini rejected songs that don't fit their genre (e.g. Tyla "Water" moved out of amapiano: "Afropop/R&B with amapiano log drums"); see `data/catalog_report.md`
   - [ ] Human review of Afro rows -> corrections go in `data/catalog_overrides.json`
   - Found: the API key's project was on the **free tier** (20 requests/day per model); the fallback model took over mid-build. Fixed by linking billing; full rebuild then ran on the main model
-- [ ] **2. Knowledge base:** `knowledge/` docs (genre guides, activity guide, slang glossary ~25 terms, human-reviewed); embedding index cached to disk
+- [x] **2. Knowledge base:** 693 chunks from 5 sources, embedded with `gemini-embedding-2` (768 dims), cached in `data/index/`
+  - `knowledge/naija_slang.md` (26 terms) and `knowledge/activities.md` (18 activities): hand-written, **human review pending**
+  - `knowledge/genres.md` (32) and `knowledge/artists.md` (248): `scripts/build_knowledge.py` = Last.fm wiki/bio + stats from our catalog
+  - `src/knowledge.py`: per-source retrieval so 369 song cards can't crowd out 26 slang terms
+  - Found: `gemini-embedding-2` merges a list of plain strings into ONE vector; each text must be its own `Content`
+  - Notes for task 3: every source always returns *something* (e.g. "bossa nova" -> jazz at 0.66, slang "vibe" for a study request), so the pipeline needs score thresholds; slang/activity hits above ~0.75 were the relevant ones. Song search alone matched "I dey feel somehow" to Igbo highlife, not sad songs, so songs must be ranked by the scorer using the slang hints, not by raw similarity
 - [ ] **3. Core pipeline:** parse (few-shot) -> input guardrail -> retrieve -> score -> explain -> output guardrail; Gemini retry + fallback model; logging
 - [ ] **4. Agent mode:** function calling + trace logs linked from `ai_interactions.md`
 - [ ] **5. Streamlit UI:** chat box, playlist cards, "why" reasons, retrieved sources, guardrail notices

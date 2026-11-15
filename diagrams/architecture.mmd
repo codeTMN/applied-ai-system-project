@@ -4,7 +4,9 @@ flowchart TD
     subgraph BUILD["Offline build (run once)"]
         LFM[("Last.fm API<br/>top tracks + tags per genre")] --> BC["build_catalog.py<br/>Gemini estimates energy, valence, mood"]
         BC --> CSV[("data/songs.csv<br/>~200 real songs")]
-        KDOCS[("knowledge/<br/>genre guides, activity guide,<br/>Naija slang glossary")] --> IDX["Embedding index<br/>(Gemini embeddings)"]
+        LFM --> KB["build_knowledge.py<br/>genre wikis + artist bios"]
+        KB --> KDOCS
+        KDOCS[("knowledge/<br/>genres, artists, activities,<br/>Naija slang glossary")] --> IDX["Embedding index<br/>693 chunks, gemini-embedding-2"]
         CSV --> IDX
     end
 
@@ -13,7 +15,7 @@ flowchart TD
     subgraph AGENT["Vibe DJ agent (Gemini Flash)"]
         PARSE["1. Parse request<br/>few-shot prompt -> profile JSON"] --> GIN{"2. Input guardrail<br/>ranges ok? genre known?<br/>music request?"}
         GIN -- off-topic --> REFUSE["Polite refusal"]
-        GIN -- ok / genre mapped --> RET["3. Retriever<br/>search 4 knowledge sources"]
+        GIN -- ok / genre mapped --> RET["3. Retriever<br/>top hits from each of 5 sources:<br/>slang, activity, genre, artist, song"]
         RET --> SCORE["4. Scorer<br/>original VibeMatch score_song"]
         SCORE --> EXPLAIN["5. Explain<br/>playlist write-up from<br/>retrieved + ranked songs only"]
         EXPLAIN --> GOUT{"6. Output guardrail<br/>every song in catalog?"}

@@ -75,6 +75,32 @@ def _should_fall_back(exc: Exception) -> bool:
     return "timeout" in type(exc).__name__.lower() or isinstance(exc, (ConnectionError, OSError))
 
 
+EMBED_DIMS = 768          # smaller than the 3072 default: ~4x smaller index, same ranking quality for short texts
+EMBED_BATCH = 100
+
+
+def embed(texts: list, task_type: str = "RETRIEVAL_DOCUMENT") -> list:
+    """Embed many texts. Returns one vector (list of floats) per text, in order.
+
+    Each text is wrapped in its own Content: gemini-embedding-2 merges a plain list of
+    strings into ONE embedding, which silently breaks search (found while testing).
+    There is no fallback model here: vectors from different models can't be compared.
+    """
+    model = _setting("GEMINI_EMBED_MODEL", "gemini-embedding-2")
+    config = types.EmbedContentConfig(task_type=task_type, output_dimensionality=EMBED_DIMS)
+    vectors = []
+    for start in range(0, len(texts), EMBED_BATCH):
+        batch = texts[start:start + EMBED_BATCH]
+        contents = [types.Content(parts=[types.Part(text=text)]) for text in batch]
+        began = time.time()
+        result = get_client().models.embed_content(model=model, contents=contents, config=config)
+        if len(result.embeddings) != len(batch):
+            raise GeminiError(f"asked for {len(batch)} embeddings, got {len(result.embeddings)}")
+        vectors += [e.values for e in result.embeddings]
+        log.info("embed ok model=%s n=%d seconds=%.1f", model, len(batch), time.time() - began)
+    return vectors
+
+
 def generate_json(prompt: str, schema: Type[T], system: Optional[str] = None,
                   temperature: float = 0.0) -> T:
     """Ask Gemini for JSON that matches `schema` (a pydantic model) and return it parsed."""
