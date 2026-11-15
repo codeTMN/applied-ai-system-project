@@ -1,7 +1,9 @@
-pandas
-pytest
-streamlit
-google-genai
-pydantic
-python-dotenv
-requests
+# Tested with Python 3.12 on macOS (2026-11-15). Exact versions so a fresh install behaves the same.
+google-genai==3.3.0       # Gemini text, tool calling and embeddings
+numpy==2.5.4              # vector search over the knowledge index
+pandas==3.1.1             # used by Streamlit tables
+pydantic==2.14.3          # JSON shapes for Gemini's answers
+pytest==9.2.0             # offline tests
+python-dotenv==1.2.4      # reads your API key from .env
+requests==2.34.2          # Last.fm calls (only when rebuilding the catalog)
+streamlit==1.67.0         # the web app

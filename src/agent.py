@@ -32,7 +32,7 @@ from google.genai import types
 from src.gemini_client import FAST_THINKING, get_client, model_chain, thinking_for
 from src.knowledge import Hit
 from src.vibe_dj import (KNOWLEDGE_FLOOR, PLAYLIST_SIZE, TONE, Explanation, Pick, PickNote, RequestProfile,
-                         VibeDJ, VibeResult, format_result, input_problem)
+                         VibeDJ, VibeResult, format_result, input_problem, service_problem)
 from src.vocab import MOOD_TAGS, MOODS
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -231,8 +231,13 @@ class VibeAgent:
             return self.wrap_up(result, started, "rejected by input check")
 
         # song cards that match the request's words feed the "matches your words" bonus
-        self.song_hits = [h for h in self.dj.index.search_by_source(request, {"song": 25})["song"]
-                          if h.score >= KNOWLEDGE_FLOOR]
+        try:
+            self.song_hits = [h for h in self.dj.index.search_by_source(request, {"song": 25})["song"]
+                              if h.score >= KNOWLEDGE_FLOOR]
+        except Exception as exc:  # noqa: BLE001 - e.g. missing API key: explain instead of crashing
+            result.ok, result.refusal = False, service_problem(exc)
+            self.event(0, "error", text=short(str(exc), 200))
+            return self.wrap_up(result, started, "Gemini unavailable")
 
         config = types.GenerateContentConfig(
             system_instruction=AGENT_SYSTEM.format(

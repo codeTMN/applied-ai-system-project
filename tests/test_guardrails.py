@@ -182,3 +182,15 @@ def test_featured_artist_in_a_song_title_is_allowed():
     featured = [Pick({**SONGS[0], "title": "Essence (feat. Burna Boy)"}, 9.0, []), Pick(SONGS[1], 8.0, [])]
     text = "Wizkid and Burna Boy glide on this one."
     assert dj.check_explanation(explanation([1, 2], text), featured) == []
+
+
+def test_missing_api_key_gives_setup_steps_instead_of_crashing():
+    from src.gemini_client import GeminiError
+
+    def no_key(*args, **kwargs):
+        raise GeminiError("GEMINI_API_KEY is not set. Copy .env.example to .env and fill it in.")
+
+    dj = make_dj()
+    dj.index = type("Index", (), {"search_by_source": staticmethod(no_key)})()
+    result = dj.recommend("songs for a road trip")
+    assert not result.ok and ".env" in result.refusal and "aistudio" in result.refusal

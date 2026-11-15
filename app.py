@@ -20,12 +20,15 @@ ROOT = Path(__file__).resolve().parent
 st.set_page_config(page_title="Vibe DJ", page_icon="🎧", layout="centered")
 
 EXAMPLES = [
-    "abeg I need gbedu for owambe this saturday",
+    "upbeat songs for a summer road trip",
     "something chill to study to, no lyrics",
-    "songs like Tems",
+    "sad songs for a rainy day",
+    "high-energy music for the gym",
+    "romantic songs for a dinner date",
+    "songs like Arctic Monkeys",
+    "70s and 80s throwback party",
+    "abeg I need gbedu for owambe this saturday",
     "I dey feel somehow today",
-    "hype k-pop for my workout",
-    "bossa nova for a dinner party",
 ]
 
 SOURCE_LABELS = {"slang": "Naija slang", "activity": "Activity guide", "genre": "Genre guide",
@@ -129,8 +132,9 @@ def show_details(result) -> None:
 # ---------------------------------------------------------------- page
 
 st.title("🎧 Vibe DJ")
-st.caption("Tell me the vibe in plain English or Pidgin. I'll build a 5-song playlist from 369 real songs "
-           "across 32 genres, with Afrobeats, Amapiano, Alté and Highlife front and center.")
+st.caption("Describe the vibe, the moment or an artist you love, and I'll build a 5-song playlist from 369 "
+           "real songs across 32 genres, from rock, jazz and country to K-pop and house. I also speak "
+           "Nigerian Pidgin and have a special ear for Afrobeats, Amapiano, Alté and Highlife.")
 
 with st.sidebar:
     st.header("Settings")
@@ -165,7 +169,7 @@ for i, example in enumerate(EXAMPLES):
     if cols[i % 3].button(example, key=f"ex{i}", use_container_width=True):
         clicked = example
 
-typed = st.chat_input("e.g. abeg play me something soft for my Sunday rice")
+typed = st.chat_input("e.g. mellow acoustic songs for a Sunday morning")
 request = typed or clicked
 
 for past in st.session_state.history:

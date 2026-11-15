@@ -45,7 +45,7 @@ PER_SOURCE = {"slang": 3, "activity": 2, "genre": 3, "artist": 2, "song": 25}
 SEMANTIC_BONUS = 1.5                        # max points for "matches your words"
 NAMED_ARTIST_BONUS = 2.0
 SIMILAR_ARTIST_BONUS = 1.5
-SAME_SCENE_BONUS = 1.0                      # same catalog genre as an artist the user named
+SAME_SCENE_BONUS = 1.75                     # same catalog genre as an artist the user named
 NO_VOCALS_PENALTY = -3.0                    # "no lyrics" is a hard ask: push vocal songs down
 NO_VOCALS_CUTOFF = 0.3                      # songs below this instrumentalness count as vocal
 
@@ -230,6 +230,20 @@ def input_problem(request: str) -> Optional[str]:
     if len(request) > MAX_REQUEST_CHARS:
         return f"That's a long one! Keep it under {MAX_REQUEST_CHARS} characters."
     return None
+
+
+def service_problem(exc: Exception) -> str:
+    """Plain-language message for a Gemini failure (shown to the user; details go to the log)."""
+    text = str(exc)
+    log.error("gemini problem: %s", text[:300])
+    if "GEMINI_API_KEY is not set" in text:
+        return ("Vibe DJ needs a Gemini API key. Copy .env.example to .env and paste your key after "
+                "GEMINI_API_KEY= (free key: https://aistudio.google.com/apikey).")
+    if "API key not valid" in text or "API_KEY_INVALID" in text or "PERMISSION_DENIED" in text or " 403" in text:
+        return "Gemini rejected the API key in .env. Check that it was copied fully, with no spaces or quotes."
+    if "RESOURCE_EXHAUSTED" in text or " 429" in text:
+        return "The Gemini key has hit its usage limit (free keys allow only a few requests a day). Try again later."
+    return "The AI service is busy or unreachable right now. Please try again in a minute."
 
 
 def load_similar_artists() -> Dict[str, List[str]]:
@@ -446,7 +460,12 @@ class VibeDJ:
 
         started = time.time()
         if self.use_rag:
-            raw = self.index.search_by_source(request, PER_SOURCE)
+            try:
+                raw = self.index.search_by_source(request, PER_SOURCE)
+            except Exception as exc:  # noqa: BLE001 - missing key, bad key or network: explain, don't crash
+                tracer.step("retrieve", started, error=str(exc)[:200])
+                result.ok, result.refusal = False, service_problem(exc)
+                return result
             result.knowledge = {s: [h for h in hits if h.score >= KNOWLEDGE_FLOOR] for s, hits in raw.items()}
         tracer.step("retrieve", started, rag=self.use_rag, hits={
             s: [f"{h.chunk.title} ({h.score:.2f})" for h in hits[:3]] for s, hits in result.knowledge.items()})
@@ -456,7 +475,7 @@ class VibeDJ:
             profile = self.parse(request, result.knowledge)
         except GeminiError as exc:
             tracer.step("parse", started, error=str(exc)[:200])
-            result.ok, result.refusal = False, "The AI service is busy right now. Please try again in a minute."
+            result.ok, result.refusal = False, service_problem(exc)
             return result
         result.profile = profile
         tracer.step("parse", started, few_shot=self.few_shot, profile=profile.model_dump())
