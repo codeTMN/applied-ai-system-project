@@ -39,8 +39,11 @@ Agent mode: the same steps exposed as Gemini function-calling tools
 | 0. Preparing your environment | New repo, push history, `assets/` + `diagrams/` folders | Done |
 | 1. Functionality | At least one AI feature, fully integrated; runs reproducibly; logging/guardrails; clear setup | Tasks 1-6 |
 | 2. Design and architecture | Mermaid diagram: components, data flow, where humans/tests check AI | Draft in `diagrams/architecture.mmd`; updated after each task, finalized in task 8 |
-| 3. Documentation | (screenshot still needed) | Task 8 |
-| 4. Reliability and evaluation | (screenshot still needed) | Tasks 3, 7 |
+| 3. Documentation | README: base project named + 2-3 sentence summary, title & summary, architecture overview, setup steps, 2-3 sample interactions, design decisions, testing summary, brief reflection (graded reflection goes in `model_card.md`) | Task 8 |
+| 4. Reliability and evaluation | At least one way to measure reliability (tests, confidence scores, logging, human eval in a parseable table) + a few-line testing summary ("x of y passed...") | Tasks 3, 7 (add a confidence score) |
+| 5. Reflection and ethics | `model_card.md` with clear headers: limitations/biases, misuse + prevention, what surprised me in testing, AI collaboration (one suggestion accepted, one rejected/revised, and why) | Task 8 |
+| 6. Presentation and portfolio | README **text evidence** (fenced code blocks or `.txt` logs): sample commands, inputs, outputs, guardrail/eval results; portfolio paragraph "what this project says about me as an AI engineer"; optional Loom link; 5-7 min presentation (you) | Task 8 |
+| Submission checklist | Public repo, README.md, model_card.md, Mermaid diagram in `diagrams/`, images in `assets/`, multiple meaningful commits, pushed before the deadline | Task 8 |
 
 ## Tasks (one commit per task, pushed as we go)
 
@@ -71,8 +74,8 @@ Agent mode: the same steps exposed as Gemini function-calling tools
   - 30 offline tests total (`tests/test_agent.py` drives the loop with a scripted fake Gemini)
 - [ ] **5. Streamlit UI:** chat box, playlist cards, "why" reasons, retrieved sources, guardrail notices
 - [ ] **6. Setup reproducibility:** pinned `requirements.txt`, fresh-clone run-through
-- [ ] **7. Evaluation:** `eval.py`, ~20 cases (English + Pidgin + edge cases), PASS/FAIL summary; baseline (zero-shot) vs few-shot comparison
-- [ ] **8. Docs:** README (base project, setup, sample I/O), final diagram, model card, reflection, demo screenshots in `assets/`
+- [ ] **7. Evaluation:** `eval.py`, ~20 cases (English + Pidgin + edge cases), PASS/FAIL summary + confidence score; baseline (zero-shot) vs few-shot and no-RAG vs RAG comparisons; results saved as `.txt`/markdown for the README
+- [ ] **8. Docs:** README (every section 3 item + section 6 text evidence, plain language, incl. how a grader gets their own Gemini key), final diagram, `model_card.md` (section 5 headers + baseline vs specialized + RAG before/after), portfolio paragraph, demo screenshots in `assets/`
 
 ## Models (checked with `models.list()` on 2026-11-15)
 
