@@ -204,3 +204,11 @@ def test_explicit_genre_is_not_capped_at_two_songs():
     exempt = recommend_songs(prefs, jazz + others, k=5, diverse=True, exempt_genre="jazz")
     assert sum(s["genre"] == "jazz" for s, _, _ in capped) == 3      # cap pushes jazz down after 2
     assert sum(s["genre"] == "jazz" for s, _, _ in exempt) == 4
+
+
+def test_language_label_variants_are_normalized():
+    dj = make_dj()
+    for label, expected in [("Nigerian Pidgin", "pidgin"), ("pidgin english", "pidgin"), ("standard", "english")]:
+        p = profile(language_style=label)
+        dj.check_profile(p, {})
+        assert p.language_style == expected

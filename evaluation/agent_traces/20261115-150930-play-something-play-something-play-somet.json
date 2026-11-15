@@ -1,0 +1,17 @@
+{
+ "request": "play something play something play something play something play something play something play something play something play something play something play something play something play something play something play something play something play something play something play something play something play something play something play something play something play something play something play something play something play something play something play something play something play something play something play something play something play something play something play something play something play something play something play something play something play something play something play something play something play something play something",
+ "summary": {
+  "outcome": "rejected by input check",
+  "seconds": 0.0,
+  "model_turns": 0,
+  "score_calls": 0,
+  "finish_rejections": 0
+ },
+ "events": [
+  {
+   "step": 0,
+   "type": "guardrail",
+   "text": "input check rejected the request: That's a long one! Keep it under 500 characters."
+  }
+ ]
+}

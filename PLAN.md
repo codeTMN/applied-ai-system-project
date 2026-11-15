@@ -78,7 +78,12 @@ Agent mode: the same steps exposed as Gemini function-calling tools
   - Fresh clone from GitHub into an empty folder: install OK, 31/31 tests pass; without a key the checker and CLI explain the fix; with a key the pipeline and agent work and the committed index is reused (0 chunks re-embedded), so graders need only a Gemini key, no Last.fm key
   - App examples rebalanced to mostly general English (road trip, study, rainy day, gym, date night, Arctic Monkeys, 70s/80s) + 2 Naija ones; checked each gives a sensible playlist
   - "songs like Arctic Monkeys" let a drill track in -> same-scene bonus 1.0 -> 1.75. Known limit: when an artist's Last.fm similar artists aren't in the catalog, matching falls back to mood
-- [ ] **7. Evaluation:** `eval.py`, ~20 cases (English + Pidgin + edge cases), PASS/FAIL summary + confidence score; baseline (zero-shot) vs few-shot and no-RAG vs RAG comparisons; results saved as `.txt`/markdown for the README
+- [x] **7. Evaluation:** `eval.py` + `evaluation/` (summary in `evaluation/README.md`)
+  - Match confidence added to every result (base score / best possible score; AI bonuses excluded; low < 0.6 tells the user)
+  - 22 cases: full system 21/22 (worship energy 0.61 > 0.60: gospel catalog leans praise), agent 22/22, no-RAG 17/22 (Naija 2/6), zero-shot 21/22
+  - Eval-driven fixes: explicit genres capped at 2 songs (19/22 -> 21/22); agent dropped the bossa nova notice; "Nigerian Pidgin" label broke the tone lookup
+  - Specialization: tone rules 4.0 vs 1.0 Pidgin words per reply; few-shot examples made no measurable difference (38/38 both) -> honest finding for the model card
+  - Consistency 0.87 average overlap; human review sheet `evaluation/human_review.md` for the user to fill in
 - [ ] **8. Docs:** README (every section 3 item + section 6 text evidence, plain language, incl. how a grader gets their own Gemini key), final diagram, `model_card.md` (section 5 headers + baseline vs specialized + RAG before/after), portfolio paragraph, demo screenshots in `assets/`
 
 ## Models (checked with `models.list()` on 2026-11-15)

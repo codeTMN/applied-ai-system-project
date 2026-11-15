@@ -335,6 +335,8 @@ class VibeDJ:
     def check_profile(self, profile: RequestProfile, knowledge: Dict[str, List[Hit]]) -> Tuple[Dict, List[str]]:
         """Turn Gemini's profile into safe scorer preferences. Returns (prefs, notices)."""
         notices = []
+        # "Nigerian Pidgin", "pidgin english"... -> "pidgin", so the right reply tone is used
+        profile.language_style = "pidgin" if "pidgin" in normalize(profile.language_style) else "english"
         genre = normalize(profile.favorite_genre)
         genre = GENRE_ALIASES.get(genre, genre)
         asked = normalize(profile.requested_genre)

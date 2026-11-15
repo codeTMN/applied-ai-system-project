@@ -12,6 +12,9 @@ and writes a markdown report to evaluation/.
     python eval.py --compare                       # all four, plus a comparison table
     python eval.py --consistency                   # same 3 requests x3: how stable are the picks?
     python eval.py --only gbedu,somehow            # just the cases whose id contains these words
+    python eval.py --parser                        # few-shot vs zero-shot on reading requests only
+    python eval.py --tone                          # DJ tone/style rules vs a plain baseline write-up
+    python eval.py --table                         # rebuild comparison.md from saved results
 
 Note: none of these requests appear in the few-shot examples (that would be cheating).
 """
@@ -30,7 +33,15 @@ from src.vibe_dj import MAX_REQUEST_CHARS, VibeDJ, VibeResult
 ROOT = Path(__file__).resolve().parent
 OUT = ROOT / "evaluation"
 AFRO = {"afrobeats", "amapiano", "afro-fusion", "alte", "highlife", "afro-house"}
-PIDGIN_WORDS = ("oya", "abeg", "dey", "e go", "una", "wahala", "sweet", "na ", "o!", "make we", "how far")
+PIDGIN_WORDS = ("oya", "abeg", "dey", "e go", "una", "wahala", "sweet you", "na", "make we", "how far", "jare",
+                "sha", "wetin", "abi", "omo", "no wahala", "chop", "jaiye", "gbedu")
+
+
+def pidgin_count(text: str) -> int:
+    """How many different Pidgin words/phrases appear (whole words only, so 'bittersweet' doesn't count)."""
+    import re
+    lower = text.lower()
+    return sum(1 for w in PIDGIN_WORDS if re.search(rf"(?<![a-z']){re.escape(w)}(?![a-z'])", lower))
 
 Check = Tuple[str, Callable[[VibeResult], bool]]
 
@@ -91,8 +102,8 @@ def notice(word) -> Check:
 
 def pidgin_reply() -> Check:
     def check(r):
-        text = " ".join([r.intro, r.closing] + [p.why for p in r.picks]).lower()
-        return bool(r.profile and r.profile.language_style == "pidgin") and any(w in text for w in PIDGIN_WORDS)
+        text = " ".join([r.intro, r.closing] + [p.why for p in r.picks])
+        return bool(r.profile and r.profile.language_style == "pidgin") and pidgin_count(text) > 0
     return ("reads it as Pidgin and replies with Pidgin flavour", check)
 
 
@@ -233,7 +244,7 @@ def summary_line(s: Dict) -> str:
             f"{s['fallbacks']} write-up fallbacks; {s['crashes']} crashes.")
 
 
-def write_report(variant: str, rows: List[Dict], s: Dict) -> Path:
+def write_report(variant: str, rows: List[Dict], s: Dict, partial: bool = False) -> Path:
     OUT.mkdir(exist_ok=True)
     lines = [f"# Evaluation: {VARIANTS[variant]['label']}", "",
              f"Run {datetime.now():%Y-%m-%d %H:%M} with `python eval.py --variant {variant}`.", "",
@@ -257,9 +268,10 @@ def write_report(variant: str, rows: List[Dict], s: Dict) -> Path:
         for pick in r["picks"]:
             lines.append(f"  1. {pick}")
         lines.append("")
-    path = OUT / f"results_{variant}.md"
+    name = f"results_{variant}" + ("_partial" if partial else "")
+    path = OUT / f"{name}.md"
     path.write_text("\n".join(lines), encoding="utf-8")
-    (OUT / f"results_{variant}.json").write_text(json.dumps({"summary": s, "rows": rows}, indent=1, ensure_ascii=False),
+    (OUT / f"{name}.json").write_text(json.dumps({"summary": s, "rows": rows}, indent=1, ensure_ascii=False),
                                                  encoding="utf-8")
     return path
 
@@ -277,7 +289,7 @@ def evaluate(variant: str, only: List[str]) -> Dict:
         print(f"  {'PASS' if row['passed'] else 'FAIL'}  {row['id']:20s} {conf}  {row['seconds']:5.1f}s"
               + (f"   failed: {'; '.join(failed)}" if failed else ""))
     s = summarize(rows)
-    path = write_report(variant, rows, s)
+    path = write_report(variant, rows, s, partial=bool(only))
     print(f"\n  {summary_line(s)}\n  Report: {path.relative_to(ROOT)}")
     return s
 
@@ -317,19 +329,193 @@ def compare(results: Dict[str, Dict]) -> None:
     print("\n" + "\n".join(lines[4:]) + "\n\n  -> evaluation/comparison.md")
 
 
+def table_from_files() -> None:
+    results = {}
+    for variant in VARIANTS:
+        path = OUT / f"results_{variant}.json"
+        if path.exists():
+            results[variant] = json.loads(path.read_text(encoding="utf-8"))["summary"]
+    compare(results)
+
+
+# ---------------------------------------------------------------- parser-only test (few-shot vs zero-shot)
+
+def p_check(label, test):
+    return (label, test)
+
+
+PARSER_CASES = [
+    ("need something with no vocals for deep work",
+     [p_check("asks for instrumental (>= 0.7)", lambda p: p.target_instrumentalness >= 0.7)]),
+    ("play me some happy pop",
+     [p_check("pop marked as explicit", lambda p: p.favorite_genre == "pop" and p.genre_is_explicit),
+      p_check("no made-up vocal/speech limits", lambda p: p.target_instrumentalness < 0 and p.target_speechiness < 0)]),
+    ("wahala everywhere today, I need to cool down",
+     [p_check("calm mood", lambda p: p.favorite_mood in {"relaxed", "chill"}),
+      p_check("energy <= 0.5", lambda p: p.target_energy <= 0.5),
+      p_check("detected as Pidgin", lambda p: p.language_style == "pidgin")]),
+    ("oya make we jaiye this weekend",
+     [p_check("party energy >= 0.75", lambda p: p.target_energy >= 0.75),
+      p_check("detected as Pidgin", lambda p: p.language_style == "pidgin")]),
+    ("chill afrobeats for my drive",
+     [p_check("afrobeats marked as explicit", lambda p: p.favorite_genre == "afrobeats" and p.genre_is_explicit),
+      p_check("energy 0.4-0.7", lambda p: 0.4 <= p.target_energy <= 0.7)]),
+    ("something that sounds like the 90s",
+     [p_check("decade 1990", lambda p: p.preferred_decade == 1990)]),
+    ("music for a quiet night in",
+     [p_check("genre not marked explicit", lambda p: not p.genre_is_explicit),
+      p_check("no decade invented", lambda p: p.preferred_decade == 0)]),
+    ("some country for my road trip",
+     [p_check("country marked as explicit", lambda p: p.favorite_genre == "country" and p.genre_is_explicit)]),
+    ("tango for my dance class",
+     [p_check("keeps 'tango' as the requested genre", lambda p: "tango" in p.requested_genre.lower())]),
+    ("write me a cover letter for a bank job",
+     [p_check("not a music request", lambda p: not p.is_music_request)]),
+    ("body no fit, I dey feel low today",
+     [p_check("low valence <= 0.45", lambda p: p.target_valence <= 0.45),
+      p_check("detected as Pidgin", lambda p: p.language_style == "pidgin")]),
+    ("rap with lots of bars",
+     [p_check("hip hop or wordy (speechiness >= 0.25)",
+              lambda p: p.favorite_genre in {"hip hop", "drill", "trap"} or p.target_speechiness >= 0.25)]),
+]
+
+
+def parser_test(repeats: int = 2) -> None:
+    """Only the request-reading step, with and without few-shot examples (retrieval on for both)."""
+    lines = ["# Specialization test: request reading with vs without few-shot examples", "",
+             f"Run {datetime.now():%Y-%m-%d %H:%M} with `python eval.py --parser`. Each request was read "
+             f"{repeats} times by each variant; a check counts once per run.", "",
+             "| Request | Check | Few-shot | Zero-shot |", "|---|---|---|---|"]
+    print("\n== Specialization: request reading, few-shot vs zero-shot ==")
+    totals = {True: [0, 0], False: [0, 0]}
+    djs = {True: VibeDJ(use_rag=True, few_shot=True), False: VibeDJ(use_rag=True, few_shot=False)}
+    for request, checks in PARSER_CASES:
+        outcome = {True: [0] * len(checks), False: [0] * len(checks)}
+        for few in (True, False):
+            dj = djs[few]
+            knowledge = {s: [h for h in hits if h.score >= 0.62]
+                         for s, hits in dj.index.search_by_source(request, {"slang": 3, "activity": 2, "genre": 3, "artist": 2}).items()}
+            for _ in range(repeats):
+                profile = dj.parse(request, knowledge)
+                for i, (_, test) in enumerate(checks):
+                    passed = bool(test(profile))
+                    outcome[few][i] += passed
+                    totals[few][0] += passed
+                    totals[few][1] += 1
+        for i, (label, _) in enumerate(checks):
+            lines.append(f"| {request} | {label} | {outcome[True][i]}/{repeats} | {outcome[False][i]}/{repeats} |")
+            print(f"  {request[:40]:40s} {label[:38]:38s} few-shot {outcome[True][i]}/{repeats}  zero-shot {outcome[False][i]}/{repeats}")
+    few, zero = totals[True], totals[False]
+    summary = (f"Few-shot passed {few[0]}/{few[1]} checks ({few[0] / few[1]:.0%}); "
+               f"zero-shot passed {zero[0]}/{zero[1]} ({zero[0] / zero[1]:.0%}).")
+    lines += ["", f"**{summary}**"]
+    OUT.mkdir(exist_ok=True)
+    (OUT / "specialization.md").write_text("\n".join(lines) + "\n", encoding="utf-8")
+    print(f"\n  {summary}  ->  evaluation/specialization.md")
+
+
+# ---------------------------------------------------------------- tone/style test (specialized vs baseline write-up)
+
+TONE_REQUESTS = [("abeg I need gbedu for owambe this saturday", "pidgin"), ("I dey feel somehow today", "pidgin"),
+                 ("Detty December vibes, make we turn up", "pidgin"), ("oya make we jaiye this weekend", "pidgin"),
+                 ("upbeat songs for a summer road trip", "english"), ("sad songs for a rainy day", "english"),
+                 ("songs like Arctic Monkeys", "english")]
+BASELINE_SYSTEM = "You are a helpful assistant. Write a short description of this playlist for the user."
+
+
+def tone_metrics(dj, explanation, picks, language) -> Dict:
+    import re
+    text = " ".join([explanation.intro, explanation.closing] + [n.why for n in explanation.picks])
+    whys = [len(n.why.split()) for n in explanation.picks]
+    return {
+        "pidgin_words": pidgin_count(text),
+        "raw_numbers": len(re.findall(r"\b0\.\d{1,2}\b", text)),
+        "guardrail_problems": len(dj.check_explanation(explanation, picks)),
+        "longest_why": max(whys) if whys else 0,
+        "language": language,
+    }
+
+
+def tone_test() -> None:
+    """Same playlists, two write-ups: Vibe DJ's constrained DJ style vs a plain baseline prompt."""
+    from src.gemini_client import FAST_THINKING, generate_json
+    from src.vibe_dj import EXPLAIN_PROMPT, EXPLAIN_SYSTEM, TONE, Explanation
+    dj = VibeDJ()
+    rows = []
+    print("\n== Specialization: DJ tone/style rules vs plain baseline write-up ==")
+    for request, language in TONE_REQUESTS:
+        result = dj.recommend(request)               # gives the parsed profile + ranked picks
+        playlist = "\n".join(f"song_id={p.song['id']}: \"{p.song['title']}\" by {p.song['artist']} | genre "
+                             f"{p.song['genre']}, mood {p.song['mood']}, energy {p.song['energy']}, valence "
+                             f"{p.song['valence']}" for p in result.picks)
+        prompt = EXPLAIN_PROMPT.format(request=request, summary=result.profile.summary, notices="",
+                                       knowledge=", ".join(result.profile.used_knowledge), playlist=playlist, feedback="")
+        styled = generate_json(prompt, Explanation, system=EXPLAIN_SYSTEM.format(
+            tone=TONE[result.profile.language_style]), temperature=0.4, thinking_level=FAST_THINKING)
+        plain = generate_json(prompt, Explanation, system=BASELINE_SYSTEM, temperature=0.4, thinking_level=FAST_THINKING)
+        row = {"request": request, "styled": tone_metrics(dj, styled, result.picks, language),
+               "plain": tone_metrics(dj, plain, result.picks, language),
+               "styled_intro": styled.intro, "plain_intro": plain.intro}
+        rows.append(row)
+        print(f"  {request[:38]:38s} pidgin words {row['styled']['pidgin_words']} vs {row['plain']['pidgin_words']} | "
+              f"raw numbers {row['styled']['raw_numbers']} vs {row['plain']['raw_numbers']} | "
+              f"guardrail problems {row['styled']['guardrail_problems']} vs {row['plain']['guardrail_problems']}")
+
+    def total(kind, key, language=None):
+        return sum(r[kind][key] for r in rows if language is None or r[kind]["language"] == language)
+
+    def share(kind, key, limit):
+        return sum(1 for r in rows if r[kind][key] <= limit)
+
+    n_p = sum(1 for _, lang in TONE_REQUESTS if lang == "pidgin")
+    summary = [
+        ("Pidgin words per reply, Pidgin requests (higher = matches the user)",
+         f"{total('styled', 'pidgin_words', 'pidgin') / n_p:.1f}", f"{total('plain', 'pidgin_words', 'pidgin') / n_p:.1f}"),
+        ("Pidgin words in replies to English requests (should be 0)",
+         str(total("styled", "pidgin_words", "english")), str(total("plain", "pidgin_words", "english"))),
+        ("Raw numbers like 0.87 quoted (should be 0)", str(total("styled", "raw_numbers")), str(total("plain", "raw_numbers"))),
+        ("Replies that fail the output guardrail", f"{sum(1 for r in rows if r['styled']['guardrail_problems'])}/{len(rows)}",
+         f"{sum(1 for r in rows if r['plain']['guardrail_problems'])}/{len(rows)}"),
+        ("Replies with every 'why' <= 35 words", f"{share('styled', 'longest_why', 35)}/{len(rows)}",
+         f"{share('plain', 'longest_why', 35)}/{len(rows)}"),
+    ]
+    lines = ["# Specialization test: DJ tone/style rules vs a plain baseline", "",
+             f"Run {datetime.now():%Y-%m-%d %H:%M} with `python eval.py --tone`. Same request, same 5 songs, same "
+             "facts; only the system prompt differs. *Specialized* = Vibe DJ's rules (match the user's language, "
+             "describe numbers in words, never name other artists, max 35 words per song). *Baseline* = "
+             f"\"{BASELINE_SYSTEM}\"", "",
+             "| Measure | Specialized | Baseline |", "|---|---|---|"]
+    lines += [f"| {label} | {a} | {b} |" for label, a, b in summary]
+    lines += ["", "## Example intros", "", "| Request | Specialized | Baseline |", "|---|---|---|"]
+    lines += [f"| {r['request']} | {r['styled_intro']} | {r['plain_intro']} |" for r in rows]
+    OUT.mkdir(exist_ok=True)
+    (OUT / "tone.md").write_text("\n".join(lines) + "\n", encoding="utf-8")
+    print("\n" + "\n".join(f"  {label}: specialized {a} vs baseline {b}" for label, a, b in summary)
+          + "\n  -> evaluation/tone.md")
+
+
 def main() -> None:
     parser = argparse.ArgumentParser(description="Evaluate Vibe DJ on fixed test requests")
     parser.add_argument("--variant", choices=VARIANTS, default="full")
     parser.add_argument("--compare", action="store_true", help="run all variants and write a comparison table")
     parser.add_argument("--consistency", action="store_true", help="run 3 requests 3 times each")
     parser.add_argument("--only", default="", help="comma-separated words; run only matching case ids")
+    parser.add_argument("--table", action="store_true", help="rebuild comparison.md from saved results")
+    parser.add_argument("--parser", action="store_true", help="few-shot vs zero-shot on the request-reading step")
+    parser.add_argument("--tone", action="store_true", help="DJ tone/style rules vs a plain baseline write-up")
     args = parser.parse_args()
 
     (ROOT / "logs").mkdir(exist_ok=True)
     logging.basicConfig(level=logging.INFO, format="%(asctime)s %(levelname)s %(name)s: %(message)s",
                         handlers=[logging.FileHandler(ROOT / "logs" / "eval.log", encoding="utf-8")])
     only = [w.strip() for w in args.only.split(",") if w.strip()]
-    if args.consistency:
+    if args.table:
+        table_from_files()
+    elif args.parser:
+        parser_test()
+    elif args.tone:
+        tone_test()
+    elif args.consistency:
         consistency()
     elif args.compare:
         compare({variant: evaluate(variant, only) for variant in VARIANTS})

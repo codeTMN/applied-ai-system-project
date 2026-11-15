@@ -55,7 +55,9 @@ How to work:
    genres, artists the person names). You get at most {max_searches} searches in total; put several
    search calls in the SAME turn when you need more than one. Don't search for songs: score_songs
    finds them.
-2. Call score_songs with your best listening profile. It applies our guardrails and returns
+2. Call score_songs with your best listening profile. Put the genre EXACTLY as the person said it
+   in requested_genre (e.g. "bossa nova", even if we don't have it) and the closest catalog genre in
+   favorite_genre, so the guardrail can tell them when we had to substitute. It applies our guardrails and returns
    {candidates} ranked candidates with the scorer's reasons.
 3. Check the candidates against the request (energy, mood, vocals vs "no lyrics", the named
    artist's scene...). If they clearly miss, adjust the profile and call score_songs again
