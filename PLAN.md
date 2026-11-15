@@ -74,7 +74,10 @@ Agent mode: the same steps exposed as Gemini function-calling tools
   - 30 offline tests total (`tests/test_agent.py` drives the loop with a scripted fake Gemini)
 - [x] **5. Streamlit UI:** `streamlit run app.py`: chat box, 6 one-click examples, playlist cards (why, scorer reasons, Spotify/YouTube/Last.fm links), guardrail notices, "How I got this playlist" panel (understood request, knowledge used with similarity scores, step timings), Agent mode toggle, RAG/few-shot switches for baselines, friendly setup message when the Gemini key is missing
   - Tested in the browser: pipeline (owambe example) and agent mode ("Sunday rice after church": 5 turns, re-scored once, 32.6 s)
-- [ ] **6. Setup reproducibility:** pinned `requirements.txt`, fresh-clone run-through
+- [x] **6. Setup reproducibility:** exact versions in `requirements.txt` (Python 3.12), `scripts/check_setup.py` (plain-language OK/FIX report + 3 tiny live Gemini calls), friendly messages instead of crashes for a missing/invalid key or rate limit
+  - Fresh clone from GitHub into an empty folder: install OK, 31/31 tests pass; without a key the checker and CLI explain the fix; with a key the pipeline and agent work and the committed index is reused (0 chunks re-embedded), so graders need only a Gemini key, no Last.fm key
+  - App examples rebalanced to mostly general English (road trip, study, rainy day, gym, date night, Arctic Monkeys, 70s/80s) + 2 Naija ones; checked each gives a sensible playlist
+  - "songs like Arctic Monkeys" let a drill track in -> same-scene bonus 1.0 -> 1.75. Known limit: when an artist's Last.fm similar artists aren't in the catalog, matching falls back to mood
 - [ ] **7. Evaluation:** `eval.py`, ~20 cases (English + Pidgin + edge cases), PASS/FAIL summary + confidence score; baseline (zero-shot) vs few-shot and no-RAG vs RAG comparisons; results saved as `.txt`/markdown for the README
 - [ ] **8. Docs:** README (every section 3 item + section 6 text evidence, plain language, incl. how a grader gets their own Gemini key), final diagram, `model_card.md` (section 5 headers + baseline vs specialized + RAG before/after), portfolio paragraph, demo screenshots in `assets/`
 
