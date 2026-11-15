@@ -65,7 +65,10 @@ Agent mode: the same steps exposed as Gemini function-calling tools
   - Baselines for the specialization/RAG comparisons: `--zero-shot`, `--no-rag`
   - 19 offline tests (`tests/test_guardrails.py`): clamping, aliases, unknown genre, bad mood/tags, empty/too-long input, no-vocals, artist bonuses, invented/missing/duplicate songs, other artists named, retry then fallback
   - ~12-18 s per request (two Gemini calls); refusals ~4 s
-- [ ] **4. Agent mode:** function calling + trace logs linked from `ai_interactions.md`
+- [x] **4. Agent mode:** `src/agent.py` (`python -m src.vibe_dj --agent "..."`): Gemini function calling with `search_knowledge`, `score_songs`, `finish`, `refuse`; same guardrails as the pipeline; traces saved to `logs/traces/*.md|.json` and linked from `ai_interactions.md`
+  - Iterations driven by traces: v1 ran out of steps on a Pidgin request (pipeline fallback answered) -> 3-search cap + "turns left" reminder; guardrail false alarm on "No Love (with SZA)" -> featured artists in titles allowed
+  - Speed: `thinking_level="low"` (2.2 s vs 8.8 s per call in testing) -> pipeline ~16 s -> ~7 s, agent ~45 s -> ~11 s
+  - 30 offline tests total (`tests/test_agent.py` drives the loop with a scripted fake Gemini)
 - [ ] **5. Streamlit UI:** chat box, playlist cards, "why" reasons, retrieved sources, guardrail notices
 - [ ] **6. Setup reproducibility:** pinned `requirements.txt`, fresh-clone run-through
 - [ ] **7. Evaluation:** `eval.py`, ~20 cases (English + Pidgin + edge cases), PASS/FAIL summary; baseline (zero-shot) vs few-shot comparison

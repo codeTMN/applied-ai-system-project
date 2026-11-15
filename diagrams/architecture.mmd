@@ -10,31 +10,43 @@ flowchart TD
         CSV --> IDX
     end
 
-    USER(["User request<br/>e.g. 'abeg I need gbedu for owambe'"]) --> CHECK{"0. Input check<br/>empty or over 500 chars?"}
+    USER(["User request<br/>e.g. 'abeg I need gbedu for owambe'"]) --> CHECK{"Step 0: Input check<br/>empty or over 500 chars?"}
     CHECK -- yes --> ASK["Ask them to rephrase<br/>(no API call spent)"]
 
-    subgraph AGENT["Vibe DJ pipeline (src/vibe_dj.py, Gemini 3.8 Flash)"]
-        RET["1. Retriever<br/>top hits from each of 5 sources:<br/>slang, activity, genre, artist, song<br/>(drops hits under 0.62)"] --> PARSE["2. Parse request<br/>few-shot prompt + retrieved knowledge<br/>-> profile JSON"]
-        PARSE --> GIN{"3. Input guardrail<br/>music request? numbers in range?<br/>genre/mood/tags allowed?"}
+    subgraph AGENT["Vibe DJ pipeline (src/vibe_dj.py, Gemini 3.8 Flash, low thinking)"]
+        RET["Step 1: Retriever<br/>top hits from each of 5 sources:<br/>slang, activity, genre, artist, song<br/>(drops hits under 0.62)"] --> PARSE["Step 2: Parse request<br/>few-shot prompt + retrieved knowledge<br/>-> profile JSON"]
+        PARSE --> GIN{"Step 3: Input guardrail<br/>music request? numbers in range?<br/>genre/mood/tags allowed?"}
         GIN -- off-topic --> REFUSE["Polite refusal"]
-        GIN -- "ok (unknown genre -> closest + notice)" --> SCORE["4. Rank<br/>original VibeMatch scorer<br/>+ AI bonuses: matches your words,<br/>named / similar artist, no-vocals rule<br/>+ diversity penalty"]
-        SCORE --> EXPLAIN["5. Explain<br/>Gemini writes about the 5 ranked songs only"]
-        EXPLAIN --> GOUT{"6. Output guardrail<br/>only our song ids, each once,<br/>no other artists named?"}
+        GIN -- "ok (unknown genre -> closest + notice)" --> SCORE["Step 4: Rank<br/>original VibeMatch scorer<br/>+ AI bonuses: matches your words,<br/>named / similar artist, no-vocals rule<br/>+ diversity penalty"]
+        SCORE --> EXPLAIN["Step 5: Explain<br/>Gemini writes about the 5 ranked songs only"]
+        EXPLAIN --> GOUT{"Step 6: Output guardrail<br/>only our song ids, each once,<br/>no other artists named?"}
         GOUT -- "no: retry once with the problems" --> EXPLAIN
         GOUT -- "still no" --> FALLBACK["Fallback write-up<br/>from scorer reasons"]
     end
 
-    CHECK -- no --> RET
+    CHECK -- "no (pipeline mode)" --> RET
+    CHECK -- "no (agent mode)" --> AGENTMODE
+
+    subgraph AGENTS["Agent mode (src/agent.py): Gemini plans and calls tools, max 8 turns"]
+        AGENTMODE["Gemini 3.8 Flash<br/>thinks + says why before each call"] -->|"search_knowledge (max 3)"| RET
+        AGENTMODE -->|"score_songs(profile)<br/>may re-score if candidates miss"| GIN
+        AGENTMODE -->|"finish(5 picks)"| GOUT
+        AGENTMODE -->|"refuse"| REFUSE
+        AGENTMODE -. "out of turns / error" .-> FALLBACK2["Standard pipeline answers instead"]
+    end
+    GOUT -. "agent: rejected -> problems sent back" .-> AGENTMODE
     IDX --> RET
     CSV --> SCORE
     GOUT -- yes --> OUT(["Playlist + why + notices<br/>(CLI now, Streamlit UI in task 5)"])
     FALLBACK --> OUT
 
     AGENT -. every step timed + logged .-> LOGS[("logs/vibe_dj.log<br/>+ trace in each result")]
+    AGENTS -. every thought, call and result saved .-> TRACES[("logs/traces/*.md + .json<br/>linked from ai_interactions.md")]
 
     HUMAN1["Human review:<br/>Afro song rows + slang glossary"] -.-> CSV
     HUMAN1 -.-> KDOCS
     EVAL["eval.py<br/>~20 test requests -> PASS/FAIL"] -.-> AGENT
-    TESTS["pytest: 19 offline tests<br/>scorer, guardrails, retry/fallback"] -.-> SCORE
+    TESTS["pytest: 30 offline tests<br/>scorer, guardrails, retry/fallback,<br/>agent tools + loop (fake Gemini)"] -.-> SCORE
     TESTS -.-> GIN
     TESTS -.-> GOUT
+    TESTS -.-> AGENTMODE

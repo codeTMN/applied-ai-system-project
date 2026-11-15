@@ -101,17 +101,28 @@ def embed(texts: list, task_type: str = "RETRIEVAL_DOCUMENT") -> list:
     return vectors
 
 
+FAST_THINKING = "low"     # 4x faster than the default in testing (2.2s vs 8.8s) for short app tasks
+
+
+def thinking_for(model: str, level: Optional[str], include_thoughts: bool = False) -> Optional[types.ThinkingConfig]:
+    """Thinking settings only for the main model; the fallback gets none in case it doesn't support them."""
+    if level is None or model != model_chain()[0]:
+        return None
+    return types.ThinkingConfig(thinking_level=level, include_thoughts=include_thoughts)
+
+
 def generate_json(prompt: str, schema: Type[T], system: Optional[str] = None,
-                  temperature: float = 0.0) -> T:
+                  temperature: float = 0.0, thinking_level: Optional[str] = None) -> T:
     """Ask Gemini for JSON that matches `schema` (a pydantic model) and return it parsed."""
-    config = types.GenerateContentConfig(
-        system_instruction=system,
-        temperature=temperature,
-        response_mime_type="application/json",
-        response_schema=schema,
-    )
     last_error: Optional[Exception] = None
     for model in model_chain():
+        config = types.GenerateContentConfig(
+            system_instruction=system,
+            temperature=temperature,
+            response_mime_type="application/json",
+            response_schema=schema,
+            thinking_config=thinking_for(model, thinking_level),
+        )
         start = time.time()
         try:
             response = get_client().models.generate_content(model=model, contents=prompt, config=config)

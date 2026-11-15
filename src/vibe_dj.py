@@ -15,6 +15,7 @@ Pipeline (every step is timed and written to the trace):
                       to a plain explanation built from the scorer's reasons
 
     python -m src.vibe_dj "abeg I need gbedu for owambe this saturday"
+    python -m src.vibe_dj --agent "songs like Tems"                       # agent mode
     python -m src.vibe_dj --no-rag --zero-shot "something to vibe to"     # baselines
 """
 
@@ -29,7 +30,7 @@ from typing import Dict, List, Optional, Tuple
 
 from pydantic import BaseModel
 
-from src.gemini_client import GeminiError, generate_json
+from src.gemini_client import FAST_THINKING, GeminiError, generate_json
 from src.knowledge import Hit, KnowledgeIndex, markdown_chunks
 from src.recommender import MODES, load_songs, normalize, recommend_songs
 from src.vocab import MOOD_SYNONYMS, MOOD_TAGS, MOODS, mood_from_numbers
@@ -115,7 +116,8 @@ class VibeResult:
     picks: List[Pick] = field(default_factory=list)
     intro: str = ""
     closing: str = ""
-    explanation_source: str = ""        # "gemini" | "gemini-retry" | "fallback"
+    explanation_source: str = ""        # "gemini" | "gemini-retry" | "fallback" | "agent"
+    trace_file: str = ""                # agent mode: saved trace (logs/traces/...md)
     trace: List[Dict] = field(default_factory=list)
 
 
@@ -221,6 +223,15 @@ def format_knowledge(knowledge: Dict[str, List[Hit]]) -> str:
     return "\n".join(lines) or "(none)"
 
 
+def input_problem(request: str) -> Optional[str]:
+    """Step 0 check shared by the pipeline and the agent. None = OK."""
+    if not request:
+        return "Tell me what you're in the mood for and I'll build you a playlist."
+    if len(request) > MAX_REQUEST_CHARS:
+        return f"That's a long one! Keep it under {MAX_REQUEST_CHARS} characters."
+    return None
+
+
 def load_similar_artists() -> Dict[str, List[str]]:
     """artist (lowercase) -> Last.fm similar artists, from knowledge/artists.md."""
     similar = {}
@@ -262,7 +273,7 @@ class VibeDJ:
         prompt = PARSE_PROMPT.format(examples=FEW_SHOT if self.few_shot else "",
                                      knowledge=format_knowledge(knowledge) if self.use_rag else "(retrieval off)",
                                      request=request)
-        return generate_json(prompt, RequestProfile, system=system)
+        return generate_json(prompt, RequestProfile, system=system, thinking_level=FAST_THINKING)
 
     # -- step 3
     def check_profile(self, profile: RequestProfile, knowledge: Dict[str, List[Hit]]) -> Tuple[Dict, List[str]]:
@@ -344,9 +355,9 @@ class VibeDJ:
                     bonus.setdefault(song["id"], []).append((SAME_SCENE_BONUS, f"same {song['genre']} scene as {named}"))
         return bonus
 
-    def rank(self, prefs: Dict, profile: RequestProfile, bonus: Dict) -> List[Pick]:
+    def rank(self, prefs: Dict, profile: RequestProfile, bonus: Dict, k: int = PLAYLIST_SIZE) -> List[Pick]:
         mode = MODES.get(profile.scoring_mode, MODES["balanced"])
-        ranked = recommend_songs(prefs, self.songs, k=PLAYLIST_SIZE, mode=mode, diverse=True, bonuses=bonus)
+        ranked = recommend_songs(prefs, self.songs, k=k, mode=mode, diverse=True, bonuses=bonus)
         return [Pick(song, round(score, 2), reasons.split("; ")) for song, score, reasons in ranked]
 
     # -- step 5 + 6
@@ -368,7 +379,8 @@ class VibeDJ:
             prompt = EXPLAIN_PROMPT.format(request=result.request, summary=profile.summary, notices=notices,
                                            knowledge=used, playlist=playlist, feedback=feedback)
             try:
-                explanation = generate_json(prompt, Explanation, system=system, temperature=0.4)
+                explanation = generate_json(prompt, Explanation, system=system, temperature=0.4,
+                                            thinking_level=FAST_THINKING)
             except GeminiError as exc:
                 tracer.step("explain", started, attempt=attempt, error=str(exc)[:200])
                 break
@@ -408,9 +420,10 @@ class VibeDJ:
 
         text = " ".join([explanation.intro, explanation.closing] + [note.why for note in explanation.picks])
         playlist_artists = {p.song["artist"] for p in picks}
+        titles = " ".join(p.song["title"] for p in picks)      # featured artists, e.g. "No Love (with SZA)"
         named = self.profile_artists
         for artist in self.artists:
-            if artist in playlist_artists or artist in COMMON_WORD_ARTISTS or artist.lower() in named:
+            if artist in playlist_artists or artist in COMMON_WORD_ARTISTS or artist.lower() in named or artist in titles:
                 continue
             if re.search(rf"(?<![\w]){re.escape(artist)}(?![\w])", text):
                 problems.append(f"mentions {artist}, who is not in this playlist")
@@ -424,13 +437,10 @@ class VibeDJ:
         started = time.time()
 
         request = (request or "").strip()
-        if not request:
-            result.ok, result.refusal = False, "Tell me what you're in the mood for and I'll build you a playlist."
-            tracer.step("input_check", started, result="empty")
-            return result
-        if len(request) > MAX_REQUEST_CHARS:
-            result.ok, result.refusal = False, f"That's a long one! Keep it under {MAX_REQUEST_CHARS} characters."
-            tracer.step("input_check", started, result="too long", chars=len(request))
+        problem = input_problem(request)
+        if problem:
+            result.ok, result.refusal = False, problem
+            tracer.step("input_check", started, result="rejected", chars=len(request))
             return result
         tracer.step("input_check", started, result="ok", chars=len(request))
 
@@ -495,6 +505,7 @@ def main() -> None:
     parser.add_argument("request", nargs="+", help="what you want to hear")
     parser.add_argument("--no-rag", action="store_true", help="turn retrieval off (baseline)")
     parser.add_argument("--zero-shot", action="store_true", help="turn few-shot examples off (baseline)")
+    parser.add_argument("--agent", action="store_true", help="agent mode: Gemini plans and calls tools (trace saved)")
     parser.add_argument("--trace", action="store_true", help="print every pipeline step")
     args = parser.parse_args()
 
@@ -502,8 +513,14 @@ def main() -> None:
     logging.basicConfig(level=logging.INFO, format="%(asctime)s %(levelname)s %(name)s: %(message)s",
                         handlers=[logging.FileHandler(ROOT / "logs" / "vibe_dj.log", encoding="utf-8")])
     dj = VibeDJ(use_rag=not args.no_rag, few_shot=not args.zero_shot)
-    result = dj.recommend(" ".join(args.request))
+    if args.agent:
+        from src.agent import VibeAgent   # imported here to avoid a circular import
+        result = VibeAgent(dj).run(" ".join(args.request))
+    else:
+        result = dj.recommend(" ".join(args.request))
     print(format_result(result))
+    if result.trace_file:
+        print(f"\nAgent trace saved to {result.trace_file}")
     if args.trace:
         print("\nTRACE")
         for step in result.trace:

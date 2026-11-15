@@ -152,7 +152,7 @@ def test_common_word_artist_and_user_named_artist_are_not_false_alarms():
 def test_bad_write_up_is_retried_once_then_replaced_by_scorer_reasons(monkeypatch):
     calls = []
 
-    def fake_generate_json(prompt, schema, system=None, temperature=0.0):
+    def fake_generate_json(prompt, schema, system=None, temperature=0.0, **kwargs):
         calls.append(prompt)
         return explanation([1, 99], "Also try Burna Boy!")      # wrong every time
 
@@ -175,3 +175,10 @@ def test_good_second_attempt_is_used(monkeypatch):
     result = VibeResult(request="test", profile=profile(), picks=picks(1, 2))
     make_dj().explain(result, Tracer())
     assert result.explanation_source == "gemini-retry" and result.intro == "Great picks."
+
+
+def test_featured_artist_in_a_song_title_is_allowed():
+    dj = make_dj()
+    featured = [Pick({**SONGS[0], "title": "Essence (feat. Burna Boy)"}, 9.0, []), Pick(SONGS[1], 8.0, [])]
+    text = "Wizkid and Burna Boy glide on this one."
+    assert dj.check_explanation(explanation([1, 2], text), featured) == []
