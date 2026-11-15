@@ -10,26 +10,31 @@ flowchart TD
         CSV --> IDX
     end
 
-    USER(["User request<br/>e.g. 'abeg I need gbedu for owambe'"]) --> PARSE
+    USER(["User request<br/>e.g. 'abeg I need gbedu for owambe'"]) --> CHECK{"0. Input check<br/>empty or over 500 chars?"}
+    CHECK -- yes --> ASK["Ask them to rephrase<br/>(no API call spent)"]
 
-    subgraph AGENT["Vibe DJ agent (Gemini Flash)"]
-        PARSE["1. Parse request<br/>few-shot prompt -> profile JSON"] --> GIN{"2. Input guardrail<br/>ranges ok? genre known?<br/>music request?"}
+    subgraph AGENT["Vibe DJ pipeline (src/vibe_dj.py, Gemini 3.8 Flash)"]
+        RET["1. Retriever<br/>top hits from each of 5 sources:<br/>slang, activity, genre, artist, song<br/>(drops hits under 0.62)"] --> PARSE["2. Parse request<br/>few-shot prompt + retrieved knowledge<br/>-> profile JSON"]
+        PARSE --> GIN{"3. Input guardrail<br/>music request? numbers in range?<br/>genre/mood/tags allowed?"}
         GIN -- off-topic --> REFUSE["Polite refusal"]
-        GIN -- ok / genre mapped --> RET["3. Retriever<br/>top hits from each of 5 sources:<br/>slang, activity, genre, artist, song"]
-        RET --> SCORE["4. Scorer<br/>original VibeMatch score_song"]
-        SCORE --> EXPLAIN["5. Explain<br/>playlist write-up from<br/>retrieved + ranked songs only"]
-        EXPLAIN --> GOUT{"6. Output guardrail<br/>every song in catalog?"}
-        GOUT -- no: strip + retry --> EXPLAIN
+        GIN -- "ok (unknown genre -> closest + notice)" --> SCORE["4. Rank<br/>original VibeMatch scorer<br/>+ AI bonuses: matches your words,<br/>named / similar artist, no-vocals rule<br/>+ diversity penalty"]
+        SCORE --> EXPLAIN["5. Explain<br/>Gemini writes about the 5 ranked songs only"]
+        EXPLAIN --> GOUT{"6. Output guardrail<br/>only our song ids, each once,<br/>no other artists named?"}
+        GOUT -- "no: retry once with the problems" --> EXPLAIN
+        GOUT -- "still no" --> FALLBACK["Fallback write-up<br/>from scorer reasons"]
     end
 
+    CHECK -- no --> RET
     IDX --> RET
     CSV --> SCORE
-    GOUT -- yes --> OUT(["Streamlit UI<br/>playlist, reasons, sources,<br/>guardrail notices, listen links"])
+    GOUT -- yes --> OUT(["Playlist + why + notices<br/>(CLI now, Streamlit UI in task 5)"])
+    FALLBACK --> OUT
 
-    AGENT -. every step logged .-> LOGS[("logs/ agent traces")]
+    AGENT -. every step timed + logged .-> LOGS[("logs/vibe_dj.log<br/>+ trace in each result")]
 
     HUMAN1["Human review:<br/>Afro song rows + slang glossary"] -.-> CSV
     HUMAN1 -.-> KDOCS
     EVAL["eval.py<br/>~20 test requests -> PASS/FAIL"] -.-> AGENT
-    TESTS["pytest<br/>scorer + guardrail unit tests"] -.-> SCORE
+    TESTS["pytest: 19 offline tests<br/>scorer, guardrails, retry/fallback"] -.-> SCORE
     TESTS -.-> GIN
+    TESTS -.-> GOUT

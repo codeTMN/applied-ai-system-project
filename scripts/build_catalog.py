@@ -36,6 +36,7 @@ from pydantic import BaseModel
 ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT))
 from src.gemini_client import generate_json, model_chain  # noqa: E402
+from src.vocab import MOODS, MOOD_TAGS, MOOD_SYNONYMS, mood_from_numbers  # noqa: E402
 
 DATA = ROOT / "data"
 RAW = DATA / "raw"
@@ -52,10 +53,6 @@ LASTFM_DELAY = 0.25          # seconds between live calls (Last.fm asks for gent
 TOP_TRACKS_PER_ARTIST = 15
 PROMPT_VERSION = "v1"        # bump to invalidate cached Gemini answers after a prompt change
 
-MOODS = ["happy", "sad", "chill", "relaxed", "energetic", "intense", "moody", "focused", "romantic", "angry"]
-MOOD_TAGS = ["euphoric", "uplifting", "playful", "confident", "party", "groovy", "smooth", "romantic",
-             "cozy", "peaceful", "dreamy", "nostalgic", "hopeful", "focused", "melancholic",
-             "heartbroken", "dark", "aggressive", "rebellious"]
 
 # Titles that are usually alternate versions, not the song itself
 JUNK_TITLE = re.compile(
@@ -223,25 +220,6 @@ def estimate_genre(genre: str, cfg: dict, candidates: List[dict], cache: dict, r
     return {est.idx: est for est in result.songs if 0 <= est.idx < len(candidates)}
 
 
-# Gemini sometimes puts a mood TAG in the mood field; map it to the closest allowed mood
-MOOD_SYNONYMS = {
-    "confident": "energetic", "party": "energetic", "euphoric": "happy", "uplifting": "happy",
-    "playful": "happy", "groovy": "happy", "hopeful": "happy", "smooth": "chill", "dreamy": "chill",
-    "cozy": "relaxed", "peaceful": "relaxed", "calm": "relaxed", "melancholic": "sad",
-    "heartbroken": "sad", "nostalgic": "moody", "dark": "moody", "aggressive": "angry",
-    "rebellious": "intense",
-}
-
-
-def mood_from_numbers(energy: float, valence: float) -> str:
-    """Last resort when the mood word is unknown: pick a mood from energy and valence."""
-    if energy >= 0.7:
-        return "energetic" if valence >= 0.5 else "intense"
-    if energy <= 0.45:
-        return "relaxed" if valence >= 0.5 else "sad"
-    return "happy" if valence >= 0.6 else "moody" if valence < 0.4 else "chill"
-
-
 def clamp(value: float) -> float:
     return round(min(1.0, max(0.0, float(value))), 2)
 
@@ -321,12 +299,20 @@ def popularity_scores(songs: List[dict]) -> None:
 
 # ---------------------------------------------------------------- output
 
+REMASTER = re.compile(r"\s+-\s+((\d{4}\s+)?remaster(ed)?(\s+\d{4})?(\s+version)?|\d{4}\s+remaster(ed)?)$", re.IGNORECASE)
+
+
+def display_title(title: str) -> str:
+    """'Dreams - 2004 Remaster' -> 'Dreams' (display only; the cache keeps Last.fm's title)."""
+    return REMASTER.sub("", title).strip()
+
+
 def write_csv(songs: List[dict]) -> None:
     with OUT_CSV.open("w", newline="", encoding="utf-8") as f:
         writer = csv.DictWriter(f, fieldnames=CSV_COLUMNS, extrasaction="ignore")
         writer.writeheader()
         for i, song in enumerate(songs, start=1):
-            writer.writerow({**song, "id": i, "lastfm_listeners": song["listeners"],
+            writer.writerow({**song, "id": i, "title": display_title(song["title"]), "lastfm_listeners": song["listeners"],
                              "lastfm_tags": ";".join(song["tags"][:5]), "lastfm_url": song["url"]})
 
 

@@ -58,7 +58,13 @@ Agent mode: the same steps exposed as Gemini function-calling tools
   - `src/knowledge.py`: per-source retrieval so 369 song cards can't crowd out 26 slang terms
   - Found: `gemini-embedding-2` merges a list of plain strings into ONE vector; each text must be its own `Content`
   - Notes for task 3: every source always returns *something* (e.g. "bossa nova" -> jazz at 0.66, slang "vibe" for a study request), so the pipeline needs score thresholds; slang/activity hits above ~0.75 were the relevant ones. Song search alone matched "I dey feel somehow" to Igbo highlife, not sad songs, so songs must be ranked by the scorer using the slang hints, not by raw similarity
-- [ ] **3. Core pipeline:** parse (few-shot) -> input guardrail -> retrieve -> score -> explain -> output guardrail; Gemini retry + fallback model; logging
+- [x] **3. Core pipeline:** `src/vibe_dj.py` (`python -m src.vibe_dj "request"`): input check -> retrieve -> parse (few-shot + knowledge) -> input guardrail -> rank (original scorer + AI bonuses) -> explain -> output guardrail (retry once, then scorer-reason fallback); every step timed in a trace + `logs/vibe_dj.log`
+  - Order changed from the first draft: retrieval runs *before* parsing, so slang/activity knowledge shapes the profile
+  - `recommend_songs` got an optional `bonuses` argument; without it scoring is exactly the original (tested)
+  - Fixes found by running real requests: "no lyrics" was ignored (Otis Redding in a study list) -> instrumental requests now penalize vocal songs; "songs like Tems" drifted to rock/trap -> same-scene + Last.fm-similar bonuses; "2004 Remaster" stripped from titles
+  - Baselines for the specialization/RAG comparisons: `--zero-shot`, `--no-rag`
+  - 19 offline tests (`tests/test_guardrails.py`): clamping, aliases, unknown genre, bad mood/tags, empty/too-long input, no-vocals, artist bonuses, invented/missing/duplicate songs, other artists named, retry then fallback
+  - ~12-18 s per request (two Gemini calls); refusals ~4 s
 - [ ] **4. Agent mode:** function calling + trace logs linked from `ai_interactions.md`
 - [ ] **5. Streamlit UI:** chat box, playlist cards, "why" reasons, retrieved sources, guardrail notices
 - [ ] **6. Setup reproducibility:** pinned `requirements.txt`, fresh-clone run-through

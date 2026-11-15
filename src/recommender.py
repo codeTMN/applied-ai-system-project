@@ -193,12 +193,22 @@ def diversity_penalty(song: Dict, picked: List[Dict]) -> Tuple[float, List[str]]
     return penalty, reasons
 
 def recommend_songs(user_prefs: Dict, songs: List[Dict], k: int = 5,
-                    mode: ScoringMode = BALANCED, diverse: bool = False) -> List[Tuple[Dict, float, str]]:
+                    mode: ScoringMode = BALANCED, diverse: bool = False,
+                    bonuses: Optional[Dict[int, List[Tuple[float, str]]]] = None) -> List[Tuple[Dict, float, str]]:
     """
     Functional implementation of the recommendation logic.
     Required by src/main.py
+
+    `bonuses` (added for Vibe DJ, optional): extra points per song id from the AI layer,
+    e.g. {42: [(1.2, "matches your words")]}. Without it, scoring is exactly the original.
     """
-    scored = [(song, *score_song(user_prefs, song, mode)) for song in songs]
+    scored = []
+    for song in songs:
+        score, reasons = score_song(user_prefs, song, mode)
+        for points, reason in (bonuses or {}).get(song["id"], []):
+            score += points
+            reasons = reasons + [f"{reason} (+{points:.2f})"]
+        scored.append((song, score, reasons))
 
     if not diverse:
         ranked = sorted(scored, key=lambda item: item[1], reverse=True)[:k]

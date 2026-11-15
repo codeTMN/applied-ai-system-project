@@ -426,14 +426,14 @@
 "72794bd2da96f2d6",
 "a58a3b20583874af",
 "341ba727a43bfcee",
-"adee9ee0eedced8b",
+"d18a4e9e048246a0",
 "a426b2cacc493e2a",
 "46693e7b9f6c5d74",
 "57f37cc21f9eae63",
 "78c58def12aa1d11",
 "74e80bbcb59803a1",
 "2475c92ec4dfbf0d",
-"8c5b0cf178a1683d",
+"b6e9642a5cb243b4",
 "293e521870b362e4",
 "57d20b94544738ee",
 "3f57a9183304f729",
@@ -662,12 +662,12 @@
 "4eefe495cbede950",
 "c3cc512812f06b4c",
 "5819ad303353a2b3",
-"717406a69ef438a2",
+"b769b6d782bacfbd",
 "e807ace2ac6c91dc",
 "3b9f9aefaea6e633",
 "f3b97cd2ecfa43ff",
 "2b2a1995fb5c3f05",
-"10f971ad48895328",
+"851868099f97aaa1",
 "fbb88d0c6e04605c",
 "0d0b07097aedf973",
 "0e467f8dd69d1411",
@@ -3244,8 +3244,8 @@
 {
 "id": "song:101",
 "source": "song",
-"title": "Dreams - 2004 Remaster - Fleetwood Mac",
-"text": "Dreams - 2004 Remaster by Fleetwood Mac. Genre: rock. Mood: chill (smooth, dreamy). Energy 0.49, valence 0.79, 120 BPM, 1970s. Listener tags: rock, classic rock, soft rock, jazz."
+"title": "Dreams - Fleetwood Mac",
+"text": "Dreams by Fleetwood Mac. Genre: rock. Mood: chill (smooth, dreamy). Energy 0.49, valence 0.79, 120 BPM, 1970s. Listener tags: rock, classic rock, soft rock, jazz."
 },
 {
 "id": "song:102",
@@ -3286,8 +3286,8 @@
 {
 "id": "song:108",
 "source": "song",
-"title": "Don't Stop Me Now - Remastered 2011 - Queen",
-"text": "Don't Stop Me Now - Remastered 2011 by Queen. Genre: rock. Mood: happy (euphoric, uplifting). Energy 0.87, valence 0.64, 156 BPM, 1970s."
+"title": "Don't Stop Me Now - Queen",
+"text": "Don't Stop Me Now by Queen. Genre: rock. Mood: happy (euphoric, uplifting). Energy 0.87, valence 0.64, 156 BPM, 1970s."
 },
 {
 "id": "song:109",
@@ -4660,8 +4660,8 @@
 {
 "id": "song:337",
 "source": "song",
-"title": "Should I Stay or Should I Go - remastered - The Clash",
-"text": "Should I Stay or Should I Go - remastered by The Clash. Genre: punk. Mood: energetic (confident, playful). Energy 0.83, valence 0.82, 113 BPM, 1980s. Listener tags: punk rock, rock, punk, classic rock."
+"title": "Should I Stay or Should I Go - The Clash",
+"text": "Should I Stay or Should I Go by The Clash. Genre: punk. Mood: energetic (confident, playful). Energy 0.83, valence 0.82, 113 BPM, 1980s. Listener tags: punk rock, rock, punk, classic rock."
 },
 {
 "id": "song:338",
@@ -4690,8 +4690,8 @@
 {
 "id": "song:342",
 "source": "song",
-"title": "Blitzkrieg Bop - 2016 Remaster - Ramones",
-"text": "Blitzkrieg Bop - 2016 Remaster by Ramones. Genre: punk. Mood: energetic (rebellious, party). Energy 0.92, valence 0.85, 177 BPM, 1970s. Listener tags: punk rock, punk, pop punk, rock."
+"title": "Blitzkrieg Bop - Ramones",
+"text": "Blitzkrieg Bop by Ramones. Genre: punk. Mood: energetic (rebellious, party). Energy 0.92, valence 0.85, 177 BPM, 1970s. Listener tags: punk rock, punk, pop punk, rock."
 },
 {
 "id": "song:343",
