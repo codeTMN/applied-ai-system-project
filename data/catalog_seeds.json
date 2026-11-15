@@ -1,53 +1,445 @@
 {
-  "_about": "Seed artists for scripts/build_catalog.py. Songs are pulled from each artist's real top tracks on Last.fm. Edit freely: add artists you love, remove ones that don't fit, change targets. 'target' = songs to keep for that genre; 'max_per_artist' caps repeats.",
+  "_about": "Seed artists for scripts/build_catalog.py. Songs are pulled from each artist's real top tracks on Last.fm. Edit freely: add artists you love, remove ones that don't fit, change targets. 'target' = songs to keep for that genre; 'max_per_artist' caps repeats. Afro genres are featured, but every genre gets a full set. k-pop is left out on purpose: it is the 'genre not in catalog' test case for the guardrails.",
   "genres": {
     "afrobeats": {
-      "target": 14, "max_per_artist": 2, "featured": true,
+      "target": 14,
+      "max_per_artist": 2,
+      "featured": true,
       "description": "Nigerian/Ghanaian pop built on Afro percussion, mid-tempo grooves, often Pidgin/Yoruba lyrics",
-      "artists": ["Wizkid", "Davido", "Rema", "Ayra Starr", "Asake", "Tiwa Savage", "Fireboy DML", "Kizz Daniel", "Olamide", "Ruger", "Joeboy", "Yemi Alade", "Shallipopi"]
+      "artists": [
+        "Wizkid",
+        "Davido",
+        "Rema",
+        "Ayra Starr",
+        "Asake",
+        "Tiwa Savage",
+        "Fireboy DML",
+        "Kizz Daniel",
+        "Olamide",
+        "Ruger",
+        "Joeboy",
+        "Yemi Alade",
+        "Shallipopi"
+      ]
     },
     "amapiano": {
-      "target": 12, "max_per_artist": 2, "featured": true,
+      "target": 12,
+      "max_per_artist": 2,
+      "featured": true,
       "description": "South African house offshoot: log drum basslines, airy pads, piano chords, ~110-115 BPM",
-      "artists": ["Kabza De Small", "DJ Maphorisa", "Focalistic", "Uncle Waffles", "Tyler ICU", "Young Stunna", "Major League DJz", "Mellow & Sleazy", "Tyla", "Kelvin Momo", "Daliwonga"]
+      "artists": [
+        "Kabza De Small",
+        "DJ Maphorisa",
+        "Focalistic",
+        "Uncle Waffles",
+        "Tyler ICU",
+        "Young Stunna",
+        "Major League DJz",
+        "Mellow & Sleazy",
+        "Tyla",
+        "Kelvin Momo",
+        "Daliwonga"
+      ]
     },
     "afro-fusion": {
-      "target": 10, "max_per_artist": 2, "featured": true,
+      "target": 10,
+      "max_per_artist": 2,
+      "featured": true,
       "description": "Afrobeats blended with dancehall, R&B, hip hop and pop; often moodier and more melodic",
-      "artists": ["Burna Boy", "CKay", "Omah Lay", "Oxlade", "Victony", "Mr Eazi", "Libianca"]
+      "artists": [
+        "Burna Boy",
+        "CKay",
+        "Omah Lay",
+        "Oxlade",
+        "Victony",
+        "Mr Eazi",
+        "Libianca"
+      ]
     },
     "alte": {
-      "target": 8, "max_per_artist": 2, "featured": true,
+      "target": 8,
+      "max_per_artist": 2,
+      "featured": true,
       "description": "Nigerian alternative scene (alte): experimental, laid-back blends of R&B, rap, electronic and Afro sounds",
-      "artists": ["Tems", "Odunsi (The Engine)", "Lady Donli", "Amaarae", "BOJ", "Tay Iwar", "Santi"]
+      "artists": [
+        "Tems",
+        "Odunsi (The Engine)",
+        "Lady Donli",
+        "Amaarae",
+        "BOJ",
+        "Tay Iwar",
+        "Santi"
+      ]
     },
     "highlife": {
-      "target": 8, "max_per_artist": 2, "featured": true,
+      "target": 8,
+      "max_per_artist": 2,
+      "featured": true,
       "description": "West African guitar- and horn-driven dance music from Ghana and Nigeria, from classic to modern",
-      "artists": ["Chief Stephen Osita Osadebe", "Sir Victor Uwaifo", "Oliver De Coque", "Celestine Ukwu", "Flavour", "Ebo Taylor", "E.T. Mensah"]
+      "artists": [
+        "Chief Stephen Osita Osadebe",
+        "Sir Victor Uwaifo",
+        "Oliver De Coque",
+        "Celestine Ukwu",
+        "Flavour",
+        "Ebo Taylor",
+        "E.T. Mensah"
+      ]
     },
     "afro-house": {
-      "target": 8, "max_per_artist": 2, "featured": true,
+      "target": 8,
+      "max_per_artist": 2,
+      "featured": true,
       "description": "Deep, percussive house music with African rhythms and chants, ~118-124 BPM",
-      "artists": ["Black Coffee", "Culoe De Song", "Da Capo", "Enoo Napa", "Shimza", "Caiiro", "Themba"]
+      "artists": [
+        "Black Coffee",
+        "Culoe De Song",
+        "Da Capo",
+        "Enoo Napa",
+        "Shimza",
+        "Caiiro",
+        "Themba"
+      ]
     },
-
-    "pop": {"target": 8, "max_per_artist": 2, "artists": ["Dua Lipa", "Taylor Swift", "The Weeknd", "Harry Styles", "Sabrina Carpenter"]},
-    "hip hop": {"target": 8, "max_per_artist": 2, "artists": ["Kendrick Lamar", "J. Cole", "Mac Miller", "Tyler, The Creator", "Travis Scott"]},
-    "r&b": {"target": 8, "max_per_artist": 2, "artists": ["SZA", "Frank Ocean", "Daniel Caesar", "Brent Faiyaz", "H.E.R."]},
-    "rock": {"target": 8, "max_per_artist": 2, "artists": ["Arctic Monkeys", "Foo Fighters", "Red Hot Chili Peppers", "Queen"]},
-    "lofi": {"target": 8, "max_per_artist": 2, "artists": ["Nujabes", "potsu", "idealism", "Jinsang", "Kupla"]},
-    "jazz": {"target": 8, "max_per_artist": 2, "artists": ["Miles Davis", "John Coltrane", "Bill Evans", "Kamasi Washington", "Chet Baker"]},
-    "classical": {"target": 8, "max_per_artist": 2, "artists": ["Ludovico Einaudi", "Max Richter", "Yiruma", "Ólafur Arnalds", "Hans Zimmer"]},
-    "country": {"target": 8, "max_per_artist": 2, "artists": ["Chris Stapleton", "Zach Bryan", "Dolly Parton", "Kacey Musgraves", "Luke Combs"]},
-    "metal": {"target": 8, "max_per_artist": 2, "artists": ["Metallica", "Slipknot", "System of a Down", "Iron Maiden"]},
-    "folk": {"target": 8, "max_per_artist": 2, "artists": ["Bon Iver", "Fleet Foxes", "Phoebe Bridgers", "Hozier", "Mumford & Sons"]},
-    "ambient": {"target": 8, "max_per_artist": 2, "artists": ["Brian Eno", "Tycho", "Stars of the Lid", "Hammock", "Helios"]},
-    "reggaeton": {"target": 8, "max_per_artist": 2, "artists": ["Bad Bunny", "J Balvin", "Daddy Yankee", "KAROL G", "Rauw Alejandro"]},
-    "dancehall": {"target": 8, "max_per_artist": 2, "artists": ["Sean Paul", "Vybz Kartel", "Popcaan", "Shenseea", "Shaggy"]},
-    "drill": {"target": 8, "max_per_artist": 2, "artists": ["Central Cee", "Headie One", "Pop Smoke", "Digga D"]},
-    "synthwave": {"target": 8, "max_per_artist": 2, "artists": ["The Midnight", "FM-84", "Kavinsky", "Gunship", "Timecop1983"]},
-    "indie pop": {"target": 8, "max_per_artist": 2, "artists": ["Clairo", "Rex Orange County", "Still Woozy", "beabadoobee", "Dayglow"]},
-    "liquid dnb": {"target": 8, "max_per_artist": 2, "artists": ["High Contrast", "Netsky", "London Elektricity", "Calibre", "Hybrid Minds"]}
+    "pop": {
+      "target": 12,
+      "max_per_artist": 2,
+      "artists": [
+        "Dua Lipa",
+        "Taylor Swift",
+        "The Weeknd",
+        "Harry Styles",
+        "Sabrina Carpenter",
+        "Bruno Mars",
+        "Billie Eilish",
+        "Ariana Grande"
+      ]
+    },
+    "hip hop": {
+      "target": 12,
+      "max_per_artist": 2,
+      "artists": [
+        "Kendrick Lamar",
+        "J. Cole",
+        "Mac Miller",
+        "Tyler, The Creator",
+        "Travis Scott",
+        "Drake",
+        "Kanye West",
+        "OutKast",
+        "A Tribe Called Quest"
+      ]
+    },
+    "r&b": {
+      "target": 12,
+      "max_per_artist": 2,
+      "artists": [
+        "SZA",
+        "Frank Ocean",
+        "Daniel Caesar",
+        "Brent Faiyaz",
+        "H.E.R.",
+        "Usher",
+        "Summer Walker",
+        "Giveon"
+      ]
+    },
+    "rock": {
+      "target": 12,
+      "max_per_artist": 2,
+      "artists": [
+        "Arctic Monkeys",
+        "Foo Fighters",
+        "Red Hot Chili Peppers",
+        "Queen",
+        "Fleetwood Mac",
+        "Nirvana",
+        "The Killers",
+        "Radiohead"
+      ]
+    },
+    "lofi": {
+      "target": 12,
+      "max_per_artist": 2,
+      "artists": [
+        "Nujabes",
+        "potsu",
+        "idealism",
+        "Jinsang",
+        "Kupla",
+        "tomppabeats",
+        "j'san",
+        "Philanthrope"
+      ]
+    },
+    "jazz": {
+      "target": 12,
+      "max_per_artist": 2,
+      "artists": [
+        "Miles Davis",
+        "John Coltrane",
+        "Bill Evans",
+        "Kamasi Washington",
+        "Chet Baker",
+        "Dave Brubeck",
+        "Herbie Hancock",
+        "Robert Glasper"
+      ]
+    },
+    "classical": {
+      "target": 12,
+      "max_per_artist": 2,
+      "artists": [
+        "Ludovico Einaudi",
+        "Max Richter",
+        "Yiruma",
+        "Ólafur Arnalds",
+        "Hans Zimmer",
+        "Johann Sebastian Bach",
+        "Claude Debussy",
+        "Frédéric Chopin"
+      ]
+    },
+    "country": {
+      "target": 12,
+      "max_per_artist": 2,
+      "artists": [
+        "Chris Stapleton",
+        "Zach Bryan",
+        "Dolly Parton",
+        "Kacey Musgraves",
+        "Luke Combs",
+        "Johnny Cash",
+        "Shania Twain",
+        "Morgan Wallen"
+      ]
+    },
+    "metal": {
+      "target": 12,
+      "max_per_artist": 2,
+      "artists": [
+        "Metallica",
+        "Slipknot",
+        "System of a Down",
+        "Iron Maiden",
+        "Black Sabbath",
+        "Megadeth",
+        "Avenged Sevenfold",
+        "Ghost"
+      ]
+    },
+    "folk": {
+      "target": 12,
+      "max_per_artist": 2,
+      "artists": [
+        "Bon Iver",
+        "Fleet Foxes",
+        "Phoebe Bridgers",
+        "Hozier",
+        "Mumford & Sons",
+        "Simon & Garfunkel",
+        "Noah Kahan",
+        "The Lumineers"
+      ]
+    },
+    "ambient": {
+      "target": 12,
+      "max_per_artist": 2,
+      "artists": [
+        "Brian Eno",
+        "Tycho",
+        "Stars of the Lid",
+        "Hammock",
+        "Helios",
+        "Boards of Canada",
+        "Jon Hopkins",
+        "Hiroshi Yoshimura"
+      ]
+    },
+    "reggaeton": {
+      "target": 12,
+      "max_per_artist": 2,
+      "artists": [
+        "Bad Bunny",
+        "J Balvin",
+        "Daddy Yankee",
+        "KAROL G",
+        "Rauw Alejandro",
+        "Ozuna",
+        "Feid",
+        "Myke Towers"
+      ]
+    },
+    "dancehall": {
+      "target": 12,
+      "max_per_artist": 2,
+      "artists": [
+        "Sean Paul",
+        "Vybz Kartel",
+        "Popcaan",
+        "Shenseea",
+        "Shaggy",
+        "Spice",
+        "Beenie Man",
+        "Skillibeng"
+      ]
+    },
+    "drill": {
+      "target": 12,
+      "max_per_artist": 2,
+      "artists": [
+        "Central Cee",
+        "Headie One",
+        "Pop Smoke",
+        "Digga D",
+        "Fivio Foreign",
+        "Russ Millions",
+        "K-Trap",
+        "Kay Flock",
+        "Dave"
+      ]
+    },
+    "synthwave": {
+      "target": 12,
+      "max_per_artist": 2,
+      "artists": [
+        "The Midnight",
+        "FM-84",
+        "Kavinsky",
+        "Gunship",
+        "Timecop1983",
+        "Carpenter Brut",
+        "Perturbator",
+        "Mitch Murder"
+      ]
+    },
+    "indie pop": {
+      "target": 12,
+      "max_per_artist": 2,
+      "artists": [
+        "Clairo",
+        "Rex Orange County",
+        "Still Woozy",
+        "beabadoobee",
+        "Dayglow",
+        "The 1975",
+        "Wallows",
+        "girl in red"
+      ]
+    },
+    "liquid dnb": {
+      "target": 12,
+      "max_per_artist": 2,
+      "artists": [
+        "High Contrast",
+        "Netsky",
+        "London Elektricity",
+        "Calibre",
+        "Hybrid Minds",
+        "Pola & Bryson",
+        "Technimatic",
+        "S.P.Y"
+      ]
+    },
+    "funk": {
+      "target": 12,
+      "max_per_artist": 2,
+      "artists": [
+        "James Brown",
+        "Parliament",
+        "Sly & The Family Stone",
+        "Vulfpeck",
+        "Mark Ronson",
+        "Cory Wong",
+        "Kool & The Gang",
+        "Earth, Wind & Fire"
+      ]
+    },
+    "soul": {
+      "target": 12,
+      "max_per_artist": 2,
+      "artists": [
+        "Aretha Franklin",
+        "Marvin Gaye",
+        "Otis Redding",
+        "Al Green",
+        "Leon Bridges",
+        "Amy Winehouse",
+        "Bill Withers"
+      ]
+    },
+    "disco": {
+      "target": 12,
+      "max_per_artist": 2,
+      "artists": [
+        "Bee Gees",
+        "Donna Summer",
+        "Chic",
+        "Gloria Gaynor",
+        "Sister Sledge",
+        "Boney M."
+      ]
+    },
+    "house": {
+      "target": 12,
+      "max_per_artist": 2,
+      "artists": [
+        "Daft Punk",
+        "Disclosure",
+        "Fred again..",
+        "KAYTRANADA",
+        "Purple Disco Machine",
+        "Calvin Harris"
+      ]
+    },
+    "gospel": {
+      "target": 12,
+      "max_per_artist": 2,
+      "artists": [
+        "Kirk Franklin",
+        "CeCe Winans",
+        "Maverick City Music",
+        "Sinach",
+        "Mercy Chinwo",
+        "Tasha Cobbs Leonard",
+        "Nathaniel Bassey"
+      ]
+    },
+    "blues": {
+      "target": 12,
+      "max_per_artist": 2,
+      "artists": [
+        "B.B. King",
+        "Muddy Waters",
+        "Gary Clark Jr.",
+        "Stevie Ray Vaughan",
+        "John Lee Hooker",
+        "Etta James"
+      ]
+    },
+    "punk": {
+      "target": 12,
+      "max_per_artist": 2,
+      "artists": [
+        "Green Day",
+        "Ramones",
+        "The Clash",
+        "blink-182",
+        "Sex Pistols",
+        "Paramore"
+      ]
+    },
+    "trap": {
+      "target": 12,
+      "max_per_artist": 2,
+      "artists": [
+        "Future",
+        "Metro Boomin",
+        "21 Savage",
+        "Young Thug",
+        "Lil Baby",
+        "Gunna"
+      ]
+    }
   }
 }

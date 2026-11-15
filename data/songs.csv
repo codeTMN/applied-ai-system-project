@@ -1,196 +1,358 @@
 id,title,artist,genre,mood,energy,tempo_bpm,valence,danceability,acousticness,popularity,release_decade,mood_tags,speechiness,instrumentalness,lastfm_listeners,lastfm_tags,lastfm_url,features_source
-1,Essence (feat. Tems),Wizkid,afrobeats,relaxed,0.55,104,0.68,0.78,0.22,74,2020,smooth;groovy,0.08,0.0,272736,,https://www.last.fm/music/Wizkid/_/Essence+(feat.+Tems),gemini-estimate
-2,UNAVAILABLE (feat. Musa Keys),Davido,afrobeats,energetic,0.82,112,0.76,0.83,0.1,64,2020,party;playful,0.09,0.0,106116,,https://www.last.fm/music/Davido/_/UNAVAILABLE+(feat.+Musa+Keys),gemini-estimate
-3,Calm Down (with Selena Gomez),Rema,afrobeats,happy,0.81,107,0.8,0.8,0.38,83,2020,groovy;playful,0.04,0.0,664845,,https://www.last.fm/music/Rema/_/Calm+Down+(with+Selena+Gomez),gemini-estimate
-4,Rush,Ayra Starr,afrobeats,happy,0.72,100,0.75,0.79,0.06,71,2020,confident;groovy,0.06,0.0,202949,,https://www.last.fm/music/Ayra+Starr/_/Rush,gemini-estimate
-5,Active,Asake,afrobeats,energetic,0.85,113,0.79,0.82,0.12,65,2020,party;confident,0.11,0.0,124299,,https://www.last.fm/music/Asake/_/Active,gemini-estimate
-6,Koroba,Tiwa Savage,afrobeats,happy,0.7,105,0.78,0.84,0.19,60,2020,groovy;playful,0.08,0.0,74843,,https://www.last.fm/music/Tiwa+Savage/_/Koroba,gemini-estimate
-7,Peru,Fireboy DML,afrobeats,happy,0.77,108,0.84,0.89,0.12,71,2020,groovy;party,0.06,0.0,212290,,https://www.last.fm/music/Fireboy+DML/_/Peru,gemini-estimate
-8,Cough (Odo),Kizz Daniel,afrobeats,happy,0.74,107,0.82,0.86,0.17,54,2020,playful;groovy,0.07,0.0,41812,,https://www.last.fm/music/Kizz+Daniel/_/Cough+(Odo),gemini-estimate
-9,Infinity (feat. Omah Lay),Olamide,afrobeats,chill,0.58,102,0.66,0.81,0.22,58,2020,smooth;groovy,0.08,0.0,62247,,https://www.last.fm/music/Olamide/_/Infinity+(feat.+Omah+Lay),gemini-estimate
-10,Asiwaju,Ruger,afrobeats,energetic,0.8,105,0.76,0.81,0.13,61,2020,confident;party,0.09,0.0,77741,,https://www.last.fm/music/Ruger/_/Asiwaju,gemini-estimate
-11,Sip (Alcohol),Joeboy,afrobeats,moody,0.63,104,0.54,0.79,0.21,56,2020,groovy;melancholic,0.06,0.0,51134,,https://www.last.fm/music/Joeboy/_/Sip+(Alcohol),gemini-estimate
-12,Johnny,Yemi Alade,afrobeats,happy,0.85,118,0.89,0.86,0.15,51,2010,party;playful,0.08,0.0,30728,,https://www.last.fm/music/Yemi+Alade/_/Johnny,gemini-estimate
-13,LAHO,Shallipopi,afrobeats,chill,0.66,110,0.72,0.81,0.17,49,2020,groovy;confident,0.15,0.0,26597,,https://www.last.fm/music/Shallipopi/_/LAHO,gemini-estimate
-14,Piece of My Heart (feat. Brent Faiyaz),Wizkid,afrobeats,romantic,0.52,100,0.6,0.75,0.25,63,2020,smooth;romantic,0.06,0.0,99590,,https://www.last.fm/music/Wizkid/_/Piece+of+My+Heart+(feat.+Brent+Faiyaz),gemini-estimate
-15,Abalele,Kabza De Small,amapiano,chill,0.65,112,0.6,0.8,0.2,40,2020,smooth;groovy,0.08,0.05,11315,,https://www.last.fm/music/Kabza+De+Small/_/Abalele,gemini-estimate
-16,MONEY CONSTANT,Dj Maphorisa,amapiano,energetic,0.78,112,0.65,0.84,0.1,38,2020,party;groovy,0.1,0.1,9303,,https://www.last.fm/music/Dj+Maphorisa/_/MONEY+CONSTANT,gemini-estimate
-17,Ke Star (feat. Vigro Deep),Focalistic,amapiano,energetic,0.82,112,0.7,0.85,0.08,24,2020,party;confident,0.15,0.02,2396,,https://www.last.fm/music/Focalistic/_/Ke+Star+(feat.+Vigro+Deep),gemini-estimate
-18,"ZENZELE (feat. Royal MusiQ, Uncool MC, Xduppy, & CowBoii)",Uncle Waffles,amapiano,energetic,0.79,112,0.65,0.84,0.08,44,2020,party;groovy,0.11,0.05,16504,,"https://www.last.fm/music/Uncle+Waffles/_/ZENZELE+(feat.+Royal+MusiQ,+Uncool+MC,+Xduppy,+&+CowBoii)",gemini-estimate
-19,"Mnike (feat. DJ Maphorisa, Nandipha808, Ceeka RSA & Tyron Dee)",Tyler ICU,amapiano,energetic,0.85,113,0.75,0.89,0.05,51,2020,party;groovy,0.1,0.03,33033,,"https://www.last.fm/music/Tyler+ICU/_/Mnike+(feat.+DJ+Maphorisa,+Nandipha808,+Ceeka+RSA+&+Tyron+Dee)",gemini-estimate
-20,Adiwele (feat. Kabza De Small & DJ Maphorisa),Young Stunna,amapiano,happy,0.78,112,0.8,0.85,0.1,35,2020,uplifting;party,0.09,0.01,6721,,https://www.last.fm/music/Young+Stunna/_/Adiwele+(feat.+Kabza+De+Small+&+DJ+Maphorisa),gemini-estimate
-21,Come With Me (feat. Jorja Smith),Major League Djz,amapiano,chill,0.6,112,0.55,0.78,0.3,49,2020,smooth;dreamy,0.06,0.05,25223,,https://www.last.fm/music/Major+League+Djz/_/Come+With+Me+(feat.+Jorja+Smith),gemini-estimate
+1,Essence (feat. Tems),Wizkid,afrobeats,relaxed,0.55,104,0.68,0.78,0.22,72,2020,smooth;groovy,0.08,0.0,272736,,https://www.last.fm/music/Wizkid/_/Essence+(feat.+Tems),gemini-estimate
+2,UNAVAILABLE (feat. Musa Keys),Davido,afrobeats,energetic,0.82,112,0.76,0.83,0.1,62,2020,party;playful,0.09,0.0,106116,,https://www.last.fm/music/Davido/_/UNAVAILABLE+(feat.+Musa+Keys),gemini-estimate
+3,Calm Down (with Selena Gomez),Rema,afrobeats,happy,0.81,107,0.8,0.8,0.38,81,2020,groovy;playful,0.04,0.0,664845,,https://www.last.fm/music/Rema/_/Calm+Down+(with+Selena+Gomez),gemini-estimate
+4,Rush,Ayra Starr,afrobeats,happy,0.72,100,0.75,0.79,0.06,69,2020,confident;groovy,0.06,0.0,202949,,https://www.last.fm/music/Ayra+Starr/_/Rush,gemini-estimate
+5,Active,Asake,afrobeats,energetic,0.85,113,0.79,0.82,0.12,64,2020,party;confident,0.11,0.0,124299,,https://www.last.fm/music/Asake/_/Active,gemini-estimate
+6,Koroba,Tiwa Savage,afrobeats,happy,0.7,105,0.78,0.84,0.19,58,2020,groovy;playful,0.08,0.0,74843,,https://www.last.fm/music/Tiwa+Savage/_/Koroba,gemini-estimate
+7,Peru,Fireboy DML,afrobeats,happy,0.77,108,0.84,0.89,0.12,69,2020,groovy;party,0.06,0.0,212290,,https://www.last.fm/music/Fireboy+DML/_/Peru,gemini-estimate
+8,Cough (Odo),Kizz Daniel,afrobeats,happy,0.74,107,0.82,0.86,0.17,52,2020,playful;groovy,0.07,0.0,41812,,https://www.last.fm/music/Kizz+Daniel/_/Cough+(Odo),gemini-estimate
+9,Infinity (feat. Omah Lay),Olamide,afrobeats,chill,0.58,102,0.66,0.81,0.22,57,2020,smooth;groovy,0.08,0.0,62247,,https://www.last.fm/music/Olamide/_/Infinity+(feat.+Omah+Lay),gemini-estimate
+10,Asiwaju,Ruger,afrobeats,energetic,0.8,105,0.76,0.81,0.13,59,2020,confident;party,0.09,0.0,77741,,https://www.last.fm/music/Ruger/_/Asiwaju,gemini-estimate
+11,Sip (Alcohol),Joeboy,afrobeats,moody,0.63,104,0.54,0.79,0.21,55,2020,groovy;melancholic,0.06,0.0,51134,,https://www.last.fm/music/Joeboy/_/Sip+(Alcohol),gemini-estimate
+12,Johnny,Yemi Alade,afrobeats,happy,0.85,118,0.89,0.86,0.15,49,2010,party;playful,0.08,0.0,30728,,https://www.last.fm/music/Yemi+Alade/_/Johnny,gemini-estimate
+13,LAHO,Shallipopi,afrobeats,chill,0.66,110,0.72,0.81,0.17,48,2020,groovy;confident,0.15,0.0,26597,,https://www.last.fm/music/Shallipopi/_/LAHO,gemini-estimate
+14,Piece of My Heart (feat. Brent Faiyaz),Wizkid,afrobeats,romantic,0.52,100,0.6,0.75,0.25,61,2020,smooth;romantic,0.06,0.0,99590,,https://www.last.fm/music/Wizkid/_/Piece+of+My+Heart+(feat.+Brent+Faiyaz),gemini-estimate
+15,Abalele,Kabza De Small,amapiano,chill,0.65,112,0.6,0.8,0.2,39,2020,smooth;groovy,0.08,0.05,11315,,https://www.last.fm/music/Kabza+De+Small/_/Abalele,gemini-estimate
+16,MONEY CONSTANT,Dj Maphorisa,amapiano,energetic,0.78,112,0.65,0.84,0.1,37,2020,party;groovy,0.1,0.1,9303,,https://www.last.fm/music/Dj+Maphorisa/_/MONEY+CONSTANT,gemini-estimate
+17,Ke Star (feat. Vigro Deep),Focalistic,amapiano,energetic,0.82,112,0.7,0.85,0.08,23,2020,party;confident,0.15,0.02,2396,,https://www.last.fm/music/Focalistic/_/Ke+Star+(feat.+Vigro+Deep),gemini-estimate
+18,"ZENZELE (feat. Royal MusiQ, Uncool MC, Xduppy, & CowBoii)",Uncle Waffles,amapiano,energetic,0.79,112,0.65,0.84,0.08,43,2020,party;groovy,0.11,0.05,16504,,"https://www.last.fm/music/Uncle+Waffles/_/ZENZELE+(feat.+Royal+MusiQ,+Uncool+MC,+Xduppy,+&+CowBoii)",gemini-estimate
+19,"Mnike (feat. DJ Maphorisa, Nandipha808, Ceeka RSA & Tyron Dee)",Tyler ICU,amapiano,energetic,0.85,113,0.75,0.89,0.05,50,2020,party;groovy,0.1,0.03,33033,,"https://www.last.fm/music/Tyler+ICU/_/Mnike+(feat.+DJ+Maphorisa,+Nandipha808,+Ceeka+RSA+&+Tyron+Dee)",gemini-estimate
+20,Adiwele (feat. Kabza De Small & DJ Maphorisa),Young Stunna,amapiano,happy,0.78,112,0.8,0.85,0.1,34,2020,uplifting;party,0.09,0.01,6721,,https://www.last.fm/music/Young+Stunna/_/Adiwele+(feat.+Kabza+De+Small+&+DJ+Maphorisa),gemini-estimate
+21,Come With Me (feat. Jorja Smith),Major League Djz,amapiano,chill,0.6,112,0.55,0.78,0.3,47,2020,smooth;dreamy,0.06,0.05,25223,,https://www.last.fm/music/Major+League+Djz/_/Come+With+Me+(feat.+Jorja+Smith),gemini-estimate
 22,Imnandi lento (feat. Tman Xpress),Mellow & Sleazy,amapiano,energetic,0.82,112,0.72,0.86,0.05,27,2020,party;groovy,0.11,0.02,3345,,https://www.last.fm/music/Mellow+&+Sleazy/_/Imnandi+lento+(feat.+Tman+Xpress),gemini-estimate
-23,Ngowam (feat. Makhanj & Nvcho & Tyla & 2woshort),Kelvin Momo,amapiano,chill,0.58,112,0.6,0.76,0.3,33,2020,smooth;cozy,0.05,0.08,5774,,https://www.last.fm/music/Kelvin+Momo/_/Ngowam+(feat.+Makhanj+&+Nvcho+&+Tyla+&+2woshort),gemini-estimate
-24,Bana Ba (feat. Tyla & ShaunMusiq & Ftears),Daliwonga,amapiano,energetic,0.78,112,0.75,0.85,0.08,39,2020,party;playful,0.1,0.02,9996,,https://www.last.fm/music/Daliwonga/_/Bana+Ba+(feat.+Tyla+&+ShaunMusiq+&+Ftears),gemini-estimate
-25,Asibe Happy,Kabza De Small,amapiano,happy,0.68,113,0.72,0.81,0.2,36,2020,uplifting;smooth,0.07,0.02,8007,,https://www.last.fm/music/Kabza+De+Small/_/Asibe+Happy,gemini-estimate
+23,Ngowam (feat. Makhanj & Nvcho & Tyla & 2woshort),Kelvin Momo,amapiano,chill,0.58,112,0.6,0.76,0.3,32,2020,smooth;cozy,0.05,0.08,5774,,https://www.last.fm/music/Kelvin+Momo/_/Ngowam+(feat.+Makhanj+&+Nvcho+&+Tyla+&+2woshort),gemini-estimate
+24,Bana Ba (feat. Tyla & ShaunMusiq & Ftears),Daliwonga,amapiano,energetic,0.78,112,0.75,0.85,0.08,38,2020,party;playful,0.1,0.02,9996,,https://www.last.fm/music/Daliwonga/_/Bana+Ba+(feat.+Tyla+&+ShaunMusiq+&+Ftears),gemini-estimate
+25,Asibe Happy,Kabza De Small,amapiano,happy,0.68,113,0.72,0.81,0.2,35,2020,uplifting;smooth,0.07,0.02,8007,,https://www.last.fm/music/Kabza+De+Small/_/Asibe+Happy,gemini-estimate
 26,GUPTA,Focalistic,amapiano,energetic,0.84,113,0.75,0.86,0.05,21,2020,party;groovy,0.16,0.01,1876,,https://www.last.fm/music/Focalistic/_/GUPTA,gemini-estimate
-27,Last Last,Burna Boy,afro-fusion,moody,0.72,104,0.48,0.78,0.11,73,2020,melancholic;confident,0.08,0.0,263433,,https://www.last.fm/music/Burna+Boy/_/Last+Last,gemini-estimate
-28,love nwantiti (ah ah ah),Ckay,afro-fusion,romantic,0.58,123,0.54,0.73,0.35,80,2010,smooth;romantic,0.05,0.0,479727,,https://www.last.fm/music/Ckay/_/love+nwantiti+(ah+ah+ah),gemini-estimate
-29,soso,Omah Lay,afro-fusion,moody,0.63,112,0.35,0.74,0.3,70,2020,melancholic;smooth,0.06,0.0,195661,,https://www.last.fm/music/Omah+Lay/_/soso,gemini-estimate
-30,KU LO SA (with Camila Cabello),Oxlade,afro-fusion,romantic,0.68,101,0.72,0.8,0.22,59,2020,groovy;smooth,0.06,0.0,68763,,https://www.last.fm/music/Oxlade/_/KU+LO+SA+(with+Camila+Cabello),gemini-estimate
-31,"Soweto (with Don Toliver, Rema & Tempoe)",Victony,afro-fusion,happy,0.69,100,0.76,0.84,0.14,70,2020,playful;groovy,0.07,0.0,193069,,"https://www.last.fm/music/Victony/_/Soweto+(with+Don+Toliver,+Rema+&+Tempoe)",gemini-estimate
-32,LEG OVER,Mr Eazi,afro-fusion,relaxed,0.54,100,0.65,0.85,0.2,51,2010,smooth;groovy,0.08,0.0,32302,,https://www.last.fm/music/Mr+Eazi/_/LEG+OVER,gemini-estimate
-33,People,Libianca,afro-fusion,moody,0.44,124,0.3,0.68,0.62,76,2020,melancholic;heartbroken,0.06,0.0,346065,,https://www.last.fm/music/Libianca/_/People,gemini-estimate
-34,On The Low,Burna Boy,afro-fusion,romantic,0.65,100,0.68,0.83,0.15,68,2010,smooth;groovy,0.06,0.0,162688,,https://www.last.fm/music/Burna+Boy/_/On+The+Low,gemini-estimate
-35,Emiliana,Ckay,afro-fusion,romantic,0.62,105,0.6,0.77,0.28,65,2020,smooth;groovy,0.06,0.0,120544,,https://www.last.fm/music/Ckay/_/Emiliana,gemini-estimate
-36,Holy Ghost,Omah Lay,afro-fusion,energetic,0.75,118,0.65,0.8,0.15,63,2020,groovy;uplifting,0.07,0.0,97760,,https://www.last.fm/music/Omah+Lay/_/Holy+Ghost,gemini-estimate
-37,Found (feat. Brent Faiyaz),Tems,alte,relaxed,0.45,110,0.4,0.65,0.35,75,2020,smooth;dreamy,0.08,0.0,295597,,https://www.last.fm/music/Tems/_/Found+(feat.+Brent+Faiyaz),gemini-estimate
-38,Tipsy (feat. RAYE),Odunsi (The Engine),alte,chill,0.55,108,0.6,0.75,0.2,50,2010,groovy;smooth,0.06,0.01,28401,,https://www.last.fm/music/Odunsi+(The+Engine)/_/Tipsy+(feat.+RAYE),gemini-estimate
-39,Classic,Lady Donli,alte,happy,0.65,112,0.75,0.78,0.25,40,2010,groovy;playful,0.06,0.0,11129,,https://www.last.fm/music/Lady+Donli/_/Classic,gemini-estimate
-40,Angels in Tibet,Amaarae,alte,chill,0.6,102,0.6,0.78,0.15,76,2020,dreamy;groovy,0.08,0.02,331279,,https://www.last.fm/music/Amaarae/_/Angels+in+Tibet,gemini-estimate
-41,Culture,boJ,alte,relaxed,0.55,100,0.6,0.74,0.3,43,2010,groovy;smooth,0.09,0.0,14402,,https://www.last.fm/music/boJ/_/Culture,gemini-estimate
-42,Summer Breeze,Tay Iwar,alte,chill,0.42,92,0.45,0.62,0.45,45,2020,peaceful;dreamy,0.05,0.02,18571,,https://www.last.fm/music/Tay+Iwar/_/Summer+Breeze,gemini-estimate
-43,Sparky,Santi,alte,intense,0.68,102,0.42,0.75,0.15,35,2010,dark;rebellious,0.12,0.0,7115,,https://www.last.fm/music/Santi/_/Sparky,gemini-estimate
-44,Me & U,Tems,alte,chill,0.5,105,0.45,0.6,0.4,75,2020,smooth;peaceful,0.05,0.0,295547,,https://www.last.fm/music/Tems/_/Me+&+U,gemini-estimate
-45,Osondi Owendi,Chief Stephen Osita Osadebe,highlife,happy,0.65,115,0.75,0.72,0.35,30,1980,groovy;uplifting,0.06,0.05,4243,,https://www.last.fm/music/Chief+Stephen+Osita+Osadebe/_/Osondi+Owendi,gemini-estimate
-46,Joromi,Sir Victor Uwaifo,highlife,energetic,0.75,124,0.82,0.76,0.45,36,1960,groovy;playful,0.06,0.08,7578,,https://www.last.fm/music/Sir+Victor+Uwaifo/_/Joromi,gemini-estimate
-47,People's Club of Nigeria,Oliver De Coque,highlife,happy,0.72,116,0.8,0.75,0.35,10,1970,groovy;party,0.07,0.02,637,,https://www.last.fm/music/Oliver+De+Coque/_/People%27s+Club+of+Nigeria,gemini-estimate
-48,Igede,Celestine Ukwu,highlife,relaxed,0.5,104,0.6,0.65,0.55,29,1970,smooth;nostalgic,0.05,0.04,3768,,https://www.last.fm/music/Celestine+Ukwu/_/Igede,gemini-estimate
-49,Game Changer (Dike),Flavour,highlife,energetic,0.85,120,0.8,0.82,0.15,32,2020,confident;party,0.09,0.0,5120,,https://www.last.fm/music/Flavour/_/Game+Changer+(Dike),gemini-estimate
-50,Love and Death,Ebo Taylor,highlife,intense,0.78,118,0.65,0.72,0.3,62,2010,groovy;focused,0.06,0.25,89347,,https://www.last.fm/music/Ebo+Taylor/_/Love+and+Death,gemini-estimate
-51,Day by Day,E.T. Mensah,highlife,happy,0.55,112,0.75,0.72,0.65,27,1950,smooth;nostalgic,0.05,0.05,3186,,https://www.last.fm/music/E.T.+Mensah/_/Day+by+Day,gemini-estimate
-52,Nwanem Ebezina,Chief Stephen Osita Osadebe,highlife,relaxed,0.55,110,0.65,0.68,0.4,22,1980,smooth;cozy,0.05,0.02,1975,,https://www.last.fm/music/Chief+Stephen+Osita+Osadebe/_/Nwanem+Ebezina,gemini-estimate
-53,Drive (feat. Delilah Montagu) - Edit,Black Coffee,afro-house,chill,0.7,122,0.6,0.75,0.15,56,2010,groovy;smooth,0.05,0.05,50292,,https://www.last.fm/music/Black+Coffee/_/Drive+(feat.+Delilah+Montagu)+-+Edit,gemini-estimate
-54,The Bright Forest,Culoe De Song,afro-house,focused,0.8,124,0.4,0.75,0.05,34,2000,groovy;dark,0.06,0.85,6037,,https://www.last.fm/music/Culoe+De+Song/_/The+Bright+Forest,gemini-estimate
-55,Umbovukazi,Da Capo,afro-house,intense,0.85,122,0.5,0.75,0.05,21,2010,groovy;dark,0.07,0.8,1849,,https://www.last.fm/music/Da+Capo/_/Umbovukazi,gemini-estimate
+27,Last Last,Burna Boy,afro-fusion,moody,0.72,104,0.48,0.78,0.11,71,2020,melancholic;confident,0.08,0.0,263433,,https://www.last.fm/music/Burna+Boy/_/Last+Last,gemini-estimate
+28,love nwantiti (ah ah ah),Ckay,afro-fusion,romantic,0.58,123,0.54,0.73,0.35,78,2010,smooth;romantic,0.05,0.0,479727,,https://www.last.fm/music/Ckay/_/love+nwantiti+(ah+ah+ah),gemini-estimate
+29,soso,Omah Lay,afro-fusion,moody,0.63,112,0.35,0.74,0.3,68,2020,melancholic;smooth,0.06,0.0,195661,,https://www.last.fm/music/Omah+Lay/_/soso,gemini-estimate
+30,KU LO SA (with Camila Cabello),Oxlade,afro-fusion,romantic,0.68,101,0.72,0.8,0.22,58,2020,groovy;smooth,0.06,0.0,68763,,https://www.last.fm/music/Oxlade/_/KU+LO+SA+(with+Camila+Cabello),gemini-estimate
+31,"Soweto (with Don Toliver, Rema & Tempoe)",Victony,afro-fusion,happy,0.69,100,0.76,0.84,0.14,68,2020,playful;groovy,0.07,0.0,193069,,"https://www.last.fm/music/Victony/_/Soweto+(with+Don+Toliver,+Rema+&+Tempoe)",gemini-estimate
+32,LEG OVER,Mr Eazi,afro-fusion,relaxed,0.54,100,0.65,0.85,0.2,50,2010,smooth;groovy,0.08,0.0,32302,,https://www.last.fm/music/Mr+Eazi/_/LEG+OVER,gemini-estimate
+33,People,Libianca,afro-fusion,moody,0.44,124,0.3,0.68,0.62,74,2020,melancholic;heartbroken,0.06,0.0,346065,,https://www.last.fm/music/Libianca/_/People,gemini-estimate
+34,On The Low,Burna Boy,afro-fusion,romantic,0.65,100,0.68,0.83,0.15,66,2010,smooth;groovy,0.06,0.0,162688,,https://www.last.fm/music/Burna+Boy/_/On+The+Low,gemini-estimate
+35,Emiliana,Ckay,afro-fusion,romantic,0.62,105,0.6,0.77,0.28,63,2020,smooth;groovy,0.06,0.0,120544,,https://www.last.fm/music/Ckay/_/Emiliana,gemini-estimate
+36,Holy Ghost,Omah Lay,afro-fusion,energetic,0.75,118,0.65,0.8,0.15,61,2020,groovy;uplifting,0.07,0.0,97760,,https://www.last.fm/music/Omah+Lay/_/Holy+Ghost,gemini-estimate
+37,Found (feat. Brent Faiyaz),Tems,alte,relaxed,0.45,110,0.4,0.65,0.35,73,2020,smooth;dreamy,0.08,0.0,295597,,https://www.last.fm/music/Tems/_/Found+(feat.+Brent+Faiyaz),gemini-estimate
+38,Tipsy (feat. RAYE),Odunsi (The Engine),alte,chill,0.55,108,0.6,0.75,0.2,48,2010,groovy;smooth,0.06,0.01,28401,,https://www.last.fm/music/Odunsi+(The+Engine)/_/Tipsy+(feat.+RAYE),gemini-estimate
+39,Classic,Lady Donli,alte,happy,0.65,112,0.75,0.78,0.25,39,2010,groovy;playful,0.06,0.0,11129,,https://www.last.fm/music/Lady+Donli/_/Classic,gemini-estimate
+40,Angels in Tibet,Amaarae,alte,chill,0.6,102,0.6,0.78,0.15,74,2020,dreamy;groovy,0.08,0.02,331279,,https://www.last.fm/music/Amaarae/_/Angels+in+Tibet,gemini-estimate
+41,Culture,boJ,alte,relaxed,0.55,100,0.6,0.74,0.3,42,2010,groovy;smooth,0.09,0.0,14402,,https://www.last.fm/music/boJ/_/Culture,gemini-estimate
+42,Summer Breeze,Tay Iwar,alte,chill,0.42,92,0.45,0.62,0.45,44,2020,peaceful;dreamy,0.05,0.02,18571,,https://www.last.fm/music/Tay+Iwar/_/Summer+Breeze,gemini-estimate
+43,Sparky,Santi,alte,intense,0.68,102,0.42,0.75,0.15,34,2010,dark;rebellious,0.12,0.0,7115,,https://www.last.fm/music/Santi/_/Sparky,gemini-estimate
+44,Me & U,Tems,alte,chill,0.5,105,0.45,0.6,0.4,73,2020,smooth;peaceful,0.05,0.0,295547,,https://www.last.fm/music/Tems/_/Me+&+U,gemini-estimate
+45,Osondi Owendi,Chief Stephen Osita Osadebe,highlife,happy,0.65,115,0.75,0.72,0.35,29,1980,groovy;uplifting,0.06,0.05,4243,,https://www.last.fm/music/Chief+Stephen+Osita+Osadebe/_/Osondi+Owendi,gemini-estimate
+46,Joromi,Sir Victor Uwaifo,highlife,energetic,0.75,124,0.82,0.76,0.45,35,1960,groovy;playful,0.06,0.08,7578,,https://www.last.fm/music/Sir+Victor+Uwaifo/_/Joromi,gemini-estimate
+47,People's Club of Nigeria,Oliver De Coque,highlife,happy,0.72,116,0.8,0.75,0.35,9,1970,groovy;party,0.07,0.02,637,,https://www.last.fm/music/Oliver+De+Coque/_/People%27s+Club+of+Nigeria,gemini-estimate
+48,Igede,Celestine Ukwu,highlife,relaxed,0.5,104,0.6,0.65,0.55,28,1970,smooth;nostalgic,0.05,0.04,3768,,https://www.last.fm/music/Celestine+Ukwu/_/Igede,gemini-estimate
+49,Game Changer (Dike),Flavour,highlife,energetic,0.85,120,0.8,0.82,0.15,31,2020,confident;party,0.09,0.0,5120,,https://www.last.fm/music/Flavour/_/Game+Changer+(Dike),gemini-estimate
+50,Love and Death,Ebo Taylor,highlife,intense,0.78,118,0.65,0.72,0.3,60,2010,groovy;focused,0.06,0.25,89347,,https://www.last.fm/music/Ebo+Taylor/_/Love+and+Death,gemini-estimate
+51,Day by Day,E.T. Mensah,highlife,happy,0.55,112,0.75,0.72,0.65,26,1950,smooth;nostalgic,0.05,0.05,3186,,https://www.last.fm/music/E.T.+Mensah/_/Day+by+Day,gemini-estimate
+52,Nwanem Ebezina,Chief Stephen Osita Osadebe,highlife,relaxed,0.55,110,0.65,0.68,0.4,21,1980,smooth;cozy,0.05,0.02,1975,,https://www.last.fm/music/Chief+Stephen+Osita+Osadebe/_/Nwanem+Ebezina,gemini-estimate
+53,Drive (feat. Delilah Montagu),Black Coffee,afro-house,chill,0.7,122,0.6,0.75,0.15,54,2010,groovy;smooth,0.05,0.05,50292,,https://www.last.fm/music/Black+Coffee/_/Drive+(feat.+Delilah+Montagu)+-+Edit,gemini-estimate+human-fix
+54,The Bright Forest,Culoe De Song,afro-house,focused,0.8,124,0.4,0.75,0.05,33,2000,groovy;dark,0.06,0.85,6037,,https://www.last.fm/music/Culoe+De+Song/_/The+Bright+Forest,gemini-estimate
+55,Umbovukazi,Da Capo,afro-house,intense,0.85,122,0.5,0.75,0.05,20,2010,groovy;dark,0.07,0.8,1849,,https://www.last.fm/music/Da+Capo/_/Umbovukazi,gemini-estimate
 56,Tom & Jerry,Enoo napa,afro-house,focused,0.8,123,0.35,0.75,0.04,0,2010,dark;groovy,0.05,0.85,253,,https://www.last.fm/music/Enoo+napa/_/Tom+&+Jerry,gemini-estimate
-57,Fire Fire,SHIMZA,afro-house,energetic,0.88,123,0.6,0.78,0.05,63,2010,party;groovy,0.06,0.4,95451,,https://www.last.fm/music/SHIMZA/_/Fire+Fire,gemini-estimate
+57,Fire Fire,SHIMZA,afro-house,energetic,0.88,123,0.6,0.78,0.05,61,2010,party;groovy,0.06,0.4,95451,,https://www.last.fm/music/SHIMZA/_/Fire+Fire,gemini-estimate
 58,Ndisize (feat. Ami Faku),Caiiro,afro-house,moody,0.7,120,0.4,0.74,0.15,27,2020,melancholic;groovy,0.04,0.1,3338,,https://www.last.fm/music/Caiiro/_/Ndisize+(feat.+Ami+Faku),gemini-estimate
-59,Disappear,Themba,afro-house,moody,0.73,122,0.45,0.76,0.08,45,2020,dreamy;groovy,0.04,0.3,18060,,https://www.last.fm/music/Themba/_/Disappear,gemini-estimate
-60,Never Gonna Forget (with Diplo feat. Elderbrook),Black Coffee,afro-house,happy,0.75,120,0.65,0.78,0.1,49,2020,uplifting;groovy,0.05,0.02,26204,,https://www.last.fm/music/Black+Coffee/_/Never+Gonna+Forget+(with+Diplo+feat.+Elderbrook),gemini-estimate
-61,Don't Start Now,Dua Lipa,pop,energetic,0.79,124,0.68,0.79,0.01,93,2010,groovy;confident,0.08,0.0,1633360,disco;pop;nu-disco;dance-pop;dance,https://www.last.fm/music/Dua+Lipa/_/Don%27t+Start+Now,gemini-estimate
-62,Blank Space,Taylor Swift,pop,energetic,0.68,96,0.57,0.75,0.1,94,2010,playful;confident,0.05,0.0,1937754,pop;love at first listen;2014;female vocalists;best of 2014,https://www.last.fm/music/Taylor+Swift/_/Blank+Space,gemini-estimate
-63,Starboy,The Weeknd,pop,intense,0.59,186,0.49,0.68,0.14,97,2010,confident;dark,0.07,0.0,2479785,rnb;pop;2016;electropop;daft punk,https://www.last.fm/music/The+Weeknd/_/Starboy,gemini-estimate
-64,As It Was,Harry Styles,pop,happy,0.73,174,0.66,0.52,0.34,96,2020,groovy;nostalgic,0.06,0.0,2148427,pop;rock and roll over;wsum 91.7 fm madison;synthpop;indie pop,https://www.last.fm/music/Harry+Styles/_/As+It+Was,gemini-estimate
-65,Espresso,Sabrina Carpenter,pop,happy,0.76,104,0.69,0.7,0.11,96,2020,playful;groovy,0.03,0.0,2289655,pop;nu-disco;dance-pop;boogie;espresso,https://www.last.fm/music/Sabrina+Carpenter/_/Espresso,gemini-estimate
-66,New Rules,Dua Lipa,pop,energetic,0.7,116,0.61,0.76,0.0,91,2010,confident;playful,0.07,0.0,1403405,pop;dance;2017;electropop;tropical house,https://www.last.fm/music/Dua+Lipa/_/New+Rules,gemini-estimate
-67,Cruel Summer,Taylor Swift,pop,energetic,0.7,170,0.53,0.55,0.12,93,2010,euphoric;nostalgic,0.16,0.0,1758362,electropop;pop;synthpop;industrial pop;synthwave,https://www.last.fm/music/Taylor+Swift/_/Cruel+Summer,gemini-estimate
-68,Blinding Lights,The Weeknd,pop,energetic,0.73,171,0.33,0.51,0.0,97,2010,euphoric;nostalgic,0.06,0.0,2460496,synthwave;synthpop;pop;2019;the weeknd,https://www.last.fm/music/The+Weeknd/_/Blinding+Lights,gemini-estimate
-69,HUMBLE.,Kendrick Lamar,hip hop,intense,0.76,150,0.42,0.9,0.0,97,2010,confident;aggressive,0.1,0.0,2359211,rap;trap;hip-hop;hip hop;2017,https://www.last.fm/music/Kendrick+Lamar/_/HUMBLE.,gemini-estimate
-70,No Role Modelz,J. Cole,hip hop,moody,0.52,100,0.49,0.69,0.32,93,2010,nostalgic;confident,0.33,0.0,1760823,hip-hop;rap;j cole;pop rap;2014,https://www.last.fm/music/J.+Cole/_/No+Role+Modelz,gemini-estimate
-71,The Spins,Mac Miller,hip hop,happy,0.82,124,0.76,0.73,0.04,91,2010,party;euphoric,0.11,0.0,1414958,hip-hop;rap;hip hop;alternative hip-hop,https://www.last.fm/music/Mac+Miller/_/The+Spins,gemini-estimate
-72,See You Again (feat. Kali Uchis),"Tyler, The Creator",hip hop,romantic,0.56,79,0.63,0.56,0.37,98,2010,dreamy;smooth,0.09,0.0,2712440,rnb;rap;neo-soul;pop rap;kali uchis,"https://www.last.fm/music/Tyler,+The+Creator/_/See+You+Again+(feat.+Kali+Uchis)",gemini-estimate
-73,Antidote,Travi$ Scott,hip hop,energetic,0.57,128,0.26,0.66,0.01,59,2010,party;confident,0.05,0.0,65027,,https://www.last.fm/music/Travi$+Scott/_/Antidote,gemini-estimate
-74,Money Trees,Kendrick Lamar,hip hop,chill,0.53,72,0.34,0.72,0.07,96,2010,smooth;nostalgic,0.12,0.0,2219860,rap;hip hop;hip-hop;west coast hip hop;conscious hip hop,https://www.last.fm/music/Kendrick+Lamar/_/Money+Trees,gemini-estimate
-75,Wet Dreamz,J. Cole,hip hop,chill,0.7,176,0.61,0.63,0.08,90,2010,nostalgic;playful,0.34,0.0,1307774,rap;hip hop;j cole;hip-hop;2014,https://www.last.fm/music/J.+Cole/_/Wet+Dreamz,gemini-estimate
-76,Self Care,Mac Miller,hip hop,moody,0.45,122,0.23,0.56,0.48,89,2010,dreamy;melancholic,0.07,0.0,1114319,hip hop;rap;pop rap;psychedelic;alternative rnb,https://www.last.fm/music/Mac+Miller/_/Self+Care,gemini-estimate
-77,Kill Bill,SZA,r&b,moody,0.55,89,0.42,0.54,0.05,96,2020,groovy;smooth,0.07,0.0,2287326,trip hop;pop;psychedelic pop;bedroom pop;rnb,https://www.last.fm/music/SZA/_/Kill+Bill,gemini-estimate
-78,Pink + White,Frank Ocean,r&b,relaxed,0.54,160,0.55,0.54,0.67,97,2010,smooth;nostalgic,0.1,0.0,2564923,rnb;neo-soul;for our kids;soul;beyonce,https://www.last.fm/music/Frank+Ocean/_/Pink+%252B+White,gemini-estimate
-79,Get You (feat. Kali Uchis),Daniel Caesar,r&b,romantic,0.36,146,0.35,0.66,0.42,92,2010,romantic;smooth,0.04,0.0,1469242,alternative rnb;rnb;indie;sexy;alternative pop,https://www.last.fm/music/Daniel+Caesar/_/Get+You+(feat.+Kali+Uchis),gemini-estimate
-80,Clouded,Brent Faiyaz,r&b,moody,0.42,120,0.18,0.58,0.7,87,2020,melancholic;dark,0.12,0.0,984551,alternative rnb;rnb;toronto sound;neo-soul,https://www.last.fm/music/Brent+Faiyaz/_/Clouded,gemini-estimate
-81,Could've Been (feat. Bryson Tiller),H.E.R.,r&b,moody,0.4,110,0.25,0.55,0.35,83,2010,melancholic;smooth,0.09,0.0,627588,rnb;hip-hop;bryson tiller;trap;h.e.r.,https://www.last.fm/music/H.E.R./_/Could%27ve+Been+(feat.+Bryson+Tiller),gemini-estimate
-82,Snooze,SZA,r&b,romantic,0.55,143,0.39,0.56,0.14,93,2020,romantic;smooth,0.06,0.0,1650855,rnb;trip hop;sza;female vocalist;neo-soul,https://www.last.fm/music/SZA/_/Snooze,gemini-estimate
-83,Thinkin Bout You,Frank Ocean,r&b,moody,0.35,94,0.2,0.7,0.4,96,2010,melancholic;smooth,0.09,0.0,2320822,rnb;soul;r&b;2012;neo-soul,https://www.last.fm/music/Frank+Ocean/_/Thinkin+Bout+You,gemini-estimate
-84,Best Part (feat. H.E.R.),Daniel Caesar,r&b,romantic,0.3,75,0.43,0.47,0.8,90,2010,romantic;cozy,0.03,0.0,1315329,rnb;soul;love;chill;r n b,https://www.last.fm/music/Daniel+Caesar/_/Best+Part+(feat.+H.E.R.),gemini-estimate
-85,505,Arctic Monkeys,rock,moody,0.72,140,0.23,0.52,0.01,100,2000,melancholic;nostalgic,0.05,0.01,3206034,indie rock;indie;british;rock;alternative,https://www.last.fm/music/Arctic+Monkeys/_/505,gemini-estimate
-86,Everlong,Foo Fighters,rock,intense,0.88,158,0.41,0.41,0.0,100,1990,rebellious;nostalgic,0.04,0.0,3269490,rock;alternative rock;90s;alternative;foo fighters,https://www.last.fm/music/Foo+Fighters/_/Everlong,gemini-estimate
-87,Californication,Red Hot Chili Peppers,rock,chill,0.77,96,0.32,0.59,0.0,100,1990,melancholic;nostalgic,0.03,0.0,3150085,rock;alternative rock;alternative;red hot chili peppers;funk,https://www.last.fm/music/Red+Hot+Chili+Peppers/_/Californication,gemini-estimate
-88,Bohemian Rhapsody,Queen,rock,intense,0.4,72,0.22,0.41,0.29,97,1970,dark;euphoric,0.05,0.0,2357371,classic rock;rock;queen;70s;80s,https://www.last.fm/music/Queen/_/Bohemian+Rhapsody,gemini-estimate
-89,Do I Wanna Know?,Arctic Monkeys,rock,moody,0.53,85,0.41,0.55,0.19,99,2010,dark;groovy,0.04,0.0,3039026,indie rock;indie;alternative;rock;arctic monkeys,https://www.last.fm/music/Arctic+Monkeys/_/Do+I+Wanna+Know%3F,gemini-estimate
-90,The Pretender,Foo Fighters,rock,intense,0.96,173,0.37,0.43,0.0,96,2000,aggressive;rebellious,0.08,0.0,2264037,rock;alternative rock;alternative;grunge;foo fighters,https://www.last.fm/music/Foo+Fighters/_/The+Pretender,gemini-estimate
-91,Scar Tissue,Red Hot Chili Peppers,rock,chill,0.59,89,0.56,0.59,0.08,99,1990,melancholic;peaceful,0.03,0.0,2929135,rock;alternative rock;alternative;funk;red hot chili peppers,https://www.last.fm/music/Red+Hot+Chili+Peppers/_/Scar+Tissue,gemini-estimate
-92,Don't Stop Me Now - Remastered 2011,Queen,rock,happy,0.87,156,0.61,0.56,0.05,93,1970,euphoric;uplifting,0.17,0.0,1697426,,https://www.last.fm/music/Queen/_/Don%27t+Stop+Me+Now+-+Remastered+2011,gemini-estimate
-93,Feather (feat. Cise Starr & Akin from Cyne),Nujabes,lofi,chill,0.6,84,0.7,0.7,0.4,80,2000,smooth;nostalgic,0.25,0.05,500654,,https://www.last.fm/music/Nujabes/_/Feather+(feat.+Cise+Starr+&+Akin+from+Cyne),gemini-estimate
-94,I'm Closing My Eyes,potsu,lofi,sad,0.3,75,0.3,0.6,0.8,75,2010,melancholic;cozy,0.05,0.85,299572,,https://www.last.fm/music/potsu/_/I%27m+Closing+My+Eyes,gemini-estimate
-95,Controlla,idealism,lofi,chill,0.25,75,0.35,0.55,0.85,75,2010,peaceful;cozy,0.05,0.9,315181,,https://www.last.fm/music/idealism/_/Controlla,gemini-estimate
-96,affection,Jinsang,lofi,relaxed,0.35,75,0.55,0.65,0.7,75,2010,cozy;smooth,0.06,0.85,320636,,https://www.last.fm/music/Jinsang/_/affection,gemini-estimate
-97,Kingdom in Blue,Kupla,lofi,chill,0.25,74,0.4,0.55,0.85,67,2010,peaceful;dreamy,0.04,0.95,146924,,https://www.last.fm/music/Kupla/_/Kingdom+in+Blue,gemini-estimate
-98,Lady Brown (feat. Cise Starr from CYNE),Nujabes,lofi,relaxed,0.65,85,0.75,0.75,0.5,77,2000,smooth;groovy,0.2,0.0,387254,,https://www.last.fm/music/Nujabes/_/Lady+Brown+(feat.+Cise+Starr+from+CYNE),gemini-estimate
-99,just friends,potsu,lofi,chill,0.35,78,0.4,0.65,0.7,70,2010,cozy;nostalgic,0.08,0.8,182807,,https://www.last.fm/music/potsu/_/just+friends,gemini-estimate
-100,Both of Us,idealism,lofi,chill,0.3,70,0.3,0.5,0.8,67,2010,dreamy;melancholic,0.05,0.85,142655,,https://www.last.fm/music/idealism/_/Both+of+Us,gemini-estimate
-101,So What,Miles Davis,jazz,chill,0.35,136,0.5,0.55,0.85,84,1950,smooth;groovy,0.05,0.85,719075,,https://www.last.fm/music/Miles+Davis/_/So+What,gemini-estimate
-102,My Favorite Things,John Coltrane,jazz,happy,0.6,138,0.65,0.45,0.75,79,1960,uplifting;playful,0.05,0.8,441570,,https://www.last.fm/music/John+Coltrane/_/My+Favorite+Things,gemini-estimate
-103,Skating in Central Park,Bill Evans,jazz,relaxed,0.25,105,0.45,0.45,0.92,74,1960,peaceful;cozy,0.04,0.9,281108,,https://www.last.fm/music/Bill+Evans/_/Skating+in+Central+Park,gemini-estimate
-104,Street Fighter Mas,Kamasi Washington,jazz,energetic,0.75,108,0.6,0.55,0.35,64,2010,groovy;confident,0.05,0.8,109700,,https://www.last.fm/music/Kamasi+Washington/_/Street+Fighter+Mas,gemini-estimate
-105,My Funny Valentine,Chet Baker,jazz,romantic,0.15,60,0.25,0.35,0.95,84,1950,melancholic;romantic,0.04,0.05,714872,,https://www.last.fm/music/Chet+Baker/_/My+Funny+Valentine,gemini-estimate
-106,Blue in Green,Miles Davis,jazz,sad,0.15,65,0.2,0.35,0.95,83,1950,melancholic;peaceful,0.04,0.9,679538,,https://www.last.fm/music/Miles+Davis/_/Blue+in+Green,gemini-estimate
-107,Naima,John Coltrane,jazz,relaxed,0.2,70,0.35,0.3,0.9,77,1950,peaceful;dreamy,0.04,0.85,372644,,https://www.last.fm/music/John+Coltrane/_/Naima,gemini-estimate
-108,Peace Piece,Bill Evans,jazz,relaxed,0.1,60,0.3,0.3,0.98,74,1950,peaceful;dreamy,0.04,0.95,272695,,https://www.last.fm/music/Bill+Evans/_/Peace+Piece,gemini-estimate
-109,Experience,Ludovico Einaudi,classical,intense,0.65,134,0.45,0.3,0.85,82,2010,uplifting;focused,0.04,0.9,588030,,https://www.last.fm/music/Ludovico+Einaudi/_/Experience,gemini-estimate
-110,On the Nature of Daylight,Max Richter,classical,sad,0.2,70,0.1,0.15,0.9,80,2000,melancholic;dark,0.04,0.95,479436,,https://www.last.fm/music/Max+Richter/_/On+the+Nature+of+Daylight,gemini-estimate
-111,River Flows in You,Yiruma,classical,romantic,0.3,130,0.4,0.3,0.98,81,2000,romantic;peaceful,0.04,0.85,544444,,https://www.last.fm/music/Yiruma/_/River+Flows+in+You,gemini-estimate
-112,Near Light,Ólafur Arnalds,classical,chill,0.3,120,0.3,0.25,0.85,73,2010,peaceful;dreamy,0.04,0.85,257609,,https://www.last.fm/music/%C3%93lafur+Arnalds/_/Near+Light,gemini-estimate
-113,Cornfield Chase,Hans Zimmer,classical,intense,0.6,100,0.3,0.25,0.75,85,2010,focused;uplifting,0.04,0.85,755382,soundtrack;instrumental;symphonic;electronic;soundtracks,https://www.last.fm/music/Hans+Zimmer/_/Cornfield+Chase,gemini-estimate
-114,Nuvole Bianche,Ludovico Einaudi,classical,moody,0.25,135,0.2,0.35,0.98,80,2000,melancholic;peaceful,0.04,0.9,470519,,https://www.last.fm/music/Ludovico+Einaudi/_/Nuvole+Bianche,gemini-estimate
-115,Vladimir's Blues,Max Richter,classical,focused,0.15,110,0.25,0.3,0.98,76,2000,peaceful;melancholic,0.04,0.92,330927,,https://www.last.fm/music/Max+Richter/_/Vladimir%27s+Blues,gemini-estimate
-116,Kiss the Rain,Yiruma,classical,romantic,0.2,120,0.3,0.35,0.98,70,2000,romantic;melancholic,0.04,0.88,195925,,https://www.last.fm/music/Yiruma/_/Kiss+the+Rain,gemini-estimate
-117,Tennessee Whiskey,Chris Stapleton,country,romantic,0.45,98,0.51,0.4,0.2,82,2010,smooth;romantic,0.03,0.0,593667,country;blues;2015;2010s,https://www.last.fm/music/Chris+Stapleton/_/Tennessee+Whiskey,gemini-estimate
-118,I Remember Everything (feat. Kacey Musgraves),Zach Bryan,country,sad,0.45,77,0.16,0.43,0.55,83,2020,melancholic;nostalgic,0.04,0.0,649629,my top songs;country;americana;2023,https://www.last.fm/music/Zach+Bryan/_/I+Remember+Everything+(feat.+Kacey+Musgraves),gemini-estimate
-119,Jolene,Dolly Parton,country,moody,0.8,111,0.67,0.68,0.56,91,1970,melancholic;heartbroken,0.04,0.0,1416152,country;female vocalists;classic country;folk;dolly parton,https://www.last.fm/music/Dolly+Parton/_/Jolene,gemini-estimate
-120,Slow Burn,Kacey Musgraves,country,chill,0.32,104,0.34,0.6,0.8,76,2010,peaceful;dreamy,0.03,0.0,347127,,https://www.last.fm/music/Kacey+Musgraves/_/Slow+Burn,gemini-estimate
-121,Fast Car,Luke Combs,country,moody,0.68,97,0.32,0.71,0.2,77,2020,nostalgic;hopeful,0.03,0.0,375871,,https://www.last.fm/music/Luke+Combs/_/Fast+Car,gemini-estimate
-122,You Should Probably Leave,Chris Stapleton,country,moody,0.53,115,0.65,0.58,0.43,76,2020,smooth;nostalgic,0.03,0.0,324782,,https://www.last.fm/music/Chris+Stapleton/_/You+Should+Probably+Leave,gemini-estimate
-123,Something in the Orange,Zach Bryan,country,sad,0.19,89,0.14,0.38,0.55,83,2020,melancholic;heartbroken,0.04,0.0,631579,country;americana;ballad;singer-songwriter;indie country,https://www.last.fm/music/Zach+Bryan/_/Something+in+the+Orange,gemini-estimate
-124,9 to 5,Dolly Parton,country,happy,0.83,105,0.82,0.55,0.42,88,1980,playful;uplifting,0.04,0.0,1035717,country;80s;female vocalists;pop;dolly parton,https://www.last.fm/music/Dolly+Parton/_/9+to+5,gemini-estimate
-125,Enter Sandman,Metallica,metal,intense,0.83,123,0.62,0.57,0.0,94,1990,aggressive;confident,0.07,0.0,1901661,,https://www.last.fm/music/Metallica/_/Enter+Sandman,gemini-estimate
-126,Duality,Slipknot,metal,angry,0.97,144,0.34,0.51,0.0,94,2000,aggressive;rebellious,0.14,0.0,1913233,nu metal;metal;alternative metal;slipknot;rock,https://www.last.fm/music/Slipknot/_/Duality,gemini-estimate
-127,Chop Suey!,System of a Down,metal,intense,0.93,127,0.43,0.42,0.0,99,2000,aggressive;rebellious,0.14,0.0,2874756,alternative metal;metal;rock;system of a down;alternative,https://www.last.fm/music/System+of+a+Down/_/Chop+Suey%21,gemini-estimate
-128,Run to the Hills,Iron Maiden,metal,energetic,0.9,174,0.63,0.44,0.01,85,1980,rebellious;confident,0.07,0.0,798795,,https://www.last.fm/music/Iron+Maiden/_/Run+to+the+Hills,gemini-estimate
-129,Nothing Else Matters,Metallica,metal,sad,0.39,142,0.16,0.55,0.05,93,1990,melancholic;dreamy,0.03,0.0,1714621,,https://www.last.fm/music/Metallica/_/Nothing+Else+Matters,gemini-estimate
-130,Wait and Bleed,Slipknot,metal,angry,0.98,186,0.28,0.44,0.0,93,1990,aggressive;rebellious,0.12,0.0,1702688,nu metal;metal;slipknot;heavy metal;rock,https://www.last.fm/music/Slipknot/_/Wait+and+Bleed,gemini-estimate
-131,Toxicity,System of a Down,metal,intense,0.92,117,0.44,0.44,0.0,98,2000,aggressive;rebellious,0.08,0.0,2626898,alternative metal;metal;rock;system of a down;alternative,https://www.last.fm/music/System+of+a+Down/_/Toxicity,gemini-estimate
-132,The Number of the Beast,Iron Maiden,metal,intense,0.92,199,0.46,0.38,0.04,84,1980,dark;aggressive,0.09,0.0,712772,,https://www.last.fm/music/Iron+Maiden/_/The+Number+of+the+Beast,gemini-estimate
-133,Skinny Love,Bon Iver,folk,sad,0.35,76,0.25,0.4,0.85,94,2000,melancholic;heartbroken,0.05,0.0,1789725,folk;indie;acoustic;singer-songwriter;beautiful,https://www.last.fm/music/Bon+Iver/_/Skinny+Love,gemini-estimate
-134,White Winter Hymnal,Fleet Foxes,folk,relaxed,0.6,125,0.55,0.45,0.7,91,2000,peaceful;dreamy,0.03,0.0,1447975,folk;indie;mellow;winter;beautiful,https://www.last.fm/music/Fleet+Foxes/_/White+Winter+Hymnal,gemini-estimate
-135,Little Lion Man,Mumford & Sons,folk,energetic,0.85,139,0.55,0.5,0.55,92,2000,rebellious;hopeful,0.06,0.0,1474967,folk;indie folk;indie;british;music to chase squirrels by,https://www.last.fm/music/Mumford+&+Sons/_/Little+Lion+Man,gemini-estimate
-136,Scott Street,Phoebe Bridgers,folk,sad,0.3,115,0.25,0.5,0.85,89,2010,melancholic;nostalgic,0.04,0.05,1115288,folk;indie rock;indie folk;beautiful;nostalgia,https://www.last.fm/music/Phoebe+Bridgers/_/Scott+Street,gemini-estimate
-137,Work Song,Hozier,folk,romantic,0.46,127,0.3,0.5,0.8,88,2010,peaceful;romantic,0.03,0.0,1053617,soul;singer-songwriter;irish;pop,https://www.last.fm/music/Hozier/_/Work+Song,gemini-estimate
-138,Flume,Bon Iver,folk,chill,0.25,110,0.2,0.45,0.9,90,2000,peaceful;dreamy,0.04,0.0,1251501,folk;acoustic;singer-songwriter;indie;beautiful,https://www.last.fm/music/Bon+Iver/_/Flume,gemini-estimate
-139,Mykonos,Fleet Foxes,folk,moody,0.65,112,0.4,0.42,0.5,88,2000,nostalgic;hopeful,0.04,0.01,1087973,,https://www.last.fm/music/Fleet+Foxes/_/Mykonos,gemini-estimate
-140,The Cave,Mumford & Sons,folk,energetic,0.8,142,0.5,0.45,0.4,90,2000,uplifting;hopeful,0.05,0.0,1232560,,https://www.last.fm/music/Mumford+&+Sons/_/The+Cave,gemini-estimate
-141,An Ending (Ascent),Brian Eno,ambient,relaxed,0.1,65,0.3,0.1,0.8,74,1980,peaceful;dreamy,0.04,0.95,277433,,https://www.last.fm/music/Brian+Eno/_/An+Ending+(Ascent),gemini-estimate
-142,A Walk,Tycho,ambient,chill,0.45,83,0.5,0.6,0.3,77,2010,dreamy;nostalgic,0.04,0.85,375226,,https://www.last.fm/music/Tycho/_/A+Walk,gemini-estimate
-143,Dungtitled (in A major),Stars of the Lid,ambient,relaxed,0.05,60,0.2,0.05,0.85,71,2000,peaceful;dreamy,0.03,0.95,202457,,https://www.last.fm/music/Stars+of+the+Lid/_/Dungtitled+(in+A+major),gemini-estimate
-144,I Can Almost See You,Hammock,ambient,relaxed,0.25,70,0.3,0.15,0.65,73,2000,dreamy;melancholic,0.03,0.9,246987,,https://www.last.fm/music/Hammock/_/I+Can+Almost+See+You,gemini-estimate
-145,Bless This Morning Year,Helios,ambient,relaxed,0.3,90,0.5,0.35,0.6,70,2000,peaceful;nostalgic,0.04,0.9,198752,,https://www.last.fm/music/Helios/_/Bless+This+Morning+Year,gemini-estimate
-146,Emerald and Stone,Brian Eno,ambient,relaxed,0.15,70,0.25,0.2,0.9,74,2010,peaceful;dreamy,0.04,0.9,271488,,https://www.last.fm/music/Brian+Eno/_/Emerald+and+Stone,gemini-estimate
-147,Awake,Tycho,ambient,chill,0.55,88,0.6,0.55,0.2,77,2010,dreamy;hopeful,0.04,0.8,374258,,https://www.last.fm/music/Tycho/_/Awake,gemini-estimate
-148,A Meaningful Moment Through a Meaning(less) Process,Stars of the Lid,ambient,relaxed,0.08,65,0.15,0.08,0.8,69,2000,peaceful;melancholic,0.03,0.95,181170,,https://www.last.fm/music/Stars+of+the+Lid/_/A+Meaningful+Moment+Through+a+Meaning(less)+Process,gemini-estimate
-149,DtMF,Bad Bunny,reggaeton,energetic,0.78,92,0.65,0.82,0.15,91,2020,party;confident,0.22,0.0,1421753,latin;melodic;plena;vocal;reggaeton,https://www.last.fm/music/Bad+Bunny/_/DtMF,gemini-estimate
-150,LA CANCIÓN,J Balvin,reggaeton,moody,0.55,85,0.4,0.65,0.3,85,2010,melancholic;romantic,0.15,0.0,763990,reggaeton;latin;rnb;pop;sophisti-pop,https://www.last.fm/music/J+Balvin/_/LA+CANCI%C3%93N,gemini-estimate
-151,Gasolina,Daddy Yankee,reggaeton,energetic,0.92,97,0.8,0.95,0.05,90,2000,party;confident,0.25,0.0,1294375,reggaeton;latin;dance;daddy yankee;hip-hop,https://www.last.fm/music/Daddy+Yankee/_/Gasolina,gemini-estimate
-152,Qué Pasaría...,Rauw Alejandro,reggaeton,chill,0.6,90,0.55,0.75,0.25,82,2020,smooth;romantic,0.1,0.0,594941,reggaeton;puerto rican pop,https://www.last.fm/music/Rauw+Alejandro/_/Qu%C3%A9+Pasar%C3%ADa...,gemini-estimate
-153,Tusa,KAROL G,reggaeton,energetic,0.75,96,0.65,0.85,0.15,80,2010,party;confident,0.18,0.0,496755,,https://www.last.fm/music/KAROL+G/_/Tusa,gemini-estimate
-154,NUEVAYoL,Bad Bunny,reggaeton,energetic,0.85,96,0.7,0.88,0.05,89,2020,party;groovy,0.25,0.0,1129579,dembow;reggaeton,https://www.last.fm/music/Bad+Bunny/_/NUEVAYoL,gemini-estimate
-155,Mi Gente,J Balvin,reggaeton,energetic,0.88,105,0.75,0.9,0.02,84,2010,party;groovy,0.18,0.0,722381,reggaeton;latin;latin pop;pop,https://www.last.fm/music/J+Balvin/_/Mi+Gente,gemini-estimate
-156,Con Calma,Daddy Yankee,reggaeton,energetic,0.85,94,0.75,0.9,0.08,80,2010,party;groovy,0.15,0.0,495951,,https://www.last.fm/music/Daddy+Yankee/_/Con+Calma,gemini-estimate
-157,Temperature,Sean Paul,dancehall,energetic,0.85,125,0.82,0.86,0.11,91,2000,party;confident,0.08,0.0,1433890,dancehall;reggae;sean paul;hip-hop;dance,https://www.last.fm/music/Sean+Paul/_/Temperature,gemini-estimate
-158,Fever,Vybz Kartel,dancehall,energetic,0.76,106,0.78,0.88,0.07,61,2010,confident;party,0.22,0.0,80943,,https://www.last.fm/music/Vybz+Kartel/_/Fever,gemini-estimate
-159,TWIST & TURN (feat. Drake & PARTYNEXTDOOR),Popcaan,dancehall,chill,0.62,102,0.68,0.81,0.15,67,2020,smooth;groovy,0.1,0.0,137961,,https://www.last.fm/music/Popcaan/_/TWIST+&+TURN+(feat.+Drake+&+PARTYNEXTDOOR),gemini-estimate
-160,Shen Yeng Anthem,Shenseea,dancehall,energetic,0.78,102,0.7,0.83,0.09,58,2010,confident;party,0.25,0.0,63157,,https://www.last.fm/music/Shenseea/_/Shen+Yeng+Anthem,gemini-estimate
-161,It Wasn't Me,Shaggy,dancehall,happy,0.76,95,0.93,0.85,0.05,90,2000,playful;party,0.07,0.0,1288951,reggae;pop;shaggy;hip-hop;rnb,https://www.last.fm/music/Shaggy/_/It+Wasn%27t+Me,gemini-estimate
-162,Get Busy,Sean Paul,dancehall,energetic,0.8,100,0.83,0.84,0.15,87,2000,party;groovy,0.11,0.0,981670,dancehall;reggae;dance;sean paul;hip-hop,https://www.last.fm/music/Sean+Paul/_/Get+Busy,gemini-estimate
-163,Clarks,Vybz Kartel,dancehall,chill,0.68,100,0.75,0.85,0.12,55,2010,groovy;confident,0.3,0.0,46722,,https://www.last.fm/music/Vybz+Kartel/_/Clarks,gemini-estimate
-164,We Caa Done (feat. Drake),Popcaan,dancehall,chill,0.65,105,0.6,0.8,0.18,66,2020,smooth;confident,0.12,0.0,124874,,https://www.last.fm/music/Popcaan/_/We+Caa+Done+(feat.+Drake),gemini-estimate
-165,Doja,Central Cee,drill,energetic,0.75,140,0.65,0.88,0.05,84,2020,confident;playful,0.35,0.0,712869,,https://www.last.fm/music/Central+Cee/_/Doja,gemini-estimate
-166,Only You Freestyle,Headie One,drill,intense,0.75,142,0.4,0.8,0.1,70,2020,confident;dark,0.4,0.0,192222,,https://www.last.fm/music/Headie+One/_/Only+You+Freestyle,gemini-estimate
-167,Dior,Pop Smoke,drill,intense,0.82,142,0.6,0.8,0.15,84,2010,aggressive;confident,0.28,0.0,715920,drill;gangsta rap;uk drill;new york;trap,https://www.last.fm/music/Pop+Smoke/_/Dior,gemini-estimate
-168,Energy,Digga D,drill,energetic,0.8,141,0.55,0.78,0.05,61,2020,confident;rebellious,0.32,0.0,78683,,https://www.last.fm/music/Digga+D/_/Energy,gemini-estimate
-169,BAND4BAND (feat. Lil Baby),Central Cee,drill,intense,0.85,140,0.55,0.8,0.05,81,2020,confident;aggressive,0.3,0.0,557220,,https://www.last.fm/music/Central+Cee/_/BAND4BAND+(feat.+Lil+Baby),gemini-estimate
-170,Ain't It Different (feat. AJ Tracey & Stormzy),Headie One,drill,energetic,0.78,140,0.6,0.82,0.1,67,2020,confident;groovy,0.3,0.0,139838,,https://www.last.fm/music/Headie+One/_/Ain%27t+It+Different+(feat.+AJ+Tracey+&+Stormzy),gemini-estimate
-171,Woi,Digga D,drill,intense,0.82,142,0.5,0.85,0.04,60,2020,aggressive;rebellious,0.35,0.0,71674,,https://www.last.fm/music/Digga+D/_/Woi,gemini-estimate
-172,Los Angeles,The Midnight,synthwave,energetic,0.75,110,0.6,0.65,0.05,63,2010,nostalgic;euphoric,0.04,0.05,98227,,https://www.last.fm/music/The+Midnight/_/Los+Angeles,gemini-estimate
-173,Running in the Night,FM-84,synthwave,romantic,0.7,104,0.65,0.68,0.05,65,2010,nostalgic;dreamy,0.04,0.01,118821,,https://www.last.fm/music/FM-84/_/Running+in+the+Night,gemini-estimate
-174,Nightcall,Kavinsky,synthwave,moody,0.6,118,0.35,0.75,0.01,90,2010,dark;nostalgic,0.05,0.2,1270121,electronic;sexy;chill;electro;drive,https://www.last.fm/music/Kavinsky/_/Nightcall,gemini-estimate
-175,Tech Noir,Gunship,synthwave,moody,0.72,100,0.4,0.6,0.03,66,2010,nostalgic;dark,0.04,0.02,126504,,https://www.last.fm/music/Gunship/_/Tech+Noir,gemini-estimate
-176,On the Run,Timecop1983,synthwave,chill,0.65,105,0.55,0.6,0.05,61,2010,dreamy;nostalgic,0.03,0.9,79898,,https://www.last.fm/music/Timecop1983/_/On+the+Run,gemini-estimate
-177,Sunset,The Midnight,synthwave,energetic,0.8,120,0.7,0.65,0.03,63,2010,nostalgic;uplifting,0.05,0.02,97719,,https://www.last.fm/music/The+Midnight/_/Sunset,gemini-estimate
-178,Arcade Summer,FM-84,synthwave,happy,0.75,116,0.8,0.65,0.02,56,2010,nostalgic;uplifting,0.04,0.85,51483,,https://www.last.fm/music/FM-84/_/Arcade+Summer,gemini-estimate
-179,Odd Look,Kavinsky,synthwave,intense,0.82,115,0.45,0.7,0.02,78,2010,dark;confident,0.06,0.3,410702,,https://www.last.fm/music/Kavinsky/_/Odd+Look,gemini-estimate
-180,Sofia,Clairo,indie pop,romantic,0.65,116,0.65,0.6,0.2,94,2010,dreamy;romantic,0.04,0.0,1811149,indie pop;pop;bedroom pop;indie;alternative pop,https://www.last.fm/music/Clairo/_/Sofia,gemini-estimate
-181,Best Friend,Rex Orange County,indie pop,happy,0.65,108,0.7,0.65,0.4,87,2010,uplifting;playful,0.06,0.0,949476,yearning;indie pop;bedroom pop;indie,https://www.last.fm/music/Rex+Orange+County/_/Best+Friend,gemini-estimate
-182,Goodie Bag,Still Woozy,indie pop,chill,0.55,85,0.75,0.8,0.3,86,2010,groovy;dreamy,0.05,0.0,836559,,https://www.last.fm/music/Still+Woozy/_/Goodie+Bag,gemini-estimate
-183,the perfect pair,beabadoobee,indie pop,relaxed,0.45,104,0.7,0.75,0.7,93,2020,smooth;playful,0.05,0.05,1627183,bossa nova;indie pop;loonaids;bedroom pop,https://www.last.fm/music/beabadoobee/_/the+perfect+pair,gemini-estimate
-184,Can I Call You Tonight?,Dayglow,indie pop,happy,0.75,128,0.8,0.68,0.1,89,2010,uplifting;groovy,0.04,0.05,1144871,indie;indie pop;english;pop;jangle pop,https://www.last.fm/music/Dayglow/_/Can+I+Call+You+Tonight%3F,gemini-estimate
-185,Bags,Clairo,indie pop,chill,0.45,105,0.4,0.55,0.6,93,2010,nostalgic;dreamy,0.04,0.0,1700027,bedroom pop;indie pop;dream pop;indie rock;pop,https://www.last.fm/music/Clairo/_/Bags,gemini-estimate
-186,Sunflower,Rex Orange County,indie pop,happy,0.7,144,0.8,0.7,0.35,86,2010,groovy;uplifting,0.05,0.0,892986,indie;indie pop;sophisti-pop;jazz pop;jangle pop,https://www.last.fm/music/Rex+Orange+County/_/Sunflower,gemini-estimate
-187,Habit,Still Woozy,indie pop,relaxed,0.5,110,0.7,0.75,0.25,78,2010,groovy;smooth,0.06,0.01,409306,,https://www.last.fm/music/Still+Woozy/_/Habit,gemini-estimate
-188,Kiss Kiss Bang Bang,High Contrast,liquid dnb,energetic,0.85,174,0.7,0.65,0.05,64,2000,uplifting;smooth,0.05,0.3,113353,,https://www.last.fm/music/High+Contrast/_/Kiss+Kiss+Bang+Bang,gemini-estimate
-189,Everybody Loves The Sunshine,Netsky,liquid dnb,happy,0.85,174,0.85,0.65,0.1,64,2010,uplifting;groovy,0.05,0.2,107442,,https://www.last.fm/music/Netsky/_/Everybody+Loves+The+Sunshine,gemini-estimate
-190,Just One Second,London Elektricity,liquid dnb,happy,0.85,174,0.75,0.58,0.08,56,2000,uplifting;euphoric,0.05,0.2,51015,,https://www.last.fm/music/London+Elektricity/_/Just+One+Second,gemini-estimate
-191,Even If - Original Mix,Calibre,liquid dnb,chill,0.72,172,0.55,0.65,0.15,54,2010,smooth;melancholic,0.05,0.35,40840,,https://www.last.fm/music/Calibre/_/Even+If+-+Original+Mix,gemini-estimate
-192,Touch,Hybrid Minds,liquid dnb,romantic,0.75,174,0.5,0.5,0.25,61,2010,romantic;melancholic,0.05,0.05,79149,,https://www.last.fm/music/Hybrid+Minds/_/Touch,gemini-estimate
-193,If We Ever,High Contrast,liquid dnb,happy,0.88,174,0.8,0.6,0.1,62,2000,uplifting;euphoric,0.06,0.15,87443,,https://www.last.fm/music/High+Contrast/_/If+We+Ever,gemini-estimate
-194,Iron Heart,Netsky,liquid dnb,energetic,0.9,175,0.75,0.6,0.05,63,2010,euphoric;uplifting,0.06,0.7,100994,,https://www.last.fm/music/Netsky/_/Iron+Heart,gemini-estimate
-195,Billion Dollar Gravy,London Elektricity,liquid dnb,chill,0.8,172,0.7,0.65,0.2,54,2000,groovy;smooth,0.06,0.4,42160,,https://www.last.fm/music/London+Elektricity/_/Billion+Dollar+Gravy,gemini-estimate
+59,Disappear,Themba,afro-house,moody,0.73,122,0.45,0.76,0.08,44,2020,dreamy;groovy,0.04,0.3,18060,,https://www.last.fm/music/Themba/_/Disappear,gemini-estimate
+60,Never Gonna Forget (with Diplo feat. Elderbrook),Black Coffee,afro-house,happy,0.75,120,0.65,0.78,0.1,48,2020,uplifting;groovy,0.05,0.02,26204,,https://www.last.fm/music/Black+Coffee/_/Never+Gonna+Forget+(with+Diplo+feat.+Elderbrook),gemini-estimate
+61,Don't Start Now,Dua Lipa,pop,energetic,0.79,124,0.68,0.79,0.01,90,2010,party;groovy,0.08,0.0,1633360,disco;pop;nu-disco;dance-pop;dance,https://www.last.fm/music/Dua+Lipa/_/Don%27t+Start+Now,gemini-estimate
+62,Blank Space,Taylor Swift,pop,happy,0.7,96,0.57,0.76,0.1,92,2010,playful;confident,0.05,0.0,1937754,pop;love at first listen;2014;female vocalists;best of 2014,https://www.last.fm/music/Taylor+Swift/_/Blank+Space,gemini-estimate
+63,Starboy,The Weeknd,pop,intense,0.59,186,0.49,0.68,0.14,94,2010,confident;dark,0.07,0.0,2479785,rnb;pop;2016;electropop;daft punk,https://www.last.fm/music/The+Weeknd/_/Starboy,gemini-estimate
+64,As It Was,Harry Styles,pop,happy,0.73,174,0.66,0.52,0.34,93,2020,nostalgic;groovy,0.06,0.0,2148427,pop;rock and roll over;wsum 91.7 fm madison;synthpop;indie pop,https://www.last.fm/music/Harry+Styles/_/As+It+Was,gemini-estimate
+65,Espresso,Sabrina Carpenter,pop,happy,0.76,104,0.69,0.7,0.11,94,2020,playful;groovy,0.03,0.0,2289655,pop;nu-disco;dance-pop;boogie;espresso,https://www.last.fm/music/Sabrina+Carpenter/_/Espresso,gemini-estimate
+66,Locked Out of Heaven,Bruno Mars,pop,energetic,0.7,144,0.86,0.73,0.05,95,2010,groovy;euphoric,0.04,0.0,2614256,pop;rnb;bruno mars;10s;2012,https://www.last.fm/music/Bruno+Mars/_/Locked+Out+of+Heaven,gemini-estimate
+67,BIRDS OF A FEATHER,Billie Eilish,pop,happy,0.51,105,0.44,0.75,0.2,94,2020,dreamy;romantic,0.04,0.05,2344500,peter;alt-pop;2024;pop;radio,https://www.last.fm/music/Billie+Eilish/_/BIRDS+OF+A+FEATHER,gemini-estimate
+68,Into You,Ariana Grande,pop,energetic,0.73,108,0.37,0.62,0.02,91,2010,euphoric;party,0.11,0.0,1858367,pop;best of 2016;dance-pop;love at first listen;2016,https://www.last.fm/music/Ariana+Grande/_/Into+You,gemini-estimate
+69,New Rules,Dua Lipa,pop,energetic,0.7,116,0.61,0.76,0.0,89,2010,confident;playful,0.07,0.0,1403405,pop;dance;2017;electropop;tropical house,https://www.last.fm/music/Dua+Lipa/_/New+Rules,gemini-estimate
+70,Cruel Summer,Taylor Swift,pop,energetic,0.7,170,0.53,0.55,0.11,91,2010,euphoric;uplifting,0.16,0.0,1758362,electropop;pop;synthpop;industrial pop;synthwave,https://www.last.fm/music/Taylor+Swift/_/Cruel+Summer,gemini-estimate
+71,Blinding Lights,The Weeknd,pop,energetic,0.73,171,0.33,0.51,0.0,94,2010,euphoric;nostalgic,0.06,0.0,2460496,synthwave;synthpop;pop;2019;the weeknd,https://www.last.fm/music/The+Weeknd/_/Blinding+Lights,gemini-estimate
+72,Please Please Please,Sabrina Carpenter,pop,happy,0.63,107,0.69,0.69,0.25,91,2020,playful;smooth,0.05,0.0,1820020,pop;country pop;my top songs;synthpop;2024,https://www.last.fm/music/Sabrina+Carpenter/_/Please+Please+Please,gemini-estimate
+73,HUMBLE.,Kendrick Lamar,hip hop,intense,0.83,150,0.42,0.79,0.0,94,2010,confident;aggressive,0.31,0.0,2359211,rap;trap;hip-hop;hip hop;2017,https://www.last.fm/music/Kendrick+Lamar/_/HUMBLE.,gemini-estimate
+74,No Role Modelz,J. Cole,hip hop,moody,0.52,100,0.49,0.69,0.31,91,2010,groovy;confident,0.33,0.0,1760823,hip-hop;rap;j cole;pop rap;2014,https://www.last.fm/music/J.+Cole/_/No+Role+Modelz,gemini-estimate
+75,The Spins,Mac Miller,hip hop,energetic,0.83,120,0.73,0.76,0.11,89,2010,party;euphoric,0.08,0.0,1414958,hip-hop;rap;hip hop;alternative hip-hop,https://www.last.fm/music/Mac+Miller/_/The+Spins,gemini-estimate
+76,See You Again (feat. Kali Uchis),"Tyler, The Creator",hip hop,romantic,0.56,79,0.65,0.56,0.43,95,2010,dreamy;romantic,0.09,0.0,2712440,rnb;rap;neo-soul;pop rap;kali uchis,"https://www.last.fm/music/Tyler,+The+Creator/_/See+You+Again+(feat.+Kali+Uchis)",gemini-estimate
+77,Antidote,Travis Scott,hip hop,intense,0.68,128,0.36,0.74,0.03,57,2010,dark;party,0.07,0.0,65027,,https://www.last.fm/music/Travi$+Scott/_/Antidote,gemini-estimate+human-fix
+78,Stronger,Kanye West,hip hop,energetic,0.72,104,0.49,0.62,0.01,96,2000,confident;euphoric,0.15,0.0,2993353,hip-hop;rap;kanye west;dance;hip hop,https://www.last.fm/music/Kanye+West/_/Stronger,gemini-estimate
+79,Can I Kick It?,A Tribe Called Quest,hip hop,chill,0.67,96,0.72,0.84,0.21,85,1990,smooth;groovy,0.27,0.0,984525,hip-hop;90s;hip hop;rap;jazz hop,https://www.last.fm/music/A+Tribe+Called+Quest/_/Can+I+Kick+It%3F,gemini-estimate
+80,Best I Ever Had,Drake,hip hop,happy,0.81,162,0.66,0.41,0.13,91,2000,confident;groovy,0.33,0.0,1851271,drake;hip-hop;rap;best i ever had;hip hop,https://www.last.fm/music/Drake/_/Best+I+Ever+Had,gemini-estimate
+81,Ms. Jackson,OutKast,hip hop,moody,0.81,95,0.62,0.84,0.14,94,2000,nostalgic;groovy,0.27,0.0,2434076,hip-hop;rap;hip hop;outkast;00s,https://www.last.fm/music/OutKast/_/Ms.+Jackson,gemini-estimate
+82,Money Trees,Kendrick Lamar,hip hop,moody,0.56,72,0.34,0.72,0.07,93,2010,dreamy;groovy,0.12,0.0,2219860,rap;hip hop;hip-hop;west coast hip hop;conscious hip hop,https://www.last.fm/music/Kendrick+Lamar/_/Money+Trees,gemini-estimate
+83,Wet Dreamz,J. Cole,hip hop,chill,0.68,88,0.61,0.65,0.08,88,2010,nostalgic;playful,0.34,0.0,1307774,rap;hip hop;j cole;hip-hop;2014,https://www.last.fm/music/J.+Cole/_/Wet+Dreamz,gemini-estimate
+84,Self Care,Mac Miller,hip hop,chill,0.43,122,0.23,0.61,0.68,86,2010,dreamy;smooth,0.09,0.0,1114319,hip hop;rap;pop rap;psychedelic;alternative rnb,https://www.last.fm/music/Mac+Miller/_/Self+Care,gemini-estimate
+85,Kill Bill,SZA,r&b,moody,0.55,89,0.42,0.54,0.05,94,2020,groovy;dark,0.07,0.0,2287326,trip hop;pop;psychedelic pop;bedroom pop;rnb,https://www.last.fm/music/SZA/_/Kill+Bill,gemini-estimate
+86,Pink + White,Frank Ocean,r&b,relaxed,0.54,160,0.55,0.54,0.67,95,2010,groovy;peaceful,0.1,0.0,2564923,rnb;neo-soul;for our kids;soul;beyonce,https://www.last.fm/music/Frank+Ocean/_/Pink+%252B+White,gemini-estimate
+87,Get You (feat. Kali Uchis),Daniel Caesar,r&b,romantic,0.38,146,0.35,0.66,0.42,89,2010,smooth;romantic,0.04,0.0,1469242,alternative rnb;rnb;indie;sexy;alternative pop,https://www.last.fm/music/Daniel+Caesar/_/Get+You+(feat.+Kali+Uchis),gemini-estimate
+88,Clouded,Brent Faiyaz,r&b,moody,0.45,96,0.24,0.55,0.4,85,2010,melancholic;smooth,0.12,0.0,984551,alternative rnb;rnb;toronto sound;neo-soul,https://www.last.fm/music/Brent+Faiyaz/_/Clouded,gemini-estimate
+89,Could've Been (feat. Bryson Tiller),H.E.R.,r&b,moody,0.38,106,0.27,0.55,0.48,80,2010,melancholic;smooth,0.07,0.0,627588,rnb;hip-hop;bryson tiller;trap;h.e.r.,https://www.last.fm/music/H.E.R./_/Could%27ve+Been+(feat.+Bryson+Tiller),gemini-estimate
+90,Yeah! (feat. Lil Jon & Ludacris),Usher,r&b,energetic,0.86,105,0.96,0.89,0.01,89,2000,party;confident,0.09,0.0,1473541,pop;dance;r&b;hip-hop;2004,https://www.last.fm/music/Usher/_/Yeah%21+(feat.+Lil+Jon+&+Ludacris),gemini-estimate
+91,No Love (with SZA),Summer Walker,r&b,moody,0.45,134,0.32,0.65,0.22,80,2020,smooth;melancholic,0.08,0.0,596900,rnb;soul;recommended;hip-hop;alternative rnb,https://www.last.fm/music/Summer+Walker/_/No+Love+(with+SZA),gemini-estimate
+92,Heartbreak Anniversary,Giveon,r&b,sad,0.46,89,0.54,0.45,0.53,81,2020,heartbroken;melancholic,0.08,0.0,675992,,https://www.last.fm/music/Giveon/_/Heartbreak+Anniversary,gemini-estimate
+93,Snooze,SZA,r&b,romantic,0.55,143,0.39,0.56,0.14,90,2020,smooth;romantic,0.06,0.0,1650855,rnb;trip hop;sza;female vocalist;neo-soul,https://www.last.fm/music/SZA/_/Snooze,gemini-estimate
+94,Thinkin Bout You,Frank Ocean,r&b,romantic,0.45,130,0.28,0.71,0.45,94,2010,smooth;melancholic,0.05,0.0,2320822,rnb;soul;r&b;2012;neo-soul,https://www.last.fm/music/Frank+Ocean/_/Thinkin+Bout+You,gemini-estimate
+95,Best Part (feat. H.E.R.),Daniel Caesar,r&b,romantic,0.32,75,0.42,0.47,0.8,88,2010,romantic;cozy,0.04,0.0,1315329,rnb;soul;love;chill;r n b,https://www.last.fm/music/Daniel+Caesar/_/Best+Part+(feat.+H.E.R.),gemini-estimate
+96,Best Time,Brent Faiyaz,r&b,chill,0.58,98,0.62,0.72,0.25,83,2020,smooth;groovy,0.08,0.0,838579,contemporary rnb;rnb;motomano;mj,https://www.last.fm/music/Brent+Faiyaz/_/Best+Time,gemini-estimate
+97,505,Arctic Monkeys,rock,moody,0.84,140,0.23,0.52,0.01,97,2000,melancholic;dark,0.05,0.0,3206034,indie rock;indie;british;rock;alternative,https://www.last.fm/music/Arctic+Monkeys/_/505,gemini-estimate
+98,Everlong,Foo Fighters,rock,energetic,0.88,158,0.41,0.41,0.0,97,1990,rebellious;nostalgic,0.04,0.0,3269490,rock;alternative rock;90s;alternative;foo fighters,https://www.last.fm/music/Foo+Fighters/_/Everlong,gemini-estimate
+99,Californication,Red Hot Chili Peppers,rock,moody,0.77,96,0.32,0.59,0.0,97,1990,nostalgic;groovy,0.03,0.0,3150085,rock;alternative rock;alternative;red hot chili peppers;funk,https://www.last.fm/music/Red+Hot+Chili+Peppers/_/Californication,gemini-estimate
+100,Bohemian Rhapsody,Queen,rock,intense,0.4,144,0.22,0.39,0.29,94,1970,dark;euphoric,0.05,0.0,2357371,classic rock;rock;queen;70s;80s,https://www.last.fm/music/Queen/_/Bohemian+Rhapsody,gemini-estimate
+101,Dreams - 2004 Remaster,Fleetwood Mac,rock,relaxed,0.49,120,0.79,0.83,0.06,93,1970,smooth;dreamy,0.03,0.0,2130651,rock;classic rock;soft rock;jazz,https://www.last.fm/music/Fleetwood+Mac/_/Dreams+-+2004+Remaster,gemini-estimate
+102,Smells Like Teen Spirit,Nirvana,rock,intense,0.91,117,0.72,0.5,0.0,100,1990,aggressive;rebellious,0.07,0.0,4229044,grunge;rock;alternative;90s;nirvana,https://www.last.fm/music/Nirvana/_/Smells+Like+Teen+Spirit,gemini-estimate
+103,Mr. Brightside,The Killers,rock,energetic,0.92,148,0.24,0.35,0.0,99,2000,euphoric;nostalgic,0.07,0.0,3860868,rock;indie rock;indie;alternative;alternative rock,https://www.last.fm/music/The+Killers/_/Mr.+Brightside,gemini-estimate
+104,Creep,Radiohead,rock,sad,0.34,92,0.1,0.51,0.01,100,1990,melancholic;heartbroken,0.04,0.0,4271204,alternative;alternative rock;rock;indie;radiohead,https://www.last.fm/music/Radiohead/_/Creep,gemini-estimate
+105,Do I Wanna Know?,Arctic Monkeys,rock,moody,0.53,85,0.41,0.55,0.19,97,2010,dark;groovy,0.03,0.0,3039026,indie rock;indie;alternative;rock;arctic monkeys,https://www.last.fm/music/Arctic+Monkeys/_/Do+I+Wanna+Know%3F,gemini-estimate
+106,The Pretender,Foo Fighters,rock,intense,0.96,173,0.37,0.43,0.0,93,2000,aggressive;rebellious,0.08,0.0,2264037,rock;alternative rock;alternative;grunge;foo fighters,https://www.last.fm/music/Foo+Fighters/_/The+Pretender,gemini-estimate
+107,Scar Tissue,Red Hot Chili Peppers,rock,chill,0.67,89,0.56,0.59,0.08,96,1990,melancholic;smooth,0.03,0.0,2929135,rock;alternative rock;alternative;funk;red hot chili peppers,https://www.last.fm/music/Red+Hot+Chili+Peppers/_/Scar+Tissue,gemini-estimate
+108,Don't Stop Me Now - Remastered 2011,Queen,rock,happy,0.87,156,0.7,0.56,0.05,91,1970,euphoric;uplifting,0.17,0.0,1697426,,https://www.last.fm/music/Queen/_/Don%27t+Stop+Me+Now+-+Remastered+2011,gemini-estimate
+109,Feather (feat. Cise Starr & Akin from Cyne),Nujabes,lofi,chill,0.55,94,0.65,0.7,0.4,78,2000,smooth;nostalgic,0.2,0.05,500654,,https://www.last.fm/music/Nujabes/_/Feather+(feat.+Cise+Starr+&+Akin+from+Cyne),gemini-estimate
+110,I'm Closing My Eyes,potsu,lofi,relaxed,0.35,78,0.4,0.65,0.8,73,2010,melancholic;cozy,0.08,0.2,299572,,https://www.last.fm/music/potsu/_/I%27m+Closing+My+Eyes,gemini-estimate
+111,Controlla,idealism,lofi,relaxed,0.3,75,0.35,0.55,0.85,73,2010,peaceful;dreamy,0.05,0.85,315181,,https://www.last.fm/music/idealism/_/Controlla,gemini-estimate
+112,affection,Jinsang,lofi,chill,0.42,84,0.55,0.68,0.65,73,2010,cozy;nostalgic,0.06,0.75,320636,,https://www.last.fm/music/Jinsang/_/affection,gemini-estimate
+113,Kingdom in Blue,Kupla,lofi,chill,0.35,78,0.45,0.58,0.8,65,2010,dreamy;peaceful,0.04,0.85,146924,,https://www.last.fm/music/Kupla/_/Kingdom+in+Blue,gemini-estimate
+114,Monday Loop,TomppaBeats,lofi,relaxed,0.4,85,0.55,0.7,0.75,72,2010,cozy;nostalgic,0.06,0.7,279219,,https://www.last.fm/music/TomppaBeats/_/Monday+Loop,gemini-estimate
+115,"i'm in love with u, sorry",J'San,lofi,moody,0.35,76,0.38,0.6,0.75,69,2010,melancholic;romantic,0.05,0.75,199384,,"https://www.last.fm/music/J%27San/_/i%27m+in+love+with+u,+sorry",gemini-estimate
+116,Space Cadet,Philanthrope,lofi,relaxed,0.45,86,0.5,0.7,0.6,54,2010,smooth;groovy,0.06,0.88,49191,,https://www.last.fm/music/Philanthrope/_/Space+Cadet,gemini-estimate
+117,Lady Brown (feat. Cise Starr from CYNE),Nujabes,lofi,relaxed,0.6,96,0.7,0.72,0.45,75,2000,smooth;groovy,0.18,0.02,387254,,https://www.last.fm/music/Nujabes/_/Lady+Brown+(feat.+Cise+Starr+from+CYNE),gemini-estimate
+118,just friends,potsu,lofi,chill,0.38,80,0.45,0.62,0.75,68,2010,cozy;nostalgic,0.06,0.7,182807,,https://www.last.fm/music/potsu/_/just+friends,gemini-estimate
+119,Both of Us,idealism,lofi,chill,0.28,72,0.38,0.58,0.9,65,2010,peaceful;melancholic,0.04,0.88,142655,,https://www.last.fm/music/idealism/_/Both+of+Us,gemini-estimate
+120,reminisce.,Jinsang,lofi,moody,0.38,80,0.4,0.6,0.7,69,2010,nostalgic;melancholic,0.05,0.8,200957,,https://www.last.fm/music/Jinsang/_/reminisce.,gemini-estimate
+121,So What,Miles Davis,jazz,chill,0.35,136,0.45,0.55,0.85,82,1950,smooth;groovy,0.04,0.85,719075,,https://www.last.fm/music/Miles+Davis/_/So+What,gemini-estimate
+122,My Favorite Things,John Coltrane,jazz,focused,0.65,138,0.55,0.4,0.7,77,1960,focused;uplifting,0.05,0.85,441570,,https://www.last.fm/music/John+Coltrane/_/My+Favorite+Things,gemini-estimate
+123,Skating in Central Park,Bill Evans,jazz,relaxed,0.25,110,0.5,0.45,0.9,72,1960,cozy;peaceful,0.04,0.9,281108,,https://www.last.fm/music/Bill+Evans/_/Skating+in+Central+Park,gemini-estimate
+124,Street Fighter Mas,Kamasi Washington,jazz,intense,0.75,95,0.6,0.55,0.3,62,2010,groovy;confident,0.05,0.7,109700,,https://www.last.fm/music/Kamasi+Washington/_/Street+Fighter+Mas,gemini-estimate
+125,My Funny Valentine,Chet Baker,jazz,sad,0.15,60,0.25,0.3,0.95,82,1950,melancholic;romantic,0.04,0.1,714872,,https://www.last.fm/music/Chet+Baker/_/My+Funny+Valentine,gemini-estimate
+126,Take Five,Dave Brubeck,jazz,chill,0.45,174,0.6,0.45,0.75,77,1950,groovy;smooth,0.04,0.9,474830,,https://www.last.fm/music/Dave+Brubeck/_/Take+Five,gemini-estimate
+127,Watermelon Man,Herbie Hancock,jazz,happy,0.65,128,0.8,0.7,0.65,79,1960,groovy;playful,0.05,0.8,544378,,https://www.last.fm/music/Herbie+Hancock/_/Watermelon+Man,gemini-estimate
+128,Afro Blue,Robert Glasper,jazz,chill,0.45,100,0.55,0.6,0.45,65,2010,smooth;groovy,0.05,0.05,134913,,https://www.last.fm/music/Robert+Glasper/_/Afro+Blue,gemini-estimate
+129,Blue in Green,Miles Davis,jazz,sad,0.15,55,0.2,0.35,0.95,81,1950,melancholic;peaceful,0.04,0.9,679538,,https://www.last.fm/music/Miles+Davis/_/Blue+in+Green,gemini-estimate
+130,Naima,John Coltrane,jazz,relaxed,0.2,65,0.35,0.3,0.9,75,1950,peaceful;dreamy,0.04,0.9,372644,,https://www.last.fm/music/John+Coltrane/_/Naima,gemini-estimate
+131,Peace Piece,Bill Evans,jazz,chill,0.1,60,0.3,0.25,0.98,72,1950,peaceful;dreamy,0.04,0.95,272695,,https://www.last.fm/music/Bill+Evans/_/Peace+Piece,gemini-estimate
+132,Change of the Guard,Kamasi Washington,jazz,energetic,0.85,130,0.65,0.4,0.35,61,2010,uplifting;euphoric,0.06,0.6,99294,,https://www.last.fm/music/Kamasi+Washington/_/Change+of+the+Guard,gemini-estimate
+133,Experience,Ludovico Einaudi,classical,intense,0.65,134,0.45,0.35,0.95,80,2010,uplifting;hopeful,0.04,0.92,588030,,https://www.last.fm/music/Ludovico+Einaudi/_/Experience,gemini-estimate
+134,On the Nature of Daylight,Max Richter,classical,sad,0.25,65,0.1,0.2,0.95,78,2000,melancholic;dark,0.04,0.94,479436,,https://www.last.fm/music/Max+Richter/_/On+the+Nature+of+Daylight,gemini-estimate
+135,River Flows in You,Yiruma,classical,relaxed,0.3,130,0.55,0.3,0.98,79,2000,peaceful;romantic,0.04,0.8,544444,,https://www.last.fm/music/Yiruma/_/River+Flows+in+You,gemini-estimate
+136,Near Light,Ólafur Arnalds,classical,focused,0.35,136,0.3,0.25,0.92,71,2010,peaceful;hopeful,0.04,0.91,257609,,https://www.last.fm/music/%C3%93lafur+Arnalds/_/Near+Light,gemini-estimate
+137,"Cello Suite No. 1 in G Major, BWV 1007: I. Prélude",Johann Sebastian Bach,classical,focused,0.35,75,0.55,0.35,0.95,79,2020,peaceful;focused,0.04,0.9,579936,,"https://www.last.fm/music/Johann+Sebastian+Bach/_/Cello+Suite+No.+1+in+G+Major,+BWV+1007:+I.+Pr%C3%A9lude",gemini-estimate
+138,Clair de lune,Claude Debussy,classical,chill,0.15,65,0.25,0.3,0.99,81,2020,dreamy;peaceful,0.04,0.92,678974,,https://www.last.fm/music/Claude+Debussy/_/Clair+de+lune,gemini-estimate
+139,"Chopin: Nocturne No. 20 in C-Sharp Minor, Op. posth.",Frédéric Chopin,classical,sad,0.2,65,0.15,0.3,0.99,76,2020,melancholic;romantic,0.04,0.9,423483,,"https://www.last.fm/music/Fr%C3%A9d%C3%A9ric+Chopin/_/Chopin:+Nocturne+No.+20+in+C-Sharp+Minor,+Op.+posth.",gemini-estimate
+140,Nuvole Bianche,Ludovico Einaudi,classical,sad,0.3,140,0.25,0.4,0.99,77,2000,melancholic;peaceful,0.04,0.88,470519,,https://www.last.fm/music/Ludovico+Einaudi/_/Nuvole+Bianche,gemini-estimate
+141,Vladimir's Blues,Max Richter,classical,focused,0.15,120,0.3,0.35,0.99,74,2000,peaceful;dreamy,0.04,0.9,330927,,https://www.last.fm/music/Max+Richter/_/Vladimir%27s+Blues,gemini-estimate
+142,Kiss the Rain,Yiruma,classical,sad,0.25,120,0.35,0.4,0.99,68,2000,melancholic;peaceful,0.04,0.85,195925,,https://www.last.fm/music/Yiruma/_/Kiss+the+Rain,gemini-estimate
+143,Þú ert jörðin,Ólafur Arnalds,classical,chill,0.2,80,0.25,0.25,0.96,68,2010,peaceful;dreamy,0.04,0.88,192415,,https://www.last.fm/music/%C3%93lafur+Arnalds/_/%C3%9E%C3%BA+ert+j%C3%B6r%C3%B0in,gemini-estimate
+144,"Goldberg Variations, BWV 988: Aria",Johann Sebastian Bach,classical,relaxed,0.15,60,0.45,0.3,0.99,72,2020,peaceful;dreamy,0.04,0.92,288167,,"https://www.last.fm/music/Johann+Sebastian+Bach/_/Goldberg+Variations,+BWV+988:+Aria",gemini-estimate
+145,Tennessee Whiskey,Chris Stapleton,country,romantic,0.45,75,0.55,0.4,0.25,80,2010,smooth;romantic,0.03,0.0,593667,country;blues;2015;2010s,https://www.last.fm/music/Chris+Stapleton/_/Tennessee+Whiskey,gemini-estimate
+146,I Remember Everything (feat. Kacey Musgraves),Zach Bryan,country,sad,0.4,77,0.35,0.55,0.75,81,2020,melancholic;nostalgic,0.04,0.0,649629,my top songs;country;americana;2023,https://www.last.fm/music/Zach+Bryan/_/I+Remember+Everything+(feat.+Kacey+Musgraves),gemini-estimate
+147,Jolene,Dolly Parton,country,moody,0.7,110,0.55,0.65,0.55,89,1970,melancholic;heartbroken,0.04,0.0,1416152,country;female vocalists;classic country;folk;dolly parton,https://www.last.fm/music/Dolly+Parton/_/Jolene,gemini-estimate
+148,Slow Burn,Kacey Musgraves,country,chill,0.35,95,0.45,0.6,0.7,74,2010,peaceful;dreamy,0.03,0.0,347127,,https://www.last.fm/music/Kacey+Musgraves/_/Slow+Burn,gemini-estimate
+149,Fast Car,Luke Combs,country,moody,0.6,112,0.5,0.7,0.3,75,2020,nostalgic;hopeful,0.03,0.0,375871,,https://www.last.fm/music/Luke+Combs/_/Fast+Car,gemini-estimate
+150,Hurt,Johnny Cash,country,sad,0.3,80,0.15,0.4,0.8,91,2000,melancholic;dark,0.05,0.0,1743942,country;acoustic;cover;sad;folk,https://www.last.fm/music/Johnny+Cash/_/Hurt,gemini-estimate
+151,Man! I Feel Like a Woman!,Shania Twain,country,energetic,0.85,125,0.9,0.65,0.1,82,1990,confident;party,0.06,0.0,770115,,https://www.last.fm/music/Shania+Twain/_/Man%21+I+Feel+Like+a+Woman%21,gemini-estimate
+152,Last Night,Morgan Wallen,country,moody,0.68,204,0.5,0.7,0.45,77,2020,melancholic;groovy,0.04,0.0,437137,,https://www.last.fm/music/Morgan+Wallen/_/Last+Night,gemini-estimate
+153,You Should Probably Leave,Chris Stapleton,country,chill,0.55,108,0.6,0.65,0.4,74,2020,groovy;smooth,0.03,0.0,324782,,https://www.last.fm/music/Chris+Stapleton/_/You+Should+Probably+Leave,gemini-estimate
+154,Something in the Orange,Zach Bryan,country,sad,0.35,175,0.25,0.4,0.65,80,2020,melancholic;heartbroken,0.04,0.0,631579,country;americana;ballad;singer-songwriter;indie country,https://www.last.fm/music/Zach+Bryan/_/Something+in+the+Orange,gemini-estimate
+155,9 to 5,Dolly Parton,country,happy,0.8,105,0.85,0.7,0.2,85,1980,uplifting;playful,0.04,0.0,1035717,country;80s;female vocalists;pop;dolly parton,https://www.last.fm/music/Dolly+Parton/_/9+to+5,gemini-estimate
+156,Butterflies,Kacey Musgraves,country,happy,0.6,120,0.8,0.65,0.4,74,2010,romantic;hopeful,0.03,0.0,333452,,https://www.last.fm/music/Kacey+Musgraves/_/Butterflies,gemini-estimate
+157,Enter Sandman,Metallica,metal,intense,0.85,123,0.55,0.57,0.0,92,1990,confident;aggressive,0.07,0.0,1901661,,https://www.last.fm/music/Metallica/_/Enter+Sandman,gemini-estimate
+158,Duality,Slipknot,metal,angry,0.98,144,0.32,0.46,0.0,92,2000,aggressive;rebellious,0.14,0.0,1913233,nu metal;metal;alternative metal;slipknot;rock,https://www.last.fm/music/Slipknot/_/Duality,gemini-estimate
+159,Chop Suey!,System of a Down,metal,intense,0.93,127,0.43,0.42,0.0,96,2000,aggressive;rebellious,0.14,0.0,2874756,alternative metal;metal;rock;system of a down;alternative,https://www.last.fm/music/System+of+a+Down/_/Chop+Suey%21,gemini-estimate
+160,Run to the Hills,Iron Maiden,metal,energetic,0.92,174,0.62,0.28,0.0,83,1980,confident;rebellious,0.08,0.0,798795,,https://www.last.fm/music/Iron+Maiden/_/Run+to+the+Hills,gemini-estimate
+161,Paranoid,Black Sabbath,metal,energetic,0.79,163,0.38,0.46,0.0,91,1970,rebellious;dark,0.07,0.0,1857202,,https://www.last.fm/music/Black+Sabbath/_/Paranoid,gemini-estimate
+162,Symphony of Destruction,Megadeth,metal,intense,0.89,140,0.45,0.6,0.0,84,1990,dark;rebellious,0.06,0.0,862560,,https://www.last.fm/music/Megadeth/_/Symphony+of+Destruction,gemini-estimate
+163,Bat Country,Avenged Sevenfold,metal,energetic,0.96,125,0.52,0.42,0.0,83,2000,rebellious;aggressive,0.11,0.0,847390,metal;metalcore;hard rock;rock;avenged sevenfold,https://www.last.fm/music/Avenged+Sevenfold/_/Bat+Country,gemini-estimate
+164,Nothing Else Matters,Metallica,metal,moody,0.38,142,0.16,0.55,0.05,91,1990,melancholic;dark,0.03,0.0,1714621,,https://www.last.fm/music/Metallica/_/Nothing+Else+Matters,gemini-estimate
+165,Wait and Bleed,Slipknot,metal,angry,0.99,93,0.35,0.38,0.0,91,1990,aggressive;rebellious,0.12,0.0,1702688,nu metal;metal;slipknot;heavy metal;rock,https://www.last.fm/music/Slipknot/_/Wait+and+Bleed,gemini-estimate
+166,Toxicity,System of a Down,metal,intense,0.91,117,0.41,0.42,0.0,95,2000,aggressive;rebellious,0.09,0.0,2626898,alternative metal;metal;rock;system of a down;alternative,https://www.last.fm/music/System+of+a+Down/_/Toxicity,gemini-estimate
+167,The Number of the Beast,Iron Maiden,metal,intense,0.91,199,0.45,0.25,0.01,82,1980,dark;aggressive,0.12,0.03,712772,,https://www.last.fm/music/Iron+Maiden/_/The+Number+of+the+Beast,gemini-estimate
+168,Iron Man,Black Sabbath,metal,intense,0.75,76,0.48,0.33,0.0,88,1970,dark;aggressive,0.06,0.0,1295281,,https://www.last.fm/music/Black+Sabbath/_/Iron+Man,gemini-estimate
+169,Skinny Love,Bon Iver,folk,moody,0.4,76,0.2,0.4,0.8,91,2000,melancholic;nostalgic,0.05,0.0,1789725,folk;indie;acoustic;singer-songwriter;beautiful,https://www.last.fm/music/Bon+Iver/_/Skinny+Love,gemini-estimate
+170,White Winter Hymnal,Fleet Foxes,folk,happy,0.6,125,0.6,0.5,0.7,89,2000,peaceful;dreamy,0.03,0.0,1447975,folk;indie;mellow;winter;beautiful,https://www.last.fm/music/Fleet+Foxes/_/White+Winter+Hymnal,gemini-estimate
+171,Little Lion Man,Mumford & Sons,folk,energetic,0.85,140,0.55,0.45,0.4,89,2000,rebellious;nostalgic,0.06,0.0,1474967,folk;indie folk;indie;british;music to chase squirrels by,https://www.last.fm/music/Mumford+&+Sons/_/Little+Lion+Man,gemini-estimate
+172,The Sound of Silence,Simon & Garfunkel,folk,sad,0.25,108,0.2,0.5,0.9,85,1960,melancholic;peaceful,0.03,0.0,1007795,,https://www.last.fm/music/Simon+&+Garfunkel/_/The+Sound+of+Silence,gemini-estimate
+173,Stick Season,Noah Kahan,folk,moody,0.6,118,0.4,0.65,0.75,85,2020,nostalgic;melancholic,0.07,0.0,974358,indie folk;guitar;indie;singer-songwriter;folk,https://www.last.fm/music/Noah+Kahan/_/Stick+Season,gemini-estimate
+174,Ho Hey,The Lumineers,folk,happy,0.6,80,0.75,0.7,0.8,91,2010,playful;uplifting,0.03,0.0,1696264,indie;folk;alternative;folk rock;love,https://www.last.fm/music/The+Lumineers/_/Ho+Hey,gemini-estimate
+175,Scott Street,Phoebe Bridgers,folk,sad,0.35,116,0.25,0.5,0.75,86,2010,melancholic;nostalgic,0.04,0.0,1115288,folk;indie rock;indie folk;beautiful;nostalgia,https://www.last.fm/music/Phoebe+Bridgers/_/Scott+Street,gemini-estimate
+176,Flume,Bon Iver,folk,chill,0.3,140,0.25,0.45,0.85,87,2000,peaceful;dreamy,0.04,0.0,1251501,folk;acoustic;singer-songwriter;indie;beautiful,https://www.last.fm/music/Bon+Iver/_/Flume,gemini-estimate
+177,Mykonos,Fleet Foxes,folk,energetic,0.65,110,0.5,0.45,0.5,86,2000,nostalgic;hopeful,0.04,0.01,1087973,,https://www.last.fm/music/Fleet+Foxes/_/Mykonos,gemini-estimate
+178,The Cave,Mumford & Sons,folk,energetic,0.8,142,0.6,0.5,0.3,87,2000,uplifting;hopeful,0.05,0.0,1232560,,https://www.last.fm/music/Mumford+&+Sons/_/The+Cave,gemini-estimate
+179,The Boxer,Simon & Garfunkel,folk,moody,0.5,93,0.45,0.5,0.85,84,1960,nostalgic;melancholic,0.03,0.0,941243,folk;60s;classic rock;singer-songwriter;oldies,https://www.last.fm/music/Simon+&+Garfunkel/_/The+Boxer,gemini-estimate
+180,You’re Gonna Go Far,Noah Kahan,folk,sad,0.45,110,0.35,0.55,0.8,78,2020,nostalgic;melancholic,0.04,0.0,507503,sad;singer-songwriter;folk pop,https://www.last.fm/music/Noah+Kahan/_/You%E2%80%99re+Gonna+Go+Far,gemini-estimate
+181,An Ending (Ascent),Brian Eno,ambient,relaxed,0.15,65,0.25,0.15,0.8,72,1980,peaceful;dreamy,0.04,0.95,277433,,https://www.last.fm/music/Brian+Eno/_/An+Ending+(Ascent),gemini-estimate
+182,A Walk,Tycho,ambient,chill,0.45,80,0.5,0.6,0.3,75,2010,dreamy;nostalgic,0.04,0.85,375226,,https://www.last.fm/music/Tycho/_/A+Walk,gemini-estimate
+183,Dungtitled (in A major),Stars of the Lid,ambient,relaxed,0.05,60,0.2,0.08,0.9,69,2000,peaceful;dreamy,0.04,0.95,202457,,https://www.last.fm/music/Stars+of+the+Lid/_/Dungtitled+(in+A+major),gemini-estimate
+184,I Can Almost See You,Hammock,ambient,chill,0.25,75,0.2,0.2,0.8,71,2000,dreamy;melancholic,0.03,0.9,246987,,https://www.last.fm/music/Hammock/_/I+Can+Almost+See+You,gemini-estimate
+185,Bless This Morning Year,Helios,ambient,relaxed,0.25,80,0.4,0.35,0.8,68,2000,peaceful;hopeful,0.04,0.9,198752,,https://www.last.fm/music/Helios/_/Bless+This+Morning+Year,gemini-estimate
+186,Small Memory,Jon Hopkins,ambient,sad,0.15,68,0.15,0.3,0.95,71,2000,melancholic;peaceful,0.04,0.9,251295,,https://www.last.fm/music/Jon+Hopkins/_/Small+Memory,gemini-estimate
+187,Clouds,Hiroshi Yoshimura,ambient,relaxed,0.1,72,0.4,0.3,0.85,64,1980,peaceful;dreamy,0.04,0.95,123379,,https://www.last.fm/music/Hiroshi+Yoshimura/_/Clouds,gemini-estimate
+188,Olson,Boards of Canada,ambient,chill,0.2,75,0.5,0.3,0.6,81,1990,nostalgic;dreamy,0.04,0.9,691707,,https://www.last.fm/music/Boards+of+Canada/_/Olson,gemini-estimate
+189,Emerald and Stone,Brian Eno,ambient,chill,0.1,70,0.3,0.2,0.9,72,2010,peaceful;dreamy,0.04,0.9,271488,,https://www.last.fm/music/Brian+Eno/_/Emerald+and+Stone,gemini-estimate
+190,Awake,Tycho,ambient,chill,0.6,170,0.6,0.55,0.15,75,2010,dreamy;uplifting,0.04,0.85,374258,,https://www.last.fm/music/Tycho/_/Awake,gemini-estimate
+191,A Meaningful Moment Through a Meaning(less) Process,Stars of the Lid,ambient,moody,0.1,65,0.15,0.08,0.85,68,2000,melancholic;peaceful,0.04,0.95,181170,,https://www.last.fm/music/Stars+of+the+Lid/_/A+Meaningful+Moment+Through+a+Meaning(less)+Process,gemini-estimate
+192,The Air Between Us,Hammock,ambient,chill,0.2,72,0.25,0.2,0.7,63,2000,peaceful;dreamy,0.03,0.9,116384,,https://www.last.fm/music/Hammock/_/The+Air+Between+Us,gemini-estimate
+193,DtMF,Bad Bunny,reggaeton,chill,0.65,96,0.55,0.75,0.35,89,2020,smooth;nostalgic,0.08,0.0,1421753,latin;melodic;plena;vocal;reggaeton,https://www.last.fm/music/Bad+Bunny/_/DtMF,gemini-estimate
+194,LA CANCIÓN,J Balvin,reggaeton,sad,0.65,176,0.43,0.75,0.22,82,2010,heartbroken;nostalgic,0.12,0.0,763990,reggaeton;latin;rnb;pop;sophisti-pop,https://www.last.fm/music/J+Balvin/_/LA+CANCI%C3%93N,gemini-estimate
+195,Gasolina,Daddy Yankee,reggaeton,energetic,0.81,96,0.8,0.85,0.02,88,2000,party;aggressive,0.06,0.0,1294375,reggaeton;latin;dance;daddy yankee;hip-hop,https://www.last.fm/music/Daddy+Yankee/_/Gasolina,gemini-estimate
+196,Qué Pasaría...,Rauw Alejandro,reggaeton,romantic,0.68,96,0.63,0.84,0.19,80,2010,smooth;romantic,0.09,0.0,594941,reggaeton;puerto rican pop,https://www.last.fm/music/Rauw+Alejandro/_/Qu%C3%A9+Pasar%C3%ADa...,gemini-estimate
+197,Se Preparó,Ozuna,reggaeton,happy,0.77,96,0.63,0.81,0.12,75,2010,groovy;confident,0.09,0.0,360189,reggaeton;latin;2010s,https://www.last.fm/music/Ozuna/_/Se+Prepar%C3%B3,gemini-estimate
+198,Classy 101,Feid,reggaeton,chill,0.66,100,0.67,0.86,0.14,74,2020,confident;smooth,0.11,0.0,338788,,https://www.last.fm/music/Feid/_/Classy+101,gemini-estimate
+199,LALA,Myke Towers,reggaeton,happy,0.72,92,0.61,0.71,0.08,73,2020,playful;groovy,0.09,0.0,296600,,https://www.last.fm/music/Myke+Towers/_/LALA,gemini-estimate
+200,Tusa,KAROL G,reggaeton,happy,0.72,101,0.57,0.8,0.3,78,2010,confident;party,0.3,0.0,496755,,https://www.last.fm/music/KAROL+G/_/Tusa,gemini-estimate
+201,NUEVAYoL,Bad Bunny,reggaeton,energetic,0.8,118,0.75,0.85,0.15,86,2020,party;confident,0.12,0.0,1129579,dembow;reggaeton,https://www.last.fm/music/Bad+Bunny/_/NUEVAYoL,gemini-estimate
+202,Mi Gente,J Balvin,reggaeton,energetic,0.72,105,0.45,0.85,0.02,82,2010,party;confident,0.08,0.0,722381,reggaeton;latin;latin pop;pop,https://www.last.fm/music/J+Balvin/_/Mi+Gente,gemini-estimate
+203,Con Calma,Daddy Yankee,reggaeton,happy,0.74,94,0.66,0.74,0.11,78,2010,playful;party,0.06,0.0,495951,,https://www.last.fm/music/Daddy+Yankee/_/Con+Calma,gemini-estimate
+204,Dile Que Tu Me Quieres,Ozuna,reggaeton,romantic,0.7,92,0.62,0.73,0.18,72,2010,romantic;smooth,0.06,0.0,288747,reggaeton;obra de arte;mejor canción de la historia,https://www.last.fm/music/Ozuna/_/Dile+Que+Tu+Me+Quieres,gemini-estimate
+205,Temperature,Sean Paul,dancehall,energetic,0.85,125,0.82,0.86,0.1,89,2000,party;confident,0.12,0.0,1433890,dancehall;reggae;sean paul;hip-hop;dance,https://www.last.fm/music/Sean+Paul/_/Temperature,gemini-estimate
+206,Fever,Vybz Kartel,dancehall,energetic,0.7,103,0.78,0.85,0.15,59,2010,confident;groovy,0.25,0.0,80943,,https://www.last.fm/music/Vybz+Kartel/_/Fever,gemini-estimate
+207,TWIST & TURN (feat. Drake & PARTYNEXTDOOR),Popcaan,dancehall,chill,0.55,100,0.6,0.78,0.18,65,2020,smooth;groovy,0.1,0.0,137961,,https://www.last.fm/music/Popcaan/_/TWIST+&+TURN+(feat.+Drake+&+PARTYNEXTDOOR),gemini-estimate
+208,Shen Yeng Anthem,Shenseea,dancehall,energetic,0.78,104,0.72,0.84,0.12,57,2010,confident;rebellious,0.2,0.0,63157,,https://www.last.fm/music/Shenseea/_/Shen+Yeng+Anthem,gemini-estimate
+209,It Wasn't Me,Shaggy,dancehall,happy,0.61,95,0.93,0.85,0.05,88,2000,playful;party,0.07,0.0,1288951,reggae;pop;shaggy;hip-hop;rnb,https://www.last.fm/music/Shaggy/_/It+Wasn%27t+Me,gemini-estimate
+210,Go Down Deh (feat. Sean Paul & Shaggy),Spice,dancehall,energetic,0.84,102,0.78,0.88,0.08,62,2020,party;confident,0.15,0.0,105854,,https://www.last.fm/music/Spice/_/Go+Down+Deh+(feat.+Sean+Paul+&+Shaggy),gemini-estimate
+211,Who Am I,Beenie Man,dancehall,energetic,0.75,94,0.82,0.89,0.06,62,1990,party;groovy,0.16,0.0,108437,,https://www.last.fm/music/Beenie+Man/_/Who+Am+I,gemini-estimate
+212,Crocodile Teeth,Skillibeng,dancehall,intense,0.7,100,0.35,0.8,0.15,50,2020,aggressive;rebellious,0.35,0.0,31984,,https://www.last.fm/music/Skillibeng/_/Crocodile+Teeth,gemini-estimate
+213,Get Busy,Sean Paul,dancehall,energetic,0.8,100,0.75,0.88,0.08,85,2000,party;groovy,0.15,0.0,981670,dancehall;reggae;dance;sean paul;hip-hop,https://www.last.fm/music/Sean+Paul/_/Get+Busy,gemini-estimate
+214,Clarks,Vybz Kartel,dancehall,chill,0.65,96,0.7,0.82,0.2,54,2010,groovy;confident,0.3,0.0,46722,,https://www.last.fm/music/Vybz+Kartel/_/Clarks,gemini-estimate
+215,We Caa Done (feat. Drake),Popcaan,dancehall,chill,0.62,100,0.65,0.8,0.15,64,2020,smooth;groovy,0.08,0.0,124874,,https://www.last.fm/music/Popcaan/_/We+Caa+Done+(feat.+Drake),gemini-estimate
+216,Lick (with Megan Thee Stallion),Shenseea,dancehall,energetic,0.82,108,0.6,0.86,0.08,55,2020,party;confident,0.25,0.0,52342,,https://www.last.fm/music/Shenseea/_/Lick+(with+Megan+Thee+Stallion),gemini-estimate
+217,Doja,Central Cee,drill,energetic,0.75,140,0.65,0.85,0.05,82,2020,confident;playful,0.3,0.0,712869,,https://www.last.fm/music/Central+Cee/_/Doja,gemini-estimate
+218,Only You Freestyle,Headie One,drill,intense,0.8,141,0.4,0.78,0.05,68,2020,confident;aggressive,0.35,0.0,192222,,https://www.last.fm/music/Headie+One/_/Only+You+Freestyle,gemini-estimate
+219,Dior,Pop Smoke,drill,intense,0.82,142,0.6,0.8,0.02,82,2010,aggressive;confident,0.27,0.0,715920,drill;gangsta rap;uk drill;new york;trap,https://www.last.fm/music/Pop+Smoke/_/Dior,gemini-estimate
+220,Energy,Digga D,drill,energetic,0.8,141,0.55,0.78,0.05,59,2020,confident;rebellious,0.32,0.0,78683,,https://www.last.fm/music/Digga+D/_/Energy,gemini-estimate
+221,City of Gods,Fivio Foreign,drill,intense,0.88,144,0.4,0.68,0.08,73,2020,confident;aggressive,0.26,0.0,310019,,https://www.last.fm/music/Fivio+Foreign/_/City+of+Gods,gemini-estimate
+222,Reggae & Calypso (Russ Millions x Buni x YV),Russ Millions,drill,energetic,0.87,141,0.7,0.84,0.03,61,2020,party;groovy,0.32,0.0,97722,,https://www.last.fm/music/Russ+Millions/_/Reggae+&+Calypso+(Russ+Millions+x+Buni+x+YV),gemini-estimate
+223,Warm,K-Trap,drill,intense,0.82,142,0.45,0.79,0.06,56,2020,aggressive;confident,0.34,0.0,58296,,https://www.last.fm/music/K-Trap/_/Warm,gemini-estimate
+224,PSA,Kay Flock,drill,angry,0.92,144,0.35,0.7,0.02,70,2020,aggressive;rebellious,0.42,0.0,219483,,https://www.last.fm/music/Kay+Flock/_/PSA,gemini-estimate
+225,Sprinter,Dave,drill,energetic,0.74,141,0.66,0.92,0.19,82,2020,confident;groovy,0.27,0.0,763081,uk hip hop;dave;uk drill;central cee;drill,https://www.last.fm/music/Dave/_/Sprinter,gemini-estimate
+226,BAND4BAND (feat. Lil Baby),Central Cee,drill,intense,0.85,142,0.5,0.8,0.02,79,2020,confident;aggressive,0.35,0.0,557220,,https://www.last.fm/music/Central+Cee/_/BAND4BAND+(feat.+Lil+Baby),gemini-estimate
+227,Ain't It Different (feat. AJ Tracey & Stormzy),Headie One,drill,energetic,0.78,140,0.6,0.82,0.1,65,2020,confident;party,0.28,0.0,139838,,https://www.last.fm/music/Headie+One/_/Ain%27t+It+Different+(feat.+AJ+Tracey+&+Stormzy),gemini-estimate
+228,What You Know Bout Love,Pop Smoke,drill,romantic,0.7,85,0.7,0.7,0.12,81,2020,smooth;romantic,0.1,0.0,691867,rap;pop rap;pop smoke;2020;2020s,https://www.last.fm/music/Pop+Smoke/_/What+You+Know+Bout+Love,gemini-estimate
+229,Los Angeles,The Midnight,synthwave,moody,0.65,100,0.5,0.6,0.05,61,2010,nostalgic;dreamy,0.04,0.05,98227,,https://www.last.fm/music/The+Midnight/_/Los+Angeles,gemini-estimate
+230,Running in the Night,FM-84,synthwave,energetic,0.75,118,0.65,0.65,0.05,63,2010,nostalgic;euphoric,0.04,0.01,118821,,https://www.last.fm/music/FM-84/_/Running+in+the+Night,gemini-estimate
+231,Nightcall,Kavinsky,synthwave,moody,0.55,92,0.35,0.75,0.02,88,2010,dark;nostalgic,0.05,0.01,1270121,electronic;sexy;chill;electro;drive,https://www.last.fm/music/Kavinsky/_/Nightcall,gemini-estimate
+232,Tech Noir,Gunship,synthwave,moody,0.7,100,0.4,0.55,0.05,64,2010,nostalgic;dark,0.04,0.05,126504,,https://www.last.fm/music/Gunship/_/Tech+Noir,gemini-estimate
+233,On the Run,Timecop1983,synthwave,moody,0.65,110,0.5,0.6,0.05,59,2010,nostalgic;dreamy,0.03,0.8,79898,,https://www.last.fm/music/Timecop1983/_/On+the+Run,gemini-estimate
+234,Roller Mobster,Carpenter Brut,synthwave,intense,0.95,130,0.3,0.55,0.01,70,2010,dark;aggressive,0.08,0.85,234576,,https://www.last.fm/music/Carpenter+Brut/_/Roller+Mobster,gemini-estimate
+235,Future Club,Perturbator,synthwave,intense,0.9,124,0.25,0.6,0.01,69,2010,dark;aggressive,0.05,0.85,203680,,https://www.last.fm/music/Perturbator/_/Future+Club,gemini-estimate
+236,Frantic Aerobics,Mitch Murder,synthwave,happy,0.8,125,0.85,0.7,0.03,54,2010,playful;nostalgic,0.04,0.9,49096,,https://www.last.fm/music/Mitch+Murder/_/Frantic+Aerobics,gemini-estimate
+237,Sunset,The Midnight,synthwave,energetic,0.75,115,0.7,0.65,0.05,61,2010,nostalgic;confident,0.04,0.02,97719,,https://www.last.fm/music/The+Midnight/_/Sunset,gemini-estimate
+238,Arcade Summer,FM-84,synthwave,happy,0.7,110,0.75,0.65,0.05,55,2010,nostalgic;uplifting,0.03,0.85,51483,,https://www.last.fm/music/FM-84/_/Arcade+Summer,gemini-estimate
+239,Odd Look,Kavinsky,synthwave,intense,0.8,115,0.5,0.7,0.02,76,2010,confident;groovy,0.05,0.05,410702,,https://www.last.fm/music/Kavinsky/_/Odd+Look,gemini-estimate
+240,Fly For Your Life,Gunship,synthwave,energetic,0.85,120,0.5,0.6,0.02,57,2010,confident;aggressive,0.05,0.02,63268,,https://www.last.fm/music/Gunship/_/Fly+For+Your+Life,gemini-estimate
+241,Sofia,Clairo,indie pop,energetic,0.7,115,0.65,0.6,0.2,91,2010,euphoric;uplifting,0.04,0.05,1811149,indie pop;pop;bedroom pop;indie;alternative pop,https://www.last.fm/music/Clairo/_/Sofia,gemini-estimate
+242,Best Friend,Rex Orange County,indie pop,happy,0.65,106,0.75,0.6,0.4,85,2010,playful;uplifting,0.06,0.0,949476,yearning;indie pop;bedroom pop;indie,https://www.last.fm/music/Rex+Orange+County/_/Best+Friend,gemini-estimate
+243,Goodie Bag,Still Woozy,indie pop,chill,0.6,85,0.75,0.8,0.3,83,2010,groovy;playful,0.05,0.02,836559,,https://www.last.fm/music/Still+Woozy/_/Goodie+Bag,gemini-estimate
+244,the perfect pair,beabadoobee,indie pop,chill,0.5,108,0.7,0.75,0.7,90,2020,smooth;cozy,0.04,0.0,1627183,bossa nova;indie pop;loonaids;bedroom pop,https://www.last.fm/music/beabadoobee/_/the+perfect+pair,gemini-estimate
+245,Can I Call You Tonight?,Dayglow,indie pop,happy,0.75,122,0.85,0.68,0.25,86,2010,uplifting;nostalgic,0.03,0.0,1144871,indie;indie pop;english;pop;jangle pop,https://www.last.fm/music/Dayglow/_/Can+I+Call+You+Tonight%3F,gemini-estimate
+246,Somebody Else,The 1975,indie pop,moody,0.62,101,0.47,0.61,0.2,87,2010,melancholic;dreamy,0.05,0.01,1182809,wsum 91.7 fm madison;indie;melodramatic;pop;atmospheric,https://www.last.fm/music/The+1975/_/Somebody+Else,gemini-estimate
+247,Are You Bored Yet? (feat. Clairo),Wallows,indie pop,chill,0.68,120,0.65,0.68,0.15,90,2010,nostalgic;dreamy,0.03,0.0,1652254,indie;alternative;indie pop;rock;bedroom pop,https://www.last.fm/music/Wallows/_/Are+You+Bored+Yet%3F+(feat.+Clairo),gemini-estimate
+248,we fell in love in october,girl in red,indie pop,romantic,0.55,130,0.5,0.55,0.12,92,2010,romantic;nostalgic,0.03,0.0,1965826,dream pop;singer-songwriter;bedroom pop;indie pop;jangle pop,https://www.last.fm/music/girl+in+red/_/we+fell+in+love+in+october,gemini-estimate
+249,Bags,Clairo,indie pop,chill,0.45,105,0.4,0.55,0.8,91,2010,dreamy;melancholic,0.03,0.0,1700027,bedroom pop;indie pop;dream pop;indie rock;pop,https://www.last.fm/music/Clairo/_/Bags,gemini-estimate
+250,Sunflower,Rex Orange County,indie pop,happy,0.7,143,0.8,0.75,0.45,84,2010,groovy;uplifting,0.05,0.0,892986,indie;indie pop;sophisti-pop;jazz pop;jangle pop,https://www.last.fm/music/Rex+Orange+County/_/Sunflower,gemini-estimate
+251,Habit,Still Woozy,indie pop,chill,0.65,108,0.8,0.82,0.35,76,2010,groovy;smooth,0.04,0.0,409306,,https://www.last.fm/music/Still+Woozy/_/Habit,gemini-estimate
+252,Glue Song,beabadoobee,indie pop,romantic,0.3,100,0.6,0.5,0.85,88,2020,cozy;romantic,0.03,0.0,1323610,singer-songwriter;chamber pop;chamber folk;love,https://www.last.fm/music/beabadoobee/_/Glue+Song,gemini-estimate
+253,Kiss Kiss Bang Bang,High Contrast,liquid dnb,energetic,0.88,174,0.75,0.55,0.05,63,2000,euphoric;uplifting,0.06,0.3,113353,,https://www.last.fm/music/High+Contrast/_/Kiss+Kiss+Bang+Bang,gemini-estimate
+254,Everybody Loves The Sunshine,Netsky,liquid dnb,happy,0.8,175,0.85,0.6,0.15,62,2010,groovy;uplifting,0.05,0.2,107442,,https://www.last.fm/music/Netsky/_/Everybody+Loves+The+Sunshine,gemini-estimate
+255,Just One Second,London Elektricity,liquid dnb,happy,0.85,174,0.85,0.55,0.1,55,2000,euphoric;uplifting,0.05,0.1,51015,,https://www.last.fm/music/London+Elektricity/_/Just+One+Second,gemini-estimate
+256,Even If - Original Mix,Calibre,liquid dnb,moody,0.75,172,0.5,0.58,0.15,52,2010,smooth;melancholic,0.05,0.3,40840,,https://www.last.fm/music/Calibre/_/Even+If+-+Original+Mix,gemini-estimate
+257,Touch,Hybrid Minds,liquid dnb,romantic,0.8,174,0.6,0.5,0.15,59,2010,romantic;euphoric,0.04,0.0,79149,,https://www.last.fm/music/Hybrid+Minds/_/Touch,gemini-estimate
+258,Phoneline,Pola & Bryson,liquid dnb,moody,0.82,174,0.5,0.55,0.12,59,2020,melancholic;smooth,0.05,0.0,76309,,https://www.last.fm/music/Pola+&+Bryson/_/Phoneline,gemini-estimate
+259,Lakota,Technimatic,liquid dnb,happy,0.84,174,0.75,0.54,0.1,49,2020,euphoric;uplifting,0.04,0.3,29183,,https://www.last.fm/music/Technimatic/_/Lakota,gemini-estimate
+260,By Your Side,S.P.Y,liquid dnb,energetic,0.88,174,0.78,0.52,0.05,46,2010,euphoric;uplifting,0.05,0.1,22216,,https://www.last.fm/music/S.P.Y/_/By+Your+Side,gemini-estimate
+261,If We Ever,High Contrast,liquid dnb,energetic,0.85,174,0.8,0.58,0.1,60,2000,euphoric;uplifting,0.05,0.1,87443,,https://www.last.fm/music/High+Contrast/_/If+We+Ever,gemini-estimate
+262,Iron Heart,Netsky,liquid dnb,energetic,0.9,175,0.75,0.52,0.02,62,2010,euphoric;uplifting,0.06,0.7,100994,,https://www.last.fm/music/Netsky/_/Iron+Heart,gemini-estimate
+263,Billion Dollar Gravy,London Elektricity,liquid dnb,happy,0.8,172,0.78,0.62,0.12,53,2000,groovy;uplifting,0.06,0.2,42160,,https://www.last.fm/music/London+Elektricity/_/Billion+Dollar+Gravy,gemini-estimate
+264,mr majestic,Calibre,liquid dnb,happy,0.88,174,0.88,0.6,0.05,51,2000,euphoric;groovy,0.05,0.8,36116,,https://www.last.fm/music/Calibre/_/mr+majestic,gemini-estimate
+265,I Got You (I Feel Good),James Brown,funk,energetic,0.82,144,0.88,0.65,0.45,79,1960,groovy;playful,0.1,0.0,534878,,https://www.last.fm/music/James+Brown/_/I+Got+You+(I+Feel+Good),gemini-estimate
+266,Give Up The Funk (Tear The Roof Off The Sucker),Parliament,funk,energetic,0.8,106,0.85,0.82,0.1,73,1970,groovy;party,0.07,0.0,319863,,https://www.last.fm/music/Parliament/_/Give+Up+The+Funk+(Tear+The+Roof+Off+The+Sucker),gemini-estimate
+267,Everyday People,Sly & The Family Stone,funk,happy,0.6,116,0.82,0.72,0.35,78,1960,uplifting;groovy,0.04,0.0,505763,,https://www.last.fm/music/Sly+&+The+Family+Stone/_/Everyday+People,gemini-estimate
+268,Back Pocket,Vulfpeck,funk,happy,0.65,110,0.88,0.82,0.35,72,2010,playful;groovy,0.06,0.01,280173,,https://www.last.fm/music/Vulfpeck/_/Back+Pocket,gemini-estimate
+269,Uptown Funk (feat. Bruno Mars),Mark Ronson,funk,energetic,0.85,115,0.92,0.86,0.01,88,2010,party;confident,0.08,0.0,1308090,funk;pop;2014;bruno mars,https://www.last.fm/music/Mark+Ronson/_/Uptown+Funk+(feat.+Bruno+Mars),gemini-estimate
+270,Golden,Cory Wong,funk,happy,0.75,115,0.8,0.75,0.15,54,2020,groovy;uplifting,0.04,0.75,46863,,https://www.last.fm/music/Cory+Wong/_/Golden,gemini-estimate
+271,Get Down On It,Kool & the Gang,funk,energetic,0.78,111,0.9,0.88,0.1,81,1980,party;groovy,0.06,0.0,661865,funk;disco;80s;dance;soul,https://www.last.fm/music/Kool+&+the+Gang/_/Get+Down+On+It,gemini-estimate
+272,September,"Earth, Wind & Fire",funk,happy,0.83,126,0.98,0.69,0.17,93,1970,uplifting;party,0.03,0.0,2203261,funk;disco;70s;soul;dance,"https://www.last.fm/music/Earth,+Wind+&+Fire/_/September",gemini-estimate
+273,Get Up Offa That Thing,James Brown,funk,energetic,0.88,114,0.85,0.78,0.15,77,1970,groovy;party,0.12,0.02,456830,,https://www.last.fm/music/James+Brown/_/Get+Up+Offa+That+Thing,gemini-estimate
+274,Flash Light,Parliament,funk,energetic,0.78,106,0.8,0.88,0.05,73,1970,groovy;party,0.09,0.01,305403,,https://www.last.fm/music/Parliament/_/Flash+Light,gemini-estimate
+275,If You Want Me To Stay,Sly & The Family Stone,funk,relaxed,0.55,101,0.7,0.77,0.25,76,1970,groovy;smooth,0.05,0.01,403919,,https://www.last.fm/music/Sly+&+The+Family+Stone/_/If+You+Want+Me+To+Stay,gemini-estimate
+276,Wait For The Moment,Vulfpeck,funk,relaxed,0.45,82,0.65,0.7,0.5,67,2010,smooth;groovy,0.04,0.01,178037,,https://www.last.fm/music/Vulfpeck/_/Wait+For+The+Moment,gemini-estimate
+277,Respect,Aretha Franklin,soul,energetic,0.8,115,0.85,0.65,0.15,88,1960,confident;groovy,0.05,0.0,1333629,,https://www.last.fm/music/Aretha+Franklin/_/Respect,gemini-estimate
+278,Ain't No Mountain High Enough,Marvin Gaye,soul,happy,0.75,130,0.8,0.66,0.4,90,1960,uplifting;euphoric,0.04,0.0,1688856,soul;motown;60s;oldies;marvin gaye,https://www.last.fm/music/Marvin+Gaye/_/Ain%27t+No+Mountain+High+Enough,gemini-estimate
+279,(Sittin' On) The Dock of the Bay,Otis Redding,soul,chill,0.35,104,0.55,0.7,0.65,87,1960,peaceful;nostalgic,0.03,0.0,1165816,,https://www.last.fm/music/Otis+Redding/_/(Sittin%27+On)+The+Dock+of+the+Bay,gemini-estimate
+280,Let's Stay Together,Al Green,soul,romantic,0.45,102,0.7,0.7,0.4,89,1970,smooth;romantic,0.04,0.0,1429971,soul;70s;oldies;love;soundtrack,https://www.last.fm/music/Al+Green/_/Let%27s+Stay+Together,gemini-estimate
+281,Coming Home,Leon Bridges,soul,romantic,0.4,90,0.65,0.6,0.6,79,2010,smooth;nostalgic,0.03,0.0,537527,,https://www.last.fm/music/Leon+Bridges/_/Coming+Home,gemini-estimate
+282,Back to Black,Amy Winehouse,soul,moody,0.65,110,0.4,0.6,0.05,96,2000,heartbroken;melancholic,0.04,0.0,2763098,soul;jazz;female vocalists;british;amy winehouse,https://www.last.fm/music/Amy+Winehouse/_/Back+to+Black,gemini-estimate
+283,Ain't No Sunshine,Bill Withers,soul,moody,0.45,78,0.4,0.75,0.8,91,1970,melancholic;nostalgic,0.05,0.0,1833765,soul;70s;blues;oldies;mellow,https://www.last.fm/music/Bill+Withers/_/Ain%27t+No+Sunshine,gemini-estimate
+284,I Say a Little Prayer,Aretha Franklin,soul,happy,0.65,133,0.85,0.6,0.35,85,1960,uplifting;romantic,0.04,0.0,1012764,,https://www.last.fm/music/Aretha+Franklin/_/I+Say+a+Little+Prayer,gemini-estimate
+285,What's Going On,Marvin Gaye,soul,relaxed,0.55,100,0.7,0.67,0.45,86,1970,groovy;smooth,0.06,0.0,1144069,soul;motown;70s;marvin gaye;oldies,https://www.last.fm/music/Marvin+Gaye/_/What%27s+Going+On,gemini-estimate
+286,Try a Little Tenderness,Otis Redding,soul,intense,0.55,95,0.5,0.45,0.55,80,1960,romantic;uplifting,0.04,0.0,606751,,https://www.last.fm/music/Otis+Redding/_/Try+a+Little+Tenderness,gemini-estimate
+287,Tired of Being Alone,Al Green,soul,romantic,0.5,110,0.65,0.65,0.35,82,1970,smooth;melancholic,0.03,0.0,757495,,https://www.last.fm/music/Al+Green/_/Tired+of+Being+Alone,gemini-estimate
+288,River,Leon Bridges,soul,chill,0.2,128,0.35,0.55,0.85,78,2010,peaceful;melancholic,0.03,0.0,478568,,https://www.last.fm/music/Leon+Bridges/_/River,gemini-estimate
+289,Stayin' Alive,Bee Gees,disco,energetic,0.83,104,0.7,0.7,0.16,88,1970,groovy;confident,0.04,0.0,1345401,,https://www.last.fm/music/Bee+Gees/_/Stayin%27+Alive,gemini-estimate
+290,Hot Stuff,Donna Summer,disco,energetic,0.88,120,0.85,0.7,0.04,81,1970,party;groovy,0.05,0.0,653370,,https://www.last.fm/music/Donna+Summer/_/Hot+Stuff,gemini-estimate
+291,Good Times,Chic,disco,happy,0.73,110,0.87,0.81,0.35,77,1970,groovy;playful,0.05,0.02,449872,,https://www.last.fm/music/Chic/_/Good+Times,gemini-estimate
+292,I Will Survive,Gloria Gaynor,disco,energetic,0.78,116,0.55,0.56,0.02,86,1970,uplifting;confident,0.04,0.0,1059427,disco;70s;dance;female vocalists;pop,https://www.last.fm/music/Gloria+Gaynor/_/I+Will+Survive,gemini-estimate
+293,We Are Family,Sister Sledge,disco,happy,0.78,118,0.85,0.75,0.15,73,1970,uplifting;party,0.04,0.0,320987,,https://www.last.fm/music/Sister+Sledge/_/We+Are+Family,gemini-estimate
+294,Rasputin,Boney M.,disco,energetic,0.9,126,0.82,0.74,0.04,83,1970,party;playful,0.08,0.0,825057,disco;70s;pop;dance;80s,https://www.last.fm/music/Boney+M./_/Rasputin,gemini-estimate
+295,More Than a Woman,Bee Gees,disco,romantic,0.7,106,0.75,0.65,0.4,86,1970,smooth;groovy,0.03,0.0,1113931,,https://www.last.fm/music/Bee+Gees/_/More+Than+a+Woman,gemini-estimate
+296,I Feel Love,Donna Summer,disco,energetic,0.85,126,0.65,0.73,0.02,78,1970,euphoric;groovy,0.04,0.05,486809,,https://www.last.fm/music/Donna+Summer/_/I+Feel+Love,gemini-estimate
+297,Le Freak,Chic,disco,energetic,0.84,119,0.9,0.9,0.13,76,1970,groovy;party,0.04,0.0,409223,,https://www.last.fm/music/Chic/_/Le+Freak,gemini-estimate
+298,Never Can Say Goodbye,Gloria Gaynor,disco,happy,0.82,123,0.82,0.72,0.07,62,1970,groovy;uplifting,0.04,0.0,105646,,https://www.last.fm/music/Gloria+Gaynor/_/Never+Can+Say+Goodbye,gemini-estimate
+299,He's the Greatest Dancer,Sister Sledge,disco,happy,0.78,114,0.88,0.8,0.18,69,1970,groovy;playful,0.05,0.0,210448,,https://www.last.fm/music/Sister+Sledge/_/He%27s+the+Greatest+Dancer,gemini-estimate
+300,Daddy Cool,Boney M.,disco,energetic,0.86,124,0.86,0.85,0.03,82,1970,groovy;playful,0.06,0.02,759326,,https://www.last.fm/music/Boney+M./_/Daddy+Cool,gemini-estimate
+301,One More Time,Daft Punk,house,energetic,0.88,123,0.85,0.61,0.03,94,2000,euphoric;party,0.05,0.0,2444683,electronic;dance;house;electronica;techno,https://www.last.fm/music/Daft+Punk/_/One+More+Time,gemini-estimate
+302,Latch,Disclosure,house,energetic,0.88,122,0.52,0.5,0.02,89,2010,euphoric;romantic,0.09,0.0,1497837,,https://www.last.fm/music/Disclosure/_/Latch,gemini-estimate
+303,You're the One,KAYTRANADA,house,chill,0.6,110,0.65,0.86,0.15,78,2010,groovy;smooth,0.06,0.01,492471,,https://www.last.fm/music/KAYTRANADA/_/You%27re+the+One,gemini-estimate
+304,Hypnotized,Purple Disco Machine,house,energetic,0.88,121,0.7,0.72,0.03,68,2020,groovy;party,0.04,0.0,194973,,https://www.last.fm/music/Purple+Disco+Machine/_/Hypnotized,gemini-estimate
+305,Summer,Calvin Harris,house,energetic,0.86,128,0.74,0.6,0.02,90,2010,euphoric;party,0.04,0.01,1664574,dance;summer;house;electronic;2014,https://www.last.fm/music/Calvin+Harris/_/Summer,gemini-estimate
+306,Marea (We’ve Lost Dancing),Fred again..,house,energetic,0.68,126,0.25,0.68,0.09,76,2020,euphoric;nostalgic,0.08,0.0,422053,,https://www.last.fm/music/Fred+again../_/Marea+(We%E2%80%99ve+Lost+Dancing),gemini-estimate
+307,"Harder, Better, Faster, Stronger",Daft Punk,house,energetic,0.73,123,0.65,0.84,0.05,92,2000,groovy;party,0.14,0.01,1883736,electronic;dance;house;techno;electronica,"https://www.last.fm/music/Daft+Punk/_/Harder,+Better,+Faster,+Stronger",gemini-estimate
+308,White Noise,Disclosure,house,energetic,0.78,120,0.67,0.77,0.02,78,2010,party;groovy,0.04,0.0,502732,,https://www.last.fm/music/Disclosure/_/White+Noise,gemini-estimate
+309,Intimidated (feat. H.E.R.),KAYTRANADA,house,chill,0.62,115,0.58,0.82,0.1,78,2020,smooth;groovy,0.05,0.0,485076,,https://www.last.fm/music/KAYTRANADA/_/Intimidated+(feat.+H.E.R.),gemini-estimate
+310,Substitution (feat. Julian Perretta),Purple Disco Machine,house,energetic,0.85,124,0.75,0.7,0.02,64,2020,groovy;party,0.05,0.0,134759,,https://www.last.fm/music/Purple+Disco+Machine/_/Substitution+(feat.+Julian+Perretta),gemini-estimate
+311,This Is What You Came For,Calvin Harris,house,energetic,0.77,124,0.47,0.63,0.2,89,2010,euphoric;party,0.09,0.0,1418649,rihanna;house;edm;taylor swift;2016,https://www.last.fm/music/Calvin+Harris/_/This+Is+What+You+Came+For,gemini-estimate
+312,I Smile,Kirk Franklin,gospel,happy,0.78,86,0.85,0.68,0.15,58,2010,uplifting;hopeful,0.08,0.0,72135,,https://www.last.fm/music/Kirk+Franklin/_/I+Smile,gemini-estimate
+313,Alabaster Box,CeCe Winans,gospel,relaxed,0.45,68,0.5,0.4,0.6,42,1990,peaceful;uplifting,0.04,0.0,15483,,https://www.last.fm/music/CeCe+Winans/_/Alabaster+Box,gemini-estimate
+314,"I Thank God (feat. Dante Bowe, Maryanne Joshua George & Aaron Moses)",Maverick City Music,gospel,energetic,0.85,130,0.75,0.55,0.15,52,2020,uplifting;hopeful,0.07,0.0,40449,,"https://www.last.fm/music/Maverick+City+Music/_/I+Thank+God+(feat.+Dante+Bowe,+Maryanne+Joshua+George+&+Aaron+Moses)",gemini-estimate
+315,Way Maker,Sinach,gospel,relaxed,0.55,68,0.5,0.45,0.35,31,2010,peaceful;uplifting,0.04,0.0,5036,,https://www.last.fm/music/Sinach/_/Way+Maker,gemini-estimate
+316,Wonder,Mercy Chinwo,gospel,energetic,0.8,115,0.8,0.68,0.2,25,2020,uplifting;confident,0.06,0.0,2771,,https://www.last.fm/music/Mercy+Chinwo/_/Wonder,gemini-estimate
+317,I'm Getting Ready,Tasha Cobbs Leonard,gospel,energetic,0.75,120,0.65,0.5,0.25,41,2010,uplifting;confident,0.06,0.0,13506,,https://www.last.fm/music/Tasha+Cobbs+Leonard/_/I%27m+Getting+Ready,gemini-estimate
+318,Olorun Agbaye - You Are Mighty,Nathaniel Bassey,gospel,relaxed,0.62,76,0.6,0.52,0.3,30,2020,peaceful;uplifting,0.05,0.0,4781,,https://www.last.fm/music/Nathaniel+Bassey/_/Olorun+Agbaye+-+You+Are+Mighty,gemini-estimate
+319,Looking for You,Kirk Franklin,gospel,energetic,0.85,118,0.85,0.75,0.05,55,2000,uplifting;groovy,0.08,0.0,51352,,https://www.last.fm/music/Kirk+Franklin/_/Looking+for+You,gemini-estimate
+320,Holy Forever,CeCe Winans,gospel,relaxed,0.55,72,0.45,0.45,0.4,41,2020,peaceful;uplifting,0.04,0.0,13754,,https://www.last.fm/music/CeCe+Winans/_/Holy+Forever,gemini-estimate
+321,Rest on Us (feat. Brandon Lake & Eniola Abioye),Maverick City Music,gospel,relaxed,0.55,74,0.45,0.4,0.4,51,2020,peaceful;hopeful,0.04,0.0,36123,,https://www.last.fm/music/Maverick+City+Music/_/Rest+on+Us+(feat.+Brandon+Lake+&+Eniola+Abioye),gemini-estimate
+322,I Know Who I Am,Sinach,gospel,energetic,0.88,125,0.85,0.65,0.1,26,2010,uplifting;confident,0.08,0.0,3035,,https://www.last.fm/music/Sinach/_/I+Know+Who+I+Am,gemini-estimate
+323,Na You Dey Reign,Mercy Chinwo,gospel,energetic,0.82,120,0.85,0.72,0.15,23,2020,uplifting;groovy,0.07,0.0,2350,,https://www.last.fm/music/Mercy+Chinwo/_/Na+You+Dey+Reign,gemini-estimate
+324,The Thrill Is Gone,B.B. King,blues,moody,0.45,90,0.35,0.55,0.25,81,1960,melancholic;smooth,0.04,0.15,664191,,https://www.last.fm/music/B.B.+King/_/The+Thrill+Is+Gone,gemini-estimate
+325,Mannish Boy,Muddy Waters,blues,energetic,0.75,120,0.65,0.6,0.5,77,1950,confident;groovy,0.12,0.01,470015,,https://www.last.fm/music/Muddy+Waters/_/Mannish+Boy,gemini-estimate
+326,Bright Lights,Gary Clark Jr.,blues,intense,0.8,112,0.4,0.45,0.05,68,2010,dark;rebellious,0.05,0.15,197591,,https://www.last.fm/music/Gary+Clark+Jr./_/Bright+Lights,gemini-estimate
+327,Pride And Joy,Stevie Ray Vaughan,blues,energetic,0.85,125,0.8,0.6,0.1,78,1980,groovy;confident,0.05,0.05,508419,,https://www.last.fm/music/Stevie+Ray+Vaughan/_/Pride+And+Joy,gemini-estimate
+328,Boom Boom,John Lee Hooker,blues,energetic,0.7,130,0.7,0.65,0.5,78,1960,groovy;confident,0.06,0.02,478427,,https://www.last.fm/music/John+Lee+Hooker/_/Boom+Boom,gemini-estimate
+329,I'd Rather Go Blind,Etta James,blues,sad,0.4,72,0.25,0.4,0.5,85,1960,heartbroken;melancholic,0.03,0.01,989478,soul;blues;female vocalists;jazz;60s,https://www.last.fm/music/Etta+James/_/I%27d+Rather+Go+Blind,gemini-estimate
+330,How Blue Can You Get?,B.B. King,blues,moody,0.5,115,0.4,0.5,0.3,65,1960,melancholic;confident,0.05,0.05,146662,,https://www.last.fm/music/B.B.+King/_/How+Blue+Can+You+Get%3F,gemini-estimate
+331,Rollin' Stone,Muddy Waters,blues,moody,0.4,80,0.4,0.5,0.8,68,1950,dark;melancholic,0.08,0.05,196490,,https://www.last.fm/music/Muddy+Waters/_/Rollin%27+Stone,gemini-estimate
+332,Texas Flood,Stevie Ray Vaughan,blues,intense,0.55,60,0.35,0.4,0.1,73,1980,melancholic;dark,0.04,0.1,319183,,https://www.last.fm/music/Stevie+Ray+Vaughan/_/Texas+Flood,gemini-estimate
+333,"One Bourbon, One Scotch, One Beer",John Lee Hooker,blues,relaxed,0.5,115,0.5,0.6,0.6,70,1960,groovy;smooth,0.15,0.01,234762,,"https://www.last.fm/music/John+Lee+Hooker/_/One+Bourbon,+One+Scotch,+One+Beer",gemini-estimate
+334,Don't Owe You a Thang,Gary Clark Jr.,blues,energetic,0.85,130,0.75,0.55,0.15,63,2010,groovy;rebellious,0.06,0.05,117249,,https://www.last.fm/music/Gary+Clark+Jr./_/Don%27t+Owe+You+a+Thang,gemini-estimate
+335,American Idiot,Green Day,punk,energetic,0.98,186,0.65,0.38,0.0,95,2000,rebellious;aggressive,0.08,0.0,2671420,punk rock;rock;punk;alternative;green day,https://www.last.fm/music/Green+Day/_/American+Idiot,gemini-estimate
+336,I Wanna Be Sedated,Ramones,punk,energetic,0.88,164,0.85,0.52,0.05,83,1970,rebellious;playful,0.05,0.0,846187,,https://www.last.fm/music/Ramones/_/I+Wanna+Be+Sedated,gemini-estimate
+337,Should I Stay or Should I Go - remastered,The Clash,punk,energetic,0.84,113,0.82,0.74,0.09,90,1980,rebellious;groovy,0.08,0.0,1600311,punk rock;rock;punk;classic rock,https://www.last.fm/music/The+Clash/_/Should+I+Stay+or+Should+I+Go+-+remastered,gemini-estimate
+338,All the Small Things,blink-182,punk,happy,0.9,148,0.88,0.43,0.01,94,1990,playful;uplifting,0.05,0.0,2378189,punk rock;pop punk;punk;rock;blink 182,https://www.last.fm/music/blink-182/_/All+the+Small+Things,gemini-estimate
+339,God Save the Queen,Sex Pistols,punk,angry,0.94,148,0.68,0.42,0.0,84,1970,rebellious;aggressive,0.08,0.0,933271,,https://www.last.fm/music/Sex+Pistols/_/God+Save+the+Queen,gemini-estimate
+340,Misery Business,Paramore,punk,energetic,0.96,160,0.69,0.56,0.01,96,2000,rebellious;confident,0.08,0.0,2830109,rock;pop punk;female vocalists;paramore;alternative,https://www.last.fm/music/Paramore/_/Misery+Business,gemini-estimate
+341,Basket Case,Green Day,punk,energetic,0.93,175,0.78,0.44,0.0,95,1990,rebellious;playful,0.06,0.0,2659523,punk rock;punk;rock;90s;green day,https://www.last.fm/music/Green+Day/_/Basket+Case,gemini-estimate
+342,Blitzkrieg Bop - 2016 Remaster,Ramones,punk,energetic,0.92,177,0.96,0.47,0.14,81,1970,rebellious;party,0.07,0.0,693795,punk rock;punk;pop punk;rock,https://www.last.fm/music/Ramones/_/Blitzkrieg+Bop+-+2016+Remaster,gemini-estimate
+343,London Calling,The Clash,punk,intense,0.89,134,0.6,0.65,0.08,86,1970,rebellious;dark,0.06,0.0,1115526,,https://www.last.fm/music/The+Clash/_/London+Calling,gemini-estimate
+344,I Miss You,blink-182,punk,moody,0.65,110,0.4,0.64,0.12,92,2000,melancholic;nostalgic,0.04,0.0,1970538,punk rock;rock;alternative;punk;blink 182,https://www.last.fm/music/blink-182/_/I+Miss+You,gemini-estimate
+345,Anarchy In The UK,Sex Pistols,punk,angry,0.92,131,0.55,0.42,0.03,81,1970,rebellious;aggressive,0.08,0.0,651124,,https://www.last.fm/music/Sex+Pistols/_/Anarchy+In+The+UK,gemini-estimate
+346,Mask Off,Future,trap,moody,0.7,150,0.35,0.83,0.05,88,2010,confident;dark,0.43,0.0,1384181,future;trap;hip-hop;hip hop;2017,https://www.last.fm/music/Future/_/Mask+Off,gemini-estimate
+347,Creepin' (with The Weeknd & 21 Savage),Metro Boomin,trap,moody,0.62,98,0.35,0.71,0.14,88,2020,melancholic;smooth,0.08,0.0,1288092,the weeknd;trap;metro boomin;pop;rnb,https://www.last.fm/music/Metro+Boomin/_/Creepin%27+(with+The+Weeknd+&+21+Savage),gemini-estimate
+348,a lot,21 Savage,trap,moody,0.63,146,0.28,0.85,0.15,86,2010,melancholic;confident,0.34,0.0,1116263,trap;rap;southern hip hop;hip-hop;conscious hip hop,https://www.last.fm/music/21+Savage/_/a+lot,gemini-estimate
+349,Pick up the Phone,Young Thug,trap,happy,0.72,136,0.65,0.73,0.05,82,2010,party;euphoric,0.1,0.0,708041,,https://www.last.fm/music/Young+Thug/_/Pick+up+the+Phone,gemini-estimate
+350,Drip Too Hard (Lil Baby & Gunna),Lil Baby,trap,energetic,0.67,113,0.44,0.84,0.1,83,2010,confident;groovy,0.08,0.0,814873,trap;waves;rap;hip hop,https://www.last.fm/music/Lil+Baby/_/Drip+Too+Hard+(Lil+Baby+&+Gunna),gemini-estimate
+351,fukumean,Gunna,trap,chill,0.62,130,0.55,0.85,0.12,85,2020,smooth;confident,0.09,0.0,1003413,rap;hip hop;trap;hype;2023,https://www.last.fm/music/Gunna/_/fukumean,gemini-estimate
+352,Like That,Future,trap,intense,0.82,162,0.45,0.8,0.02,88,2020,confident;aggressive,0.35,0.0,1336228,rap;kendrick lamar;crunk;hip hop;future,https://www.last.fm/music/Future/_/Like+That,gemini-estimate
+353,Too Many Nights (feat. Don Toliver & with Future),Metro Boomin,trap,chill,0.68,124,0.4,0.76,0.1,87,2020,smooth;dreamy,0.06,0.0,1170920,trap;metro boomin;future;hip-hop;don toliver,https://www.last.fm/music/Metro+Boomin/_/Too+Many+Nights+(feat.+Don+Toliver+&+with+Future),gemini-estimate
+354,redrum,21 Savage,trap,angry,0.78,172,0.22,0.77,0.05,85,2020,dark;aggressive,0.28,0.0,962790,trap;gangsta rap;hip-hop;rap;southern hip hop,https://www.last.fm/music/21+Savage/_/redrum,gemini-estimate
+355,The London (feat. J. Cole & Travis Scott),Young Thug,trap,chill,0.6,98,0.5,0.8,0.03,81,2010,smooth;confident,0.14,0.0,670710,travis scott;trap;j cole;2019;rap,https://www.last.fm/music/Young+Thug/_/The+London+(feat.+J.+Cole+&+Travis+Scott),gemini-estimate
+356,Yes Indeed,Lil Baby,trap,energetic,0.65,120,0.52,0.96,0.03,82,2010,confident;party,0.53,0.0,724581,trap;rap;hip-hop;drake;2018,https://www.last.fm/music/Lil+Baby/_/Yes+Indeed,gemini-estimate
+357,one of wun,Gunna,trap,chill,0.58,122,0.48,0.78,0.2,81,2020,smooth;cozy,0.07,0.0,683271,olivia is awesome;olivia;im marrying olivia;wunna;2024,https://www.last.fm/music/Gunna/_/one+of+wun,gemini-estimate

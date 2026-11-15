@@ -1,5 +1,8 @@
 {
-  "_about": "Human corrections applied after Gemini. 'exclude' removes a song; 'fix' overrides fields. Example fix: {\"artist\": \"Wizkid\", \"title\": \"Essence\", \"set\": {\"mood\": \"romantic\", \"energy\": 0.55}}",
+  "_about": "Human corrections applied after Gemini. 'exclude' removes a song; 'fix' overrides fields (match uses the Last.fm artist/title). Example: {\"artist\": \"Wizkid\", \"title\": \"Essence (feat. Tems)\", \"set\": {\"mood\": \"romantic\"}}",
   "exclude": [],
-  "fix": []
+  "fix": [
+    {"artist": "Travi$ Scott", "title": "Antidote", "set": {"artist": "Travis Scott"}},
+    {"artist": "Black Coffee", "title": "Drive (feat. Delilah Montagu) - Edit", "set": {"title": "Drive (feat. Delilah Montagu)"}}
+  ]
 }
