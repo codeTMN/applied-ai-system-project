@@ -45,9 +45,9 @@ Agent mode: the same steps exposed as Gemini function-calling tools
 ## Tasks (one commit per task, pushed as we go)
 
 - [x] **0. Setup:** new repo, origin repointed, `assets/`, `diagrams/`, `.env.example`, draft diagram
-- [x] **1. Catalog builder:** `scripts/build_catalog.py` -> 357 real songs across 31 genres in `data/songs.csv` (old fictional catalog kept as `data/songs_v1_fictional.csv`)
-  - Afro genres featured (60 songs); every other genre has 11-12 songs, incl. new funk, soul, disco, house, gospel, blues, punk, trap. k-pop left out on purpose (guardrail test case)
-  - Known bias for the model card: real top tracks skew upbeat (97 energetic vs 17 sad, 6 focused, 6 angry)
+- [x] **1. Catalog builder:** `scripts/build_catalog.py` -> 369 real songs across 32 genres in `data/songs.csv` (old fictional catalog kept as `data/songs_v1_fictional.csv`)
+  - Afro genres featured (60 songs); every other genre has 11-12 songs, incl. new funk, soul, disco, house, gospel, blues, punk, trap, k-pop
+  - Known bias for the model card: real top tracks skew upbeat (95 energetic vs 23 sad, 7 angry, 5 focused)
   - Changed approach: Last.fm *tag* top-tracks were too noisy (`afrobeats` returned Beyoncé and K-pop; `highlife` returned Rick Astley), so songs come from human-picked **seed artists** (`data/catalog_seeds.json`) and their real top tracks instead
   - Gemini rejected songs that don't fit their genre (e.g. Tyla "Water" moved out of amapiano: "Afropop/R&B with amapiano log drums"); see `data/catalog_report.md`
   - [ ] Human review of Afro rows -> corrections go in `data/catalog_overrides.json`
@@ -73,7 +73,7 @@ Set in `.env` (`GEMINI_MODEL`, `GEMINI_EMBED_MODEL`, `GEMINI_FALLBACK_MODEL`) so
 Lesson for the build: every Gemini call needs a short timeout, limited retries, and the fallback model.
 `gemini-2.5-flash` is still listed by `models.list()` but returns 404, so the list alone isn't proof a model works.
 Aliases move: `gemini-3.5-flash` is actually served by 3.6, and `gemini-3.7-flash` by 3.8 (`response.model_version`), so we pin the real names.
-Catalog features (task 1) were estimated with `gemini-3.5-flash` (served as 3.6) before this switch.
+Catalog features were re-estimated with `gemini-3.8-flash` after the switch. 3.8 sometimes put a tag word ("confident") in the mood field; the builder now maps stray words to the closest allowed mood instead of defaulting to "chill".
 
 ## Rubric map
 

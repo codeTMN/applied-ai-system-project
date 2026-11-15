@@ -35,7 +35,7 @@ from pydantic import BaseModel
 
 ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT))
-from src.gemini_client import generate_json  # noqa: E402
+from src.gemini_client import generate_json, model_chain  # noqa: E402
 
 DATA = ROOT / "data"
 RAW = DATA / "raw"
@@ -83,8 +83,9 @@ def save_json(path: Path, data) -> None:
 # ---------------------------------------------------------------- Last.fm
 
 class LastFM:
-    def __init__(self, refresh: bool):
-        self.cache = {} if refresh else load_json(LASTFM_CACHE, {})
+    def __init__(self, refresh: bool, cache_path: Path = LASTFM_CACHE):
+        self.cache_path = cache_path
+        self.cache = {} if refresh else load_json(cache_path, {})
         self.key = (os.environ.get("LASTFM_API_KEY") or "").strip()
         self.live_calls = 0
 
@@ -109,6 +110,9 @@ class LastFM:
             log.warning("lastfm %s %s -> error %s: %s", method, params, data.get("error"), data.get("message"))
         self.cache[cache_key] = data
         return data
+
+    def save(self) -> None:
+        save_json(self.cache_path, self.cache)
 
     def top_tracks(self, artist: str) -> List[dict]:
         data = self.call("artist.gettoptracks", artist=artist, limit=TOP_TRACKS_PER_ARTIST)
@@ -207,7 +211,8 @@ def estimate_genre(genre: str, cfg: dict, candidates: List[dict], cache: dict, r
         for i, c in enumerate(candidates))
     prompt = PROMPT.format(genre=genre, description=cfg.get("description", genre), moods=MOODS,
                            mood_tags=MOOD_TAGS, songs=songs_text)
-    cache_key = genre + "|" + hashlib.sha256((PROMPT_VERSION + SYSTEM + prompt).encode()).hexdigest()[:16]
+    # the model name is part of the key, so switching models re-estimates automatically
+    cache_key = genre + "|" + model_chain()[0] + "|" + hashlib.sha256((PROMPT_VERSION + SYSTEM + prompt).encode()).hexdigest()[:16]
 
     if not refresh and cache_key in cache:
         result = GenreEstimates.model_validate(cache[cache_key])
@@ -218,6 +223,25 @@ def estimate_genre(genre: str, cfg: dict, candidates: List[dict], cache: dict, r
     return {est.idx: est for est in result.songs if 0 <= est.idx < len(candidates)}
 
 
+# Gemini sometimes puts a mood TAG in the mood field; map it to the closest allowed mood
+MOOD_SYNONYMS = {
+    "confident": "energetic", "party": "energetic", "euphoric": "happy", "uplifting": "happy",
+    "playful": "happy", "groovy": "happy", "hopeful": "happy", "smooth": "chill", "dreamy": "chill",
+    "cozy": "relaxed", "peaceful": "relaxed", "calm": "relaxed", "melancholic": "sad",
+    "heartbroken": "sad", "nostalgic": "moody", "dark": "moody", "aggressive": "angry",
+    "rebellious": "intense",
+}
+
+
+def mood_from_numbers(energy: float, valence: float) -> str:
+    """Last resort when the mood word is unknown: pick a mood from energy and valence."""
+    if energy >= 0.7:
+        return "energetic" if valence >= 0.5 else "intense"
+    if energy <= 0.45:
+        return "relaxed" if valence >= 0.5 else "sad"
+    return "happy" if valence >= 0.6 else "moody" if valence < 0.4 else "chill"
+
+
 def clamp(value: float) -> float:
     return round(min(1.0, max(0.0, float(value))), 2)
 
@@ -226,8 +250,9 @@ def clean_estimate(est: SongEstimate) -> dict:
     """Keep Gemini's answer inside the values the scorer understands."""
     mood = est.mood.strip().lower()
     if mood not in MOODS:
-        log.warning("unknown mood %r -> 'chill'", est.mood)
-        mood = "chill"
+        fixed = MOOD_SYNONYMS.get(mood) or mood_from_numbers(est.energy, est.valence)
+        log.warning("Gemini gave mood %r (not allowed) -> %r", est.mood, fixed)
+        mood = fixed
     tags = [t.strip().lower() for t in est.mood_tags if t.strip().lower() in MOOD_TAGS][:2]
     decade = int(est.release_decade) // 10 * 10
     return {
@@ -338,7 +363,8 @@ def main() -> None:
 
     seeds = load_json(SEEDS_PATH, {})["genres"]
     lastfm = LastFM(refresh=args.refresh_lastfm)
-    gemini_cache = load_json(GEMINI_CACHE, {})
+    # a full refresh starts from an empty cache so stale answers don't pile up in git
+    gemini_cache = {} if args.refresh_gemini else load_json(GEMINI_CACHE, {})
     seen_titles, songs, dropped = set(), [], []
 
     try:
@@ -355,7 +381,7 @@ def main() -> None:
             log.info("[%s] %d candidates -> kept %d/%d", genre, len(candidates), len(picked), cfg["target"])
     finally:
         # save progress even if a call fails halfway, so the next run resumes from cache
-        save_json(LASTFM_CACHE, lastfm.cache)
+        lastfm.save()
         save_json(GEMINI_CACHE, gemini_cache)
 
     songs = apply_overrides(songs)

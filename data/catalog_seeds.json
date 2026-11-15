@@ -1,5 +1,5 @@
 {
-  "_about": "Seed artists for scripts/build_catalog.py. Songs are pulled from each artist's real top tracks on Last.fm. Edit freely: add artists you love, remove ones that don't fit, change targets. 'target' = songs to keep for that genre; 'max_per_artist' caps repeats. Afro genres are featured, but every genre gets a full set. k-pop is left out on purpose: it is the 'genre not in catalog' test case for the guardrails.",
+  "_about": "Seed artists for scripts/build_catalog.py. Songs are pulled from each artist's real top tracks on Last.fm. Edit freely: add artists you love, remove ones that don't fit, change targets. 'target' = songs to keep for that genre; 'max_per_artist' caps repeats. Afro genres are featured, but every genre gets a full set.",
   "genres": {
     "afrobeats": {
       "target": 14,
@@ -439,6 +439,22 @@
         "Young Thug",
         "Lil Baby",
         "Gunna"
+      ]
+    },
+    "k-pop": {
+      "target": 12,
+      "max_per_artist": 2,
+      "description": "Korean pop: polished, genre-mixing idol pop with sharp choreography, from bright bubblegum to hard-hitting dance tracks",
+      "artists": [
+        "BTS",
+        "BLACKPINK",
+        "NewJeans",
+        "TWICE",
+        "Stray Kids",
+        "SEVENTEEN",
+        "aespa",
+        "LE SSERAFIM",
+        "IU"
       ]
     }
   }

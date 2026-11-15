@@ -6243,6 +6243,529 @@
    ]
   }
  },
+ "artist.gettoptracks|{\"artist\": \"BLACKPINK\", \"limit\": 15}": {
+  "toptracks": {
+   "@attr": {
+    "artist": "BLACKPINK",
+    "page": "1",
+    "perPage": "15",
+    "total": "25924",
+    "totalPages": "1729"
+   },
+   "track": [
+    {
+     "@attr": {
+      "rank": "1"
+     },
+     "artist": {
+      "mbid": "48646387-1664-4c9a-9139-9bfd091b823c",
+      "name": "BLACKPINK",
+      "url": "https://www.last.fm/music/BLACKPINK"
+     },
+     "image": [
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "small"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "medium"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "large"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "extralarge"
+      }
+     ],
+     "listeners": "923470",
+     "mbid": "00f5d572-c95f-4351-8409-f04d8ad8e8f6",
+     "name": "How You Like That",
+     "playcount": "28080509",
+     "streamable": "0",
+     "url": "https://www.last.fm/music/BLACKPINK/_/How+You+Like+That"
+    },
+    {
+     "@attr": {
+      "rank": "2"
+     },
+     "artist": {
+      "mbid": "48646387-1664-4c9a-9139-9bfd091b823c",
+      "name": "BLACKPINK",
+      "url": "https://www.last.fm/music/BLACKPINK"
+     },
+     "image": [
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "small"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "medium"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "large"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "extralarge"
+      }
+     ],
+     "listeners": "881707",
+     "mbid": "00e5da80-7021-4372-82bb-f66c46b96b8f",
+     "name": "Kill This Love",
+     "playcount": "15521550",
+     "streamable": "0",
+     "url": "https://www.last.fm/music/BLACKPINK/_/Kill+This+Love"
+    },
+    {
+     "@attr": {
+      "rank": "3"
+     },
+     "artist": {
+      "mbid": "48646387-1664-4c9a-9139-9bfd091b823c",
+      "name": "BLACKPINK",
+      "url": "https://www.last.fm/music/BLACKPINK"
+     },
+     "image": [
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "small"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "medium"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "large"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "extralarge"
+      }
+     ],
+     "listeners": "826953",
+     "mbid": "03c1a3ce-170d-44db-88e2-60338e5d6080",
+     "name": "DDU-DU DDU-DU",
+     "playcount": "13753546",
+     "streamable": "0",
+     "url": "https://www.last.fm/music/BLACKPINK/_/DDU-DU+DDU-DU"
+    },
+    {
+     "@attr": {
+      "rank": "4"
+     },
+     "artist": {
+      "mbid": "48646387-1664-4c9a-9139-9bfd091b823c",
+      "name": "BLACKPINK",
+      "url": "https://www.last.fm/music/BLACKPINK"
+     },
+     "image": [
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "small"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "medium"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "large"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "extralarge"
+      }
+     ],
+     "listeners": "812190",
+     "mbid": "dbd3264b-c3a6-4709-b3ba-f059e20ecdda",
+     "name": "Pink Venom",
+     "playcount": "26712923",
+     "streamable": "0",
+     "url": "https://www.last.fm/music/BLACKPINK/_/Pink+Venom"
+    },
+    {
+     "@attr": {
+      "rank": "5"
+     },
+     "artist": {
+      "mbid": "48646387-1664-4c9a-9139-9bfd091b823c",
+      "name": "BLACKPINK",
+      "url": "https://www.last.fm/music/BLACKPINK"
+     },
+     "image": [
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "small"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "medium"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "large"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "extralarge"
+      }
+     ],
+     "listeners": "756023",
+     "mbid": "d89c8e16-a043-4c58-8752-727fd1fcca39",
+     "name": "Shut Down",
+     "playcount": "22331395",
+     "streamable": "0",
+     "url": "https://www.last.fm/music/BLACKPINK/_/Shut+Down"
+    },
+    {
+     "@attr": {
+      "rank": "6"
+     },
+     "artist": {
+      "mbid": "48646387-1664-4c9a-9139-9bfd091b823c",
+      "name": "BLACKPINK",
+      "url": "https://www.last.fm/music/BLACKPINK"
+     },
+     "image": [
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "small"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "medium"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "large"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "extralarge"
+      }
+     ],
+     "listeners": "751654",
+     "mbid": "752d837b-a4bc-40c5-ab85-b485de42df12",
+     "name": "JUMP",
+     "playcount": "19319817",
+     "streamable": "0",
+     "url": "https://www.last.fm/music/BLACKPINK/_/JUMP"
+    },
+    {
+     "@attr": {
+      "rank": "7"
+     },
+     "artist": {
+      "mbid": "48646387-1664-4c9a-9139-9bfd091b823c",
+      "name": "BLACKPINK",
+      "url": "https://www.last.fm/music/BLACKPINK"
+     },
+     "image": [
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "small"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "medium"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "large"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "extralarge"
+      }
+     ],
+     "listeners": "742055",
+     "mbid": "0235a19d-a708-4287-a560-b33f9f4ebd37",
+     "name": "AS IF IT'S YOUR LAST",
+     "playcount": "12960221",
+     "streamable": "0",
+     "url": "https://www.last.fm/music/BLACKPINK/_/AS+IF+IT%27S+YOUR+LAST"
+    },
+    {
+     "@attr": {
+      "rank": "8"
+     },
+     "artist": {
+      "mbid": "48646387-1664-4c9a-9139-9bfd091b823c",
+      "name": "BLACKPINK",
+      "url": "https://www.last.fm/music/BLACKPINK"
+     },
+     "image": [
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "small"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "medium"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "large"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "extralarge"
+      }
+     ],
+     "listeners": "714881",
+     "mbid": "010ab866-2a8e-446a-ba43-973b2778cc1b",
+     "name": "BOOMBAYAH",
+     "playcount": "10547257",
+     "streamable": "0",
+     "url": "https://www.last.fm/music/BLACKPINK/_/BOOMBAYAH"
+    },
+    {
+     "@attr": {
+      "rank": "9"
+     },
+     "artist": {
+      "mbid": "48646387-1664-4c9a-9139-9bfd091b823c",
+      "name": "BLACKPINK",
+      "url": "https://www.last.fm/music/BLACKPINK"
+     },
+     "image": [
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "small"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "medium"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "large"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "extralarge"
+      }
+     ],
+     "listeners": "656345",
+     "mbid": "05f4850a-6862-4a14-9f6e-f7e5c5e32dde",
+     "name": "Lovesick Girls",
+     "playcount": "11954543",
+     "streamable": "0",
+     "url": "https://www.last.fm/music/BLACKPINK/_/Lovesick+Girls"
+    },
+    {
+     "@attr": {
+      "rank": "10"
+     },
+     "artist": {
+      "mbid": "48646387-1664-4c9a-9139-9bfd091b823c",
+      "name": "BLACKPINK",
+      "url": "https://www.last.fm/music/BLACKPINK"
+     },
+     "image": [
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "small"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "medium"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "large"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "extralarge"
+      }
+     ],
+     "listeners": "623970",
+     "mbid": "0a402998-96b8-4977-88da-89dc6bbc3f63",
+     "name": "Pretty Savage",
+     "playcount": "9509092",
+     "streamable": "0",
+     "url": "https://www.last.fm/music/BLACKPINK/_/Pretty+Savage"
+    },
+    {
+     "@attr": {
+      "rank": "11"
+     },
+     "artist": {
+      "mbid": "48646387-1664-4c9a-9139-9bfd091b823c",
+      "name": "BLACKPINK",
+      "url": "https://www.last.fm/music/BLACKPINK"
+     },
+     "image": [
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "small"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "medium"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "large"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "extralarge"
+      }
+     ],
+     "listeners": "616004",
+     "mbid": "04153fa7-7cdc-4690-9872-83ff663fe777",
+     "name": "PLAYING WITH FIRE",
+     "playcount": "9901267",
+     "streamable": "0",
+     "url": "https://www.last.fm/music/BLACKPINK/_/PLAYING+WITH+FIRE"
+    },
+    {
+     "@attr": {
+      "rank": "12"
+     },
+     "artist": {
+      "mbid": "48646387-1664-4c9a-9139-9bfd091b823c",
+      "name": "BLACKPINK",
+      "url": "https://www.last.fm/music/BLACKPINK"
+     },
+     "image": [
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "small"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "medium"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "large"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "extralarge"
+      }
+     ],
+     "listeners": "583345",
+     "mbid": "4607b6f3-5699-462b-8920-15b017c2aacb",
+     "name": "Ice Cream (with Selena Gomez)",
+     "playcount": "10860545",
+     "streamable": "0",
+     "url": "https://www.last.fm/music/BLACKPINK/_/Ice+Cream+(with+Selena+Gomez)"
+    },
+    {
+     "@attr": {
+      "rank": "13"
+     },
+     "artist": {
+      "mbid": "48646387-1664-4c9a-9139-9bfd091b823c",
+      "name": "BLACKPINK",
+      "url": "https://www.last.fm/music/BLACKPINK"
+     },
+     "image": [
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "small"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "medium"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "large"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "extralarge"
+      }
+     ],
+     "listeners": "576797",
+     "mbid": "00154159-2be2-4259-acdb-47116c32f281",
+     "name": "WHISTLE",
+     "playcount": "7974090",
+     "streamable": "0",
+     "url": "https://www.last.fm/music/BLACKPINK/_/WHISTLE"
+    },
+    {
+     "@attr": {
+      "rank": "14"
+     },
+     "artist": {
+      "mbid": "48646387-1664-4c9a-9139-9bfd091b823c",
+      "name": "BLACKPINK",
+      "url": "https://www.last.fm/music/BLACKPINK"
+     },
+     "image": [
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "small"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "medium"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "large"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "extralarge"
+      }
+     ],
+     "listeners": "522642",
+     "mbid": "082c796b-9916-48be-9da5-1b358f2f36f9",
+     "name": "Forever Young",
+     "playcount": "8127113",
+     "streamable": "0",
+     "url": "https://www.last.fm/music/BLACKPINK/_/Forever+Young"
+    },
+    {
+     "@attr": {
+      "rank": "15"
+     },
+     "artist": {
+      "mbid": "48646387-1664-4c9a-9139-9bfd091b823c",
+      "name": "BLACKPINK",
+      "url": "https://www.last.fm/music/BLACKPINK"
+     },
+     "image": [
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "small"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "medium"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "large"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "extralarge"
+      }
+     ],
+     "listeners": "509846",
+     "mbid": "b7579fb6-f3b9-43b7-880a-a34198c12dee",
+     "name": "Typa Girl",
+     "playcount": "10935516",
+     "streamable": "0",
+     "url": "https://www.last.fm/music/BLACKPINK/_/Typa+Girl"
+    }
+   ]
+  }
+ },
  "artist.gettoptracks|{\"artist\": \"BOJ\", \"limit\": 15}": {
   "toptracks": {
    "@attr": {
@@ -6733,6 +7256,528 @@
      "playcount": "9741",
      "streamable": "0",
      "url": "https://www.last.fm/music/boJ/_/2+Bad"
+    }
+   ]
+  }
+ },
+ "artist.gettoptracks|{\"artist\": \"BTS\", \"limit\": 15}": {
+  "toptracks": {
+   "@attr": {
+    "artist": "BTS",
+    "page": "1",
+    "perPage": "15",
+    "total": "64968",
+    "totalPages": "4332"
+   },
+   "track": [
+    {
+     "@attr": {
+      "rank": "1"
+     },
+     "artist": {
+      "mbid": "0d79fe8e-ba27-4859-bb8c-2f255f346853",
+      "name": "BTS",
+      "url": "https://www.last.fm/music/BTS"
+     },
+     "image": [
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "small"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "medium"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "large"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "extralarge"
+      }
+     ],
+     "listeners": "1134660",
+     "mbid": "22149c3c-2d46-4658-8336-8da4d2411ed7",
+     "name": "Dynamite",
+     "playcount": "177246986",
+     "streamable": "0",
+     "url": "https://www.last.fm/music/BTS/_/Dynamite"
+    },
+    {
+     "@attr": {
+      "rank": "2"
+     },
+     "artist": {
+      "mbid": "0d79fe8e-ba27-4859-bb8c-2f255f346853",
+      "name": "BTS",
+      "url": "https://www.last.fm/music/BTS"
+     },
+     "image": [
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "small"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "medium"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "large"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "extralarge"
+      }
+     ],
+     "listeners": "980841",
+     "name": "Boy With Luv (feat. Halsey)",
+     "playcount": "79460201",
+     "streamable": "0",
+     "url": "https://www.last.fm/music/BTS/_/Boy+With+Luv+(feat.+Halsey)"
+    },
+    {
+     "@attr": {
+      "rank": "3"
+     },
+     "artist": {
+      "mbid": "0d79fe8e-ba27-4859-bb8c-2f255f346853",
+      "name": "BTS",
+      "url": "https://www.last.fm/music/BTS"
+     },
+     "image": [
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "small"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "medium"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "large"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "extralarge"
+      }
+     ],
+     "listeners": "903216",
+     "mbid": "0811605e-ca01-4778-ab3c-87eacb6a2a71",
+     "name": "FAKE LOVE",
+     "playcount": "134863787",
+     "streamable": "0",
+     "url": "https://www.last.fm/music/BTS/_/FAKE+LOVE"
+    },
+    {
+     "@attr": {
+      "rank": "4"
+     },
+     "artist": {
+      "mbid": "0d79fe8e-ba27-4859-bb8c-2f255f346853",
+      "name": "BTS",
+      "url": "https://www.last.fm/music/BTS"
+     },
+     "image": [
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "small"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "medium"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "large"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "extralarge"
+      }
+     ],
+     "listeners": "884438",
+     "mbid": "001b9408-4de0-4deb-aaf1-b74500e0ff5b",
+     "name": "Butter",
+     "playcount": "150938877",
+     "streamable": "0",
+     "url": "https://www.last.fm/music/BTS/_/Butter"
+    },
+    {
+     "@attr": {
+      "rank": "5"
+     },
+     "artist": {
+      "mbid": "0d79fe8e-ba27-4859-bb8c-2f255f346853",
+      "name": "BTS",
+      "url": "https://www.last.fm/music/BTS"
+     },
+     "image": [
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "small"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "medium"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "large"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "extralarge"
+      }
+     ],
+     "listeners": "861254",
+     "mbid": "0bb5f3bf-421b-4b2a-bfe9-45fa90a82dfb",
+     "name": "DNA",
+     "playcount": "49157301",
+     "streamable": "0",
+     "url": "https://www.last.fm/music/BTS/_/DNA"
+    },
+    {
+     "@attr": {
+      "rank": "6"
+     },
+     "artist": {
+      "mbid": "0d79fe8e-ba27-4859-bb8c-2f255f346853",
+      "name": "BTS",
+      "url": "https://www.last.fm/music/BTS"
+     },
+     "image": [
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "small"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "medium"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "large"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "extralarge"
+      }
+     ],
+     "listeners": "856421",
+     "mbid": "0ba8a1fb-21a2-4cc1-a19d-98f2cbb96cdd",
+     "name": "Blood Sweat & Tears",
+     "playcount": "33837448",
+     "streamable": "0",
+     "url": "https://www.last.fm/music/BTS/_/Blood+Sweat+&+Tears"
+    },
+    {
+     "@attr": {
+      "rank": "7"
+     },
+     "artist": {
+      "mbid": "0d79fe8e-ba27-4859-bb8c-2f255f346853",
+      "name": "BTS",
+      "url": "https://www.last.fm/music/BTS"
+     },
+     "image": [
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "small"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "medium"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "large"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "extralarge"
+      }
+     ],
+     "listeners": "747130",
+     "mbid": "0c73565f-a0fb-4e76-99ca-e9ddab9c8395",
+     "name": "I NEED U",
+     "playcount": "21797069",
+     "streamable": "0",
+     "url": "https://www.last.fm/music/BTS/_/I+NEED+U"
+    },
+    {
+     "@attr": {
+      "rank": "8"
+     },
+     "artist": {
+      "mbid": "0d79fe8e-ba27-4859-bb8c-2f255f346853",
+      "name": "BTS",
+      "url": "https://www.last.fm/music/BTS"
+     },
+     "image": [
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "small"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "medium"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "large"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "extralarge"
+      }
+     ],
+     "listeners": "739055",
+     "mbid": "057fb67c-9aa9-405d-9bc0-0d14cf9ca3e0",
+     "name": "IDOL",
+     "playcount": "43341426",
+     "streamable": "0",
+     "url": "https://www.last.fm/music/BTS/_/IDOL"
+    },
+    {
+     "@attr": {
+      "rank": "9"
+     },
+     "artist": {
+      "mbid": "0d79fe8e-ba27-4859-bb8c-2f255f346853",
+      "name": "BTS",
+      "url": "https://www.last.fm/music/BTS"
+     },
+     "image": [
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "small"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "medium"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "large"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "extralarge"
+      }
+     ],
+     "listeners": "721803",
+     "mbid": "0ca83c1e-0327-4fa7-b0af-8e7ae255a8ae",
+     "name": "Black Swan",
+     "playcount": "38975078",
+     "streamable": "0",
+     "url": "https://www.last.fm/music/BTS/_/Black+Swan"
+    },
+    {
+     "@attr": {
+      "rank": "10"
+     },
+     "artist": {
+      "mbid": "0d79fe8e-ba27-4859-bb8c-2f255f346853",
+      "name": "BTS",
+      "url": "https://www.last.fm/music/BTS"
+     },
+     "image": [
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "small"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "medium"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "large"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "extralarge"
+      }
+     ],
+     "listeners": "708258",
+     "mbid": "096c01bf-921b-4ca5-897b-ce51cd118e8a",
+     "name": "Pied Piper",
+     "playcount": "20414819",
+     "streamable": "0",
+     "url": "https://www.last.fm/music/BTS/_/Pied+Piper"
+    },
+    {
+     "@attr": {
+      "rank": "11"
+     },
+     "artist": {
+      "mbid": "0d79fe8e-ba27-4859-bb8c-2f255f346853",
+      "name": "BTS",
+      "url": "https://www.last.fm/music/BTS"
+     },
+     "image": [
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "small"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "medium"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "large"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "extralarge"
+      }
+     ],
+     "listeners": "707613",
+     "mbid": "b4a92671-e561-4467-9881-de90fa232ca4",
+     "name": "Spring Day",
+     "playcount": "27437851",
+     "streamable": "0",
+     "url": "https://www.last.fm/music/BTS/_/Spring+Day"
+    },
+    {
+     "@attr": {
+      "rank": "12"
+     },
+     "artist": {
+      "mbid": "0d79fe8e-ba27-4859-bb8c-2f255f346853",
+      "name": "BTS",
+      "url": "https://www.last.fm/music/BTS"
+     },
+     "image": [
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "small"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "medium"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "large"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "extralarge"
+      }
+     ],
+     "listeners": "680755",
+     "mbid": "368fc35f-044f-4d1f-9d12-e9fe70924f7f",
+     "name": "Dimple",
+     "playcount": "20638490",
+     "streamable": "0",
+     "url": "https://www.last.fm/music/BTS/_/Dimple"
+    },
+    {
+     "@attr": {
+      "rank": "13"
+     },
+     "artist": {
+      "mbid": "0d79fe8e-ba27-4859-bb8c-2f255f346853",
+      "name": "BTS",
+      "url": "https://www.last.fm/music/BTS"
+     },
+     "image": [
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "small"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "medium"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "large"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "extralarge"
+      }
+     ],
+     "listeners": "680109",
+     "mbid": "1f9a04a9-ab7f-4068-ad9c-d49d16b7b622",
+     "name": "Euphoria",
+     "playcount": "38664591",
+     "streamable": "0",
+     "url": "https://www.last.fm/music/BTS/_/Euphoria"
+    },
+    {
+     "@attr": {
+      "rank": "14"
+     },
+     "artist": {
+      "mbid": "0d79fe8e-ba27-4859-bb8c-2f255f346853",
+      "name": "BTS",
+      "url": "https://www.last.fm/music/BTS"
+     },
+     "image": [
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "small"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "medium"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "large"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "extralarge"
+      }
+     ],
+     "listeners": "680027",
+     "mbid": "02076df3-6638-4d91-9089-ea69e3af0ad7",
+     "name": "RUN",
+     "playcount": "19669854",
+     "streamable": "0",
+     "url": "https://www.last.fm/music/BTS/_/RUN"
+    },
+    {
+     "@attr": {
+      "rank": "15"
+     },
+     "artist": {
+      "mbid": "0d79fe8e-ba27-4859-bb8c-2f255f346853",
+      "name": "BTS",
+      "url": "https://www.last.fm/music/BTS"
+     },
+     "image": [
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "small"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "medium"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "large"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "extralarge"
+      }
+     ],
+     "listeners": "660962",
+     "mbid": "01eeced3-8a45-49ea-8858-f808a335b3ad",
+     "name": "ON",
+     "playcount": "37638063",
+     "streamable": "0",
+     "url": "https://www.last.fm/music/BTS/_/ON"
     }
    ]
   }
@@ -49647,6 +50692,526 @@
    ]
   }
  },
+ "artist.gettoptracks|{\"artist\": \"IU\", \"limit\": 15}": {
+  "toptracks": {
+   "@attr": {
+    "artist": "IU",
+    "page": "1",
+    "perPage": "15",
+    "total": "20646",
+    "totalPages": "1377"
+   },
+   "track": [
+    {
+     "@attr": {
+      "rank": "1"
+     },
+     "artist": {
+      "mbid": "b9545342-1e6d-4dae-84ac-013374ad8d7c",
+      "name": "IU",
+      "url": "https://www.last.fm/music/IU"
+     },
+     "image": [
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "small"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "medium"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "large"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "extralarge"
+      }
+     ],
+     "listeners": "520327",
+     "mbid": "44e0a73e-2c78-4539-9389-7fa39e50707c",
+     "name": "LILAC",
+     "playcount": "7328935",
+     "streamable": "0",
+     "url": "https://www.last.fm/music/IU/_/LILAC"
+    },
+    {
+     "@attr": {
+      "rank": "2"
+     },
+     "artist": {
+      "mbid": "b9545342-1e6d-4dae-84ac-013374ad8d7c",
+      "name": "IU",
+      "url": "https://www.last.fm/music/IU"
+     },
+     "image": [
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "small"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "medium"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "large"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "extralarge"
+      }
+     ],
+     "listeners": "448990",
+     "name": "eight(Prod.&Feat. SUGA of BTS)",
+     "playcount": "12262171",
+     "streamable": "0",
+     "url": "https://www.last.fm/music/IU/_/eight(Prod.&Feat.+SUGA+of+BTS)"
+    },
+    {
+     "@attr": {
+      "rank": "3"
+     },
+     "artist": {
+      "mbid": "b9545342-1e6d-4dae-84ac-013374ad8d7c",
+      "name": "IU",
+      "url": "https://www.last.fm/music/IU"
+     },
+     "image": [
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "small"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "medium"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "large"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "extralarge"
+      }
+     ],
+     "listeners": "316233",
+     "mbid": "b08f84f7-0534-4d0e-9a42-ae7b7c5b83bc",
+     "name": "BBIBBI",
+     "playcount": "3692670",
+     "streamable": "0",
+     "url": "https://www.last.fm/music/IU/_/BBIBBI"
+    },
+    {
+     "@attr": {
+      "rank": "4"
+     },
+     "artist": {
+      "mbid": "b9545342-1e6d-4dae-84ac-013374ad8d7c",
+      "name": "IU",
+      "url": "https://www.last.fm/music/IU"
+     },
+     "image": [
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "small"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "medium"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "large"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "extralarge"
+      }
+     ],
+     "listeners": "259906",
+     "name": "Can't Love You Anymore (With OHHYUK)",
+     "playcount": "3142441",
+     "streamable": "0",
+     "url": "https://www.last.fm/music/IU/_/Can%27t+Love+You+Anymore+(With+OHHYUK)"
+    },
+    {
+     "@attr": {
+      "rank": "5"
+     },
+     "artist": {
+      "mbid": "b9545342-1e6d-4dae-84ac-013374ad8d7c",
+      "name": "IU",
+      "url": "https://www.last.fm/music/IU"
+     },
+     "image": [
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "small"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "medium"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "large"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "extralarge"
+      }
+     ],
+     "listeners": "230220",
+     "name": "Palette (feat. G-DRAGON)",
+     "playcount": "2703781",
+     "streamable": "0",
+     "url": "https://www.last.fm/music/IU/_/Palette+(feat.+G-DRAGON)"
+    },
+    {
+     "@attr": {
+      "rank": "6"
+     },
+     "artist": {
+      "mbid": "b9545342-1e6d-4dae-84ac-013374ad8d7c",
+      "name": "IU",
+      "url": "https://www.last.fm/music/IU"
+     },
+     "image": [
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "small"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "medium"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "large"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "extralarge"
+      }
+     ],
+     "listeners": "230139",
+     "mbid": "065eafed-0f8d-4938-bfd7-e1a629455b26",
+     "name": "Celebrity",
+     "playcount": "2688201",
+     "streamable": "0",
+     "url": "https://www.last.fm/music/IU/_/Celebrity"
+    },
+    {
+     "@attr": {
+      "rank": "7"
+     },
+     "artist": {
+      "mbid": "b9545342-1e6d-4dae-84ac-013374ad8d7c",
+      "name": "IU",
+      "url": "https://www.last.fm/music/IU"
+     },
+     "image": [
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "small"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "medium"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "large"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "extralarge"
+      }
+     ],
+     "listeners": "219743",
+     "mbid": "5a30eb21-d05b-436b-8e39-e1322ed9cbd6",
+     "name": "Love wins all",
+     "playcount": "3706562",
+     "streamable": "0",
+     "url": "https://www.last.fm/music/IU/_/Love+wins+all"
+    },
+    {
+     "@attr": {
+      "rank": "8"
+     },
+     "artist": {
+      "mbid": "b9545342-1e6d-4dae-84ac-013374ad8d7c",
+      "name": "IU",
+      "url": "https://www.last.fm/music/IU"
+     },
+     "image": [
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "small"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "medium"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "large"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "extralarge"
+      }
+     ],
+     "listeners": "217268",
+     "mbid": "28e5b1e1-e8c7-4e17-b97a-8b0c7cbca49d",
+     "name": "Blueming",
+     "playcount": "2719871",
+     "streamable": "0",
+     "url": "https://www.last.fm/music/IU/_/Blueming"
+    },
+    {
+     "@attr": {
+      "rank": "9"
+     },
+     "artist": {
+      "mbid": "b9545342-1e6d-4dae-84ac-013374ad8d7c",
+      "name": "IU",
+      "url": "https://www.last.fm/music/IU"
+     },
+     "image": [
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "small"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "medium"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "large"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "extralarge"
+      }
+     ],
+     "listeners": "190091",
+     "mbid": "0ece8a43-d906-4ede-8e32-8f0c676ebba5",
+     "name": "Through the Night",
+     "playcount": "2694190",
+     "streamable": "0",
+     "url": "https://www.last.fm/music/IU/_/Through+the+Night"
+    },
+    {
+     "@attr": {
+      "rank": "10"
+     },
+     "artist": {
+      "mbid": "b9545342-1e6d-4dae-84ac-013374ad8d7c",
+      "name": "IU",
+      "url": "https://www.last.fm/music/IU"
+     },
+     "image": [
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "small"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "medium"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "large"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "extralarge"
+      }
+     ],
+     "listeners": "167736",
+     "mbid": "59f7fb54-1e31-4ee3-a45d-f1c205e1c770",
+     "name": "Ending Scene",
+     "playcount": "2017424",
+     "streamable": "0",
+     "url": "https://www.last.fm/music/IU/_/Ending+Scene"
+    },
+    {
+     "@attr": {
+      "rank": "11"
+     },
+     "artist": {
+      "mbid": "b9545342-1e6d-4dae-84ac-013374ad8d7c",
+      "name": "IU",
+      "url": "https://www.last.fm/music/IU"
+     },
+     "image": [
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "small"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "medium"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "large"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "extralarge"
+      }
+     ],
+     "listeners": "159751",
+     "mbid": "1d6f45d2-cfc8-4d9f-9fe7-45604cc1e4d6",
+     "name": "Good Day",
+     "playcount": "1743409",
+     "streamable": "0",
+     "url": "https://www.last.fm/music/IU/_/Good+Day"
+    },
+    {
+     "@attr": {
+      "rank": "12"
+     },
+     "artist": {
+      "mbid": "b9545342-1e6d-4dae-84ac-013374ad8d7c",
+      "name": "IU",
+      "url": "https://www.last.fm/music/IU"
+     },
+     "image": [
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "small"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "medium"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "large"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "extralarge"
+      }
+     ],
+     "listeners": "136403",
+     "mbid": "0d2d2de7-b606-498d-b394-db939cf01671",
+     "name": "dlwlrma",
+     "playcount": "1503596",
+     "streamable": "0",
+     "url": "https://www.last.fm/music/IU/_/dlwlrma"
+    },
+    {
+     "@attr": {
+      "rank": "13"
+     },
+     "artist": {
+      "mbid": "b9545342-1e6d-4dae-84ac-013374ad8d7c",
+      "name": "IU",
+      "url": "https://www.last.fm/music/IU"
+     },
+     "image": [
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "small"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "medium"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "large"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "extralarge"
+      }
+     ],
+     "listeners": "131507",
+     "mbid": "3ab8387b-bf9f-4d0f-a343-9b7143c6dfff",
+     "name": "Love poem",
+     "playcount": "1907293",
+     "streamable": "0",
+     "url": "https://www.last.fm/music/IU/_/Love+poem"
+    },
+    {
+     "@attr": {
+      "rank": "14"
+     },
+     "artist": {
+      "mbid": "b9545342-1e6d-4dae-84ac-013374ad8d7c",
+      "name": "IU",
+      "url": "https://www.last.fm/music/IU"
+     },
+     "image": [
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "small"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "medium"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "large"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "extralarge"
+      }
+     ],
+     "listeners": "127980",
+     "mbid": "9773467f-6fd7-4121-a789-125a08e4da9a",
+     "name": "Jam Jam",
+     "playcount": "1559865",
+     "streamable": "0",
+     "url": "https://www.last.fm/music/IU/_/Jam+Jam"
+    },
+    {
+     "@attr": {
+      "rank": "15"
+     },
+     "artist": {
+      "mbid": "b9545342-1e6d-4dae-84ac-013374ad8d7c",
+      "name": "IU",
+      "url": "https://www.last.fm/music/IU"
+     },
+     "image": [
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "small"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "medium"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "large"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "extralarge"
+      }
+     ],
+     "listeners": "120591",
+     "mbid": "ac8947fb-9843-48cc-8728-eef22456fa4e",
+     "name": "strawberry moon",
+     "playcount": "1548136",
+     "streamable": "0",
+     "url": "https://www.last.fm/music/IU/_/strawberry+moon"
+    }
+   ]
+  }
+ },
  "artist.gettoptracks|{\"artist\": \"Iron Maiden\", \"limit\": 15}": {
   "toptracks": {
    "@attr": {
@@ -63089,6 +64654,527 @@
      "playcount": "195217",
      "streamable": "0",
      "url": "https://www.last.fm/music/Kupla/_/emerald"
+    }
+   ]
+  }
+ },
+ "artist.gettoptracks|{\"artist\": \"LE SSERAFIM\", \"limit\": 15}": {
+  "toptracks": {
+   "@attr": {
+    "artist": "LE SSERAFIM",
+    "page": "1",
+    "perPage": "15",
+    "total": "9562",
+    "totalPages": "638"
+   },
+   "track": [
+    {
+     "@attr": {
+      "rank": "1"
+     },
+     "artist": {
+      "mbid": "1ee37742-1e3d-4e61-84d2-bc85f4c1459a",
+      "name": "LE SSERAFIM",
+      "url": "https://www.last.fm/music/LE+SSERAFIM"
+     },
+     "image": [
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "small"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "medium"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "large"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "extralarge"
+      }
+     ],
+     "listeners": "988640",
+     "mbid": "466ffbca-63c3-4769-a317-7050ce79c643",
+     "name": "CRAZY",
+     "playcount": "21727320",
+     "streamable": "0",
+     "url": "https://www.last.fm/music/LE+SSERAFIM/_/CRAZY"
+    },
+    {
+     "@attr": {
+      "rank": "2"
+     },
+     "artist": {
+      "mbid": "1ee37742-1e3d-4e61-84d2-bc85f4c1459a",
+      "name": "LE SSERAFIM",
+      "url": "https://www.last.fm/music/LE+SSERAFIM"
+     },
+     "image": [
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "small"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "medium"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "large"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "extralarge"
+      }
+     ],
+     "listeners": "968619",
+     "mbid": "5bf956f1-c656-444f-b9f3-9b08332bcc70",
+     "name": "ANTIFRAGILE",
+     "playcount": "26111309",
+     "streamable": "0",
+     "url": "https://www.last.fm/music/LE+SSERAFIM/_/ANTIFRAGILE"
+    },
+    {
+     "@attr": {
+      "rank": "3"
+     },
+     "artist": {
+      "mbid": "1ee37742-1e3d-4e61-84d2-bc85f4c1459a",
+      "name": "LE SSERAFIM",
+      "url": "https://www.last.fm/music/LE+SSERAFIM"
+     },
+     "image": [
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "small"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "medium"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "large"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "extralarge"
+      }
+     ],
+     "listeners": "799984",
+     "mbid": "299d376d-e568-44d8-bdbd-aca427671469",
+     "name": "Perfect Night",
+     "playcount": "19189895",
+     "streamable": "0",
+     "url": "https://www.last.fm/music/LE+SSERAFIM/_/Perfect+Night"
+    },
+    {
+     "@attr": {
+      "rank": "4"
+     },
+     "artist": {
+      "mbid": "1ee37742-1e3d-4e61-84d2-bc85f4c1459a",
+      "name": "LE SSERAFIM",
+      "url": "https://www.last.fm/music/LE+SSERAFIM"
+     },
+     "image": [
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "small"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "medium"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "large"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "extralarge"
+      }
+     ],
+     "listeners": "687485",
+     "mbid": "e5f6067a-fbb5-4f48-94ac-657a496561a1",
+     "name": "Eve, Psyche & The Bluebeard’s wife",
+     "playcount": "14345107",
+     "streamable": "0",
+     "url": "https://www.last.fm/music/LE+SSERAFIM/_/Eve,+Psyche+&+The+Bluebeard%E2%80%99s+wife"
+    },
+    {
+     "@attr": {
+      "rank": "5"
+     },
+     "artist": {
+      "mbid": "1ee37742-1e3d-4e61-84d2-bc85f4c1459a",
+      "name": "LE SSERAFIM",
+      "url": "https://www.last.fm/music/LE+SSERAFIM"
+     },
+     "image": [
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "small"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "medium"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "large"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "extralarge"
+      }
+     ],
+     "listeners": "670375",
+     "mbid": "9b8c07f6-f0b4-4b7b-9d92-5f503307baaa",
+     "name": "Smart",
+     "playcount": "13374368",
+     "streamable": "0",
+     "url": "https://www.last.fm/music/LE+SSERAFIM/_/Smart"
+    },
+    {
+     "@attr": {
+      "rank": "6"
+     },
+     "artist": {
+      "mbid": "1ee37742-1e3d-4e61-84d2-bc85f4c1459a",
+      "name": "LE SSERAFIM",
+      "url": "https://www.last.fm/music/LE+SSERAFIM"
+     },
+     "image": [
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "small"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "medium"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "large"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "extralarge"
+      }
+     ],
+     "listeners": "608582",
+     "mbid": "071162ec-2160-4c44-bbaf-4aa00a437824",
+     "name": "EASY",
+     "playcount": "12684594",
+     "streamable": "0",
+     "url": "https://www.last.fm/music/LE+SSERAFIM/_/EASY"
+    },
+    {
+     "@attr": {
+      "rank": "7"
+     },
+     "artist": {
+      "mbid": "1ee37742-1e3d-4e61-84d2-bc85f4c1459a",
+      "name": "LE SSERAFIM",
+      "url": "https://www.last.fm/music/LE+SSERAFIM"
+     },
+     "image": [
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "small"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "medium"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "large"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "extralarge"
+      }
+     ],
+     "listeners": "586462",
+     "mbid": "e4bb44ea-919a-4ac6-b69b-e8d5de2de01c",
+     "name": "Sour Grapes",
+     "playcount": "12017560",
+     "streamable": "0",
+     "url": "https://www.last.fm/music/LE+SSERAFIM/_/Sour+Grapes"
+    },
+    {
+     "@attr": {
+      "rank": "8"
+     },
+     "artist": {
+      "mbid": "1ee37742-1e3d-4e61-84d2-bc85f4c1459a",
+      "name": "LE SSERAFIM",
+      "url": "https://www.last.fm/music/LE+SSERAFIM"
+     },
+     "image": [
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "small"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "medium"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "large"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "extralarge"
+      }
+     ],
+     "listeners": "575605",
+     "mbid": "0b60d756-36a9-4aca-bd06-e7ce39ded06c",
+     "name": "FEARLESS",
+     "playcount": "12360881",
+     "streamable": "0",
+     "url": "https://www.last.fm/music/LE+SSERAFIM/_/FEARLESS"
+    },
+    {
+     "@attr": {
+      "rank": "9"
+     },
+     "artist": {
+      "mbid": "1ee37742-1e3d-4e61-84d2-bc85f4c1459a",
+      "name": "LE SSERAFIM",
+      "url": "https://www.last.fm/music/LE+SSERAFIM"
+     },
+     "image": [
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "small"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "medium"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "large"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "extralarge"
+      }
+     ],
+     "listeners": "566408",
+     "mbid": "30817bf7-2880-426b-b9f4-2ea7d715d8d7",
+     "name": "SPAGHETTI",
+     "playcount": "40630417",
+     "streamable": "0",
+     "url": "https://www.last.fm/music/LE+SSERAFIM/_/SPAGHETTI"
+    },
+    {
+     "@attr": {
+      "rank": "10"
+     },
+     "artist": {
+      "mbid": "1ee37742-1e3d-4e61-84d2-bc85f4c1459a",
+      "name": "LE SSERAFIM",
+      "url": "https://www.last.fm/music/LE+SSERAFIM"
+     },
+     "image": [
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "small"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "medium"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "large"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "extralarge"
+      }
+     ],
+     "listeners": "555911",
+     "mbid": "973b1efd-863c-4610-9fc1-d1406cc66cd9",
+     "name": "Impurities",
+     "playcount": "11943448",
+     "streamable": "0",
+     "url": "https://www.last.fm/music/LE+SSERAFIM/_/Impurities"
+    },
+    {
+     "@attr": {
+      "rank": "11"
+     },
+     "artist": {
+      "mbid": "1ee37742-1e3d-4e61-84d2-bc85f4c1459a",
+      "name": "LE SSERAFIM",
+      "url": "https://www.last.fm/music/LE+SSERAFIM"
+     },
+     "image": [
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "small"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "medium"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "large"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "extralarge"
+      }
+     ],
+     "listeners": "547540",
+     "name": "UNFORGIVEN (feat. Nile Rodgers)",
+     "playcount": "10845710",
+     "streamable": "0",
+     "url": "https://www.last.fm/music/LE+SSERAFIM/_/UNFORGIVEN+(feat.+Nile+Rodgers)"
+    },
+    {
+     "@attr": {
+      "rank": "12"
+     },
+     "artist": {
+      "mbid": "1ee37742-1e3d-4e61-84d2-bc85f4c1459a",
+      "name": "LE SSERAFIM",
+      "url": "https://www.last.fm/music/LE+SSERAFIM"
+     },
+     "image": [
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "small"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "medium"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "large"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "extralarge"
+      }
+     ],
+     "listeners": "443073",
+     "mbid": "0f551c5d-b971-4fa8-a9a7-788149d7702a",
+     "name": "HOT",
+     "playcount": "9337495",
+     "streamable": "0",
+     "url": "https://www.last.fm/music/LE+SSERAFIM/_/HOT"
+    },
+    {
+     "@attr": {
+      "rank": "13"
+     },
+     "artist": {
+      "mbid": "1ee37742-1e3d-4e61-84d2-bc85f4c1459a",
+      "name": "LE SSERAFIM",
+      "url": "https://www.last.fm/music/LE+SSERAFIM"
+     },
+     "image": [
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "small"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "medium"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "large"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "extralarge"
+      }
+     ],
+     "listeners": "443002",
+     "name": "1-800-hot-n-fun",
+     "playcount": "7833516",
+     "streamable": "0",
+     "url": "https://www.last.fm/music/LE+SSERAFIM/_/1-800-hot-n-fun"
+    },
+    {
+     "@attr": {
+      "rank": "14"
+     },
+     "artist": {
+      "mbid": "1ee37742-1e3d-4e61-84d2-bc85f4c1459a",
+      "name": "LE SSERAFIM",
+      "url": "https://www.last.fm/music/LE+SSERAFIM"
+     },
+     "image": [
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "small"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "medium"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "large"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "extralarge"
+      }
+     ],
+     "listeners": "439934",
+     "mbid": "50a79497-0690-4220-96a2-d62ca5d5ed96",
+     "name": "Blue Flame",
+     "playcount": "9126129",
+     "streamable": "0",
+     "url": "https://www.last.fm/music/LE+SSERAFIM/_/Blue+Flame"
+    },
+    {
+     "@attr": {
+      "rank": "15"
+     },
+     "artist": {
+      "mbid": "1ee37742-1e3d-4e61-84d2-bc85f4c1459a",
+      "name": "LE SSERAFIM",
+      "url": "https://www.last.fm/music/LE+SSERAFIM"
+     },
+     "image": [
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "small"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "medium"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "large"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "extralarge"
+      }
+     ],
+     "listeners": "411565",
+     "mbid": "3dc85b37-3b98-400c-abfa-9a5a1f8c5d50",
+     "name": "FEARLESS (2023 ver.)",
+     "playcount": "3583403",
+     "streamable": "0",
+     "url": "https://www.last.fm/music/LE+SSERAFIM/_/FEARLESS+(2023+ver.)"
     }
    ]
   }
@@ -77031,6 +79117,529 @@
      "playcount": "346773",
      "streamable": "0",
      "url": "https://www.last.fm/music/Netsky/_/Rio+(feat.+Digital+Farm+Animals)"
+    }
+   ]
+  }
+ },
+ "artist.gettoptracks|{\"artist\": \"NewJeans\", \"limit\": 15}": {
+  "toptracks": {
+   "@attr": {
+    "artist": "NewJeans",
+    "page": "1",
+    "perPage": "15",
+    "total": "9470",
+    "totalPages": "632"
+   },
+   "track": [
+    {
+     "@attr": {
+      "rank": "1"
+     },
+     "artist": {
+      "mbid": "49204a7a-ed85-407a-828f-6fd46f1d8126",
+      "name": "NewJeans",
+      "url": "https://www.last.fm/music/NewJeans"
+     },
+     "image": [
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "small"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "medium"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "large"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "extralarge"
+      }
+     ],
+     "listeners": "1285720",
+     "mbid": "d4e6c885-3533-499c-abcb-169a5db174c7",
+     "name": "Super Shy",
+     "playcount": "31405184",
+     "streamable": "0",
+     "url": "https://www.last.fm/music/NewJeans/_/Super+Shy"
+    },
+    {
+     "@attr": {
+      "rank": "2"
+     },
+     "artist": {
+      "mbid": "49204a7a-ed85-407a-828f-6fd46f1d8126",
+      "name": "NewJeans",
+      "url": "https://www.last.fm/music/NewJeans"
+     },
+     "image": [
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "small"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "medium"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "large"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "extralarge"
+      }
+     ],
+     "listeners": "1130447",
+     "mbid": "adf44a12-e5f4-48aa-9029-b9ef4b5f1d6d",
+     "name": "Ditto",
+     "playcount": "37779031",
+     "streamable": "0",
+     "url": "https://www.last.fm/music/NewJeans/_/Ditto"
+    },
+    {
+     "@attr": {
+      "rank": "3"
+     },
+     "artist": {
+      "mbid": "49204a7a-ed85-407a-828f-6fd46f1d8126",
+      "name": "NewJeans",
+      "url": "https://www.last.fm/music/NewJeans"
+     },
+     "image": [
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "small"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "medium"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "large"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "extralarge"
+      }
+     ],
+     "listeners": "1090132",
+     "mbid": "190bf5fe-63fd-4ca8-9a69-d9146df4c6ba",
+     "name": "New Jeans",
+     "playcount": "25647892",
+     "streamable": "0",
+     "url": "https://www.last.fm/music/NewJeans/_/New+Jeans"
+    },
+    {
+     "@attr": {
+      "rank": "4"
+     },
+     "artist": {
+      "mbid": "49204a7a-ed85-407a-828f-6fd46f1d8126",
+      "name": "NewJeans",
+      "url": "https://www.last.fm/music/NewJeans"
+     },
+     "image": [
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "small"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "medium"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "large"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "extralarge"
+      }
+     ],
+     "listeners": "1088204",
+     "mbid": "1357cb76-0307-4e79-83f0-f3ba3a2d9e68",
+     "name": "OMG",
+     "playcount": "31364041",
+     "streamable": "0",
+     "url": "https://www.last.fm/music/NewJeans/_/OMG"
+    },
+    {
+     "@attr": {
+      "rank": "5"
+     },
+     "artist": {
+      "mbid": "49204a7a-ed85-407a-828f-6fd46f1d8126",
+      "name": "NewJeans",
+      "url": "https://www.last.fm/music/NewJeans"
+     },
+     "image": [
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "small"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "medium"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "large"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "extralarge"
+      }
+     ],
+     "listeners": "967643",
+     "mbid": "bec9099f-460f-4b35-b841-9619b4546487",
+     "name": "ETA",
+     "playcount": "26267498",
+     "streamable": "0",
+     "url": "https://www.last.fm/music/NewJeans/_/ETA"
+    },
+    {
+     "@attr": {
+      "rank": "6"
+     },
+     "artist": {
+      "mbid": "49204a7a-ed85-407a-828f-6fd46f1d8126",
+      "name": "NewJeans",
+      "url": "https://www.last.fm/music/NewJeans"
+     },
+     "image": [
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "small"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "medium"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "large"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "extralarge"
+      }
+     ],
+     "listeners": "959706",
+     "mbid": "699f315a-d8a3-46f1-b01c-4151a255605e",
+     "name": "Attention",
+     "playcount": "25117257",
+     "streamable": "0",
+     "url": "https://www.last.fm/music/NewJeans/_/Attention"
+    },
+    {
+     "@attr": {
+      "rank": "7"
+     },
+     "artist": {
+      "mbid": "49204a7a-ed85-407a-828f-6fd46f1d8126",
+      "name": "NewJeans",
+      "url": "https://www.last.fm/music/NewJeans"
+     },
+     "image": [
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "small"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "medium"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "large"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "extralarge"
+      }
+     ],
+     "listeners": "955955",
+     "mbid": "0163d85b-fe39-46a0-9ab1-efe0e38ae2cd",
+     "name": "Hype Boy",
+     "playcount": "28863741",
+     "streamable": "0",
+     "url": "https://www.last.fm/music/NewJeans/_/Hype+Boy"
+    },
+    {
+     "@attr": {
+      "rank": "8"
+     },
+     "artist": {
+      "mbid": "49204a7a-ed85-407a-828f-6fd46f1d8126",
+      "name": "NewJeans",
+      "url": "https://www.last.fm/music/NewJeans"
+     },
+     "image": [
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "small"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "medium"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "large"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "extralarge"
+      }
+     ],
+     "listeners": "736472",
+     "mbid": "188fd05e-d60c-4c04-a542-10201d1ef338",
+     "name": "Cookie",
+     "playcount": "16993602",
+     "streamable": "0",
+     "url": "https://www.last.fm/music/NewJeans/_/Cookie"
+    },
+    {
+     "@attr": {
+      "rank": "9"
+     },
+     "artist": {
+      "mbid": "49204a7a-ed85-407a-828f-6fd46f1d8126",
+      "name": "NewJeans",
+      "url": "https://www.last.fm/music/NewJeans"
+     },
+     "image": [
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "small"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "medium"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "large"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "extralarge"
+      }
+     ],
+     "listeners": "734068",
+     "mbid": "905fe05b-d592-4ddc-96e7-be76522ab0fb",
+     "name": "Cool With You",
+     "playcount": "17982398",
+     "streamable": "0",
+     "url": "https://www.last.fm/music/NewJeans/_/Cool+With+You"
+    },
+    {
+     "@attr": {
+      "rank": "10"
+     },
+     "artist": {
+      "mbid": "49204a7a-ed85-407a-828f-6fd46f1d8126",
+      "name": "NewJeans",
+      "url": "https://www.last.fm/music/NewJeans"
+     },
+     "image": [
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "small"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "medium"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "large"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "extralarge"
+      }
+     ],
+     "listeners": "681372",
+     "mbid": "466dcccd-0e69-46fb-840f-d1412f2e09c0",
+     "name": "How Sweet",
+     "playcount": "14371008",
+     "streamable": "0",
+     "url": "https://www.last.fm/music/NewJeans/_/How+Sweet"
+    },
+    {
+     "@attr": {
+      "rank": "11"
+     },
+     "artist": {
+      "mbid": "49204a7a-ed85-407a-828f-6fd46f1d8126",
+      "name": "NewJeans",
+      "url": "https://www.last.fm/music/NewJeans"
+     },
+     "image": [
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "small"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "medium"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "large"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "extralarge"
+      }
+     ],
+     "listeners": "649630",
+     "mbid": "2b000e7d-ab12-47ad-95bb-08b14937135d",
+     "name": "Hurt",
+     "playcount": "14756655",
+     "streamable": "0",
+     "url": "https://www.last.fm/music/NewJeans/_/Hurt"
+    },
+    {
+     "@attr": {
+      "rank": "12"
+     },
+     "artist": {
+      "mbid": "49204a7a-ed85-407a-828f-6fd46f1d8126",
+      "name": "NewJeans",
+      "url": "https://www.last.fm/music/NewJeans"
+     },
+     "image": [
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "small"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "medium"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "large"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "extralarge"
+      }
+     ],
+     "listeners": "643442",
+     "mbid": "b8526072-3a60-426b-850c-5a9fb2257dbf",
+     "name": "Supernatural",
+     "playcount": "15674205",
+     "streamable": "0",
+     "url": "https://www.last.fm/music/NewJeans/_/Supernatural"
+    },
+    {
+     "@attr": {
+      "rank": "13"
+     },
+     "artist": {
+      "mbid": "49204a7a-ed85-407a-828f-6fd46f1d8126",
+      "name": "NewJeans",
+      "url": "https://www.last.fm/music/NewJeans"
+     },
+     "image": [
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "small"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "medium"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "large"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "extralarge"
+      }
+     ],
+     "listeners": "625689",
+     "mbid": "5db082d6-b570-49fe-9b07-9e9da68cab2d",
+     "name": "ASAP",
+     "playcount": "11352080",
+     "streamable": "0",
+     "url": "https://www.last.fm/music/NewJeans/_/ASAP"
+    },
+    {
+     "@attr": {
+      "rank": "14"
+     },
+     "artist": {
+      "mbid": "49204a7a-ed85-407a-828f-6fd46f1d8126",
+      "name": "NewJeans",
+      "url": "https://www.last.fm/music/NewJeans"
+     },
+     "image": [
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "small"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "medium"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "large"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "extralarge"
+      }
+     ],
+     "listeners": "581320",
+     "mbid": "5506d4aa-da8c-4490-a9e0-0ed4c1473f95",
+     "name": "Get Up",
+     "playcount": "24055831",
+     "streamable": "0",
+     "url": "https://www.last.fm/music/NewJeans/_/Get+Up"
+    },
+    {
+     "@attr": {
+      "rank": "15"
+     },
+     "artist": {
+      "mbid": "49204a7a-ed85-407a-828f-6fd46f1d8126",
+      "name": "NewJeans",
+      "url": "https://www.last.fm/music/NewJeans"
+     },
+     "image": [
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "small"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "medium"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "large"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "extralarge"
+      }
+     ],
+     "listeners": "455560",
+     "mbid": "be642626-1e93-495a-8d96-2a1630aa92a2",
+     "name": "Bubble Gum",
+     "playcount": "8368906",
+     "streamable": "0",
+     "url": "https://www.last.fm/music/NewJeans/_/Bubble+Gum"
     }
    ]
   }
@@ -93065,6 +95674,528 @@
    ]
   }
  },
+ "artist.gettoptracks|{\"artist\": \"SEVENTEEN\", \"limit\": 15}": {
+  "toptracks": {
+   "@attr": {
+    "artist": "Seventeen",
+    "page": "1",
+    "perPage": "15",
+    "total": "17834",
+    "totalPages": "1189"
+   },
+   "track": [
+    {
+     "@attr": {
+      "rank": "1"
+     },
+     "artist": {
+      "mbid": "61741918-09b4-453c-adc0-d4ad9b5c4b44",
+      "name": "Seventeen",
+      "url": "https://www.last.fm/music/Seventeen"
+     },
+     "image": [
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "small"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "medium"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "large"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "extralarge"
+      }
+     ],
+     "listeners": "367980",
+     "mbid": "46e782c1-8677-4426-9f1b-db4b30ead828",
+     "name": "HOT",
+     "playcount": "8658674",
+     "streamable": "0",
+     "url": "https://www.last.fm/music/Seventeen/_/HOT"
+    },
+    {
+     "@attr": {
+      "rank": "2"
+     },
+     "artist": {
+      "mbid": "61741918-09b4-453c-adc0-d4ad9b5c4b44",
+      "name": "Seventeen",
+      "url": "https://www.last.fm/music/Seventeen"
+     },
+     "image": [
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "small"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "medium"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "large"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "extralarge"
+      }
+     ],
+     "listeners": "358715",
+     "mbid": "428f0cb1-99ab-4725-857e-b6383a5a004c",
+     "name": "VERY NICE",
+     "playcount": "5493129",
+     "streamable": "0",
+     "url": "https://www.last.fm/music/Seventeen/_/VERY+NICE"
+    },
+    {
+     "@attr": {
+      "rank": "3"
+     },
+     "artist": {
+      "mbid": "61741918-09b4-453c-adc0-d4ad9b5c4b44",
+      "name": "Seventeen",
+      "url": "https://www.last.fm/music/Seventeen"
+     },
+     "image": [
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "small"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "medium"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "large"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "extralarge"
+      }
+     ],
+     "listeners": "353723",
+     "name": "Super",
+     "playcount": "10357246",
+     "streamable": "0",
+     "url": "https://www.last.fm/music/Seventeen/_/Super"
+    },
+    {
+     "@attr": {
+      "rank": "4"
+     },
+     "artist": {
+      "mbid": "61741918-09b4-453c-adc0-d4ad9b5c4b44",
+      "name": "Seventeen",
+      "url": "https://www.last.fm/music/Seventeen"
+     },
+     "image": [
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "small"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "medium"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "large"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "extralarge"
+      }
+     ],
+     "listeners": "314417",
+     "mbid": "1fba4ee5-2e0f-428c-86e6-e4a85819afa2",
+     "name": "Don't Wanna Cry",
+     "playcount": "4512985",
+     "streamable": "0",
+     "url": "https://www.last.fm/music/Seventeen/_/Don%27t+Wanna+Cry"
+    },
+    {
+     "@attr": {
+      "rank": "5"
+     },
+     "artist": {
+      "mbid": "61741918-09b4-453c-adc0-d4ad9b5c4b44",
+      "name": "Seventeen",
+      "url": "https://www.last.fm/music/Seventeen"
+     },
+     "image": [
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "small"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "medium"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "large"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "extralarge"
+      }
+     ],
+     "listeners": "303140",
+     "mbid": "683ac788-5410-4cce-8da6-ca272b95d798",
+     "name": "Rock with you",
+     "playcount": "7551830",
+     "streamable": "0",
+     "url": "https://www.last.fm/music/Seventeen/_/Rock+with+you"
+    },
+    {
+     "@attr": {
+      "rank": "6"
+     },
+     "artist": {
+      "mbid": "61741918-09b4-453c-adc0-d4ad9b5c4b44",
+      "name": "Seventeen",
+      "url": "https://www.last.fm/music/Seventeen"
+     },
+     "image": [
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "small"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "medium"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "large"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "extralarge"
+      }
+     ],
+     "listeners": "278142",
+     "mbid": "06b79852-27db-4cbe-8bdd-4893e0a379d6",
+     "name": "Left & Right",
+     "playcount": "5085742",
+     "streamable": "0",
+     "url": "https://www.last.fm/music/Seventeen/_/Left+&+Right"
+    },
+    {
+     "@attr": {
+      "rank": "7"
+     },
+     "artist": {
+      "mbid": "61741918-09b4-453c-adc0-d4ad9b5c4b44",
+      "name": "Seventeen",
+      "url": "https://www.last.fm/music/Seventeen"
+     },
+     "image": [
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "small"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "medium"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "large"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "extralarge"
+      }
+     ],
+     "listeners": "257584",
+     "mbid": "38de1208-4b73-43cd-bcad-1b054a6b88ab",
+     "name": "Darl+ing",
+     "playcount": "6683901",
+     "streamable": "0",
+     "url": "https://www.last.fm/music/Seventeen/_/Darl%252Bing"
+    },
+    {
+     "@attr": {
+      "rank": "8"
+     },
+     "artist": {
+      "mbid": "61741918-09b4-453c-adc0-d4ad9b5c4b44",
+      "name": "Seventeen",
+      "url": "https://www.last.fm/music/Seventeen"
+     },
+     "image": [
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "small"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "medium"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "large"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "extralarge"
+      }
+     ],
+     "listeners": "251196",
+     "mbid": "82ef39db-ed72-4276-b444-238d64206329",
+     "name": "Pretty U",
+     "playcount": "4570682",
+     "streamable": "0",
+     "url": "https://www.last.fm/music/Seventeen/_/Pretty+U"
+    },
+    {
+     "@attr": {
+      "rank": "9"
+     },
+     "artist": {
+      "mbid": "61741918-09b4-453c-adc0-d4ad9b5c4b44",
+      "name": "Seventeen",
+      "url": "https://www.last.fm/music/Seventeen"
+     },
+     "image": [
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "small"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "medium"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "large"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "extralarge"
+      }
+     ],
+     "listeners": "240819",
+     "mbid": "1c4ab527-6689-4811-ae72-faee5ce5e335",
+     "name": "CLAP",
+     "playcount": "3781168",
+     "streamable": "0",
+     "url": "https://www.last.fm/music/Seventeen/_/CLAP"
+    },
+    {
+     "@attr": {
+      "rank": "10"
+     },
+     "artist": {
+      "mbid": "61741918-09b4-453c-adc0-d4ad9b5c4b44",
+      "name": "Seventeen",
+      "url": "https://www.last.fm/music/Seventeen"
+     },
+     "image": [
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "small"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "medium"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "large"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "extralarge"
+      }
+     ],
+     "listeners": "233022",
+     "mbid": "75bccc09-1da1-4187-9db8-72d2fefb683c",
+     "name": "_WORLD",
+     "playcount": "5734848",
+     "streamable": "0",
+     "url": "https://www.last.fm/music/Seventeen/_/_WORLD"
+    },
+    {
+     "@attr": {
+      "rank": "11"
+     },
+     "artist": {
+      "mbid": "61741918-09b4-453c-adc0-d4ad9b5c4b44",
+      "name": "Seventeen",
+      "url": "https://www.last.fm/music/Seventeen"
+     },
+     "image": [
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "small"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "medium"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "large"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "extralarge"
+      }
+     ],
+     "listeners": "215400",
+     "mbid": "288350d7-bd46-4314-bb51-ae144d3b732d",
+     "name": "Ready to Love",
+     "playcount": "5600431",
+     "streamable": "0",
+     "url": "https://www.last.fm/music/Seventeen/_/Ready+to+Love"
+    },
+    {
+     "@attr": {
+      "rank": "12"
+     },
+     "artist": {
+      "mbid": "61741918-09b4-453c-adc0-d4ad9b5c4b44",
+      "name": "Seventeen",
+      "url": "https://www.last.fm/music/Seventeen"
+     },
+     "image": [
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "small"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "medium"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "large"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "extralarge"
+      }
+     ],
+     "listeners": "203389",
+     "mbid": "73ab159c-14b0-4c9e-8f2a-26013e239cd6",
+     "name": "CHEERS",
+     "playcount": "3832175",
+     "streamable": "0",
+     "url": "https://www.last.fm/music/Seventeen/_/CHEERS"
+    },
+    {
+     "@attr": {
+      "rank": "13"
+     },
+     "artist": {
+      "mbid": "61741918-09b4-453c-adc0-d4ad9b5c4b44",
+      "name": "Seventeen",
+      "url": "https://www.last.fm/music/Seventeen"
+     },
+     "image": [
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "small"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "medium"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "large"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "extralarge"
+      }
+     ],
+     "listeners": "199627",
+     "mbid": "c76965a6-716e-4ef1-838b-684341eb0c9c",
+     "name": "I Don't Understand But I Luv U",
+     "playcount": "4873322",
+     "streamable": "0",
+     "url": "https://www.last.fm/music/Seventeen/_/I+Don%27t+Understand+But+I+Luv+U"
+    },
+    {
+     "@attr": {
+      "rank": "14"
+     },
+     "artist": {
+      "mbid": "61741918-09b4-453c-adc0-d4ad9b5c4b44",
+      "name": "Seventeen",
+      "url": "https://www.last.fm/music/Seventeen"
+     },
+     "image": [
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "small"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "medium"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "large"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "extralarge"
+      }
+     ],
+     "listeners": "188266",
+     "mbid": "76e6239e-461a-4d92-9754-78627fdc28b8",
+     "name": "Adore U",
+     "playcount": "2835110",
+     "streamable": "0",
+     "url": "https://www.last.fm/music/Seventeen/_/Adore+U"
+    },
+    {
+     "@attr": {
+      "rank": "15"
+     },
+     "artist": {
+      "mbid": "61741918-09b4-453c-adc0-d4ad9b5c4b44",
+      "name": "Seventeen",
+      "url": "https://www.last.fm/music/Seventeen"
+     },
+     "image": [
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "small"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "medium"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "large"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "extralarge"
+      }
+     ],
+     "listeners": "186881",
+     "mbid": "0a3eea9b-bbb0-4e78-8f27-6f5394d218a4",
+     "name": "MAESTRO",
+     "playcount": "4246076",
+     "streamable": "0",
+     "url": "https://www.last.fm/music/Seventeen/_/MAESTRO"
+    }
+   ]
+  }
+ },
  "artist.gettoptracks|{\"artist\": \"SZA\", \"limit\": 15}": {
   "toptracks": {
    "@attr": {
@@ -103891,6 +107022,524 @@
    ]
   }
  },
+ "artist.gettoptracks|{\"artist\": \"Stray Kids\", \"limit\": 15}": {
+  "toptracks": {
+   "@attr": {
+    "artist": "Stray Kids",
+    "page": "1",
+    "perPage": "15",
+    "total": "19895",
+    "totalPages": "1327"
+   },
+   "track": [
+    {
+     "@attr": {
+      "rank": "1"
+     },
+     "artist": {
+      "mbid": "142b343d-bf5a-428c-a64f-6d1a7566bbe9",
+      "name": "Stray Kids",
+      "url": "https://www.last.fm/music/Stray+Kids"
+     },
+     "image": [
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "small"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "medium"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "large"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "extralarge"
+      }
+     ],
+     "listeners": "597101",
+     "name": "God’s Menu",
+     "playcount": "13759266",
+     "streamable": "0",
+     "url": "https://www.last.fm/music/Stray+Kids/_/God%E2%80%99s+Menu"
+    },
+    {
+     "@attr": {
+      "rank": "2"
+     },
+     "artist": {
+      "mbid": "142b343d-bf5a-428c-a64f-6d1a7566bbe9",
+      "name": "Stray Kids",
+      "url": "https://www.last.fm/music/Stray+Kids"
+     },
+     "image": [
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "small"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "medium"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "large"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "extralarge"
+      }
+     ],
+     "listeners": "497677",
+     "mbid": "c0a07f91-5e69-4a33-a723-41db88125e62",
+     "name": "MANIAC",
+     "playcount": "12027134",
+     "streamable": "0",
+     "url": "https://www.last.fm/music/Stray+Kids/_/MANIAC"
+    },
+    {
+     "@attr": {
+      "rank": "3"
+     },
+     "artist": {
+      "mbid": "142b343d-bf5a-428c-a64f-6d1a7566bbe9",
+      "name": "Stray Kids",
+      "url": "https://www.last.fm/music/Stray+Kids"
+     },
+     "image": [
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "small"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "medium"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "large"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "extralarge"
+      }
+     ],
+     "listeners": "410715",
+     "mbid": "b366ac83-6791-43ef-ad04-095b6dc2ab8f",
+     "name": "Chk Chk Boom",
+     "playcount": "12494234",
+     "streamable": "0",
+     "url": "https://www.last.fm/music/Stray+Kids/_/Chk+Chk+Boom"
+    },
+    {
+     "@attr": {
+      "rank": "4"
+     },
+     "artist": {
+      "mbid": "142b343d-bf5a-428c-a64f-6d1a7566bbe9",
+      "name": "Stray Kids",
+      "url": "https://www.last.fm/music/Stray+Kids"
+     },
+     "image": [
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "small"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "medium"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "large"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "extralarge"
+      }
+     ],
+     "listeners": "384379",
+     "mbid": "b485e58f-7e4a-48d2-b2b9-3bc3f20bae00",
+     "name": "Back Door",
+     "playcount": "6718032",
+     "streamable": "0",
+     "url": "https://www.last.fm/music/Stray+Kids/_/Back+Door"
+    },
+    {
+     "@attr": {
+      "rank": "5"
+     },
+     "artist": {
+      "mbid": "142b343d-bf5a-428c-a64f-6d1a7566bbe9",
+      "name": "Stray Kids",
+      "url": "https://www.last.fm/music/Stray+Kids"
+     },
+     "image": [
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "small"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "medium"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "large"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "extralarge"
+      }
+     ],
+     "listeners": "378128",
+     "mbid": "0491aab7-3481-4014-be07-6f562fb83944",
+     "name": "Thunderous",
+     "playcount": "9075030",
+     "streamable": "0",
+     "url": "https://www.last.fm/music/Stray+Kids/_/Thunderous"
+    },
+    {
+     "@attr": {
+      "rank": "6"
+     },
+     "artist": {
+      "mbid": "142b343d-bf5a-428c-a64f-6d1a7566bbe9",
+      "name": "Stray Kids",
+      "url": "https://www.last.fm/music/Stray+Kids"
+     },
+     "image": [
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "small"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "medium"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "large"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "extralarge"
+      }
+     ],
+     "listeners": "378000",
+     "name": "LALALALA",
+     "playcount": "10278504",
+     "streamable": "0",
+     "url": "https://www.last.fm/music/Stray+Kids/_/LALALALA"
+    },
+    {
+     "@attr": {
+      "rank": "7"
+     },
+     "artist": {
+      "mbid": "142b343d-bf5a-428c-a64f-6d1a7566bbe9",
+      "name": "Stray Kids",
+      "url": "https://www.last.fm/music/Stray+Kids"
+     },
+     "image": [
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "small"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "medium"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "large"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "extralarge"
+      }
+     ],
+     "listeners": "371000",
+     "mbid": "92610e58-2843-451a-ba1b-eafb230541d9",
+     "name": "S-Class",
+     "playcount": "10074167",
+     "streamable": "0",
+     "url": "https://www.last.fm/music/Stray+Kids/_/S-Class"
+    },
+    {
+     "@attr": {
+      "rank": "8"
+     },
+     "artist": {
+      "mbid": "142b343d-bf5a-428c-a64f-6d1a7566bbe9",
+      "name": "Stray Kids",
+      "url": "https://www.last.fm/music/Stray+Kids"
+     },
+     "image": [
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "small"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "medium"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "large"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "extralarge"
+      }
+     ],
+     "listeners": "366736",
+     "mbid": "e45a640e-d0d6-46ef-81c0-d98e48190c99",
+     "name": "CASE 143",
+     "playcount": "8074748",
+     "streamable": "0",
+     "url": "https://www.last.fm/music/Stray+Kids/_/CASE+143"
+    },
+    {
+     "@attr": {
+      "rank": "9"
+     },
+     "artist": {
+      "mbid": "142b343d-bf5a-428c-a64f-6d1a7566bbe9",
+      "name": "Stray Kids",
+      "url": "https://www.last.fm/music/Stray+Kids"
+     },
+     "image": [
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "small"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "medium"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "large"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "extralarge"
+      }
+     ],
+     "listeners": "352276",
+     "mbid": "0e138096-37cf-483d-a28d-6a331ff67943",
+     "name": "MIROH",
+     "playcount": "7649659",
+     "streamable": "0",
+     "url": "https://www.last.fm/music/Stray+Kids/_/MIROH"
+    },
+    {
+     "@attr": {
+      "rank": "10"
+     },
+     "artist": {
+      "mbid": "142b343d-bf5a-428c-a64f-6d1a7566bbe9",
+      "name": "Stray Kids",
+      "url": "https://www.last.fm/music/Stray+Kids"
+     },
+     "image": [
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "small"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "medium"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "large"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "extralarge"
+      }
+     ],
+     "listeners": "309793",
+     "name": "Red Lights (Bang Chan, Hyunjin)",
+     "playcount": "6181151",
+     "streamable": "0",
+     "url": "https://www.last.fm/music/Stray+Kids/_/Red+Lights+(Bang+Chan,+Hyunjin)"
+    },
+    {
+     "@attr": {
+      "rank": "11"
+     },
+     "artist": {
+      "mbid": "142b343d-bf5a-428c-a64f-6d1a7566bbe9",
+      "name": "Stray Kids",
+      "url": "https://www.last.fm/music/Stray+Kids"
+     },
+     "image": [
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "small"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "medium"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "large"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "extralarge"
+      }
+     ],
+     "listeners": "290991",
+     "name": "Come Play (from the series Arcane League of Legends)",
+     "playcount": "4258102",
+     "streamable": "0",
+     "url": "https://www.last.fm/music/Stray+Kids/_/Come+Play+(from+the+series+Arcane+League+of+Legends)"
+    },
+    {
+     "@attr": {
+      "rank": "12"
+     },
+     "artist": {
+      "mbid": "142b343d-bf5a-428c-a64f-6d1a7566bbe9",
+      "name": "Stray Kids",
+      "url": "https://www.last.fm/music/Stray+Kids"
+     },
+     "image": [
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "small"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "medium"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "large"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "extralarge"
+      }
+     ],
+     "listeners": "243165",
+     "name": "I Like It",
+     "playcount": "5317958",
+     "streamable": "0",
+     "url": "https://www.last.fm/music/Stray+Kids/_/I+Like+It"
+    },
+    {
+     "@attr": {
+      "rank": "13"
+     },
+     "artist": {
+      "mbid": "142b343d-bf5a-428c-a64f-6d1a7566bbe9",
+      "name": "Stray Kids",
+      "url": "https://www.last.fm/music/Stray+Kids"
+     },
+     "image": [
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "small"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "medium"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "large"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "extralarge"
+      }
+     ],
+     "listeners": "234038",
+     "mbid": "70cdde02-62d7-4bb8-af37-bf0547d0681e",
+     "name": "Charmer",
+     "playcount": "5143803",
+     "streamable": "0",
+     "url": "https://www.last.fm/music/Stray+Kids/_/Charmer"
+    },
+    {
+     "@attr": {
+      "rank": "14"
+     },
+     "artist": {
+      "mbid": "142b343d-bf5a-428c-a64f-6d1a7566bbe9",
+      "name": "Stray Kids",
+      "url": "https://www.last.fm/music/Stray+Kids"
+     },
+     "image": [
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "small"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "medium"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "large"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "extralarge"
+      }
+     ],
+     "listeners": "229490",
+     "mbid": "116d52f0-19fe-4bbe-b553-f1e8fb120d80",
+     "name": "My Pace",
+     "playcount": "3619648",
+     "streamable": "0",
+     "url": "https://www.last.fm/music/Stray+Kids/_/My+Pace"
+    },
+    {
+     "@attr": {
+      "rank": "15"
+     },
+     "artist": {
+      "mbid": "142b343d-bf5a-428c-a64f-6d1a7566bbe9",
+      "name": "Stray Kids",
+      "url": "https://www.last.fm/music/Stray+Kids"
+     },
+     "image": [
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "small"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "medium"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "large"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "extralarge"
+      }
+     ],
+     "listeners": "226356",
+     "mbid": "11412914-09da-4a31-b41c-8438567989fc",
+     "name": "DOMINO",
+     "playcount": "5033268",
+     "streamable": "0",
+     "url": "https://www.last.fm/music/Stray+Kids/_/DOMINO"
+    }
+   ]
+  }
+ },
  "artist.gettoptracks|{\"artist\": \"Summer Walker\", \"limit\": 15}": {
   "toptracks": {
    "@attr": {
@@ -104933,6 +108582,528 @@
      "playcount": "7587731",
      "streamable": "0",
      "url": "https://www.last.fm/music/System+of+a+Down/_/Forest"
+    }
+   ]
+  }
+ },
+ "artist.gettoptracks|{\"artist\": \"TWICE\", \"limit\": 15}": {
+  "toptracks": {
+   "@attr": {
+    "artist": "TWICE",
+    "page": "1",
+    "perPage": "15",
+    "total": "25363",
+    "totalPages": "1691"
+   },
+   "track": [
+    {
+     "@attr": {
+      "rank": "1"
+     },
+     "artist": {
+      "mbid": "8da127cc-c432-418f-b356-ef36210d82ac",
+      "name": "TWICE",
+      "url": "https://www.last.fm/music/TWICE"
+     },
+     "image": [
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "small"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "medium"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "large"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "extralarge"
+      }
+     ],
+     "listeners": "960666",
+     "mbid": "06a84550-773f-4ae9-b2ac-19442c7cb2b2",
+     "name": "FANCY",
+     "playcount": "20205242",
+     "streamable": "0",
+     "url": "https://www.last.fm/music/TWICE/_/FANCY"
+    },
+    {
+     "@attr": {
+      "rank": "2"
+     },
+     "artist": {
+      "mbid": "8da127cc-c432-418f-b356-ef36210d82ac",
+      "name": "TWICE",
+      "url": "https://www.last.fm/music/TWICE"
+     },
+     "image": [
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "small"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "medium"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "large"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "extralarge"
+      }
+     ],
+     "listeners": "865306",
+     "mbid": "048de85d-5d29-45d8-a655-f4a4a48d39d5",
+     "name": "The Feels",
+     "playcount": "17944665",
+     "streamable": "0",
+     "url": "https://www.last.fm/music/TWICE/_/The+Feels"
+    },
+    {
+     "@attr": {
+      "rank": "3"
+     },
+     "artist": {
+      "mbid": "8da127cc-c432-418f-b356-ef36210d82ac",
+      "name": "TWICE",
+      "url": "https://www.last.fm/music/TWICE"
+     },
+     "image": [
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "small"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "medium"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "large"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "extralarge"
+      }
+     ],
+     "listeners": "766428",
+     "mbid": "01b395c4-709d-403d-bb74-5839dbf8b1bc",
+     "name": "I CAN'T STOP ME",
+     "playcount": "13133660",
+     "streamable": "0",
+     "url": "https://www.last.fm/music/TWICE/_/I+CAN%27T+STOP+ME"
+    },
+    {
+     "@attr": {
+      "rank": "4"
+     },
+     "artist": {
+      "mbid": "8da127cc-c432-418f-b356-ef36210d82ac",
+      "name": "TWICE",
+      "url": "https://www.last.fm/music/TWICE"
+     },
+     "image": [
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "small"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "medium"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "large"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "extralarge"
+      }
+     ],
+     "listeners": "749031",
+     "mbid": "0f80564b-8f8e-4697-82a8-e32a4a09c117",
+     "name": "What is Love?",
+     "playcount": "8367369",
+     "streamable": "0",
+     "url": "https://www.last.fm/music/TWICE/_/What+is+Love%3F"
+    },
+    {
+     "@attr": {
+      "rank": "5"
+     },
+     "artist": {
+      "mbid": "8da127cc-c432-418f-b356-ef36210d82ac",
+      "name": "TWICE",
+      "url": "https://www.last.fm/music/TWICE"
+     },
+     "image": [
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "small"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "medium"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "large"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "extralarge"
+      }
+     ],
+     "listeners": "746039",
+     "mbid": "0ae24aec-345d-43b8-b1ea-9f48028c7658",
+     "name": "Feel Special",
+     "playcount": "14359353",
+     "streamable": "0",
+     "url": "https://www.last.fm/music/TWICE/_/Feel+Special"
+    },
+    {
+     "@attr": {
+      "rank": "6"
+     },
+     "artist": {
+      "mbid": "8da127cc-c432-418f-b356-ef36210d82ac",
+      "name": "TWICE",
+      "url": "https://www.last.fm/music/TWICE"
+     },
+     "image": [
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "small"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "medium"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "large"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "extralarge"
+      }
+     ],
+     "listeners": "606886",
+     "mbid": "009007c3-92e4-4d80-8c32-8e694b8fbd26",
+     "name": "TT",
+     "playcount": "9257019",
+     "streamable": "0",
+     "url": "https://www.last.fm/music/TWICE/_/TT"
+    },
+    {
+     "@attr": {
+      "rank": "7"
+     },
+     "artist": {
+      "mbid": "8da127cc-c432-418f-b356-ef36210d82ac",
+      "name": "TWICE",
+      "url": "https://www.last.fm/music/TWICE"
+     },
+     "image": [
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "small"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "medium"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "large"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "extralarge"
+      }
+     ],
+     "listeners": "589829",
+     "mbid": "0b922a81-bab1-456c-b42a-478c992db528",
+     "name": "LIKEY",
+     "playcount": "9295988",
+     "streamable": "0",
+     "url": "https://www.last.fm/music/TWICE/_/LIKEY"
+    },
+    {
+     "@attr": {
+      "rank": "8"
+     },
+     "artist": {
+      "mbid": "8da127cc-c432-418f-b356-ef36210d82ac",
+      "name": "TWICE",
+      "url": "https://www.last.fm/music/TWICE"
+     },
+     "image": [
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "small"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "medium"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "large"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "extralarge"
+      }
+     ],
+     "listeners": "573056",
+     "mbid": "3b1092ab-82d8-4c07-a745-8c30043bb13f",
+     "name": "Talk that Talk",
+     "playcount": "13614961",
+     "streamable": "0",
+     "url": "https://www.last.fm/music/TWICE/_/Talk+that+Talk"
+    },
+    {
+     "@attr": {
+      "rank": "9"
+     },
+     "artist": {
+      "mbid": "8da127cc-c432-418f-b356-ef36210d82ac",
+      "name": "TWICE",
+      "url": "https://www.last.fm/music/TWICE"
+     },
+     "image": [
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "small"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "medium"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "large"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "extralarge"
+      }
+     ],
+     "listeners": "546179",
+     "mbid": "07bff2a2-a978-4fa1-99c8-b05362a584af",
+     "name": "YES or YES",
+     "playcount": "7687281",
+     "streamable": "0",
+     "url": "https://www.last.fm/music/TWICE/_/YES+or+YES"
+    },
+    {
+     "@attr": {
+      "rank": "10"
+     },
+     "artist": {
+      "mbid": "8da127cc-c432-418f-b356-ef36210d82ac",
+      "name": "TWICE",
+      "url": "https://www.last.fm/music/TWICE"
+     },
+     "image": [
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "small"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "medium"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "large"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "extralarge"
+      }
+     ],
+     "listeners": "539910",
+     "mbid": "037a1f4c-0a42-4e4b-8623-6fa0b6986163",
+     "name": "CHEER UP",
+     "playcount": "7269631",
+     "streamable": "0",
+     "url": "https://www.last.fm/music/TWICE/_/CHEER+UP"
+    },
+    {
+     "@attr": {
+      "rank": "11"
+     },
+     "artist": {
+      "mbid": "8da127cc-c432-418f-b356-ef36210d82ac",
+      "name": "TWICE",
+      "url": "https://www.last.fm/music/TWICE"
+     },
+     "image": [
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "small"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "medium"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "large"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "extralarge"
+      }
+     ],
+     "listeners": "538784",
+     "mbid": "1c4d363d-4bfd-4e69-82c8-ab3fd3215eaa",
+     "name": "Alcohol-Free",
+     "playcount": "10670974",
+     "streamable": "0",
+     "url": "https://www.last.fm/music/TWICE/_/Alcohol-Free"
+    },
+    {
+     "@attr": {
+      "rank": "12"
+     },
+     "artist": {
+      "mbid": "8da127cc-c432-418f-b356-ef36210d82ac",
+      "name": "TWICE",
+      "url": "https://www.last.fm/music/TWICE"
+     },
+     "image": [
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "small"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "medium"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "large"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "extralarge"
+      }
+     ],
+     "listeners": "538329",
+     "name": "What Is Love",
+     "playcount": "8656581",
+     "streamable": "0",
+     "url": "https://www.last.fm/music/TWICE/_/What+Is+Love"
+    },
+    {
+     "@attr": {
+      "rank": "13"
+     },
+     "artist": {
+      "mbid": "8da127cc-c432-418f-b356-ef36210d82ac",
+      "name": "TWICE",
+      "url": "https://www.last.fm/music/TWICE"
+     },
+     "image": [
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "small"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "medium"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "large"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "extralarge"
+      }
+     ],
+     "listeners": "536975",
+     "mbid": "f44a69ae-87c3-412f-a77d-dcbe32f03770",
+     "name": "Strategy (feat. Megan Thee Stallion)",
+     "playcount": "9194521",
+     "streamable": "0",
+     "url": "https://www.last.fm/music/TWICE/_/Strategy+(feat.+Megan+Thee+Stallion)"
+    },
+    {
+     "@attr": {
+      "rank": "14"
+     },
+     "artist": {
+      "mbid": "8da127cc-c432-418f-b356-ef36210d82ac",
+      "name": "TWICE",
+      "url": "https://www.last.fm/music/TWICE"
+     },
+     "image": [
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "small"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "medium"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "large"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "extralarge"
+      }
+     ],
+     "listeners": "532893",
+     "mbid": "012b7cd6-a0d0-45d2-bf48-7ca5b4113345",
+     "name": "CRY FOR ME",
+     "playcount": "8464172",
+     "streamable": "0",
+     "url": "https://www.last.fm/music/TWICE/_/CRY+FOR+ME"
+    },
+    {
+     "@attr": {
+      "rank": "15"
+     },
+     "artist": {
+      "mbid": "8da127cc-c432-418f-b356-ef36210d82ac",
+      "name": "TWICE",
+      "url": "https://www.last.fm/music/TWICE"
+     },
+     "image": [
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "small"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "medium"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "large"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "extralarge"
+      }
+     ],
+     "listeners": "512712",
+     "mbid": "225cb6a3-6c53-4b97-af3e-b544864272a3",
+     "name": "Dance the Night Away",
+     "playcount": "6850364",
+     "streamable": "0",
+     "url": "https://www.last.fm/music/TWICE/_/Dance+the+Night+Away"
     }
    ]
   }
@@ -120954,6 +125125,529 @@
    ]
   }
  },
+ "artist.gettoptracks|{\"artist\": \"aespa\", \"limit\": 15}": {
+  "toptracks": {
+   "@attr": {
+    "artist": "aespa",
+    "page": "1",
+    "perPage": "15",
+    "total": "10296",
+    "totalPages": "687"
+   },
+   "track": [
+    {
+     "@attr": {
+      "rank": "1"
+     },
+     "artist": {
+      "mbid": "b51c672b-85e0-48fe-8648-470a2422229f",
+      "name": "aespa",
+      "url": "https://www.last.fm/music/aespa"
+     },
+     "image": [
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "small"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "medium"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "large"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "extralarge"
+      }
+     ],
+     "listeners": "706569",
+     "mbid": "f758907c-a06b-4187-bba4-f8ea9790e156",
+     "name": "Drama",
+     "playcount": "19526728",
+     "streamable": "0",
+     "url": "https://www.last.fm/music/aespa/_/Drama"
+    },
+    {
+     "@attr": {
+      "rank": "2"
+     },
+     "artist": {
+      "mbid": "b51c672b-85e0-48fe-8648-470a2422229f",
+      "name": "aespa",
+      "url": "https://www.last.fm/music/aespa"
+     },
+     "image": [
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "small"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "medium"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "large"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "extralarge"
+      }
+     ],
+     "listeners": "692759",
+     "mbid": "4d037b0c-bd99-4352-8fb7-43993597f109",
+     "name": "Supernova",
+     "playcount": "21404096",
+     "streamable": "0",
+     "url": "https://www.last.fm/music/aespa/_/Supernova"
+    },
+    {
+     "@attr": {
+      "rank": "3"
+     },
+     "artist": {
+      "mbid": "b51c672b-85e0-48fe-8648-470a2422229f",
+      "name": "aespa",
+      "url": "https://www.last.fm/music/aespa"
+     },
+     "image": [
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "small"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "medium"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "large"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "extralarge"
+      }
+     ],
+     "listeners": "680025",
+     "mbid": "24dd7fe2-068b-456f-93f2-1eb5400f03dd",
+     "name": "Whiplash",
+     "playcount": "18854956",
+     "streamable": "0",
+     "url": "https://www.last.fm/music/aespa/_/Whiplash"
+    },
+    {
+     "@attr": {
+      "rank": "4"
+     },
+     "artist": {
+      "mbid": "b51c672b-85e0-48fe-8648-470a2422229f",
+      "name": "aespa",
+      "url": "https://www.last.fm/music/aespa"
+     },
+     "image": [
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "small"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "medium"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "large"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "extralarge"
+      }
+     ],
+     "listeners": "589466",
+     "mbid": "3fb5e8d9-e9a3-43c8-a6be-1e7f6ea7406f",
+     "name": "Armageddon",
+     "playcount": "15032166",
+     "streamable": "0",
+     "url": "https://www.last.fm/music/aespa/_/Armageddon"
+    },
+    {
+     "@attr": {
+      "rank": "5"
+     },
+     "artist": {
+      "mbid": "b51c672b-85e0-48fe-8648-470a2422229f",
+      "name": "aespa",
+      "url": "https://www.last.fm/music/aespa"
+     },
+     "image": [
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "small"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "medium"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "large"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "extralarge"
+      }
+     ],
+     "listeners": "563581",
+     "mbid": "85a66da6-145d-47c7-ad5c-e4cd8273fe08",
+     "name": "Savage",
+     "playcount": "12805853",
+     "streamable": "0",
+     "url": "https://www.last.fm/music/aespa/_/Savage"
+    },
+    {
+     "@attr": {
+      "rank": "6"
+     },
+     "artist": {
+      "mbid": "b51c672b-85e0-48fe-8648-470a2422229f",
+      "name": "aespa",
+      "url": "https://www.last.fm/music/aespa"
+     },
+     "image": [
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "small"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "medium"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "large"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "extralarge"
+      }
+     ],
+     "listeners": "560336",
+     "mbid": "ea9014d1-7d90-4831-8b0a-049bfaa5f227",
+     "name": "Next Level",
+     "playcount": "12613892",
+     "streamable": "0",
+     "url": "https://www.last.fm/music/aespa/_/Next+Level"
+    },
+    {
+     "@attr": {
+      "rank": "7"
+     },
+     "artist": {
+      "mbid": "b51c672b-85e0-48fe-8648-470a2422229f",
+      "name": "aespa",
+      "url": "https://www.last.fm/music/aespa"
+     },
+     "image": [
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "small"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "medium"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "large"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "extralarge"
+      }
+     ],
+     "listeners": "553899",
+     "mbid": "0cb3df7e-edaa-4aa5-828e-ee4c56c89568",
+     "name": "Black Mamba",
+     "playcount": "10013229",
+     "streamable": "0",
+     "url": "https://www.last.fm/music/aespa/_/Black+Mamba"
+    },
+    {
+     "@attr": {
+      "rank": "8"
+     },
+     "artist": {
+      "mbid": "b51c672b-85e0-48fe-8648-470a2422229f",
+      "name": "aespa",
+      "url": "https://www.last.fm/music/aespa"
+     },
+     "image": [
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "small"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "medium"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "large"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "extralarge"
+      }
+     ],
+     "listeners": "502552",
+     "mbid": "2d646b0c-4ff2-43d5-8daa-15ed56ab590c",
+     "name": "Spicy",
+     "playcount": "11533005",
+     "streamable": "0",
+     "url": "https://www.last.fm/music/aespa/_/Spicy"
+    },
+    {
+     "@attr": {
+      "rank": "9"
+     },
+     "artist": {
+      "mbid": "b51c672b-85e0-48fe-8648-470a2422229f",
+      "name": "aespa",
+      "url": "https://www.last.fm/music/aespa"
+     },
+     "image": [
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "small"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "medium"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "large"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "extralarge"
+      }
+     ],
+     "listeners": "494024",
+     "mbid": "fa0181a9-aaf8-4d41-97bd-82620242d8d9",
+     "name": "Hold On Tight",
+     "playcount": "9775608",
+     "streamable": "0",
+     "url": "https://www.last.fm/music/aespa/_/Hold+On+Tight"
+    },
+    {
+     "@attr": {
+      "rank": "10"
+     },
+     "artist": {
+      "mbid": "b51c672b-85e0-48fe-8648-470a2422229f",
+      "name": "aespa",
+      "url": "https://www.last.fm/music/aespa"
+     },
+     "image": [
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "small"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "medium"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "large"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "extralarge"
+      }
+     ],
+     "listeners": "437142",
+     "mbid": "d749d7ae-3a2f-4417-a108-fad3a4c4c3b9",
+     "name": "Illusion",
+     "playcount": "10002459",
+     "streamable": "0",
+     "url": "https://www.last.fm/music/aespa/_/Illusion"
+    },
+    {
+     "@attr": {
+      "rank": "11"
+     },
+     "artist": {
+      "mbid": "b51c672b-85e0-48fe-8648-470a2422229f",
+      "name": "aespa",
+      "url": "https://www.last.fm/music/aespa"
+     },
+     "image": [
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "small"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "medium"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "large"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "extralarge"
+      }
+     ],
+     "listeners": "417745",
+     "mbid": "a23fb159-cd18-4ac5-a737-e7b3e9c8b269",
+     "name": "Lucid Dream",
+     "playcount": "8538500",
+     "streamable": "0",
+     "url": "https://www.last.fm/music/aespa/_/Lucid+Dream"
+    },
+    {
+     "@attr": {
+      "rank": "12"
+     },
+     "artist": {
+      "mbid": "b51c672b-85e0-48fe-8648-470a2422229f",
+      "name": "aespa",
+      "url": "https://www.last.fm/music/aespa"
+     },
+     "image": [
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "small"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "medium"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "large"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "extralarge"
+      }
+     ],
+     "listeners": "383112",
+     "mbid": "a7d86bff-b8a3-4602-b72e-9023795077f5",
+     "name": "Girls",
+     "playcount": "8018594",
+     "streamable": "0",
+     "url": "https://www.last.fm/music/aespa/_/Girls"
+    },
+    {
+     "@attr": {
+      "rank": "13"
+     },
+     "artist": {
+      "mbid": "b51c672b-85e0-48fe-8648-470a2422229f",
+      "name": "aespa",
+      "url": "https://www.last.fm/music/aespa"
+     },
+     "image": [
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "small"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "medium"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "large"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "extralarge"
+      }
+     ],
+     "listeners": "337791",
+     "mbid": "2fdd5fb2-4c67-4754-987a-abeec4c89e88",
+     "name": "UP - KARINA Solo",
+     "playcount": "5810197",
+     "streamable": "0",
+     "url": "https://www.last.fm/music/aespa/_/UP+-+KARINA+Solo"
+    },
+    {
+     "@attr": {
+      "rank": "14"
+     },
+     "artist": {
+      "mbid": "b51c672b-85e0-48fe-8648-470a2422229f",
+      "name": "aespa",
+      "url": "https://www.last.fm/music/aespa"
+     },
+     "image": [
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "small"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "medium"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "large"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "extralarge"
+      }
+     ],
+     "listeners": "332083",
+     "mbid": "0abc9ea5-58d5-4740-a1eb-d04b3df423d9",
+     "name": "Dreams Come True",
+     "playcount": "7304273",
+     "streamable": "0",
+     "url": "https://www.last.fm/music/aespa/_/Dreams+Come+True"
+    },
+    {
+     "@attr": {
+      "rank": "15"
+     },
+     "artist": {
+      "mbid": "b51c672b-85e0-48fe-8648-470a2422229f",
+      "name": "aespa",
+      "url": "https://www.last.fm/music/aespa"
+     },
+     "image": [
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "small"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "medium"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "large"
+      },
+      {
+       "#text": "https://lastfm-img.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+       "size": "extralarge"
+      }
+     ],
+     "listeners": "321578",
+     "mbid": "12ee245c-d844-498c-ba16-8ed7fb76f604",
+     "name": "Better Things",
+     "playcount": "5396226",
+     "streamable": "0",
+     "url": "https://www.last.fm/music/aespa/_/Better+Things"
+    }
+   ]
+  }
+ },
  "artist.gettoptracks|{\"artist\": \"beabadoobee\", \"limit\": 15}": {
   "toptracks": {
    "@attr": {
@@ -126350,6 +131044,366 @@
     "track": "The Thrill Is Gone"
    },
    "tag": []
+  }
+ },
+ "track.gettoptags|{\"artist\": \"BLACKPINK\", \"track\": \"DDU-DU DDU-DU\"}": {
+  "toptags": {
+   "@attr": {
+    "artist": "BLACKPINK",
+    "track": "DDU-DU DDU-DU"
+   },
+   "tag": [
+    {
+     "count": 100,
+     "name": "Kpop",
+     "url": "https://www.last.fm/tag/Kpop"
+    },
+    {
+     "count": 92,
+     "name": "k-pop",
+     "url": "https://www.last.fm/tag/k-pop"
+    },
+    {
+     "count": 25,
+     "name": "blackpink",
+     "url": "https://www.last.fm/tag/blackpink"
+    },
+    {
+     "count": 18,
+     "name": "pop",
+     "url": "https://www.last.fm/tag/pop"
+    },
+    {
+     "count": 2,
+     "name": "girl group",
+     "url": "https://www.last.fm/tag/girl+group"
+    },
+    {
+     "count": 2,
+     "name": "dance",
+     "url": "https://www.last.fm/tag/dance"
+    },
+    {
+     "count": 2,
+     "name": "Korean",
+     "url": "https://www.last.fm/tag/Korean"
+    },
+    {
+     "count": 1,
+     "name": "2018",
+     "url": "https://www.last.fm/tag/2018"
+    },
+    {
+     "count": 1,
+     "name": "pop rap",
+     "url": "https://www.last.fm/tag/pop+rap"
+    },
+    {
+     "count": 1,
+     "name": "trap",
+     "url": "https://www.last.fm/tag/trap"
+    }
+   ]
+  }
+ },
+ "track.gettoptags|{\"artist\": \"BLACKPINK\", \"track\": \"How You Like That\"}": {
+  "toptags": {
+   "@attr": {
+    "artist": "BLACKPINK",
+    "track": "How You Like That"
+   },
+   "tag": [
+    {
+     "count": 100,
+     "name": "blackpink in your area",
+     "url": "https://www.last.fm/tag/blackpink+in+your+area"
+    },
+    {
+     "count": 85,
+     "name": "Kpop",
+     "url": "https://www.last.fm/tag/Kpop"
+    },
+    {
+     "count": 25,
+     "name": "k-pop",
+     "url": "https://www.last.fm/tag/k-pop"
+    },
+    {
+     "count": 25,
+     "name": "pop",
+     "url": "https://www.last.fm/tag/pop"
+    },
+    {
+     "count": 9,
+     "name": "2020",
+     "url": "https://www.last.fm/tag/2020"
+    },
+    {
+     "count": 6,
+     "name": "pop rap",
+     "url": "https://www.last.fm/tag/pop+rap"
+    },
+    {
+     "count": 6,
+     "name": "trap",
+     "url": "https://www.last.fm/tag/trap"
+    },
+    {
+     "count": 2,
+     "name": "LOOK UP TO THE SKY ITS A BIRD ITS A PLANE",
+     "url": "https://www.last.fm/tag/LOOK+UP+TO+THE+SKY+ITS+A+BIRD+ITS+A+PLANE"
+    },
+    {
+     "count": 1,
+     "name": "The Album",
+     "url": "https://www.last.fm/tag/The+Album"
+    },
+    {
+     "count": 1,
+     "name": "Korean",
+     "url": "https://www.last.fm/tag/Korean"
+    }
+   ]
+  }
+ },
+ "track.gettoptags|{\"artist\": \"BLACKPINK\", \"track\": \"Kill This Love\"}": {
+  "toptags": {
+   "@attr": {
+    "artist": "BLACKPINK",
+    "track": "Kill This Love"
+   },
+   "tag": [
+    {
+     "count": 100,
+     "name": "Kpop",
+     "url": "https://www.last.fm/tag/Kpop"
+    },
+    {
+     "count": 100,
+     "name": "k-pop",
+     "url": "https://www.last.fm/tag/k-pop"
+    },
+    {
+     "count": 26,
+     "name": "trap",
+     "url": "https://www.last.fm/tag/trap"
+    },
+    {
+     "count": 20,
+     "name": "pop",
+     "url": "https://www.last.fm/tag/pop"
+    },
+    {
+     "count": 7,
+     "name": "EDM",
+     "url": "https://www.last.fm/tag/EDM"
+    },
+    {
+     "count": 7,
+     "name": "electropop",
+     "url": "https://www.last.fm/tag/electropop"
+    },
+    {
+     "count": 3,
+     "name": "dance",
+     "url": "https://www.last.fm/tag/dance"
+    },
+    {
+     "count": 1,
+     "name": "Korean",
+     "url": "https://www.last.fm/tag/Korean"
+    },
+    {
+     "count": 1,
+     "name": "pop rap",
+     "url": "https://www.last.fm/tag/pop+rap"
+    },
+    {
+     "count": 1,
+     "name": "2019",
+     "url": "https://www.last.fm/tag/2019"
+    }
+   ]
+  }
+ },
+ "track.gettoptags|{\"artist\": \"BTS\", \"track\": \"Boy With Luv (feat. Halsey)\"}": {
+  "toptags": {
+   "@attr": {
+    "artist": "BTS",
+    "track": "Boy With Luv (feat. Halsey)"
+   },
+   "tag": [
+    {
+     "count": 100,
+     "name": "k-pop",
+     "url": "https://www.last.fm/tag/k-pop"
+    },
+    {
+     "count": 100,
+     "name": "pop",
+     "url": "https://www.last.fm/tag/pop"
+    },
+    {
+     "count": 66,
+     "name": "bots",
+     "url": "https://www.last.fm/tag/bots"
+    },
+    {
+     "count": 55,
+     "name": "bts",
+     "url": "https://www.last.fm/tag/bts"
+    },
+    {
+     "count": 22,
+     "name": "Kpop",
+     "url": "https://www.last.fm/tag/Kpop"
+    },
+    {
+     "count": 18,
+     "name": "Pop Court with manda m",
+     "url": "https://www.last.fm/tag/Pop+Court+with+manda+m"
+    },
+    {
+     "count": 18,
+     "name": "WSUM 91.7 FM Madison",
+     "url": "https://www.last.fm/tag/WSUM+91.7+FM+Madison"
+    },
+    {
+     "count": 2,
+     "name": "2019",
+     "url": "https://www.last.fm/tag/2019"
+    },
+    {
+     "count": 1,
+     "name": "Korean",
+     "url": "https://www.last.fm/tag/Korean"
+    },
+    {
+     "count": 1,
+     "name": "2010s",
+     "url": "https://www.last.fm/tag/2010s"
+    }
+   ]
+  }
+ },
+ "track.gettoptags|{\"artist\": \"BTS\", \"track\": \"Dynamite\"}": {
+  "toptags": {
+   "@attr": {
+    "artist": "BTS",
+    "track": "Dynamite"
+   },
+   "tag": [
+    {
+     "count": 100,
+     "name": "pop",
+     "url": "https://www.last.fm/tag/pop"
+    },
+    {
+     "count": 79,
+     "name": "bts",
+     "url": "https://www.last.fm/tag/bts"
+    },
+    {
+     "count": 41,
+     "name": "Disco",
+     "url": "https://www.last.fm/tag/Disco"
+    },
+    {
+     "count": 33,
+     "name": "Kpop",
+     "url": "https://www.last.fm/tag/Kpop"
+    },
+    {
+     "count": 15,
+     "name": "Dynamite",
+     "url": "https://www.last.fm/tag/Dynamite"
+    },
+    {
+     "count": 11,
+     "name": "k-pop",
+     "url": "https://www.last.fm/tag/k-pop"
+    },
+    {
+     "count": 9,
+     "name": "funk",
+     "url": "https://www.last.fm/tag/funk"
+    },
+    {
+     "count": 2,
+     "name": "dance",
+     "url": "https://www.last.fm/tag/dance"
+    },
+    {
+     "count": 2,
+     "name": "english",
+     "url": "https://www.last.fm/tag/english"
+    },
+    {
+     "count": 2,
+     "name": "Retro",
+     "url": "https://www.last.fm/tag/Retro"
+    }
+   ]
+  }
+ },
+ "track.gettoptags|{\"artist\": \"BTS\", \"track\": \"FAKE LOVE\"}": {
+  "toptags": {
+   "@attr": {
+    "artist": "BTS",
+    "track": "FAKE LOVE"
+   },
+   "tag": [
+    {
+     "count": 100,
+     "name": "bts",
+     "url": "https://www.last.fm/tag/bts"
+    },
+    {
+     "count": 86,
+     "name": "k-pop",
+     "url": "https://www.last.fm/tag/k-pop"
+    },
+    {
+     "count": 57,
+     "name": "Kpop",
+     "url": "https://www.last.fm/tag/Kpop"
+    },
+    {
+     "count": 39,
+     "name": "pop",
+     "url": "https://www.last.fm/tag/pop"
+    },
+    {
+     "count": 17,
+     "name": "Korean",
+     "url": "https://www.last.fm/tag/Korean"
+    },
+    {
+     "count": 7,
+     "name": "hip hop",
+     "url": "https://www.last.fm/tag/hip+hop"
+    },
+    {
+     "count": 5,
+     "name": "rap",
+     "url": "https://www.last.fm/tag/rap"
+    },
+    {
+     "count": 1,
+     "name": "EDM",
+     "url": "https://www.last.fm/tag/EDM"
+    },
+    {
+     "count": 1,
+     "name": "Fake Love",
+     "url": "https://www.last.fm/tag/Fake+Love"
+    },
+    {
+     "count": 1,
+     "name": "RM",
+     "url": "https://www.last.fm/tag/RM"
+    }
+   ]
   }
  },
  "track.gettoptags|{\"artist\": \"Bad Bunny\", \"track\": \"DtMF\"}": {
@@ -132716,6 +137770,84 @@
    "tag": []
   }
  },
+ "track.gettoptags|{\"artist\": \"IU\", \"track\": \"BBIBBI\"}": {
+  "toptags": {
+   "@attr": {
+    "artist": "IU",
+    "track": "BBIBBI"
+   },
+   "tag": []
+  }
+ },
+ "track.gettoptags|{\"artist\": \"IU\", \"track\": \"LILAC\"}": {
+  "toptags": {
+   "@attr": {
+    "artist": "IU",
+    "track": "LILAC"
+   },
+   "tag": [
+    {
+     "count": 100,
+     "name": "Kpop",
+     "url": "https://www.last.fm/tag/Kpop"
+    },
+    {
+     "count": 25,
+     "name": "k-pop",
+     "url": "https://www.last.fm/tag/k-pop"
+    },
+    {
+     "count": 17,
+     "name": "makes me cry",
+     "url": "https://www.last.fm/tag/makes+me+cry"
+    },
+    {
+     "count": 17,
+     "name": "Dreamy",
+     "url": "https://www.last.fm/tag/Dreamy"
+    },
+    {
+     "count": 8,
+     "name": "etheral",
+     "url": "https://www.last.fm/tag/etheral"
+    },
+    {
+     "count": 8,
+     "name": "iu",
+     "url": "https://www.last.fm/tag/iu"
+    },
+    {
+     "count": 8,
+     "name": "LILAC",
+     "url": "https://www.last.fm/tag/LILAC"
+    },
+    {
+     "count": 3,
+     "name": "2021",
+     "url": "https://www.last.fm/tag/2021"
+    },
+    {
+     "count": 3,
+     "name": "2020s",
+     "url": "https://www.last.fm/tag/2020s"
+    },
+    {
+     "count": 3,
+     "name": "sarah bear loves iu",
+     "url": "https://www.last.fm/tag/sarah+bear+loves+iu"
+    }
+   ]
+  }
+ },
+ "track.gettoptags|{\"artist\": \"IU\", \"track\": \"eight(Prod.&Feat. SUGA of BTS)\"}": {
+  "toptags": {
+   "@attr": {
+    "artist": "IU",
+    "track": "eight(Prod.&Feat. SUGA of BTS)"
+   },
+   "tag": []
+  }
+ },
  "track.gettoptags|{\"artist\": \"Iron Maiden\", \"track\": \"Run to the Hills\"}": {
   "toptags": {
    "@attr": {
@@ -134297,6 +139429,186 @@
    "tag": []
   }
  },
+ "track.gettoptags|{\"artist\": \"LE SSERAFIM\", \"track\": \"ANTIFRAGILE\"}": {
+  "toptags": {
+   "@attr": {
+    "artist": "LE SSERAFIM",
+    "track": "ANTIFRAGILE"
+   },
+   "tag": [
+    {
+     "count": 100,
+     "name": "k-pop",
+     "url": "https://www.last.fm/tag/k-pop"
+    },
+    {
+     "count": 79,
+     "name": "Reggaeton",
+     "url": "https://www.last.fm/tag/Reggaeton"
+    },
+    {
+     "count": 13,
+     "name": "neoperreo",
+     "url": "https://www.last.fm/tag/neoperreo"
+    },
+    {
+     "count": 13,
+     "name": "Korean",
+     "url": "https://www.last.fm/tag/Korean"
+    },
+    {
+     "count": 4,
+     "name": "Kpop",
+     "url": "https://www.last.fm/tag/Kpop"
+    },
+    {
+     "count": 4,
+     "name": "2022",
+     "url": "https://www.last.fm/tag/2022"
+    },
+    {
+     "count": 2,
+     "name": "latin",
+     "url": "https://www.last.fm/tag/latin"
+    },
+    {
+     "count": 1,
+     "name": "julia mofada",
+     "url": "https://www.last.fm/tag/julia+mofada"
+    },
+    {
+     "count": 1,
+     "name": "pop rap",
+     "url": "https://www.last.fm/tag/pop+rap"
+    },
+    {
+     "count": 1,
+     "name": "lovey lovey lovey dovey dovey dovey",
+     "url": "https://www.last.fm/tag/lovey+lovey+lovey+dovey+dovey+dovey"
+    }
+   ]
+  }
+ },
+ "track.gettoptags|{\"artist\": \"LE SSERAFIM\", \"track\": \"CRAZY\"}": {
+  "toptags": {
+   "@attr": {
+    "artist": "LE SSERAFIM",
+    "track": "CRAZY"
+   },
+   "tag": [
+    {
+     "count": 100,
+     "name": "k-pop",
+     "url": "https://www.last.fm/tag/k-pop"
+    },
+    {
+     "count": 100,
+     "name": "House",
+     "url": "https://www.last.fm/tag/House"
+    },
+    {
+     "count": 66,
+     "name": "Kpop",
+     "url": "https://www.last.fm/tag/Kpop"
+    },
+    {
+     "count": 37,
+     "name": "pop",
+     "url": "https://www.last.fm/tag/pop"
+    },
+    {
+     "count": 19,
+     "name": "LE SSERAFIM",
+     "url": "https://www.last.fm/tag/LE+SSERAFIM"
+    },
+    {
+     "count": 19,
+     "name": "phonk house",
+     "url": "https://www.last.fm/tag/phonk+house"
+    },
+    {
+     "count": 8,
+     "name": "dance",
+     "url": "https://www.last.fm/tag/dance"
+    },
+    {
+     "count": 3,
+     "name": "julia mofada",
+     "url": "https://www.last.fm/tag/julia+mofada"
+    },
+    {
+     "count": 3,
+     "name": "K bops",
+     "url": "https://www.last.fm/tag/K+bops"
+    },
+    {
+     "count": 3,
+     "name": "WSUM 91.7 FM Madison",
+     "url": "https://www.last.fm/tag/WSUM+91.7+FM+Madison"
+    }
+   ]
+  }
+ },
+ "track.gettoptags|{\"artist\": \"LE SSERAFIM\", \"track\": \"Perfect Night\"}": {
+  "toptags": {
+   "@attr": {
+    "artist": "LE SSERAFIM",
+    "track": "Perfect Night"
+   },
+   "tag": [
+    {
+     "count": 100,
+     "name": "k-pop",
+     "url": "https://www.last.fm/tag/k-pop"
+    },
+    {
+     "count": 100,
+     "name": "2023",
+     "url": "https://www.last.fm/tag/2023"
+    },
+    {
+     "count": 29,
+     "name": "english",
+     "url": "https://www.last.fm/tag/english"
+    },
+    {
+     "count": 7,
+     "name": "pop",
+     "url": "https://www.last.fm/tag/pop"
+    },
+    {
+     "count": 4,
+     "name": "girly",
+     "url": "https://www.last.fm/tag/girly"
+    },
+    {
+     "count": 4,
+     "name": "videogame",
+     "url": "https://www.last.fm/tag/videogame"
+    },
+    {
+     "count": 4,
+     "name": "female vocalists",
+     "url": "https://www.last.fm/tag/female+vocalists"
+    },
+    {
+     "count": 1,
+     "name": "Kpop",
+     "url": "https://www.last.fm/tag/Kpop"
+    },
+    {
+     "count": 1,
+     "name": "video game",
+     "url": "https://www.last.fm/tag/video+game"
+    },
+    {
+     "count": 1,
+     "name": "Korean",
+     "url": "https://www.last.fm/tag/Korean"
+    }
+   ]
+  }
+ },
  "track.gettoptags|{\"artist\": \"Lady Donli\", \"track\": \"Classic\"}": {
   "toptags": {
    "@attr": {
@@ -135840,6 +141152,186 @@
     "track": "Iron Heart"
    },
    "tag": []
+  }
+ },
+ "track.gettoptags|{\"artist\": \"NewJeans\", \"track\": \"Ditto\"}": {
+  "toptags": {
+   "@attr": {
+    "artist": "NewJeans",
+    "track": "Ditto"
+   },
+   "tag": [
+    {
+     "count": 100,
+     "name": "k-pop",
+     "url": "https://www.last.fm/tag/k-pop"
+    },
+    {
+     "count": 79,
+     "name": "baltimore club",
+     "url": "https://www.last.fm/tag/baltimore+club"
+    },
+    {
+     "count": 30,
+     "name": "Kpop",
+     "url": "https://www.last.fm/tag/Kpop"
+    },
+    {
+     "count": 23,
+     "name": "atlanta bass",
+     "url": "https://www.last.fm/tag/atlanta+bass"
+    },
+    {
+     "count": 8,
+     "name": "contemporary rnb",
+     "url": "https://www.last.fm/tag/contemporary+rnb"
+    },
+    {
+     "count": 6,
+     "name": "pop",
+     "url": "https://www.last.fm/tag/pop"
+    },
+    {
+     "count": 4,
+     "name": "peter",
+     "url": "https://www.last.fm/tag/peter"
+    },
+    {
+     "count": 1,
+     "name": "dance-pop",
+     "url": "https://www.last.fm/tag/dance-pop"
+    },
+    {
+     "count": 1,
+     "name": "rnb",
+     "url": "https://www.last.fm/tag/rnb"
+    },
+    {
+     "count": 1,
+     "name": "breakbeat",
+     "url": "https://www.last.fm/tag/breakbeat"
+    }
+   ]
+  }
+ },
+ "track.gettoptags|{\"artist\": \"NewJeans\", \"track\": \"New Jeans\"}": {
+  "toptags": {
+   "@attr": {
+    "artist": "NewJeans",
+    "track": "New Jeans"
+   },
+   "tag": [
+    {
+     "count": 100,
+     "name": "UK Garage",
+     "url": "https://www.last.fm/tag/UK+Garage"
+    },
+    {
+     "count": 100,
+     "name": "k-pop",
+     "url": "https://www.last.fm/tag/k-pop"
+    },
+    {
+     "count": 29,
+     "name": "Kpop",
+     "url": "https://www.last.fm/tag/Kpop"
+    },
+    {
+     "count": 29,
+     "name": "Korean",
+     "url": "https://www.last.fm/tag/Korean"
+    },
+    {
+     "count": 15,
+     "name": "jersey club",
+     "url": "https://www.last.fm/tag/jersey+club"
+    },
+    {
+     "count": 15,
+     "name": "2023",
+     "url": "https://www.last.fm/tag/2023"
+    },
+    {
+     "count": 4,
+     "name": "rnb",
+     "url": "https://www.last.fm/tag/rnb"
+    },
+    {
+     "count": 1,
+     "name": "nanaetoiles",
+     "url": "https://www.last.fm/tag/nanaetoiles"
+    },
+    {
+     "count": 1,
+     "name": "future garage",
+     "url": "https://www.last.fm/tag/future+garage"
+    },
+    {
+     "count": 1,
+     "name": "TANKED",
+     "url": "https://www.last.fm/tag/TANKED"
+    }
+   ]
+  }
+ },
+ "track.gettoptags|{\"artist\": \"NewJeans\", \"track\": \"Super Shy\"}": {
+  "toptags": {
+   "@attr": {
+    "artist": "NewJeans",
+    "track": "Super Shy"
+   },
+   "tag": [
+    {
+     "count": 100,
+     "name": "you don't even know my name do ya",
+     "url": "https://www.last.fm/tag/you+don%27t+even+know+my+name+do+ya"
+    },
+    {
+     "count": 100,
+     "name": "k-pop",
+     "url": "https://www.last.fm/tag/k-pop"
+    },
+    {
+     "count": 46,
+     "name": "Drum and bass",
+     "url": "https://www.last.fm/tag/Drum+and+bass"
+    },
+    {
+     "count": 29,
+     "name": "Kpop",
+     "url": "https://www.last.fm/tag/Kpop"
+    },
+    {
+     "count": 15,
+     "name": "jersey club",
+     "url": "https://www.last.fm/tag/jersey+club"
+    },
+    {
+     "count": 15,
+     "name": "2023",
+     "url": "https://www.last.fm/tag/2023"
+    },
+    {
+     "count": 8,
+     "name": "dance-pop",
+     "url": "https://www.last.fm/tag/dance-pop"
+    },
+    {
+     "count": 3,
+     "name": "liquid drum and bass",
+     "url": "https://www.last.fm/tag/liquid+drum+and+bass"
+    },
+    {
+     "count": 1,
+     "name": "dnb",
+     "url": "https://www.last.fm/tag/dnb"
+    },
+    {
+     "count": 1,
+     "name": "janesxoxo",
+     "url": "https://www.last.fm/tag/janesxoxo"
+    }
+   ]
   }
  },
  "track.gettoptags|{\"artist\": \"Nirvana\", \"track\": \"Come as You Are\"}": {
@@ -138740,6 +144232,84 @@
    ]
   }
  },
+ "track.gettoptags|{\"artist\": \"Seventeen\", \"track\": \"HOT\"}": {
+  "toptags": {
+   "@attr": {
+    "artist": "Seventeen",
+    "track": "HOT"
+   },
+   "tag": []
+  }
+ },
+ "track.gettoptags|{\"artist\": \"Seventeen\", \"track\": \"Super\"}": {
+  "toptags": {
+   "@attr": {
+    "artist": "Seventeen",
+    "track": "Super"
+   },
+   "tag": [
+    {
+     "count": 100,
+     "name": "DARUMDARIMBDA",
+     "url": "https://www.last.fm/tag/DARUMDARIMBDA"
+    },
+    {
+     "count": 33,
+     "name": "darumdarimda",
+     "url": "https://www.last.fm/tag/darumdarimda"
+    },
+    {
+     "count": 5,
+     "name": "Kpop",
+     "url": "https://www.last.fm/tag/Kpop"
+    },
+    {
+     "count": 5,
+     "name": "k-pop",
+     "url": "https://www.last.fm/tag/k-pop"
+    },
+    {
+     "count": 1,
+     "name": "Vibe",
+     "url": "https://www.last.fm/tag/Vibe"
+    },
+    {
+     "count": 1,
+     "name": "fire",
+     "url": "https://www.last.fm/tag/fire"
+    },
+    {
+     "count": 1,
+     "name": "Korean",
+     "url": "https://www.last.fm/tag/Korean"
+    },
+    {
+     "count": 1,
+     "name": "personal faves",
+     "url": "https://www.last.fm/tag/personal+faves"
+    },
+    {
+     "count": 1,
+     "name": "saved my life",
+     "url": "https://www.last.fm/tag/saved+my+life"
+    },
+    {
+     "count": 1,
+     "name": "soty",
+     "url": "https://www.last.fm/tag/soty"
+    }
+   ]
+  }
+ },
+ "track.gettoptags|{\"artist\": \"Seventeen\", \"track\": \"VERY NICE\"}": {
+  "toptags": {
+   "@attr": {
+    "artist": "Seventeen",
+    "track": "VERY NICE"
+   },
+   "tag": []
+  }
+ },
  "track.gettoptags|{\"artist\": \"Sex Pistols\", \"track\": \"Anarchy In The UK\"}": {
   "toptags": {
    "@attr": {
@@ -139478,6 +145048,186 @@
    "tag": []
   }
  },
+ "track.gettoptags|{\"artist\": \"Stray Kids\", \"track\": \"Chk Chk Boom\"}": {
+  "toptags": {
+   "@attr": {
+    "artist": "Stray Kids",
+    "track": "Chk Chk Boom"
+   },
+   "tag": [
+    {
+     "count": 100,
+     "name": "Reggaeton",
+     "url": "https://www.last.fm/tag/Reggaeton"
+    },
+    {
+     "count": 100,
+     "name": "Korean",
+     "url": "https://www.last.fm/tag/Korean"
+    },
+    {
+     "count": 66,
+     "name": "Kpop",
+     "url": "https://www.last.fm/tag/Kpop"
+    },
+    {
+     "count": 29,
+     "name": "k-pop",
+     "url": "https://www.last.fm/tag/k-pop"
+    },
+    {
+     "count": 15,
+     "name": "Paboscore",
+     "url": "https://www.last.fm/tag/Paboscore"
+    },
+    {
+     "count": 15,
+     "name": "Das Pabos",
+     "url": "https://www.last.fm/tag/Das+Pabos"
+    },
+    {
+     "count": 4,
+     "name": "pop",
+     "url": "https://www.last.fm/tag/pop"
+    },
+    {
+     "count": 1,
+     "name": "this song is for biel",
+     "url": "https://www.last.fm/tag/this+song+is+for+biel"
+    },
+    {
+     "count": 1,
+     "name": "rap",
+     "url": "https://www.last.fm/tag/rap"
+    },
+    {
+     "count": 1,
+     "name": "Mi gente latino",
+     "url": "https://www.last.fm/tag/Mi+gente+latino"
+    }
+   ]
+  }
+ },
+ "track.gettoptags|{\"artist\": \"Stray Kids\", \"track\": \"God’s Menu\"}": {
+  "toptags": {
+   "@attr": {
+    "artist": "Stray Kids",
+    "track": "God’s Menu"
+   },
+   "tag": [
+    {
+     "count": 100,
+     "name": "stray kids",
+     "url": "https://www.last.fm/tag/stray+kids"
+    },
+    {
+     "count": 69,
+     "name": "k-pop",
+     "url": "https://www.last.fm/tag/k-pop"
+    },
+    {
+     "count": 29,
+     "name": "Korean",
+     "url": "https://www.last.fm/tag/Korean"
+    },
+    {
+     "count": 17,
+     "name": "Kpop",
+     "url": "https://www.last.fm/tag/Kpop"
+    },
+    {
+     "count": 4,
+     "name": "EDM",
+     "url": "https://www.last.fm/tag/EDM"
+    },
+    {
+     "count": 4,
+     "name": "rap",
+     "url": "https://www.last.fm/tag/rap"
+    },
+    {
+     "count": 4,
+     "name": "mala taste",
+     "url": "https://www.last.fm/tag/mala+taste"
+    },
+    {
+     "count": 1,
+     "name": "Stray kids gods menu",
+     "url": "https://www.last.fm/tag/Stray+kids+gods+menu"
+    },
+    {
+     "count": 1,
+     "name": "100 club",
+     "url": "https://www.last.fm/tag/100+club"
+    },
+    {
+     "count": 1,
+     "name": "pop",
+     "url": "https://www.last.fm/tag/pop"
+    }
+   ]
+  }
+ },
+ "track.gettoptags|{\"artist\": \"Stray Kids\", \"track\": \"MANIAC\"}": {
+  "toptags": {
+   "@attr": {
+    "artist": "Stray Kids",
+    "track": "MANIAC"
+   },
+   "tag": [
+    {
+     "count": 100,
+     "name": "k-pop",
+     "url": "https://www.last.fm/tag/k-pop"
+    },
+    {
+     "count": 11,
+     "name": "pop",
+     "url": "https://www.last.fm/tag/pop"
+    },
+    {
+     "count": 7,
+     "name": "dance",
+     "url": "https://www.last.fm/tag/dance"
+    },
+    {
+     "count": 7,
+     "name": "electropop",
+     "url": "https://www.last.fm/tag/electropop"
+    },
+    {
+     "count": 4,
+     "name": "midtempo bass",
+     "url": "https://www.last.fm/tag/midtempo+bass"
+    },
+    {
+     "count": 4,
+     "name": "edm pop",
+     "url": "https://www.last.fm/tag/edm+pop"
+    },
+    {
+     "count": 4,
+     "name": "Hip-Hop",
+     "url": "https://www.last.fm/tag/Hip-Hop"
+    },
+    {
+     "count": 1,
+     "name": "fire",
+     "url": "https://www.last.fm/tag/fire"
+    },
+    {
+     "count": 1,
+     "name": "hype",
+     "url": "https://www.last.fm/tag/hype"
+    },
+    {
+     "count": 1,
+     "name": "pop rap",
+     "url": "https://www.last.fm/tag/pop+rap"
+    }
+   ]
+  }
+ },
  "track.gettoptags|{\"artist\": \"Summer Walker\", \"track\": \"Deep\"}": {
   "toptags": {
    "@attr": {
@@ -139732,6 +145482,186 @@
      "count": 1,
      "name": "heavy metal",
      "url": "https://www.last.fm/tag/heavy+metal"
+    }
+   ]
+  }
+ },
+ "track.gettoptags|{\"artist\": \"TWICE\", \"track\": \"FANCY\"}": {
+  "toptags": {
+   "@attr": {
+    "artist": "TWICE",
+    "track": "FANCY"
+   },
+   "tag": [
+    {
+     "count": 100,
+     "name": "k-pop",
+     "url": "https://www.last.fm/tag/k-pop"
+    },
+    {
+     "count": 36,
+     "name": "2019",
+     "url": "https://www.last.fm/tag/2019"
+    },
+    {
+     "count": 16,
+     "name": "Kpop",
+     "url": "https://www.last.fm/tag/Kpop"
+    },
+    {
+     "count": 11,
+     "name": "electropop",
+     "url": "https://www.last.fm/tag/electropop"
+    },
+    {
+     "count": 5,
+     "name": "soty",
+     "url": "https://www.last.fm/tag/soty"
+    },
+    {
+     "count": 5,
+     "name": "Korean",
+     "url": "https://www.last.fm/tag/Korean"
+    },
+    {
+     "count": 3,
+     "name": "pop",
+     "url": "https://www.last.fm/tag/pop"
+    },
+    {
+     "count": 1,
+     "name": "dance-pop",
+     "url": "https://www.last.fm/tag/dance-pop"
+    },
+    {
+     "count": 1,
+     "name": "electro house",
+     "url": "https://www.last.fm/tag/electro+house"
+    },
+    {
+     "count": 1,
+     "name": "dance",
+     "url": "https://www.last.fm/tag/dance"
+    }
+   ]
+  }
+ },
+ "track.gettoptags|{\"artist\": \"TWICE\", \"track\": \"I CAN'T STOP ME\"}": {
+  "toptags": {
+   "@attr": {
+    "artist": "TWICE",
+    "track": "I CAN'T STOP ME"
+   },
+   "tag": [
+    {
+     "count": 100,
+     "name": "synthwave",
+     "url": "https://www.last.fm/tag/synthwave"
+    },
+    {
+     "count": 100,
+     "name": "k-pop",
+     "url": "https://www.last.fm/tag/k-pop"
+    },
+    {
+     "count": 46,
+     "name": "synthpop",
+     "url": "https://www.last.fm/tag/synthpop"
+    },
+    {
+     "count": 16,
+     "name": "Kpop",
+     "url": "https://www.last.fm/tag/Kpop"
+    },
+    {
+     "count": 4,
+     "name": "Disco",
+     "url": "https://www.last.fm/tag/Disco"
+    },
+    {
+     "count": 4,
+     "name": "Retro",
+     "url": "https://www.last.fm/tag/Retro"
+    },
+    {
+     "count": 4,
+     "name": "electropop",
+     "url": "https://www.last.fm/tag/electropop"
+    },
+    {
+     "count": 1,
+     "name": "retro pop",
+     "url": "https://www.last.fm/tag/retro+pop"
+    },
+    {
+     "count": 1,
+     "name": "soty",
+     "url": "https://www.last.fm/tag/soty"
+    },
+    {
+     "count": 1,
+     "name": "pop",
+     "url": "https://www.last.fm/tag/pop"
+    }
+   ]
+  }
+ },
+ "track.gettoptags|{\"artist\": \"TWICE\", \"track\": \"The Feels\"}": {
+  "toptags": {
+   "@attr": {
+    "artist": "TWICE",
+    "track": "The Feels"
+   },
+   "tag": [
+    {
+     "count": 100,
+     "name": "k-pop",
+     "url": "https://www.last.fm/tag/k-pop"
+    },
+    {
+     "count": 33,
+     "name": "pop",
+     "url": "https://www.last.fm/tag/pop"
+    },
+    {
+     "count": 22,
+     "name": "Disco",
+     "url": "https://www.last.fm/tag/Disco"
+    },
+    {
+     "count": 15,
+     "name": "nu-disco",
+     "url": "https://www.last.fm/tag/nu-disco"
+    },
+    {
+     "count": 5,
+     "name": "dance-pop",
+     "url": "https://www.last.fm/tag/dance-pop"
+    },
+    {
+     "count": 5,
+     "name": "2021",
+     "url": "https://www.last.fm/tag/2021"
+    },
+    {
+     "count": 3,
+     "name": "dance",
+     "url": "https://www.last.fm/tag/dance"
+    },
+    {
+     "count": 1,
+     "name": "twice",
+     "url": "https://www.last.fm/tag/twice"
+    },
+    {
+     "count": 1,
+     "name": "Kpop",
+     "url": "https://www.last.fm/tag/Kpop"
+    },
+    {
+     "count": 1,
+     "name": "IM SO CURIOUS",
+     "url": "https://www.last.fm/tag/IM+SO+CURIOUS"
     }
    ]
   }
@@ -142139,6 +148069,186 @@
      "count": 3,
      "name": "2022",
      "url": "https://www.last.fm/tag/2022"
+    }
+   ]
+  }
+ },
+ "track.gettoptags|{\"artist\": \"aespa\", \"track\": \"Drama\"}": {
+  "toptags": {
+   "@attr": {
+    "artist": "aespa",
+    "track": "Drama"
+   },
+   "tag": [
+    {
+     "count": 100,
+     "name": "julia mofada",
+     "url": "https://www.last.fm/tag/julia+mofada"
+    },
+    {
+     "count": 44,
+     "name": "soty",
+     "url": "https://www.last.fm/tag/soty"
+    },
+    {
+     "count": 16,
+     "name": "Kpop",
+     "url": "https://www.last.fm/tag/Kpop"
+    },
+    {
+     "count": 16,
+     "name": "k-pop",
+     "url": "https://www.last.fm/tag/k-pop"
+    },
+    {
+     "count": 8,
+     "name": "2023",
+     "url": "https://www.last.fm/tag/2023"
+    },
+    {
+     "count": 4,
+     "name": "Korean",
+     "url": "https://www.last.fm/tag/Korean"
+    },
+    {
+     "count": 4,
+     "name": "cunty",
+     "url": "https://www.last.fm/tag/cunty"
+    },
+    {
+     "count": 1,
+     "name": "UNLIKE",
+     "url": "https://www.last.fm/tag/UNLIKE"
+    },
+    {
+     "count": 1,
+     "name": "unlove",
+     "url": "https://www.last.fm/tag/unlove"
+    },
+    {
+     "count": 1,
+     "name": "hyperpop",
+     "url": "https://www.last.fm/tag/hyperpop"
+    }
+   ]
+  }
+ },
+ "track.gettoptags|{\"artist\": \"aespa\", \"track\": \"Supernova\"}": {
+  "toptags": {
+   "@attr": {
+    "artist": "aespa",
+    "track": "Supernova"
+   },
+   "tag": [
+    {
+     "count": 100,
+     "name": "k-pop",
+     "url": "https://www.last.fm/tag/k-pop"
+    },
+    {
+     "count": 77,
+     "name": "electropop",
+     "url": "https://www.last.fm/tag/electropop"
+    },
+    {
+     "count": 37,
+     "name": "julia mofada",
+     "url": "https://www.last.fm/tag/julia+mofada"
+    },
+    {
+     "count": 16,
+     "name": "pop",
+     "url": "https://www.last.fm/tag/pop"
+    },
+    {
+     "count": 8,
+     "name": "electro house",
+     "url": "https://www.last.fm/tag/electro+house"
+    },
+    {
+     "count": 5,
+     "name": "dem jointz",
+     "url": "https://www.last.fm/tag/dem+jointz"
+    },
+    {
+     "count": 5,
+     "name": "soty",
+     "url": "https://www.last.fm/tag/soty"
+    },
+    {
+     "count": 1,
+     "name": "dance-pop",
+     "url": "https://www.last.fm/tag/dance-pop"
+    },
+    {
+     "count": 1,
+     "name": "Electroclash",
+     "url": "https://www.last.fm/tag/Electroclash"
+    },
+    {
+     "count": 1,
+     "name": "electro",
+     "url": "https://www.last.fm/tag/electro"
+    }
+   ]
+  }
+ },
+ "track.gettoptags|{\"artist\": \"aespa\", \"track\": \"Whiplash\"}": {
+  "toptags": {
+   "@attr": {
+    "artist": "aespa",
+    "track": "Whiplash"
+   },
+   "tag": [
+    {
+     "count": 100,
+     "name": "julia mofada",
+     "url": "https://www.last.fm/tag/julia+mofada"
+    },
+    {
+     "count": 100,
+     "name": "tech house",
+     "url": "https://www.last.fm/tag/tech+house"
+    },
+    {
+     "count": 48,
+     "name": "k-pop",
+     "url": "https://www.last.fm/tag/k-pop"
+    },
+    {
+     "count": 48,
+     "name": "electropop",
+     "url": "https://www.last.fm/tag/electropop"
+    },
+    {
+     "count": 17,
+     "name": "House",
+     "url": "https://www.last.fm/tag/House"
+    },
+    {
+     "count": 11,
+     "name": "dance-pop",
+     "url": "https://www.last.fm/tag/dance-pop"
+    },
+    {
+     "count": 11,
+     "name": "electro house",
+     "url": "https://www.last.fm/tag/electro+house"
+    },
+    {
+     "count": 3,
+     "name": "hip house",
+     "url": "https://www.last.fm/tag/hip+house"
+    },
+    {
+     "count": 3,
+     "name": "edu e marco",
+     "url": "https://www.last.fm/tag/edu+e+marco"
+    },
+    {
+     "count": 2,
+     "name": "EDM",
+     "url": "https://www.last.fm/tag/EDM"
     }
    ]
   }
