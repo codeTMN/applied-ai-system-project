@@ -1,0 +1,33 @@
+%% Vibe DJ - system architecture (DRAFT: design target, updated as each part is built)
+%% Solid arrows = data flow. Dotted arrows = where humans or tests check the AI.
+flowchart TD
+    subgraph BUILD["Offline build (run once)"]
+        LFM[("Last.fm API<br/>top tracks + tags per genre")] --> BC["build_catalog.py<br/>Gemini estimates energy, valence, mood"]
+        BC --> CSV[("data/songs.csv<br/>~200 real songs")]
+        KDOCS[("knowledge/<br/>genre guides, activity guide,<br/>Naija slang glossary")] --> IDX["Embedding index<br/>(Gemini embeddings)"]
+        CSV --> IDX
+    end
+
+    USER(["User request<br/>e.g. 'abeg I need gbedu for owambe'"]) --> PARSE
+
+    subgraph AGENT["Vibe DJ agent (Gemini Flash)"]
+        PARSE["1. Parse request<br/>few-shot prompt -> profile JSON"] --> GIN{"2. Input guardrail<br/>ranges ok? genre known?<br/>music request?"}
+        GIN -- off-topic --> REFUSE["Polite refusal"]
+        GIN -- ok / genre mapped --> RET["3. Retriever<br/>search 4 knowledge sources"]
+        RET --> SCORE["4. Scorer<br/>original VibeMatch score_song"]
+        SCORE --> EXPLAIN["5. Explain<br/>playlist write-up from<br/>retrieved + ranked songs only"]
+        EXPLAIN --> GOUT{"6. Output guardrail<br/>every song in catalog?"}
+        GOUT -- no: strip + retry --> EXPLAIN
+    end
+
+    IDX --> RET
+    CSV --> SCORE
+    GOUT -- yes --> OUT(["Streamlit UI<br/>playlist, reasons, sources,<br/>guardrail notices, listen links"])
+
+    AGENT -. every step logged .-> LOGS[("logs/ agent traces")]
+
+    HUMAN1["Human review:<br/>Afro song rows + slang glossary"] -.-> CSV
+    HUMAN1 -.-> KDOCS
+    EVAL["eval.py<br/>~20 test requests -> PASS/FAIL"] -.-> AGENT
+    TESTS["pytest<br/>scorer + guardrail unit tests"] -.-> SCORE
+    TESTS -.-> GIN
