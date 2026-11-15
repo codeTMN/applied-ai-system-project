@@ -43,6 +43,11 @@ Every agent run saves its full trace, **not just terminal output**, as two commi
 | [I dey feel somehow (v2)](logs/traces/20261115-140536-my-guy-i-dey-feel-somehow-something-soft.md) | finished, 5 turns, **2 score calls, 1 rejection** | Re-scored with lower energy after judging candidates too loud; fixed a rejected write-up (excerpt below) |
 | [songs like Tems (v2)](logs/traces/20261115-140625-songs-like-tems.md) | finished, 4 turns | Same request after the search limit: 7 turns -> 4 |
 | [I dey feel somehow (v3)](logs/traces/20261115-140725-my-guy-i-dey-feel-somehow-something-soft.md) | finished in 10.6 s, 3 turns | After switching to low thinking: 45 s -> 10.6 s |
+| [Sunday rice after church](logs/traces/20261115-141809-abeg-play-me-something-soft-for-my-sunda.md) | finished, 5 turns, **2 score calls** | Run from the web app: looked up "Sunday rice", re-scored to bring in more gospel |
+| [songs like Tems (final)](logs/traces/20261115-151457-songs-like-tems.md) | finished | The run shown in the README's sample interactions |
+
+The 22 agent-mode runs from the evaluation (22/22 passed) are saved separately in
+[`evaluation/agent_traces/`](evaluation/agent_traces/).
 
 ### Excerpt: "my guy, I dey feel somehow. something soft for tonight, no loud gbedu" (v2)
 

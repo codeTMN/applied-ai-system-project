@@ -52,7 +52,7 @@ Agent mode: the same steps exposed as Gemini function-calling tools
   - Afro genres featured (60 songs); every other genre has 11-12 songs, incl. new funk, soul, disco, house, gospel, blues, punk, trap, k-pop
   - Known bias for the model card: real top tracks skew upbeat (95 energetic vs 23 sad, 7 angry, 5 focused)
   - Changed approach: Last.fm *tag* top-tracks were too noisy (`afrobeats` returned Beyoncé and K-pop; `highlife` returned Rick Astley), so songs come from human-picked **seed artists** (`data/catalog_seeds.json`) and their real top tracks instead
-  - Gemini rejected songs that don't fit their genre (e.g. Tyla "Water" moved out of amapiano: "Afropop/R&B with amapiano log drums"); see `data/catalog_report.md`
+  - Gemini rejected songs that don't fit their genre (first 3.6 run: Tyla "Water" out of amapiano; final 3.8 run: 56 rejections, e.g. Drake "One Dance" out of hip hop); see `data/catalog_report.md`
   - [ ] Human review of Afro rows -> corrections go in `data/catalog_overrides.json`
   - Found: the API key's project was on the **free tier** (20 requests/day per model); the fallback model took over mid-build. Fixed by linking billing; full rebuild then ran on the main model
 - [x] **2. Knowledge base:** 693 chunks from 5 sources, embedded with `gemini-embedding-2` (768 dims), cached in `data/index/`
@@ -84,7 +84,8 @@ Agent mode: the same steps exposed as Gemini function-calling tools
   - Eval-driven fixes: explicit genres capped at 2 songs (19/22 -> 21/22); agent dropped the bossa nova notice; "Nigerian Pidgin" label broke the tone lookup
   - Specialization: tone rules 4.0 vs 1.0 Pidgin words per reply; few-shot examples made no measurable difference (38/38 both) -> honest finding for the model card
   - Consistency 0.87 average overlap; human review sheet `evaluation/human_review.md` for the user to fill in
-- [ ] **8. Docs:** README (every section 3 item + section 6 text evidence, plain language, incl. how a grader gets their own Gemini key), final diagram, `model_card.md` (section 5 headers + baseline vs specialized + RAG before/after), portfolio paragraph, demo screenshots in `assets/`
+- [x] **8. Docs:** new `README.md` (base project, summary, architecture + Mermaid overview, step-by-step setup incl. getting a Gemini key, 5 real sample runs, reliability table, testing summary, design decisions, reflection + portfolio paragraph), new `model_card.md` (section 5 questions as headers, baseline vs specialized, RAG before/after, AI collaboration with accepted/rejected suggestions), `assets/sample_runs.txt` (10 real command outputs), final diagram; Module 3 docs moved to `docs/`
+  - Still yours: rate `evaluation/human_review.md`, optional Loom link + screenshots, review the reflection wording
 
 ## Models (checked with `models.list()` on 2026-11-15)
 

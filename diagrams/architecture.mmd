@@ -1,4 +1,4 @@
-%% Vibe DJ - system architecture (DRAFT: design target, updated as each part is built)
+%% Vibe DJ - system architecture (final, matches the code on 2026-11-15)
 %% Solid arrows = data flow. Dotted arrows = where humans or tests check the AI.
 flowchart TD
     subgraph BUILD["Offline build (run once)"]
@@ -43,10 +43,10 @@ flowchart TD
     AGENT -. every step timed + logged .-> LOGS[("logs/vibe_dj.log<br/>+ trace in each result")]
     AGENTS -. every thought, call and result saved .-> TRACES[("logs/traces/*.md + .json<br/>linked from ai_interactions.md")]
 
-    HUMAN1["Human review:<br/>Afro song rows + slang glossary"] -.-> CSV
+    HUMAN1["Human review:<br/>Afro song rows, slang glossary,<br/>playlist ratings"] -.-> CSV
     HUMAN1 -.-> KDOCS
-    EVAL["eval.py<br/>~20 test requests -> PASS/FAIL"] -.-> AGENT
-    TESTS["pytest: 30 offline tests<br/>scorer, guardrails, retry/fallback,<br/>agent tools + loop (fake Gemini)"] -.-> SCORE
+    EVAL["eval.py: 22 test requests x 4 versions<br/>PASS/FAIL + confidence -> evaluation/"] -.-> AGENT
+    TESTS["pytest: 33 offline tests<br/>scorer, guardrails, retry/fallback,<br/>agent tools + loop (fake Gemini)"] -.-> SCORE
     TESTS -.-> GIN
     TESTS -.-> GOUT
     TESTS -.-> AGENTMODE
