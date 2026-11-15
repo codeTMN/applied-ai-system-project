@@ -45,7 +45,11 @@ Agent mode: the same steps exposed as Gemini function-calling tools
 ## Tasks (one commit per task, pushed as we go)
 
 - [x] **0. Setup:** new repo, origin repointed, `assets/`, `diagrams/`, `.env.example`, draft diagram
-- [ ] **1. Catalog builder:** `scripts/build_catalog.py` (Last.fm `tag.getTopTracks` + track tags -> Gemini estimates -> `data/songs.csv`); filter noise (e.g. Fela-era `afrobeat`); human review of Afro rows
+- [x] **1. Catalog builder:** `scripts/build_catalog.py` -> 195 real songs in `data/songs.csv` (old fictional catalog kept as `data/songs_v1_fictional.csv`)
+  - Changed approach: Last.fm *tag* top-tracks were too noisy (`afrobeats` returned Beyoncé and K-pop; `highlife` returned Rick Astley), so songs come from human-picked **seed artists** (`data/catalog_seeds.json`) and their real top tracks instead
+  - Gemini rejected songs that don't fit their genre (e.g. Tyla "Water" moved out of amapiano: "Afropop/R&B with amapiano log drums"); see `data/catalog_report.md`
+  - [ ] Human review of Afro rows -> corrections go in `data/catalog_overrides.json`
+  - Found: the API key's project is on the **free tier** (20 requests/day per model); the fallback model took over mid-build
 - [ ] **2. Knowledge base:** `knowledge/` docs (genre guides, activity guide, slang glossary ~25 terms, human-reviewed); embedding index cached to disk
 - [ ] **3. Core pipeline:** parse (few-shot) -> input guardrail -> retrieve -> score -> explain -> output guardrail; Gemini retry + fallback model; logging
 - [ ] **4. Agent mode:** function calling + trace logs linked from `ai_interactions.md`

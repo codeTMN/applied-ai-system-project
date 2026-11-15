@@ -1,0 +1,5 @@
+{
+  "_about": "Human corrections applied after Gemini. 'exclude' removes a song; 'fix' overrides fields. Example fix: {\"artist\": \"Wizkid\", \"title\": \"Essence\", \"set\": {\"mood\": \"romantic\", \"energy\": 0.55}}",
+  "exclude": [],
+  "fix": []
+}

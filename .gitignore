@@ -16,3 +16,6 @@ venv/
 
 # Secrets (API keys live here - never commit)
 .env
+
+# Run logs (agent traces we want to keep go in logs/traces/ and are committed)
+logs/*.log

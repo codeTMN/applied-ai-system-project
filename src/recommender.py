@@ -4,7 +4,7 @@ from dataclasses import dataclass, asdict, field
 
 FLOAT_FIELDS = {"energy", "tempo_bpm", "valence", "danceability", "acousticness",
                 "speechiness", "instrumentalness"}
-INT_FIELDS = {"id", "popularity", "release_decade"}
+INT_FIELDS = {"id", "popularity", "release_decade", "lastfm_listeners"}
 
 # Diversity penalty (Challenge 3): points taken off a song when the top list already has
 # a song by the same artist, or already has MAX_PER_GENRE songs from the same genre.

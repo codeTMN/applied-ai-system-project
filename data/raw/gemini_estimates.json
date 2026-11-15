@@ -1,0 +1,7330 @@
+{
+ "afro-fusion|4828bb545740ee81": {
+  "songs": [
+   {
+    "acousticness": 0.11,
+    "danceability": 0.78,
+    "energy": 0.72,
+    "fits_genre": true,
+    "idx": 0,
+    "instrumentalness": 0.0,
+    "mood": "moody",
+    "mood_tags": [
+     "melancholic",
+     "confident"
+    ],
+    "note": "Iconic Afro-fusion heartbreak anthem sampling Toni Braxton.",
+    "release_decade": 2020,
+    "speechiness": 0.08,
+    "tempo_bpm": 104,
+    "valence": 0.48
+   },
+   {
+    "acousticness": 0.15,
+    "danceability": 0.83,
+    "energy": 0.65,
+    "fits_genre": true,
+    "idx": 1,
+    "instrumentalness": 0.0,
+    "mood": "romantic",
+    "mood_tags": [
+     "smooth",
+     "groovy"
+    ],
+    "note": "Smooth Afro-fusion love song with infectious groove.",
+    "release_decade": 2010,
+    "speechiness": 0.06,
+    "tempo_bpm": 100,
+    "valence": 0.68
+   },
+   {
+    "acousticness": 0.1,
+    "danceability": 0.81,
+    "energy": 0.78,
+    "fits_genre": true,
+    "idx": 2,
+    "instrumentalness": 0.0,
+    "mood": "energetic",
+    "mood_tags": [
+     "groovy",
+     "party"
+    ],
+    "note": "Vibrant Afro-fusion track with rich horn arrangements.",
+    "release_decade": 2010,
+    "speechiness": 0.09,
+    "tempo_bpm": 102,
+    "valence": 0.75
+   },
+   {
+    "acousticness": 0.35,
+    "danceability": 0.73,
+    "energy": 0.58,
+    "fits_genre": true,
+    "idx": 3,
+    "instrumentalness": 0.0,
+    "mood": "romantic",
+    "mood_tags": [
+     "smooth",
+     "romantic"
+    ],
+    "note": "Global Afro-fusion hit blending R&B vocals with Afrobeats rhythm.",
+    "release_decade": 2010,
+    "speechiness": 0.05,
+    "tempo_bpm": 123,
+    "valence": 0.54
+   },
+   {
+    "acousticness": 0.28,
+    "danceability": 0.77,
+    "energy": 0.62,
+    "fits_genre": true,
+    "idx": 4,
+    "instrumentalness": 0.0,
+    "mood": "romantic",
+    "mood_tags": [
+     "smooth",
+     "groovy"
+    ],
+    "note": "Melodic Afro-fusion track featuring hypnotic rhythms.",
+    "release_decade": 2020,
+    "speechiness": 0.06,
+    "tempo_bpm": 105,
+    "valence": 0.6
+   },
+   {
+    "acousticness": 0.4,
+    "danceability": 0.7,
+    "energy": 0.55,
+    "fits_genre": true,
+    "idx": 5,
+    "instrumentalness": 0.01,
+    "mood": "moody",
+    "mood_tags": [
+     "melancholic",
+     "smooth"
+    ],
+    "note": "Emotional Afro-fusion blend crafted for film soundtrack.",
+    "release_decade": 2020,
+    "speechiness": 0.06,
+    "tempo_bpm": 110,
+    "valence": 0.42
+   },
+   {
+    "acousticness": 0.3,
+    "danceability": 0.74,
+    "energy": 0.63,
+    "fits_genre": true,
+    "idx": 6,
+    "instrumentalness": 0.0,
+    "mood": "moody",
+    "mood_tags": [
+     "melancholic",
+     "smooth"
+    ],
+    "note": "Atmospheric Afro-fusion exploring personal pain and healing.",
+    "release_decade": 2020,
+    "speechiness": 0.06,
+    "tempo_bpm": 112,
+    "valence": 0.35
+   },
+   {
+    "acousticness": 0.15,
+    "danceability": 0.8,
+    "energy": 0.75,
+    "fits_genre": true,
+    "idx": 7,
+    "instrumentalness": 0.0,
+    "mood": "energetic",
+    "mood_tags": [
+     "groovy",
+     "uplifting"
+    ],
+    "note": "Uplifting Afro-fusion track incorporates modern amapiano elements.",
+    "release_decade": 2020,
+    "speechiness": 0.07,
+    "tempo_bpm": 118,
+    "valence": 0.65
+   },
+   {
+    "acousticness": 0.25,
+    "danceability": 0.78,
+    "energy": 0.6,
+    "fits_genre": true,
+    "idx": 8,
+    "instrumentalness": 0.0,
+    "mood": "moody",
+    "mood_tags": [
+     "melancholic",
+     "smooth"
+    ],
+    "note": "Moody Afro-fusion song driven by catchy vocal rhythms.",
+    "release_decade": 2020,
+    "speechiness": 0.05,
+    "tempo_bpm": 107,
+    "valence": 0.45
+   },
+   {
+    "acousticness": 0.22,
+    "danceability": 0.8,
+    "energy": 0.68,
+    "fits_genre": true,
+    "idx": 9,
+    "instrumentalness": 0.0,
+    "mood": "romantic",
+    "mood_tags": [
+     "groovy",
+     "smooth"
+    ],
+    "note": "Catchy Afro-fusion collaboration with pop sensibilities.",
+    "release_decade": 2020,
+    "speechiness": 0.06,
+    "tempo_bpm": 101,
+    "valence": 0.72
+   },
+   {
+    "acousticness": 0.2,
+    "danceability": 0.75,
+    "energy": 0.61,
+    "fits_genre": true,
+    "idx": 10,
+    "instrumentalness": 0.0,
+    "mood": "moody",
+    "mood_tags": [
+     "smooth",
+     "melancholic"
+    ],
+    "note": "Afro-fusion track pairing smooth singing with rap verses.",
+    "release_decade": 2020,
+    "speechiness": 0.12,
+    "tempo_bpm": 104,
+    "valence": 0.48
+   },
+   {
+    "acousticness": 0.18,
+    "danceability": 0.82,
+    "energy": 0.66,
+    "fits_genre": true,
+    "idx": 11,
+    "instrumentalness": 0.0,
+    "mood": "romantic",
+    "mood_tags": [
+     "smooth",
+     "uplifting"
+    ],
+    "note": "Vibrant Afro-fusion love track with soaring vocals.",
+    "release_decade": 2020,
+    "speechiness": 0.05,
+    "tempo_bpm": 106,
+    "valence": 0.7
+   },
+   {
+    "acousticness": 0.14,
+    "danceability": 0.84,
+    "energy": 0.69,
+    "fits_genre": true,
+    "idx": 12,
+    "instrumentalness": 0.0,
+    "mood": "happy",
+    "mood_tags": [
+     "playful",
+     "groovy"
+    ],
+    "note": "Infectious Afro-fusion remix combining Afrobeats and R&B styles.",
+    "release_decade": 2020,
+    "speechiness": 0.07,
+    "tempo_bpm": 100,
+    "valence": 0.76
+   },
+   {
+    "acousticness": 0.32,
+    "danceability": 0.76,
+    "energy": 0.58,
+    "fits_genre": true,
+    "idx": 13,
+    "instrumentalness": 0.0,
+    "mood": "romantic",
+    "mood_tags": [
+     "smooth",
+     "romantic"
+    ],
+    "note": "Sweet Afro-fusion love song led by gentle falsetto vocals.",
+    "release_decade": 2020,
+    "speechiness": 0.06,
+    "tempo_bpm": 102,
+    "valence": 0.64
+   },
+   {
+    "acousticness": 0.25,
+    "danceability": 0.75,
+    "energy": 0.62,
+    "fits_genre": true,
+    "idx": 14,
+    "instrumentalness": 0.0,
+    "mood": "moody",
+    "mood_tags": [
+     "hopeful",
+     "smooth"
+    ],
+    "note": "Resilient Afro-fusion song addressing mental struggles.",
+    "release_decade": 2020,
+    "speechiness": 0.08,
+    "tempo_bpm": 105,
+    "valence": 0.5
+   },
+   {
+    "acousticness": 0.2,
+    "danceability": 0.85,
+    "energy": 0.54,
+    "fits_genre": true,
+    "idx": 15,
+    "instrumentalness": 0.0,
+    "mood": "relaxed",
+    "mood_tags": [
+     "smooth",
+     "groovy"
+    ],
+    "note": "Laid-back Afro-fusion classic pioneered under Banku sound.",
+    "release_decade": 2010,
+    "speechiness": 0.08,
+    "tempo_bpm": 100,
+    "valence": 0.65
+   },
+   {
+    "acousticness": 0.35,
+    "danceability": 0.79,
+    "energy": 0.5,
+    "fits_genre": true,
+    "idx": 16,
+    "instrumentalness": 0.0,
+    "mood": "chill",
+    "mood_tags": [
+     "smooth",
+     "romantic"
+    ],
+    "note": "Chill Afro-fusion tune featuring smooth collaborative vocals.",
+    "release_decade": 2010,
+    "speechiness": 0.07,
+    "tempo_bpm": 98,
+    "valence": 0.58
+   },
+   {
+    "acousticness": 0.18,
+    "danceability": 0.83,
+    "energy": 0.58,
+    "fits_genre": true,
+    "idx": 17,
+    "instrumentalness": 0.0,
+    "mood": "chill",
+    "mood_tags": [
+     "smooth",
+     "groovy"
+    ],
+    "note": "Mid-tempo Afro-fusion track driven by light synth lines.",
+    "release_decade": 2010,
+    "speechiness": 0.06,
+    "tempo_bpm": 102,
+    "valence": 0.62
+   },
+   {
+    "acousticness": 0.62,
+    "danceability": 0.68,
+    "energy": 0.44,
+    "fits_genre": true,
+    "idx": 18,
+    "instrumentalness": 0.0,
+    "mood": "moody",
+    "mood_tags": [
+     "melancholic",
+     "heartbroken"
+    ],
+    "note": "Soulful Afro-fusion hit focusing on mental vulnerability.",
+    "release_decade": 2020,
+    "speechiness": 0.06,
+    "tempo_bpm": 124,
+    "valence": 0.3
+   },
+   {
+    "acousticness": 0.5,
+    "danceability": 0.71,
+    "energy": 0.52,
+    "fits_genre": true,
+    "idx": 19,
+    "instrumentalness": 0.0,
+    "mood": "focused",
+    "mood_tags": [
+     "hopeful",
+     "smooth"
+    ],
+    "note": "Spiritual Afro-fusion blend with warm acoustic instrumentation.",
+    "release_decade": 2020,
+    "speechiness": 0.05,
+    "tempo_bpm": 110,
+    "valence": 0.45
+   },
+   {
+    "acousticness": 0.55,
+    "danceability": 0.67,
+    "energy": 0.48,
+    "fits_genre": true,
+    "idx": 20,
+    "instrumentalness": 0.0,
+    "mood": "moody",
+    "mood_tags": [
+     "melancholic",
+     "smooth"
+    ],
+    "note": "Atmospheric Afro-fusion ballad highlighting vocal emotive power.",
+    "release_decade": 2020,
+    "speechiness": 0.05,
+    "tempo_bpm": 105,
+    "valence": 0.38
+   }
+  ]
+ },
+ "afro-house|d0d0dac88d04f9ee": {
+  "songs": [
+   {
+    "acousticness": 0.15,
+    "danceability": 0.75,
+    "energy": 0.7,
+    "fits_genre": true,
+    "idx": 0,
+    "instrumentalness": 0.05,
+    "mood": "chill",
+    "mood_tags": [
+     "groovy",
+     "smooth"
+    ],
+    "note": "Iconic South African afro-house track with melodic vocals.",
+    "release_decade": 2010,
+    "speechiness": 0.05,
+    "tempo_bpm": 122,
+    "valence": 0.6
+   },
+   {
+    "acousticness": 0.1,
+    "danceability": 0.78,
+    "energy": 0.75,
+    "fits_genre": true,
+    "idx": 1,
+    "instrumentalness": 0.02,
+    "mood": "happy",
+    "mood_tags": [
+     "uplifting",
+     "groovy"
+    ],
+    "note": "Melodic afro-house track with modern dance-pop crossover elements.",
+    "release_decade": 2020,
+    "speechiness": 0.05,
+    "tempo_bpm": 120,
+    "valence": 0.65
+   },
+   {
+    "acousticness": 0.2,
+    "danceability": 0.8,
+    "energy": 0.65,
+    "fits_genre": true,
+    "idx": 2,
+    "instrumentalness": 0.1,
+    "mood": "romantic",
+    "mood_tags": [
+     "groovy",
+     "smooth"
+    ],
+    "note": "Classic South African afro-house track with soulful male vocals.",
+    "release_decade": 2000,
+    "speechiness": 0.04,
+    "tempo_bpm": 122,
+    "valence": 0.7
+   },
+   {
+    "acousticness": 0.05,
+    "danceability": 0.75,
+    "energy": 0.8,
+    "fits_genre": true,
+    "idx": 3,
+    "instrumentalness": 0.85,
+    "mood": "focused",
+    "mood_tags": [
+     "groovy",
+     "dark"
+    ],
+    "note": "Essential ancestral afro-house track with deep, driving percussion.",
+    "release_decade": 2000,
+    "speechiness": 0.06,
+    "tempo_bpm": 124,
+    "valence": 0.4
+   },
+   {
+    "acousticness": 0.1,
+    "danceability": 0.76,
+    "energy": 0.78,
+    "fits_genre": true,
+    "idx": 4,
+    "instrumentalness": 0.7,
+    "mood": "moody",
+    "mood_tags": [
+     "groovy",
+     "dark"
+    ],
+    "note": "Deep percussive afro-house track released on Innervisions.",
+    "release_decade": 2010,
+    "speechiness": 0.05,
+    "tempo_bpm": 123,
+    "valence": 0.45
+   },
+   {
+    "acousticness": 0.15,
+    "danceability": 0.78,
+    "energy": 0.82,
+    "fits_genre": true,
+    "idx": 5,
+    "instrumentalness": 0.15,
+    "mood": "energetic",
+    "mood_tags": [
+     "groovy",
+     "uplifting"
+    ],
+    "note": "Iconic South African afro-house anthem featuring vocal chants.",
+    "release_decade": 2000,
+    "speechiness": 0.06,
+    "tempo_bpm": 124,
+    "valence": 0.65
+   },
+   {
+    "acousticness": 0.05,
+    "danceability": 0.75,
+    "energy": 0.85,
+    "fits_genre": true,
+    "idx": 6,
+    "instrumentalness": 0.8,
+    "mood": "intense",
+    "mood_tags": [
+     "groovy",
+     "dark"
+    ],
+    "note": "Tribal afro-house track driven by heavy rhythmic drumming.",
+    "release_decade": 2010,
+    "speechiness": 0.07,
+    "tempo_bpm": 122,
+    "valence": 0.5
+   },
+   {
+    "acousticness": 0.08,
+    "danceability": 0.77,
+    "energy": 0.75,
+    "fits_genre": true,
+    "idx": 7,
+    "instrumentalness": 0.75,
+    "mood": "focused",
+    "mood_tags": [
+     "groovy",
+     "dreamy"
+    ],
+    "note": "Deep percussive afro-house track with synthetic atmospheric melodies.",
+    "release_decade": 2010,
+    "speechiness": 0.05,
+    "tempo_bpm": 122,
+    "valence": 0.5
+   },
+   {
+    "acousticness": 0.12,
+    "danceability": 0.78,
+    "energy": 0.7,
+    "fits_genre": true,
+    "idx": 8,
+    "instrumentalness": 0.1,
+    "mood": "romantic",
+    "mood_tags": [
+     "smooth",
+     "groovy"
+    ],
+    "note": "Soulful afro-house track featuring expressive female vocals.",
+    "release_decade": 2010,
+    "speechiness": 0.04,
+    "tempo_bpm": 120,
+    "valence": 0.6
+   },
+   {
+    "acousticness": 0.04,
+    "danceability": 0.75,
+    "energy": 0.8,
+    "fits_genre": true,
+    "idx": 9,
+    "instrumentalness": 0.85,
+    "mood": "focused",
+    "mood_tags": [
+     "dark",
+     "groovy"
+    ],
+    "note": "Atmospheric afro-tech house track with a rolling percussive groove.",
+    "release_decade": 2010,
+    "speechiness": 0.05,
+    "tempo_bpm": 123,
+    "valence": 0.35
+   },
+   {
+    "acousticness": 0.05,
+    "danceability": 0.76,
+    "energy": 0.72,
+    "fits_genre": true,
+    "idx": 10,
+    "instrumentalness": 0.6,
+    "mood": "chill",
+    "mood_tags": [
+     "groovy",
+     "smooth"
+    ],
+    "note": "Deep afro-house track with hypnotic percussive textures.",
+    "release_decade": 2010,
+    "speechiness": 0.04,
+    "tempo_bpm": 122,
+    "valence": 0.5
+   },
+   {
+    "acousticness": 0.03,
+    "danceability": 0.74,
+    "energy": 0.85,
+    "fits_genre": true,
+    "idx": 11,
+    "instrumentalness": 0.7,
+    "mood": "intense",
+    "mood_tags": [
+     "dark",
+     "groovy"
+    ],
+    "note": "Peak-time afro-tech track featuring driving percussive energy.",
+    "release_decade": 2010,
+    "speechiness": 0.06,
+    "tempo_bpm": 123,
+    "valence": 0.4
+   },
+   {
+    "acousticness": 0.05,
+    "danceability": 0.78,
+    "energy": 0.88,
+    "fits_genre": true,
+    "idx": 12,
+    "instrumentalness": 0.4,
+    "mood": "energetic",
+    "mood_tags": [
+     "party",
+     "groovy"
+    ],
+    "note": "Energetic percussive afro-house track with vocal chant elements.",
+    "release_decade": 2010,
+    "speechiness": 0.06,
+    "tempo_bpm": 123,
+    "valence": 0.6
+   },
+   {
+    "acousticness": 0.1,
+    "danceability": 0.76,
+    "energy": 0.72,
+    "fits_genre": true,
+    "idx": 13,
+    "instrumentalness": 0.2,
+    "mood": "moody",
+    "mood_tags": [
+     "dreamy",
+     "groovy"
+    ],
+    "note": "Emotional melodic afro-house track with atmospheric vocal layers.",
+    "release_decade": 2020,
+    "speechiness": 0.04,
+    "tempo_bpm": 122,
+    "valence": 0.45
+   },
+   {
+    "acousticness": 0.04,
+    "danceability": 0.77,
+    "energy": 0.86,
+    "fits_genre": true,
+    "idx": 14,
+    "instrumentalness": 0.75,
+    "mood": "energetic",
+    "mood_tags": [
+     "confident",
+     "groovy"
+    ],
+    "note": "High-energy afro-tech house track driven by rolling percussion.",
+    "release_decade": 2020,
+    "speechiness": 0.05,
+    "tempo_bpm": 123,
+    "valence": 0.5
+   },
+   {
+    "acousticness": 0.15,
+    "danceability": 0.74,
+    "energy": 0.7,
+    "fits_genre": true,
+    "idx": 15,
+    "instrumentalness": 0.1,
+    "mood": "moody",
+    "mood_tags": [
+     "melancholic",
+     "groovy"
+    ],
+    "note": "Soulful afro-house song featuring emotive South African vocals.",
+    "release_decade": 2020,
+    "speechiness": 0.04,
+    "tempo_bpm": 120,
+    "valence": 0.4
+   },
+   {
+    "acousticness": 0.05,
+    "danceability": 0.76,
+    "energy": 0.78,
+    "fits_genre": true,
+    "idx": 16,
+    "instrumentalness": 0.6,
+    "mood": "focused",
+    "mood_tags": [
+     "groovy",
+     "smooth"
+    ],
+    "note": "Iconic deep afro-house cut with hypnotic vocal chops.",
+    "release_decade": 2010,
+    "speechiness": 0.05,
+    "tempo_bpm": 122,
+    "valence": 0.5
+   },
+   {
+    "acousticness": 0.05,
+    "danceability": 0.75,
+    "energy": 0.84,
+    "fits_genre": true,
+    "idx": 17,
+    "instrumentalness": 0.8,
+    "mood": "intense",
+    "mood_tags": [
+     "groovy",
+     "dark"
+    ],
+    "note": "Ancestral afro-house track driven by West African percussion motifs.",
+    "release_decade": 2020,
+    "speechiness": 0.06,
+    "tempo_bpm": 122,
+    "valence": 0.45
+   },
+   {
+    "acousticness": 0.08,
+    "danceability": 0.76,
+    "energy": 0.73,
+    "fits_genre": true,
+    "idx": 18,
+    "instrumentalness": 0.3,
+    "mood": "moody",
+    "mood_tags": [
+     "dreamy",
+     "groovy"
+    ],
+    "note": "Melodic afro-house track blending deep synth pads and percussion.",
+    "release_decade": 2020,
+    "speechiness": 0.04,
+    "tempo_bpm": 122,
+    "valence": 0.45
+   },
+   {
+    "acousticness": 0.1,
+    "danceability": 0.77,
+    "energy": 0.82,
+    "fits_genre": true,
+    "idx": 19,
+    "instrumentalness": 0.2,
+    "mood": "energetic",
+    "mood_tags": [
+     "groovy",
+     "uplifting"
+    ],
+    "note": "Tribal afro-house track featuring traditional Venda rhythms and vocals.",
+    "release_decade": 2010,
+    "speechiness": 0.06,
+    "tempo_bpm": 122,
+    "valence": 0.65
+   },
+   {
+    "acousticness": 0.05,
+    "danceability": 0.78,
+    "energy": 0.85,
+    "fits_genre": true,
+    "idx": 20,
+    "instrumentalness": 0.5,
+    "mood": "energetic",
+    "mood_tags": [
+     "groovy",
+     "party"
+    ],
+    "note": "Percussive afro-house track with driving basslines and vocal hooks.",
+    "release_decade": 2010,
+    "speechiness": 0.05,
+    "tempo_bpm": 123,
+    "valence": 0.6
+   }
+  ]
+ },
+ "afrobeats|34be0e90ab8d1d3f": {
+  "songs": [
+   {
+    "acousticness": 0.22,
+    "danceability": 0.78,
+    "energy": 0.55,
+    "fits_genre": true,
+    "idx": 0,
+    "instrumentalness": 0.001,
+    "mood": "relaxed",
+    "mood_tags": [
+     "smooth",
+     "groovy"
+    ],
+    "note": "Classic Afrobeats smash hit with R&B influence.",
+    "release_decade": 2020,
+    "speechiness": 0.08,
+    "tempo_bpm": 104,
+    "valence": 0.68
+   },
+   {
+    "acousticness": 0.25,
+    "danceability": 0.75,
+    "energy": 0.52,
+    "fits_genre": true,
+    "idx": 1,
+    "instrumentalness": 0.0,
+    "mood": "romantic",
+    "mood_tags": [
+     "smooth",
+     "romantic"
+    ],
+    "note": "Afrobeats fusion with smooth R&B vibes.",
+    "release_decade": 2020,
+    "speechiness": 0.06,
+    "tempo_bpm": 100,
+    "valence": 0.6
+   },
+   {
+    "acousticness": 0.18,
+    "danceability": 0.82,
+    "energy": 0.58,
+    "fits_genre": true,
+    "idx": 2,
+    "instrumentalness": 0.002,
+    "mood": "romantic",
+    "mood_tags": [
+     "groovy",
+     "smooth"
+    ],
+    "note": "Smooth Afrobeats track with infectious percussion.",
+    "release_decade": 2010,
+    "speechiness": 0.07,
+    "tempo_bpm": 102,
+    "valence": 0.64
+   },
+   {
+    "acousticness": 0.1,
+    "danceability": 0.83,
+    "energy": 0.82,
+    "fits_genre": true,
+    "idx": 3,
+    "instrumentalness": 0.003,
+    "mood": "energetic",
+    "mood_tags": [
+     "party",
+     "playful"
+    ],
+    "note": "High-energy Amapiano-infused Afrobeats hit.",
+    "release_decade": 2020,
+    "speechiness": 0.09,
+    "tempo_bpm": 112,
+    "valence": 0.76
+   },
+   {
+    "acousticness": 0.15,
+    "danceability": 0.85,
+    "energy": 0.68,
+    "fits_genre": true,
+    "idx": 4,
+    "instrumentalness": 0.0,
+    "mood": "happy",
+    "mood_tags": [
+     "groovy",
+     "romantic"
+    ],
+    "note": "Iconic mid-tempo Afrobeats classic.",
+    "release_decade": 2010,
+    "speechiness": 0.09,
+    "tempo_bpm": 106,
+    "valence": 0.72
+   },
+   {
+    "acousticness": 0.3,
+    "danceability": 0.76,
+    "energy": 0.54,
+    "fits_genre": true,
+    "idx": 5,
+    "instrumentalness": 0.0,
+    "mood": "chill",
+    "mood_tags": [
+     "smooth",
+     "groovy"
+    ],
+    "note": "Melodic Afrobeats song with soulful vocal delivery.",
+    "release_decade": 2020,
+    "speechiness": 0.08,
+    "tempo_bpm": 100,
+    "valence": 0.58
+   },
+   {
+    "acousticness": 0.38,
+    "danceability": 0.8,
+    "energy": 0.81,
+    "fits_genre": true,
+    "idx": 6,
+    "instrumentalness": 0.0,
+    "mood": "happy",
+    "mood_tags": [
+     "groovy",
+     "playful"
+    ],
+    "note": "Global Afrobeats anthem with pop appeal.",
+    "release_decade": 2020,
+    "speechiness": 0.04,
+    "tempo_bpm": 107,
+    "valence": 0.8
+   },
+   {
+    "acousticness": 0.28,
+    "danceability": 0.74,
+    "energy": 0.56,
+    "fits_genre": true,
+    "idx": 7,
+    "instrumentalness": 0.01,
+    "mood": "romantic",
+    "mood_tags": [
+     "smooth",
+     "romantic"
+    ],
+    "note": "Sensual Afrobeats song with distinctive rhythms.",
+    "release_decade": 2020,
+    "speechiness": 0.1,
+    "tempo_bpm": 108,
+    "valence": 0.65
+   },
+   {
+    "acousticness": 0.21,
+    "danceability": 0.87,
+    "energy": 0.74,
+    "fits_genre": true,
+    "idx": 8,
+    "instrumentalness": 0.0,
+    "mood": "happy",
+    "mood_tags": [
+     "playful",
+     "groovy"
+    ],
+    "note": "Breakthrough Afrobeats track with upbeat rhythms.",
+    "release_decade": 2010,
+    "speechiness": 0.06,
+    "tempo_bpm": 110,
+    "valence": 0.82
+   },
+   {
+    "acousticness": 0.06,
+    "danceability": 0.79,
+    "energy": 0.72,
+    "fits_genre": true,
+    "idx": 9,
+    "instrumentalness": 0.0,
+    "mood": "happy",
+    "mood_tags": [
+     "confident",
+     "groovy"
+    ],
+    "note": "Upbeat Afrobeats hit with confident delivery.",
+    "release_decade": 2020,
+    "speechiness": 0.06,
+    "tempo_bpm": 100,
+    "valence": 0.75
+   },
+   {
+    "acousticness": 0.18,
+    "danceability": 0.8,
+    "energy": 0.7,
+    "fits_genre": true,
+    "idx": 10,
+    "instrumentalness": 0.0,
+    "mood": "energetic",
+    "mood_tags": [
+     "confident",
+     "uplifting"
+    ],
+    "note": "Uplifting Afrobeats song about success and drive.",
+    "release_decade": 2020,
+    "speechiness": 0.07,
+    "tempo_bpm": 103,
+    "valence": 0.68
+   },
+   {
+    "acousticness": 0.4,
+    "danceability": 0.7,
+    "energy": 0.48,
+    "fits_genre": true,
+    "idx": 11,
+    "instrumentalness": 0.0,
+    "mood": "moody",
+    "mood_tags": [
+     "melancholic",
+     "smooth"
+    ],
+    "note": "Mid-tempo R&B-infused Afrobeats track about moving on.",
+    "release_decade": 2020,
+    "speechiness": 0.05,
+    "tempo_bpm": 98,
+    "valence": 0.42
+   },
+   {
+    "acousticness": 0.12,
+    "danceability": 0.82,
+    "energy": 0.85,
+    "fits_genre": true,
+    "idx": 12,
+    "instrumentalness": 0.001,
+    "mood": "energetic",
+    "mood_tags": [
+     "party",
+     "confident"
+    ],
+    "note": "Energetic Afro-fusion track with vibrant percussion.",
+    "release_decade": 2020,
+    "speechiness": 0.11,
+    "tempo_bpm": 113,
+    "valence": 0.79
+   },
+   {
+    "acousticness": 0.15,
+    "danceability": 0.85,
+    "energy": 0.84,
+    "fits_genre": true,
+    "idx": 13,
+    "instrumentalness": 0.0,
+    "mood": "energetic",
+    "mood_tags": [
+     "party",
+     "groovy"
+    ],
+    "note": "Driving percussion and choir-backed Afrobeats style.",
+    "release_decade": 2020,
+    "speechiness": 0.08,
+    "tempo_bpm": 114,
+    "valence": 0.81
+   },
+   {
+    "acousticness": 0.25,
+    "danceability": 0.78,
+    "energy": 0.62,
+    "fits_genre": true,
+    "idx": 14,
+    "instrumentalness": 0.0,
+    "mood": "relaxed",
+    "mood_tags": [
+     "smooth",
+     "hopeful"
+    ],
+    "note": "Reflective mid-tempo Afrobeats anthem.",
+    "release_decade": 2020,
+    "speechiness": 0.06,
+    "tempo_bpm": 108,
+    "valence": 0.74
+   },
+   {
+    "acousticness": 0.19,
+    "danceability": 0.84,
+    "energy": 0.7,
+    "fits_genre": true,
+    "idx": 15,
+    "instrumentalness": 0.0,
+    "mood": "happy",
+    "mood_tags": [
+     "groovy",
+     "playful"
+    ],
+    "note": "Catchy mid-tempo Afrobeats track with commentary.",
+    "release_decade": 2020,
+    "speechiness": 0.08,
+    "tempo_bpm": 105,
+    "valence": 0.78
+   },
+   {
+    "acousticness": 0.2,
+    "danceability": 0.75,
+    "energy": 0.78,
+    "fits_genre": true,
+    "idx": 16,
+    "instrumentalness": 0.0,
+    "mood": "energetic",
+    "mood_tags": [
+     "uplifting",
+     "confident"
+    ],
+    "note": "Uplifting Afro-pop track with strong African choir.",
+    "release_decade": 2010,
+    "speechiness": 0.07,
+    "tempo_bpm": 108,
+    "valence": 0.71
+   },
+   {
+    "acousticness": 0.24,
+    "danceability": 0.76,
+    "energy": 0.58,
+    "fits_genre": true,
+    "idx": 17,
+    "instrumentalness": 0.0,
+    "mood": "romantic",
+    "mood_tags": [
+     "smooth",
+     "romantic"
+    ],
+    "note": "Smooth Afrobeats song featuring Sam Smith.",
+    "release_decade": 2020,
+    "speechiness": 0.05,
+    "tempo_bpm": 102,
+    "valence": 0.63
+   },
+   {
+    "acousticness": 0.12,
+    "danceability": 0.89,
+    "energy": 0.77,
+    "fits_genre": true,
+    "idx": 18,
+    "instrumentalness": 0.0,
+    "mood": "happy",
+    "mood_tags": [
+     "groovy",
+     "party"
+    ],
+    "note": "Catchy mid-tempo Afrobeats hit.",
+    "release_decade": 2020,
+    "speechiness": 0.06,
+    "tempo_bpm": 108,
+    "valence": 0.84
+   },
+   {
+    "acousticness": 0.16,
+    "danceability": 0.81,
+    "energy": 0.79,
+    "fits_genre": true,
+    "idx": 19,
+    "instrumentalness": 0.0,
+    "mood": "energetic",
+    "mood_tags": [
+     "confident",
+     "groovy"
+    ],
+    "note": "Melodic Afrobeats hit featuring Asake.",
+    "release_decade": 2020,
+    "speechiness": 0.07,
+    "tempo_bpm": 112,
+    "valence": 0.75
+   },
+   {
+    "acousticness": 0.14,
+    "danceability": 0.83,
+    "energy": 0.75,
+    "fits_genre": true,
+    "idx": 20,
+    "instrumentalness": 0.0,
+    "mood": "happy",
+    "mood_tags": [
+     "playful",
+     "groovy"
+    ],
+    "note": "Upbeat party-oriented Afrobeats track.",
+    "release_decade": 2020,
+    "speechiness": 0.08,
+    "tempo_bpm": 109,
+    "valence": 0.77
+   },
+   {
+    "acousticness": 0.17,
+    "danceability": 0.86,
+    "energy": 0.74,
+    "fits_genre": true,
+    "idx": 21,
+    "instrumentalness": 0.0,
+    "mood": "happy",
+    "mood_tags": [
+     "playful",
+     "groovy"
+    ],
+    "note": "Infectious mid-tempo Afrobeats groove.",
+    "release_decade": 2020,
+    "speechiness": 0.07,
+    "tempo_bpm": 107,
+    "valence": 0.82
+   },
+   {
+    "acousticness": 0.11,
+    "danceability": 0.84,
+    "energy": 0.86,
+    "fits_genre": true,
+    "idx": 22,
+    "instrumentalness": 0.0,
+    "mood": "happy",
+    "mood_tags": [
+     "party",
+     "uplifting"
+    ],
+    "note": "Massive celebration Afrobeats anthem.",
+    "release_decade": 2020,
+    "speechiness": 0.09,
+    "tempo_bpm": 115,
+    "valence": 0.88
+   },
+   {
+    "acousticness": 0.14,
+    "danceability": 0.85,
+    "energy": 0.78,
+    "fits_genre": true,
+    "idx": 23,
+    "instrumentalness": 0.0,
+    "mood": "happy",
+    "mood_tags": [
+     "groovy",
+     "playful"
+    ],
+    "note": "Classic upbeat Afrobeats dance track.",
+    "release_decade": 2010,
+    "speechiness": 0.06,
+    "tempo_bpm": 112,
+    "valence": 0.85
+   },
+   {
+    "acousticness": 0.22,
+    "danceability": 0.81,
+    "energy": 0.58,
+    "fits_genre": true,
+    "idx": 24,
+    "instrumentalness": 0.0,
+    "mood": "chill",
+    "mood_tags": [
+     "smooth",
+     "groovy"
+    ],
+    "note": "Sensual mid-tempo Afrobeats collaboration.",
+    "release_decade": 2020,
+    "speechiness": 0.08,
+    "tempo_bpm": 102,
+    "valence": 0.66
+   },
+   {
+    "acousticness": 0.28,
+    "danceability": 0.77,
+    "energy": 0.55,
+    "fits_genre": true,
+    "idx": 25,
+    "instrumentalness": 0.0,
+    "mood": "chill",
+    "mood_tags": [
+     "smooth",
+     "cozy"
+    ],
+    "note": "Smooth Afro-fusion song with melodic hooks.",
+    "release_decade": 2020,
+    "speechiness": 0.06,
+    "tempo_bpm": 100,
+    "valence": 0.6
+   },
+   {
+    "acousticness": 0.2,
+    "danceability": 0.8,
+    "energy": 0.62,
+    "fits_genre": true,
+    "idx": 26,
+    "instrumentalness": 0.0,
+    "mood": "relaxed",
+    "mood_tags": [
+     "smooth",
+     "groovy"
+    ],
+    "note": "Afrobeats single featuring Wizkid.",
+    "release_decade": 2010,
+    "speechiness": 0.07,
+    "tempo_bpm": 104,
+    "valence": 0.68
+   },
+   {
+    "acousticness": 0.13,
+    "danceability": 0.81,
+    "energy": 0.8,
+    "fits_genre": true,
+    "idx": 27,
+    "instrumentalness": 0.0,
+    "mood": "energetic",
+    "mood_tags": [
+     "confident",
+     "party"
+    ],
+    "note": "Dancehall-infused Afrobeats hit with high confidence.",
+    "release_decade": 2020,
+    "speechiness": 0.09,
+    "tempo_bpm": 105,
+    "valence": 0.76
+   },
+   {
+    "acousticness": 0.18,
+    "danceability": 0.82,
+    "energy": 0.72,
+    "fits_genre": true,
+    "idx": 28,
+    "instrumentalness": 0.0,
+    "mood": "happy",
+    "mood_tags": [
+     "groovy",
+     "playful"
+    ],
+    "note": "Afro-dancehall groove with catchy hooks.",
+    "release_decade": 2020,
+    "speechiness": 0.08,
+    "tempo_bpm": 103,
+    "valence": 0.74
+   },
+   {
+    "acousticness": 0.16,
+    "danceability": 0.83,
+    "energy": 0.65,
+    "fits_genre": true,
+    "idx": 29,
+    "instrumentalness": 0.0,
+    "mood": "chill",
+    "mood_tags": [
+     "smooth",
+     "groovy"
+    ],
+    "note": "Smooth Afro-dancehall mid-tempo track.",
+    "release_decade": 2020,
+    "speechiness": 0.07,
+    "tempo_bpm": 102,
+    "valence": 0.7
+   },
+   {
+    "acousticness": 0.21,
+    "danceability": 0.79,
+    "energy": 0.63,
+    "fits_genre": true,
+    "idx": 30,
+    "instrumentalness": 0.0,
+    "mood": "moody",
+    "mood_tags": [
+     "groovy",
+     "melancholic"
+    ],
+    "note": "Atmospheric mid-tempo Afrobeats hit.",
+    "release_decade": 2020,
+    "speechiness": 0.06,
+    "tempo_bpm": 104,
+    "valence": 0.54
+   },
+   {
+    "acousticness": 0.25,
+    "danceability": 0.82,
+    "energy": 0.73,
+    "fits_genre": true,
+    "idx": 31,
+    "instrumentalness": 0.0,
+    "mood": "happy",
+    "mood_tags": [
+     "romantic",
+     "playful"
+    ],
+    "note": "Upbeat love song with signature Afrobeats beat.",
+    "release_decade": 2010,
+    "speechiness": 0.06,
+    "tempo_bpm": 107,
+    "valence": 0.83
+   },
+   {
+    "acousticness": 0.31,
+    "danceability": 0.77,
+    "energy": 0.58,
+    "fits_genre": true,
+    "idx": 32,
+    "instrumentalness": 0.0,
+    "mood": "romantic",
+    "mood_tags": [
+     "romantic",
+     "smooth"
+    ],
+    "note": "Romantic mid-tempo Afrobeats song.",
+    "release_decade": 2020,
+    "speechiness": 0.05,
+    "tempo_bpm": 101,
+    "valence": 0.69
+   },
+   {
+    "acousticness": 0.15,
+    "danceability": 0.86,
+    "energy": 0.85,
+    "fits_genre": true,
+    "idx": 33,
+    "instrumentalness": 0.0,
+    "mood": "happy",
+    "mood_tags": [
+     "party",
+     "playful"
+    ],
+    "note": "Breakthrough high-energy Afrobeats classic.",
+    "release_decade": 2010,
+    "speechiness": 0.08,
+    "tempo_bpm": 118,
+    "valence": 0.89
+   },
+   {
+    "acousticness": 0.14,
+    "danceability": 0.85,
+    "energy": 0.87,
+    "fits_genre": true,
+    "idx": 34,
+    "instrumentalness": 0.0,
+    "mood": "energetic",
+    "mood_tags": [
+     "playful",
+     "party"
+    ],
+    "note": "Energetic Afrobeats song with humorous lyrics.",
+    "release_decade": 2010,
+    "speechiness": 0.09,
+    "tempo_bpm": 120,
+    "valence": 0.86
+   },
+   {
+    "acousticness": 0.11,
+    "danceability": 0.84,
+    "energy": 0.82,
+    "fits_genre": true,
+    "idx": 35,
+    "instrumentalness": 0.0,
+    "mood": "happy",
+    "mood_tags": [
+     "party",
+     "confident"
+    ],
+    "note": "Upbeat Afrobeats dance track.",
+    "release_decade": 2020,
+    "speechiness": 0.07,
+    "tempo_bpm": 115,
+    "valence": 0.81
+   },
+   {
+    "acousticness": 0.17,
+    "danceability": 0.81,
+    "energy": 0.66,
+    "fits_genre": true,
+    "idx": 36,
+    "instrumentalness": 0.0,
+    "mood": "chill",
+    "mood_tags": [
+     "groovy",
+     "confident"
+    ],
+    "note": "Street-pop Afrobeats track with laid-back delivery.",
+    "release_decade": 2020,
+    "speechiness": 0.15,
+    "tempo_bpm": 110,
+    "valence": 0.72
+   },
+   {
+    "acousticness": 0.16,
+    "danceability": 0.8,
+    "energy": 0.68,
+    "fits_genre": true,
+    "idx": 37,
+    "instrumentalness": 0.0,
+    "mood": "chill",
+    "mood_tags": [
+     "groovy",
+     "confident"
+    ],
+    "note": "Sequel track featuring signature street Afrobeats style.",
+    "release_decade": 2020,
+    "speechiness": 0.16,
+    "tempo_bpm": 110,
+    "valence": 0.71
+   },
+   {
+    "acousticness": 0.12,
+    "danceability": 0.83,
+    "energy": 0.81,
+    "fits_genre": true,
+    "idx": 38,
+    "instrumentalness": 0.0,
+    "mood": "energetic",
+    "mood_tags": [
+     "party",
+     "rebellious"
+    ],
+    "note": "Energetic street-pop Afrobeats hit.",
+    "release_decade": 2020,
+    "speechiness": 0.18,
+    "tempo_bpm": 113,
+    "valence": 0.75
+   }
+  ]
+ },
+ "alte|6c6c3ee59f6ebd3b": {
+  "songs": [
+   {
+    "acousticness": 0.35,
+    "danceability": 0.65,
+    "energy": 0.45,
+    "fits_genre": true,
+    "idx": 0,
+    "instrumentalness": 0.0,
+    "mood": "relaxed",
+    "mood_tags": [
+     "smooth",
+     "dreamy"
+    ],
+    "note": "Laid-back alt-R&B collaboration with soulful vibes.",
+    "release_decade": 2020,
+    "speechiness": 0.08,
+    "tempo_bpm": 110,
+    "valence": 0.4
+   },
+   {
+    "acousticness": 0.4,
+    "danceability": 0.6,
+    "energy": 0.5,
+    "fits_genre": true,
+    "idx": 1,
+    "instrumentalness": 0.0,
+    "mood": "chill",
+    "mood_tags": [
+     "smooth",
+     "peaceful"
+    ],
+    "note": "Soulful, atmospheric alternative Afro-R&B song.",
+    "release_decade": 2020,
+    "speechiness": 0.05,
+    "tempo_bpm": 105,
+    "valence": 0.45
+   },
+   {
+    "acousticness": 0.5,
+    "danceability": 0.55,
+    "energy": 0.4,
+    "fits_genre": true,
+    "idx": 2,
+    "instrumentalness": 0.0,
+    "mood": "moody",
+    "mood_tags": [
+     "melancholic",
+     "dreamy"
+    ],
+    "note": "Intimate alt-R&B ballad with deep emotional resonance.",
+    "release_decade": 2020,
+    "speechiness": 0.06,
+    "tempo_bpm": 115,
+    "valence": 0.35
+   },
+   {
+    "acousticness": 0.2,
+    "danceability": 0.75,
+    "energy": 0.55,
+    "fits_genre": true,
+    "idx": 3,
+    "instrumentalness": 0.01,
+    "mood": "chill",
+    "mood_tags": [
+     "groovy",
+     "smooth"
+    ],
+    "note": "Essential alte blend of 80s synth-pop and Afro-R&B.",
+    "release_decade": 2010,
+    "speechiness": 0.06,
+    "tempo_bpm": 108,
+    "valence": 0.6
+   },
+   {
+    "acousticness": 0.25,
+    "danceability": 0.7,
+    "energy": 0.5,
+    "fits_genre": true,
+    "idx": 4,
+    "instrumentalness": 0.02,
+    "mood": "chill",
+    "mood_tags": [
+     "smooth",
+     "groovy"
+    ],
+    "note": "Laid-back alte track featuring smooth electronic production.",
+    "release_decade": 2020,
+    "speechiness": 0.08,
+    "tempo_bpm": 100,
+    "valence": 0.5
+   },
+   {
+    "acousticness": 0.3,
+    "danceability": 0.72,
+    "energy": 0.52,
+    "fits_genre": true,
+    "idx": 5,
+    "instrumentalness": 0.0,
+    "mood": "relaxed",
+    "mood_tags": [
+     "groovy",
+     "dreamy"
+    ],
+    "note": "Melodic alte song blending R&B vocals and pop rhythms.",
+    "release_decade": 2010,
+    "speechiness": 0.07,
+    "tempo_bpm": 104,
+    "valence": 0.55
+   },
+   {
+    "acousticness": 0.25,
+    "danceability": 0.78,
+    "energy": 0.65,
+    "fits_genre": true,
+    "idx": 6,
+    "instrumentalness": 0.0,
+    "mood": "happy",
+    "mood_tags": [
+     "groovy",
+     "playful"
+    ],
+    "note": "Vibrant retro-infused alte groove with highlife influences.",
+    "release_decade": 2010,
+    "speechiness": 0.06,
+    "tempo_bpm": 112,
+    "valence": 0.75
+   },
+   {
+    "acousticness": 0.2,
+    "danceability": 0.8,
+    "energy": 0.7,
+    "fits_genre": true,
+    "idx": 7,
+    "instrumentalness": 0.01,
+    "mood": "energetic",
+    "mood_tags": [
+     "confident",
+     "groovy"
+    ],
+    "note": "Energetic alte fusion with infectious bass and rhythm.",
+    "release_decade": 2020,
+    "speechiness": 0.09,
+    "tempo_bpm": 116,
+    "valence": 0.7
+   },
+   {
+    "acousticness": 0.22,
+    "danceability": 0.76,
+    "energy": 0.68,
+    "fits_genre": true,
+    "idx": 8,
+    "instrumentalness": 0.0,
+    "mood": "happy",
+    "mood_tags": [
+     "uplifting",
+     "party"
+    ],
+    "note": "Uplifting alte track with playful vocals and groovy beats.",
+    "release_decade": 2010,
+    "speechiness": 0.05,
+    "tempo_bpm": 115,
+    "valence": 0.8
+   },
+   {
+    "acousticness": 0.15,
+    "danceability": 0.78,
+    "energy": 0.6,
+    "fits_genre": true,
+    "idx": 9,
+    "instrumentalness": 0.02,
+    "mood": "chill",
+    "mood_tags": [
+     "dreamy",
+     "groovy"
+    ],
+    "note": "Experimental alte and futuristic Afro-R&B track.",
+    "release_decade": 2020,
+    "speechiness": 0.08,
+    "tempo_bpm": 102,
+    "valence": 0.6
+   },
+   {
+    "acousticness": 0.1,
+    "danceability": 0.82,
+    "energy": 0.72,
+    "fits_genre": true,
+    "idx": 10,
+    "instrumentalness": 0.01,
+    "mood": "energetic",
+    "mood_tags": [
+     "confident",
+     "groovy"
+    ],
+    "note": "Avant-garde alte song with electronic textures.",
+    "release_decade": 2020,
+    "speechiness": 0.1,
+    "tempo_bpm": 118,
+    "valence": 0.65
+   },
+   {
+    "acousticness": 0.18,
+    "danceability": 0.77,
+    "energy": 0.58,
+    "fits_genre": true,
+    "idx": 11,
+    "instrumentalness": 0.01,
+    "mood": "chill",
+    "mood_tags": [
+     "smooth",
+     "groovy"
+    ],
+    "note": "Sultry alte production with hypnotic Afro-fusion rhythms.",
+    "release_decade": 2020,
+    "speechiness": 0.07,
+    "tempo_bpm": 105,
+    "valence": 0.55
+   },
+   {
+    "acousticness": 0.3,
+    "danceability": 0.74,
+    "energy": 0.55,
+    "fits_genre": true,
+    "idx": 12,
+    "instrumentalness": 0.0,
+    "mood": "relaxed",
+    "mood_tags": [
+     "groovy",
+     "smooth"
+    ],
+    "note": "Classic alte Afro-fusion track by genre pioneer.",
+    "release_decade": 2010,
+    "speechiness": 0.09,
+    "tempo_bpm": 100,
+    "valence": 0.6
+   },
+   {
+    "acousticness": 0.28,
+    "danceability": 0.76,
+    "energy": 0.52,
+    "fits_genre": true,
+    "idx": 13,
+    "instrumentalness": 0.0,
+    "mood": "chill",
+    "mood_tags": [
+     "smooth",
+     "groovy"
+    ],
+    "note": "Smooth alte collaboration with catchy Afro beats.",
+    "release_decade": 2020,
+    "speechiness": 0.08,
+    "tempo_bpm": 98,
+    "valence": 0.62
+   },
+   {
+    "acousticness": 0.35,
+    "danceability": 0.7,
+    "energy": 0.48,
+    "fits_genre": true,
+    "idx": 14,
+    "instrumentalness": 0.0,
+    "mood": "relaxed",
+    "mood_tags": [
+     "smooth",
+     "cozy"
+    ],
+    "note": "Laid-back alte vibe with hypnotic rhythms and melodies.",
+    "release_decade": 2020,
+    "speechiness": 0.07,
+    "tempo_bpm": 96,
+    "valence": 0.52
+   },
+   {
+    "acousticness": 0.45,
+    "danceability": 0.62,
+    "energy": 0.42,
+    "fits_genre": true,
+    "idx": 15,
+    "instrumentalness": 0.02,
+    "mood": "chill",
+    "mood_tags": [
+     "peaceful",
+     "dreamy"
+    ],
+    "note": "Atmospheric alt-R&B track characteristic of alte soundscapes.",
+    "release_decade": 2020,
+    "speechiness": 0.05,
+    "tempo_bpm": 92,
+    "valence": 0.45
+   },
+   {
+    "acousticness": 0.5,
+    "danceability": 0.58,
+    "energy": 0.38,
+    "fits_genre": true,
+    "idx": 16,
+    "instrumentalness": 0.0,
+    "mood": "moody",
+    "mood_tags": [
+     "melancholic",
+     "smooth"
+    ],
+    "note": "Soulful, minimalist alte R&B tune.",
+    "release_decade": 2010,
+    "speechiness": 0.06,
+    "tempo_bpm": 95,
+    "valence": 0.35
+   },
+   {
+    "acousticness": 0.4,
+    "danceability": 0.64,
+    "energy": 0.45,
+    "fits_genre": true,
+    "idx": 17,
+    "instrumentalness": 0.0,
+    "mood": "romantic",
+    "mood_tags": [
+     "romantic",
+     "smooth"
+    ],
+    "note": "Lush alte song with rich acoustic and electronic textures.",
+    "release_decade": 2020,
+    "speechiness": 0.05,
+    "tempo_bpm": 98,
+    "valence": 0.48
+   },
+   {
+    "acousticness": 0.15,
+    "danceability": 0.75,
+    "energy": 0.68,
+    "fits_genre": true,
+    "idx": 18,
+    "instrumentalness": 0.0,
+    "mood": "intense",
+    "mood_tags": [
+     "dark",
+     "rebellious"
+    ],
+    "note": "Dark, rhythmic alte hit blending dancehall and indie vibes.",
+    "release_decade": 2010,
+    "speechiness": 0.12,
+    "tempo_bpm": 102,
+    "valence": 0.42
+   },
+   {
+    "acousticness": 0.2,
+    "danceability": 0.78,
+    "energy": 0.62,
+    "fits_genre": true,
+    "idx": 19,
+    "instrumentalness": 0.0,
+    "mood": "chill",
+    "mood_tags": [
+     "groovy",
+     "rebellious"
+    ],
+    "note": "Landmark alte anthem mixing dancehall, rap, and Afro sounds.",
+    "release_decade": 2010,
+    "speechiness": 0.14,
+    "tempo_bpm": 100,
+    "valence": 0.55
+   },
+   {
+    "acousticness": 0.18,
+    "danceability": 0.72,
+    "energy": 0.6,
+    "fits_genre": true,
+    "idx": 20,
+    "instrumentalness": 0.01,
+    "mood": "moody",
+    "mood_tags": [
+     "dark",
+     "groovy"
+    ],
+    "note": "Moody experimental alte track with dark synth textures.",
+    "release_decade": 2010,
+    "speechiness": 0.1,
+    "tempo_bpm": 104,
+    "valence": 0.38
+   }
+  ]
+ },
+ "amapiano|1ee135bcc36f02d8": {
+  "songs": [
+   {
+    "acousticness": 0.2,
+    "danceability": 0.8,
+    "energy": 0.65,
+    "fits_genre": true,
+    "idx": 0,
+    "instrumentalness": 0.05,
+    "mood": "chill",
+    "mood_tags": [
+     "smooth",
+     "groovy"
+    ],
+    "note": "Iconic soulful amapiano track featuring lush piano and Ami Faku vocals.",
+    "release_decade": 2020,
+    "speechiness": 0.08,
+    "tempo_bpm": 112,
+    "valence": 0.6
+   },
+   {
+    "acousticness": 0.2,
+    "danceability": 0.81,
+    "energy": 0.68,
+    "fits_genre": true,
+    "idx": 1,
+    "instrumentalness": 0.02,
+    "mood": "happy",
+    "mood_tags": [
+     "uplifting",
+     "smooth"
+    ],
+    "note": "Uplifting soulful amapiano hit blending deep pads and log drum.",
+    "release_decade": 2020,
+    "speechiness": 0.07,
+    "tempo_bpm": 113,
+    "valence": 0.72
+   },
+   {
+    "acousticness": 0.15,
+    "danceability": 0.82,
+    "energy": 0.72,
+    "fits_genre": true,
+    "idx": 2,
+    "instrumentalness": 0.01,
+    "mood": "happy",
+    "mood_tags": [
+     "uplifting",
+     "euphoric"
+    ],
+    "note": "Gospel-infused amapiano anthem with soaring vocals and deep bass.",
+    "release_decade": 2020,
+    "speechiness": 0.08,
+    "tempo_bpm": 113,
+    "valence": 0.75
+   },
+   {
+    "acousticness": 0.1,
+    "danceability": 0.84,
+    "energy": 0.78,
+    "fits_genre": true,
+    "idx": 3,
+    "instrumentalness": 0.1,
+    "mood": "energetic",
+    "mood_tags": [
+     "party",
+     "groovy"
+    ],
+    "note": "Upbeat amapiano club track driven by dynamic log drum sequences.",
+    "release_decade": 2020,
+    "speechiness": 0.1,
+    "tempo_bpm": 112,
+    "valence": 0.65
+   },
+   {
+    "acousticness": 0.1,
+    "danceability": 0.82,
+    "energy": 0.85,
+    "fits_genre": false,
+    "idx": 4,
+    "instrumentalness": 0.02,
+    "mood": "energetic",
+    "mood_tags": [
+     "party",
+     "euphoric"
+    ],
+    "note": "Afropop and gqom house track released before amapiano emerged.",
+    "release_decade": 2010,
+    "speechiness": 0.08,
+    "tempo_bpm": 125,
+    "valence": 0.8
+   },
+   {
+    "acousticness": 0.2,
+    "danceability": 0.78,
+    "energy": 0.65,
+    "fits_genre": true,
+    "idx": 5,
+    "instrumentalness": 0.05,
+    "mood": "chill",
+    "mood_tags": [
+     "smooth",
+     "groovy"
+    ],
+    "note": "Melodic amapiano song featuring smooth vocal harmonies.",
+    "release_decade": 2020,
+    "speechiness": 0.07,
+    "tempo_bpm": 112,
+    "valence": 0.6
+   },
+   {
+    "acousticness": 0.08,
+    "danceability": 0.85,
+    "energy": 0.82,
+    "fits_genre": true,
+    "idx": 6,
+    "instrumentalness": 0.02,
+    "mood": "energetic",
+    "mood_tags": [
+     "party",
+     "confident"
+    ],
+    "note": "Massive amapiano rap crossover with Vigro Deep heavy log drum.",
+    "release_decade": 2020,
+    "speechiness": 0.15,
+    "tempo_bpm": 112,
+    "valence": 0.7
+   },
+   {
+    "acousticness": 0.05,
+    "danceability": 0.86,
+    "energy": 0.84,
+    "fits_genre": true,
+    "idx": 7,
+    "instrumentalness": 0.01,
+    "mood": "energetic",
+    "mood_tags": [
+     "party",
+     "groovy"
+    ],
+    "note": "High energy amapiano rap hybrid track built for dancefloors.",
+    "release_decade": 2020,
+    "speechiness": 0.16,
+    "tempo_bpm": 113,
+    "valence": 0.75
+   },
+   {
+    "acousticness": 0.06,
+    "danceability": 0.83,
+    "energy": 0.8,
+    "fits_genre": true,
+    "idx": 8,
+    "instrumentalness": 0.01,
+    "mood": "energetic",
+    "mood_tags": [
+     "playful",
+     "groovy"
+    ],
+    "note": "Rhythmic amapiano rap single with driving bass and bounce.",
+    "release_decade": 2020,
+    "speechiness": 0.14,
+    "tempo_bpm": 112,
+    "valence": 0.68
+   },
+   {
+    "acousticness": 0.08,
+    "danceability": 0.84,
+    "energy": 0.79,
+    "fits_genre": true,
+    "idx": 9,
+    "instrumentalness": 0.05,
+    "mood": "energetic",
+    "mood_tags": [
+     "party",
+     "groovy"
+    ],
+    "note": "Percussive bacardi amapiano track with gritty synth bass.",
+    "release_decade": 2020,
+    "speechiness": 0.11,
+    "tempo_bpm": 112,
+    "valence": 0.65
+   },
+   {
+    "acousticness": 0.05,
+    "danceability": 0.88,
+    "energy": 0.81,
+    "fits_genre": true,
+    "idx": 10,
+    "instrumentalness": 0.02,
+    "mood": "energetic",
+    "mood_tags": [
+     "party",
+     "playful"
+    ],
+    "note": "Viral bacardi amapiano club hit with infectious percussion bounce.",
+    "release_decade": 2020,
+    "speechiness": 0.12,
+    "tempo_bpm": 112,
+    "valence": 0.78
+   },
+   {
+    "acousticness": 0.04,
+    "danceability": 0.86,
+    "energy": 0.83,
+    "fits_genre": true,
+    "idx": 11,
+    "instrumentalness": 0.02,
+    "mood": "energetic",
+    "mood_tags": [
+     "party",
+     "playful"
+    ],
+    "note": "Bouncy bacardi-influenced amapiano single featuring vocal chants.",
+    "release_decade": 2020,
+    "speechiness": 0.13,
+    "tempo_bpm": 113,
+    "valence": 0.72
+   },
+   {
+    "acousticness": 0.05,
+    "danceability": 0.89,
+    "energy": 0.85,
+    "fits_genre": true,
+    "idx": 12,
+    "instrumentalness": 0.03,
+    "mood": "energetic",
+    "mood_tags": [
+     "party",
+     "groovy"
+    ],
+    "note": "Global amapiano hit defined by heavy, rhythmic log drum drop.",
+    "release_decade": 2020,
+    "speechiness": 0.1,
+    "tempo_bpm": 113,
+    "valence": 0.75
+   },
+   {
+    "acousticness": 0.06,
+    "danceability": 0.85,
+    "energy": 0.8,
+    "fits_genre": true,
+    "idx": 13,
+    "instrumentalness": 0.02,
+    "mood": "energetic",
+    "mood_tags": [
+     "party",
+     "groovy"
+    ],
+    "note": "Groovy amapiano club track with heavy basslines and chants.",
+    "release_decade": 2020,
+    "speechiness": 0.11,
+    "tempo_bpm": 112,
+    "valence": 0.7
+   },
+   {
+    "acousticness": 0.07,
+    "danceability": 0.84,
+    "energy": 0.82,
+    "fits_genre": true,
+    "idx": 14,
+    "instrumentalness": 0.03,
+    "mood": "energetic",
+    "mood_tags": [
+     "party",
+     "groovy"
+    ],
+    "note": "Hard-hitting amapiano track with intense log drum patterns.",
+    "release_decade": 2020,
+    "speechiness": 0.12,
+    "tempo_bpm": 113,
+    "valence": 0.68
+   },
+   {
+    "acousticness": 0.1,
+    "danceability": 0.85,
+    "energy": 0.78,
+    "fits_genre": true,
+    "idx": 15,
+    "instrumentalness": 0.01,
+    "mood": "happy",
+    "mood_tags": [
+     "uplifting",
+     "party"
+    ],
+    "note": "Iconic breakout amapiano anthem produced by Kabza De Small.",
+    "release_decade": 2020,
+    "speechiness": 0.09,
+    "tempo_bpm": 112,
+    "valence": 0.8
+   },
+   {
+    "acousticness": 0.12,
+    "danceability": 0.8,
+    "energy": 0.7,
+    "fits_genre": true,
+    "idx": 16,
+    "instrumentalness": 0.02,
+    "mood": "chill",
+    "mood_tags": [
+     "groovy",
+     "confident"
+    ],
+    "note": "Deep amapiano track blending hip hop vocal styling with log drum.",
+    "release_decade": 2020,
+    "speechiness": 0.1,
+    "tempo_bpm": 112,
+    "valence": 0.65
+   },
+   {
+    "acousticness": 0.25,
+    "danceability": 0.77,
+    "energy": 0.62,
+    "fits_genre": true,
+    "idx": 17,
+    "instrumentalness": 0.03,
+    "mood": "chill",
+    "mood_tags": [
+     "smooth",
+     "cozy"
+    ],
+    "note": "Soulful, vocal-led amapiano ballad with warm keyboards.",
+    "release_decade": 2020,
+    "speechiness": 0.07,
+    "tempo_bpm": 112,
+    "valence": 0.58
+   },
+   {
+    "acousticness": 0.3,
+    "danceability": 0.78,
+    "energy": 0.6,
+    "fits_genre": true,
+    "idx": 18,
+    "instrumentalness": 0.05,
+    "mood": "chill",
+    "mood_tags": [
+     "smooth",
+     "dreamy"
+    ],
+    "note": "Smooth international amapiano fusion featuring Jorja Smith's vocals.",
+    "release_decade": 2020,
+    "speechiness": 0.06,
+    "tempo_bpm": 112,
+    "valence": 0.55
+   },
+   {
+    "acousticness": 0.18,
+    "danceability": 0.81,
+    "energy": 0.65,
+    "fits_genre": true,
+    "idx": 19,
+    "instrumentalness": 0.08,
+    "mood": "chill",
+    "mood_tags": [
+     "smooth",
+     "groovy"
+    ],
+    "note": "Atmospheric private school amapiano track with delicate synth keys.",
+    "release_decade": 2020,
+    "speechiness": 0.06,
+    "tempo_bpm": 112,
+    "valence": 0.6
+   },
+   {
+    "acousticness": 0.22,
+    "danceability": 0.79,
+    "energy": 0.64,
+    "fits_genre": true,
+    "idx": 20,
+    "instrumentalness": 0.04,
+    "mood": "romantic",
+    "mood_tags": [
+     "romantic",
+     "smooth"
+    ],
+    "note": "Lush amapiano tune with romantic vocal melodies and log drum.",
+    "release_decade": 2020,
+    "speechiness": 0.06,
+    "tempo_bpm": 112,
+    "valence": 0.62
+   },
+   {
+    "acousticness": 0.05,
+    "danceability": 0.86,
+    "energy": 0.82,
+    "fits_genre": true,
+    "idx": 21,
+    "instrumentalness": 0.02,
+    "mood": "energetic",
+    "mood_tags": [
+     "party",
+     "groovy"
+    ],
+    "note": "Bouncy bacardi amapiano club banger with heavy percussive log drum.",
+    "release_decade": 2020,
+    "speechiness": 0.11,
+    "tempo_bpm": 112,
+    "valence": 0.72
+   },
+   {
+    "acousticness": 0.04,
+    "danceability": 0.87,
+    "energy": 0.84,
+    "fits_genre": true,
+    "idx": 22,
+    "instrumentalness": 0.02,
+    "mood": "energetic",
+    "mood_tags": [
+     "party",
+     "playful"
+    ],
+    "note": "High energy bacardi amapiano track with bright vocal hooks.",
+    "release_decade": 2020,
+    "speechiness": 0.1,
+    "tempo_bpm": 113,
+    "valence": 0.75
+   },
+   {
+    "acousticness": 0.03,
+    "danceability": 0.88,
+    "energy": 0.86,
+    "fits_genre": true,
+    "idx": 23,
+    "instrumentalness": 0.15,
+    "mood": "energetic",
+    "mood_tags": [
+     "party",
+     "groovy"
+    ],
+    "note": "Hard-hitting bacardi amapiano instrumental groove with intense bass.",
+    "release_decade": 2020,
+    "speechiness": 0.08,
+    "tempo_bpm": 113,
+    "valence": 0.7
+   },
+   {
+    "acousticness": 0.15,
+    "danceability": 0.82,
+    "energy": 0.7,
+    "fits_genre": false,
+    "idx": 24,
+    "instrumentalness": 0.01,
+    "mood": "chill",
+    "mood_tags": [
+     "smooth",
+     "groovy"
+    ],
+    "note": "Afropop and contemporary R&B song incorporating amapiano log drums.",
+    "release_decade": 2020,
+    "speechiness": 0.07,
+    "tempo_bpm": 117,
+    "valence": 0.65
+   },
+   {
+    "acousticness": 0.1,
+    "danceability": 0.8,
+    "energy": 0.75,
+    "fits_genre": false,
+    "idx": 25,
+    "instrumentalness": 0.0,
+    "mood": "energetic",
+    "mood_tags": [
+     "confident",
+     "playful"
+    ],
+    "note": "Pop R&B and Afropop track with subtle amapiano groove influence.",
+    "release_decade": 2020,
+    "speechiness": 0.08,
+    "tempo_bpm": 115,
+    "valence": 0.72
+   },
+   {
+    "acousticness": 0.12,
+    "danceability": 0.81,
+    "energy": 0.72,
+    "fits_genre": false,
+    "idx": 26,
+    "instrumentalness": 0.0,
+    "mood": "happy",
+    "mood_tags": [
+     "playful",
+     "groovy"
+    ],
+    "note": "Contemporary R&B and Afropop crossover with light amapiano elements.",
+    "release_decade": 2020,
+    "speechiness": 0.06,
+    "tempo_bpm": 114,
+    "valence": 0.75
+   },
+   {
+    "acousticness": 0.3,
+    "danceability": 0.76,
+    "energy": 0.58,
+    "fits_genre": true,
+    "idx": 27,
+    "instrumentalness": 0.08,
+    "mood": "chill",
+    "mood_tags": [
+     "smooth",
+     "cozy"
+    ],
+    "note": "Deep private school amapiano track with complex jazz piano.",
+    "release_decade": 2020,
+    "speechiness": 0.05,
+    "tempo_bpm": 112,
+    "valence": 0.6
+   },
+   {
+    "acousticness": 0.35,
+    "danceability": 0.74,
+    "energy": 0.55,
+    "fits_genre": true,
+    "idx": 28,
+    "instrumentalness": 0.1,
+    "mood": "relaxed",
+    "mood_tags": [
+     "peaceful",
+     "dreamy"
+    ],
+    "note": "Atmospheric and reflective deep house amapiano composition.",
+    "release_decade": 2020,
+    "speechiness": 0.05,
+    "tempo_bpm": 111,
+    "valence": 0.52
+   },
+   {
+    "acousticness": 0.32,
+    "danceability": 0.75,
+    "energy": 0.56,
+    "fits_genre": true,
+    "idx": 29,
+    "instrumentalness": 0.06,
+    "mood": "chill",
+    "mood_tags": [
+     "smooth",
+     "dreamy"
+    ],
+    "note": "Jazzy, slow-burner private school amapiano track with lush keys.",
+    "release_decade": 2020,
+    "speechiness": 0.06,
+    "tempo_bpm": 112,
+    "valence": 0.58
+   },
+   {
+    "acousticness": 0.08,
+    "danceability": 0.85,
+    "energy": 0.78,
+    "fits_genre": true,
+    "idx": 30,
+    "instrumentalness": 0.02,
+    "mood": "energetic",
+    "mood_tags": [
+     "party",
+     "playful"
+    ],
+    "note": "Upbeat amapiano party track driven by vibrant vocals and log drums.",
+    "release_decade": 2020,
+    "speechiness": 0.1,
+    "tempo_bpm": 112,
+    "valence": 0.75
+   },
+   {
+    "acousticness": 0.06,
+    "danceability": 0.88,
+    "energy": 0.82,
+    "fits_genre": true,
+    "idx": 31,
+    "instrumentalness": 0.01,
+    "mood": "energetic",
+    "mood_tags": [
+     "party",
+     "euphoric"
+    ],
+    "note": "Massive amapiano club hit with infectious bassline and chant.",
+    "release_decade": 2020,
+    "speechiness": 0.09,
+    "tempo_bpm": 112,
+    "valence": 0.8
+   },
+   {
+    "acousticness": 0.22,
+    "danceability": 0.78,
+    "energy": 0.62,
+    "fits_genre": true,
+    "idx": 32,
+    "instrumentalness": 0.02,
+    "mood": "romantic",
+    "mood_tags": [
+     "romantic",
+     "smooth"
+    ],
+    "note": "Smooth, romantic amapiano song led by soft keys and gentle vocals.",
+    "release_decade": 2020,
+    "speechiness": 0.06,
+    "tempo_bpm": 112,
+    "valence": 0.65
+   }
+  ]
+ },
+ "ambient|d139d0f6ff3c6d24": {
+  "songs": [
+   {
+    "acousticness": 0.8,
+    "danceability": 0.1,
+    "energy": 0.1,
+    "fits_genre": true,
+    "idx": 0,
+    "instrumentalness": 0.95,
+    "mood": "relaxed",
+    "mood_tags": [
+     "peaceful",
+     "dreamy"
+    ],
+    "note": "Quintessential ambient synth piece with ethereal expanding soundscapes.",
+    "release_decade": 1980,
+    "speechiness": 0.04,
+    "tempo_bpm": 65,
+    "valence": 0.3
+   },
+   {
+    "acousticness": 0.9,
+    "danceability": 0.2,
+    "energy": 0.15,
+    "fits_genre": true,
+    "idx": 1,
+    "instrumentalness": 0.9,
+    "mood": "relaxed",
+    "mood_tags": [
+     "peaceful",
+     "dreamy"
+    ],
+    "note": "Soft ambient piano piece overlaid with minimal electronic textures.",
+    "release_decade": 2010,
+    "speechiness": 0.04,
+    "tempo_bpm": 70,
+    "valence": 0.25
+   },
+   {
+    "acousticness": 0.7,
+    "danceability": 0.25,
+    "energy": 0.12,
+    "fits_genre": true,
+    "idx": 2,
+    "instrumentalness": 0.9,
+    "mood": "relaxed",
+    "mood_tags": [
+     "peaceful",
+     "dreamy"
+    ],
+    "note": "Iconic country-tinged ambient piece with pedal steel guitar and synths.",
+    "release_decade": 1980,
+    "speechiness": 0.04,
+    "tempo_bpm": 72,
+    "valence": 0.4
+   },
+   {
+    "acousticness": 0.3,
+    "danceability": 0.6,
+    "energy": 0.45,
+    "fits_genre": true,
+    "idx": 3,
+    "instrumentalness": 0.85,
+    "mood": "chill",
+    "mood_tags": [
+     "dreamy",
+     "nostalgic"
+    ],
+    "note": "Melodic chillwave and ambient electronic track with soft downtempo beats.",
+    "release_decade": 2010,
+    "speechiness": 0.04,
+    "tempo_bpm": 83,
+    "valence": 0.5
+   },
+   {
+    "acousticness": 0.2,
+    "danceability": 0.55,
+    "energy": 0.55,
+    "fits_genre": true,
+    "idx": 4,
+    "instrumentalness": 0.8,
+    "mood": "chill",
+    "mood_tags": [
+     "dreamy",
+     "hopeful"
+    ],
+    "note": "Uplifting ambient electronic and downtempo track driven by guitar melody.",
+    "release_decade": 2010,
+    "speechiness": 0.04,
+    "tempo_bpm": 88,
+    "valence": 0.6
+   },
+   {
+    "acousticness": 0.25,
+    "danceability": 0.58,
+    "energy": 0.48,
+    "fits_genre": true,
+    "idx": 5,
+    "instrumentalness": 0.85,
+    "mood": "chill",
+    "mood_tags": [
+     "dreamy",
+     "focused"
+    ],
+    "note": "Lush ambient electronic track with a driving relaxed groove.",
+    "release_decade": 2010,
+    "speechiness": 0.04,
+    "tempo_bpm": 80,
+    "valence": 0.45
+   },
+   {
+    "acousticness": 0.85,
+    "danceability": 0.05,
+    "energy": 0.05,
+    "fits_genre": true,
+    "idx": 6,
+    "instrumentalness": 0.95,
+    "mood": "relaxed",
+    "mood_tags": [
+     "peaceful",
+     "dreamy"
+    ],
+    "note": "Minimalist drone ambient track featuring slow, lush orchestral swells.",
+    "release_decade": 2000,
+    "speechiness": 0.03,
+    "tempo_bpm": 60,
+    "valence": 0.2
+   },
+   {
+    "acousticness": 0.8,
+    "danceability": 0.08,
+    "energy": 0.08,
+    "fits_genre": true,
+    "idx": 7,
+    "instrumentalness": 0.95,
+    "mood": "relaxed",
+    "mood_tags": [
+     "peaceful",
+     "melancholic"
+    ],
+    "note": "Deep string drone ambient piece building subtle slow harmonies.",
+    "release_decade": 2000,
+    "speechiness": 0.03,
+    "tempo_bpm": 65,
+    "valence": 0.15
+   },
+   {
+    "acousticness": 0.82,
+    "danceability": 0.07,
+    "energy": 0.06,
+    "fits_genre": true,
+    "idx": 8,
+    "instrumentalness": 0.95,
+    "mood": "relaxed",
+    "mood_tags": [
+     "peaceful",
+     "dreamy"
+    ],
+    "note": "Extremely slow orchestral drone ambient soundscape with gentle guitar tone.",
+    "release_decade": 2000,
+    "speechiness": 0.03,
+    "tempo_bpm": 58,
+    "valence": 0.2
+   },
+   {
+    "acousticness": 0.65,
+    "danceability": 0.15,
+    "energy": 0.25,
+    "fits_genre": true,
+    "idx": 9,
+    "instrumentalness": 0.9,
+    "mood": "relaxed",
+    "mood_tags": [
+     "dreamy",
+     "melancholic"
+    ],
+    "note": "Ethereal post-rock and guitar ambient composition with lush reverb.",
+    "release_decade": 2000,
+    "speechiness": 0.03,
+    "tempo_bpm": 70,
+    "valence": 0.3
+   },
+   {
+    "acousticness": 0.7,
+    "danceability": 0.2,
+    "energy": 0.2,
+    "fits_genre": true,
+    "idx": 10,
+    "instrumentalness": 0.92,
+    "mood": "relaxed",
+    "mood_tags": [
+     "peaceful",
+     "dreamy"
+    ],
+    "note": "Warm ambient guitar piece with gentle atmospheric post-rock textures.",
+    "release_decade": 2000,
+    "speechiness": 0.03,
+    "tempo_bpm": 75,
+    "valence": 0.35
+   },
+   {
+    "acousticness": 0.5,
+    "danceability": 0.2,
+    "energy": 0.35,
+    "fits_genre": true,
+    "idx": 11,
+    "instrumentalness": 0.88,
+    "mood": "relaxed",
+    "mood_tags": [
+     "dreamy",
+     "hopeful"
+    ],
+    "note": "Cinematic ambient post-rock piece featuring emotional string arrangements.",
+    "release_decade": 2010,
+    "speechiness": 0.04,
+    "tempo_bpm": 80,
+    "valence": 0.35
+   },
+   {
+    "acousticness": 0.6,
+    "danceability": 0.35,
+    "energy": 0.3,
+    "fits_genre": true,
+    "idx": 12,
+    "instrumentalness": 0.9,
+    "mood": "relaxed",
+    "mood_tags": [
+     "peaceful",
+     "nostalgic"
+    ],
+    "note": "Organic ambient track blending acoustic guitar, piano, and light beats.",
+    "release_decade": 2000,
+    "speechiness": 0.04,
+    "tempo_bpm": 90,
+    "valence": 0.5
+   },
+   {
+    "acousticness": 0.65,
+    "danceability": 0.4,
+    "energy": 0.28,
+    "fits_genre": true,
+    "idx": 13,
+    "instrumentalness": 0.88,
+    "mood": "relaxed",
+    "mood_tags": [
+     "peaceful",
+     "dreamy"
+    ],
+    "note": "Gentle organic ambient piece with piano melodies and soft rhythm.",
+    "release_decade": 2000,
+    "speechiness": 0.04,
+    "tempo_bpm": 84,
+    "valence": 0.4
+   },
+   {
+    "acousticness": 0.7,
+    "danceability": 0.38,
+    "energy": 0.25,
+    "fits_genre": true,
+    "idx": 14,
+    "instrumentalness": 0.92,
+    "mood": "relaxed",
+    "mood_tags": [
+     "peaceful",
+     "hopeful"
+    ],
+    "note": "Soothing ambient composition centered around acoustic guitar and synths.",
+    "release_decade": 2000,
+    "speechiness": 0.04,
+    "tempo_bpm": 88,
+    "valence": 0.45
+   }
+  ]
+ },
+ "classical|c66bc1e8cbdb5c19": {
+  "songs": [
+   {
+    "acousticness": 0.85,
+    "danceability": 0.3,
+    "energy": 0.65,
+    "fits_genre": true,
+    "idx": 0,
+    "instrumentalness": 0.9,
+    "mood": "intense",
+    "mood_tags": [
+     "uplifting",
+     "focused"
+    ],
+    "note": "Contemporary neoclassical piano and strings composition.",
+    "release_decade": 2010,
+    "speechiness": 0.04,
+    "tempo_bpm": 134,
+    "valence": 0.45
+   },
+   {
+    "acousticness": 0.98,
+    "danceability": 0.35,
+    "energy": 0.25,
+    "fits_genre": true,
+    "idx": 1,
+    "instrumentalness": 0.9,
+    "mood": "moody",
+    "mood_tags": [
+     "melancholic",
+     "peaceful"
+    ],
+    "note": "Modern classical piano piece with emotional melody.",
+    "release_decade": 2000,
+    "speechiness": 0.04,
+    "tempo_bpm": 135,
+    "valence": 0.2
+   },
+   {
+    "acousticness": 0.9,
+    "danceability": 0.35,
+    "energy": 0.45,
+    "fits_genre": true,
+    "idx": 2,
+    "instrumentalness": 0.85,
+    "mood": "focused",
+    "mood_tags": [
+     "uplifting",
+     "focused"
+    ],
+    "note": "Modern classical piano piece with soaring strings.",
+    "release_decade": 2000,
+    "speechiness": 0.04,
+    "tempo_bpm": 130,
+    "valence": 0.5
+   },
+   {
+    "acousticness": 0.9,
+    "danceability": 0.15,
+    "energy": 0.2,
+    "fits_genre": true,
+    "idx": 3,
+    "instrumentalness": 0.95,
+    "mood": "sad",
+    "mood_tags": [
+     "melancholic",
+     "dark"
+    ],
+    "note": "Contemporary neoclassical string ensemble piece.",
+    "release_decade": 2000,
+    "speechiness": 0.04,
+    "tempo_bpm": 70,
+    "valence": 0.1
+   },
+   {
+    "acousticness": 0.98,
+    "danceability": 0.3,
+    "energy": 0.15,
+    "fits_genre": true,
+    "idx": 4,
+    "instrumentalness": 0.92,
+    "mood": "focused",
+    "mood_tags": [
+     "peaceful",
+     "melancholic"
+    ],
+    "note": "Short minimalist classical piano track.",
+    "release_decade": 2000,
+    "speechiness": 0.04,
+    "tempo_bpm": 110,
+    "valence": 0.25
+   },
+   {
+    "acousticness": 0.95,
+    "danceability": 0.3,
+    "energy": 0.25,
+    "fits_genre": true,
+    "idx": 5,
+    "instrumentalness": 0.9,
+    "mood": "sad",
+    "mood_tags": [
+     "melancholic",
+     "focused"
+    ],
+    "note": "Neoclassical piano composition from soundtrack score.",
+    "release_decade": 2010,
+    "speechiness": 0.04,
+    "tempo_bpm": 100,
+    "valence": 0.15
+   },
+   {
+    "acousticness": 0.98,
+    "danceability": 0.3,
+    "energy": 0.3,
+    "fits_genre": true,
+    "idx": 6,
+    "instrumentalness": 0.85,
+    "mood": "romantic",
+    "mood_tags": [
+     "romantic",
+     "peaceful"
+    ],
+    "note": "Popular contemporary classical solo piano piece.",
+    "release_decade": 2000,
+    "speechiness": 0.04,
+    "tempo_bpm": 130,
+    "valence": 0.4
+   },
+   {
+    "acousticness": 0.98,
+    "danceability": 0.35,
+    "energy": 0.2,
+    "fits_genre": true,
+    "idx": 7,
+    "instrumentalness": 0.88,
+    "mood": "romantic",
+    "mood_tags": [
+     "romantic",
+     "melancholic"
+    ],
+    "note": "Gentle contemporary classical piano solo.",
+    "release_decade": 2000,
+    "speechiness": 0.04,
+    "tempo_bpm": 120,
+    "valence": 0.3
+   },
+   {
+    "acousticness": 0.98,
+    "danceability": 0.35,
+    "energy": 0.25,
+    "fits_genre": true,
+    "idx": 8,
+    "instrumentalness": 0.85,
+    "mood": "sad",
+    "mood_tags": [
+     "melancholic",
+     "peaceful"
+    ],
+    "note": "Expressive contemporary classical piano solo track.",
+    "release_decade": 2000,
+    "speechiness": 0.04,
+    "tempo_bpm": 115,
+    "valence": 0.3
+   },
+   {
+    "acousticness": 0.85,
+    "danceability": 0.25,
+    "energy": 0.3,
+    "fits_genre": true,
+    "idx": 9,
+    "instrumentalness": 0.85,
+    "mood": "chill",
+    "mood_tags": [
+     "peaceful",
+     "dreamy"
+    ],
+    "note": "Ambient neoclassical piano and string arrangement.",
+    "release_decade": 2010,
+    "speechiness": 0.04,
+    "tempo_bpm": 120,
+    "valence": 0.3
+   },
+   {
+    "acousticness": 0.95,
+    "danceability": 0.2,
+    "energy": 0.15,
+    "fits_genre": true,
+    "idx": 10,
+    "instrumentalness": 0.9,
+    "mood": "moody",
+    "mood_tags": [
+     "melancholic",
+     "peaceful"
+    ],
+    "note": "Minimalist neoclassical piano and strings composition.",
+    "release_decade": 2000,
+    "speechiness": 0.04,
+    "tempo_bpm": 75,
+    "valence": 0.15
+   },
+   {
+    "acousticness": 0.98,
+    "danceability": 0.35,
+    "energy": 0.1,
+    "fits_genre": true,
+    "idx": 11,
+    "instrumentalness": 0.92,
+    "mood": "relaxed",
+    "mood_tags": [
+     "peaceful",
+     "cozy"
+    ],
+    "note": "Delicate minimalist neoclassical solo piano piece.",
+    "release_decade": 2010,
+    "speechiness": 0.04,
+    "tempo_bpm": 115,
+    "valence": 0.25
+   },
+   {
+    "acousticness": 0.75,
+    "danceability": 0.25,
+    "energy": 0.6,
+    "fits_genre": true,
+    "idx": 12,
+    "instrumentalness": 0.85,
+    "mood": "intense",
+    "mood_tags": [
+     "focused",
+     "uplifting"
+    ],
+    "note": "Modern orchestral film score composition with organ.",
+    "release_decade": 2010,
+    "speechiness": 0.04,
+    "tempo_bpm": 100,
+    "valence": 0.3
+   },
+   {
+    "acousticness": 0.8,
+    "danceability": 0.15,
+    "energy": 0.5,
+    "fits_genre": true,
+    "idx": 13,
+    "instrumentalness": 0.9,
+    "mood": "intense",
+    "mood_tags": [
+     "focused",
+     "melancholic"
+    ],
+    "note": "Neoclassical orchestral crescendo score from Inception.",
+    "release_decade": 2010,
+    "speechiness": 0.04,
+    "tempo_bpm": 125,
+    "valence": 0.2
+   },
+   {
+    "acousticness": 0.3,
+    "danceability": 0.25,
+    "energy": 0.85,
+    "fits_genre": true,
+    "idx": 14,
+    "instrumentalness": 0.85,
+    "mood": "intense",
+    "mood_tags": [
+     "dark",
+     "aggressive"
+    ],
+    "note": "Dramatic orchestral film score piece.",
+    "release_decade": 2010,
+    "speechiness": 0.05,
+    "tempo_bpm": 130,
+    "valence": 0.15
+   }
+  ]
+ },
+ "country|08aa309845301d42": {
+  "songs": [
+   {
+    "acousticness": 0.2,
+    "danceability": 0.4,
+    "energy": 0.45,
+    "fits_genre": true,
+    "idx": 0,
+    "instrumentalness": 0.0,
+    "mood": "romantic",
+    "mood_tags": [
+     "smooth",
+     "romantic"
+    ],
+    "note": "classic country blues ballad",
+    "release_decade": 2010,
+    "speechiness": 0.03,
+    "tempo_bpm": 98,
+    "valence": 0.51
+   },
+   {
+    "acousticness": 0.43,
+    "danceability": 0.58,
+    "energy": 0.53,
+    "fits_genre": true,
+    "idx": 1,
+    "instrumentalness": 0.0,
+    "mood": "moody",
+    "mood_tags": [
+     "smooth",
+     "nostalgic"
+    ],
+    "note": "bluesy country song about temptation",
+    "release_decade": 2020,
+    "speechiness": 0.03,
+    "tempo_bpm": 115,
+    "valence": 0.65
+   },
+   {
+    "acousticness": 0.15,
+    "danceability": 0.52,
+    "energy": 0.58,
+    "fits_genre": true,
+    "idx": 2,
+    "instrumentalness": 0.0,
+    "mood": "romantic",
+    "mood_tags": [
+     "romantic",
+     "smooth"
+    ],
+    "note": "soulful country ballad about love",
+    "release_decade": 2020,
+    "speechiness": 0.03,
+    "tempo_bpm": 108,
+    "valence": 0.62
+   },
+   {
+    "acousticness": 0.55,
+    "danceability": 0.43,
+    "energy": 0.45,
+    "fits_genre": true,
+    "idx": 3,
+    "instrumentalness": 0.0,
+    "mood": "sad",
+    "mood_tags": [
+     "melancholic",
+     "nostalgic"
+    ],
+    "note": "reflective country folk duet about past love",
+    "release_decade": 2020,
+    "speechiness": 0.04,
+    "tempo_bpm": 77,
+    "valence": 0.16
+   },
+   {
+    "acousticness": 0.55,
+    "danceability": 0.38,
+    "energy": 0.19,
+    "fits_genre": true,
+    "idx": 4,
+    "instrumentalness": 0.0,
+    "mood": "sad",
+    "mood_tags": [
+     "melancholic",
+     "heartbroken"
+    ],
+    "note": "raw acoustic country folk heartbreak song",
+    "release_decade": 2020,
+    "speechiness": 0.04,
+    "tempo_bpm": 89,
+    "valence": 0.14
+   },
+   {
+    "acousticness": 0.67,
+    "danceability": 0.58,
+    "energy": 0.46,
+    "fits_genre": true,
+    "idx": 5,
+    "instrumentalness": 0.0,
+    "mood": "moody",
+    "mood_tags": [
+     "nostalgic",
+     "melancholic"
+    ],
+    "note": "nostalgic indie country song about grief and memories",
+    "release_decade": 2020,
+    "speechiness": 0.04,
+    "tempo_bpm": 110,
+    "valence": 0.35
+   },
+   {
+    "acousticness": 0.56,
+    "danceability": 0.68,
+    "energy": 0.8,
+    "fits_genre": true,
+    "idx": 6,
+    "instrumentalness": 0.0,
+    "mood": "moody",
+    "mood_tags": [
+     "melancholic",
+     "heartbroken"
+    ],
+    "note": "iconic classic country story song",
+    "release_decade": 1970,
+    "speechiness": 0.04,
+    "tempo_bpm": 111,
+    "valence": 0.67
+   },
+   {
+    "acousticness": 0.42,
+    "danceability": 0.55,
+    "energy": 0.83,
+    "fits_genre": true,
+    "idx": 7,
+    "instrumentalness": 0.0,
+    "mood": "happy",
+    "mood_tags": [
+     "playful",
+     "uplifting"
+    ],
+    "note": "upbeat country pop working anthem",
+    "release_decade": 1980,
+    "speechiness": 0.04,
+    "tempo_bpm": 105,
+    "valence": 0.82
+   },
+   {
+    "acousticness": 0.28,
+    "danceability": 0.7,
+    "energy": 0.76,
+    "fits_genre": true,
+    "idx": 8,
+    "instrumentalness": 0.0,
+    "mood": "romantic",
+    "mood_tags": [
+     "romantic",
+     "groovy"
+    ],
+    "note": "classic country pop duet with Kenny Rogers",
+    "release_decade": 1980,
+    "speechiness": 0.03,
+    "tempo_bpm": 102,
+    "valence": 0.77
+   },
+   {
+    "acousticness": 0.8,
+    "danceability": 0.6,
+    "energy": 0.32,
+    "fits_genre": true,
+    "idx": 9,
+    "instrumentalness": 0.0,
+    "mood": "chill",
+    "mood_tags": [
+     "peaceful",
+     "dreamy"
+    ],
+    "note": "laid-back country pop opener",
+    "release_decade": 2010,
+    "speechiness": 0.03,
+    "tempo_bpm": 104,
+    "valence": 0.34
+   },
+   {
+    "acousticness": 0.44,
+    "danceability": 0.64,
+    "energy": 0.62,
+    "fits_genre": true,
+    "idx": 10,
+    "instrumentalness": 0.0,
+    "mood": "happy",
+    "mood_tags": [
+     "romantic",
+     "uplifting"
+    ],
+    "note": "sweet country pop love song",
+    "release_decade": 2010,
+    "speechiness": 0.03,
+    "tempo_bpm": 122,
+    "valence": 0.63
+   },
+   {
+    "acousticness": 0.94,
+    "danceability": 0.39,
+    "energy": 0.17,
+    "fits_genre": true,
+    "idx": 11,
+    "instrumentalness": 0.0,
+    "mood": "relaxed",
+    "mood_tags": [
+     "hopeful",
+     "peaceful"
+    ],
+    "note": "gentle acoustic country piano ballad about hope",
+    "release_decade": 2010,
+    "speechiness": 0.04,
+    "tempo_bpm": 130,
+    "valence": 0.26
+   },
+   {
+    "acousticness": 0.2,
+    "danceability": 0.71,
+    "energy": 0.68,
+    "fits_genre": true,
+    "idx": 12,
+    "instrumentalness": 0.0,
+    "mood": "moody",
+    "mood_tags": [
+     "nostalgic",
+     "hopeful"
+    ],
+    "note": "country cover of Tracy Chapman classic",
+    "release_decade": 2020,
+    "speechiness": 0.03,
+    "tempo_bpm": 97,
+    "valence": 0.32
+   },
+   {
+    "acousticness": 0.02,
+    "danceability": 0.55,
+    "energy": 0.78,
+    "fits_genre": true,
+    "idx": 13,
+    "instrumentalness": 0.0,
+    "mood": "happy",
+    "mood_tags": [
+     "playful",
+     "uplifting"
+    ],
+    "note": "upbeat country song about a stroke of luck",
+    "release_decade": 2010,
+    "speechiness": 0.04,
+    "tempo_bpm": 128,
+    "valence": 0.88
+   },
+   {
+    "acousticness": 0.68,
+    "danceability": 0.55,
+    "energy": 0.47,
+    "fits_genre": true,
+    "idx": 14,
+    "instrumentalness": 0.0,
+    "mood": "romantic",
+    "mood_tags": [
+     "romantic",
+     "cozy"
+    ],
+    "note": "tender country acoustic love ballad",
+    "release_decade": 2010,
+    "speechiness": 0.03,
+    "tempo_bpm": 103,
+    "valence": 0.43
+   }
+  ]
+ },
+ "dancehall|018186f543caf605": {
+  "songs": [
+   {
+    "acousticness": 0.11,
+    "danceability": 0.86,
+    "energy": 0.85,
+    "fits_genre": true,
+    "idx": 0,
+    "instrumentalness": 0.0,
+    "mood": "energetic",
+    "mood_tags": [
+     "party",
+     "confident"
+    ],
+    "note": "Classic riddim-driven dancehall anthem.",
+    "release_decade": 2000,
+    "speechiness": 0.08,
+    "tempo_bpm": 125,
+    "valence": 0.82
+   },
+   {
+    "acousticness": 0.15,
+    "danceability": 0.84,
+    "energy": 0.8,
+    "fits_genre": true,
+    "idx": 1,
+    "instrumentalness": 0.0,
+    "mood": "energetic",
+    "mood_tags": [
+     "party",
+     "groovy"
+    ],
+    "note": "Iconic Diwali Riddim dancehall track.",
+    "release_decade": 2000,
+    "speechiness": 0.11,
+    "tempo_bpm": 100,
+    "valence": 0.83
+   },
+   {
+    "acousticness": 0.05,
+    "danceability": 0.79,
+    "energy": 0.88,
+    "fits_genre": true,
+    "idx": 2,
+    "instrumentalness": 0.0,
+    "mood": "energetic",
+    "mood_tags": [
+     "party",
+     "confident"
+    ],
+    "note": "Modern dance-pop blended with dancehall rhythms.",
+    "release_decade": 2010,
+    "speechiness": 0.07,
+    "tempo_bpm": 102,
+    "valence": 0.73
+   },
+   {
+    "acousticness": 0.07,
+    "danceability": 0.88,
+    "energy": 0.76,
+    "fits_genre": true,
+    "idx": 3,
+    "instrumentalness": 0.0,
+    "mood": "energetic",
+    "mood_tags": [
+     "confident",
+     "party"
+    ],
+    "note": "Essential modern dancehall track.",
+    "release_decade": 2010,
+    "speechiness": 0.22,
+    "tempo_bpm": 106,
+    "valence": 0.78
+   },
+   {
+    "acousticness": 0.12,
+    "danceability": 0.85,
+    "energy": 0.68,
+    "fits_genre": true,
+    "idx": 4,
+    "instrumentalness": 0.0,
+    "mood": "chill",
+    "mood_tags": [
+     "groovy",
+     "confident"
+    ],
+    "note": "Iconic 2010s dancehall homage to Clarks shoes.",
+    "release_decade": 2010,
+    "speechiness": 0.3,
+    "tempo_bpm": 100,
+    "valence": 0.75
+   },
+   {
+    "acousticness": 0.2,
+    "danceability": 0.75,
+    "energy": 0.6,
+    "fits_genre": true,
+    "idx": 5,
+    "instrumentalness": 0.0,
+    "mood": "romantic",
+    "mood_tags": [
+     "smooth",
+     "romantic"
+    ],
+    "note": "Melodic dancehall love song.",
+    "release_decade": 2010,
+    "speechiness": 0.15,
+    "tempo_bpm": 95,
+    "valence": 0.65
+   },
+   {
+    "acousticness": 0.15,
+    "danceability": 0.81,
+    "energy": 0.62,
+    "fits_genre": true,
+    "idx": 6,
+    "instrumentalness": 0.0,
+    "mood": "chill",
+    "mood_tags": [
+     "smooth",
+     "groovy"
+    ],
+    "note": "Smooth contemporary dancehall with R&B influences.",
+    "release_decade": 2020,
+    "speechiness": 0.1,
+    "tempo_bpm": 102,
+    "valence": 0.68
+   },
+   {
+    "acousticness": 0.18,
+    "danceability": 0.8,
+    "energy": 0.65,
+    "fits_genre": true,
+    "idx": 7,
+    "instrumentalness": 0.0,
+    "mood": "chill",
+    "mood_tags": [
+     "smooth",
+     "confident"
+    ],
+    "note": "Melodic dancehall collaboration.",
+    "release_decade": 2020,
+    "speechiness": 0.12,
+    "tempo_bpm": 105,
+    "valence": 0.6
+   },
+   {
+    "acousticness": 0.25,
+    "danceability": 0.77,
+    "energy": 0.58,
+    "fits_genre": true,
+    "idx": 8,
+    "instrumentalness": 0.0,
+    "mood": "chill",
+    "mood_tags": [
+     "smooth",
+     "romantic"
+    ],
+    "note": "Laid-back modern dancehall fusion.",
+    "release_decade": 2020,
+    "speechiness": 0.14,
+    "tempo_bpm": 98,
+    "valence": 0.55
+   },
+   {
+    "acousticness": 0.09,
+    "danceability": 0.83,
+    "energy": 0.78,
+    "fits_genre": true,
+    "idx": 9,
+    "instrumentalness": 0.0,
+    "mood": "energetic",
+    "mood_tags": [
+     "confident",
+     "party"
+    ],
+    "note": "Breakthrough dancehall anthem from Jamaica.",
+    "release_decade": 2010,
+    "speechiness": 0.25,
+    "tempo_bpm": 102,
+    "valence": 0.7
+   },
+   {
+    "acousticness": 0.03,
+    "danceability": 0.88,
+    "energy": 0.84,
+    "fits_genre": true,
+    "idx": 10,
+    "instrumentalness": 0.0,
+    "mood": "energetic",
+    "mood_tags": [
+     "party",
+     "confident"
+    ],
+    "note": "High-energy dancehall fused with hip-hop.",
+    "release_decade": 2020,
+    "speechiness": 0.28,
+    "tempo_bpm": 105,
+    "valence": 0.65
+   },
+   {
+    "acousticness": 0.3,
+    "danceability": 0.74,
+    "energy": 0.55,
+    "fits_genre": true,
+    "idx": 11,
+    "instrumentalness": 0.0,
+    "mood": "romantic",
+    "mood_tags": [
+     "smooth",
+     "romantic"
+    ],
+    "note": "Sultry dancehall single.",
+    "release_decade": 2010,
+    "speechiness": 0.12,
+    "tempo_bpm": 92,
+    "valence": 0.5
+   },
+   {
+    "acousticness": 0.05,
+    "danceability": 0.85,
+    "energy": 0.76,
+    "fits_genre": true,
+    "idx": 12,
+    "instrumentalness": 0.0,
+    "mood": "happy",
+    "mood_tags": [
+     "playful",
+     "party"
+    ],
+    "note": "Massively popular pop-dancehall crossover track.",
+    "release_decade": 2000,
+    "speechiness": 0.07,
+    "tempo_bpm": 95,
+    "valence": 0.93
+   },
+   {
+    "acousticness": 0.18,
+    "danceability": 0.76,
+    "energy": 0.73,
+    "fits_genre": true,
+    "idx": 13,
+    "instrumentalness": 0.0,
+    "mood": "happy",
+    "mood_tags": [
+     "uplifting",
+     "romantic"
+    ],
+    "note": "Reggae fusion and pop-dancehall hit.",
+    "release_decade": 2000,
+    "speechiness": 0.06,
+    "tempo_bpm": 85,
+    "valence": 0.88
+   },
+   {
+    "acousticness": 0.12,
+    "danceability": 0.88,
+    "energy": 0.72,
+    "fits_genre": true,
+    "idx": 14,
+    "instrumentalness": 0.0,
+    "mood": "happy",
+    "mood_tags": [
+     "groovy",
+     "confident"
+    ],
+    "note": "Classic 90s dancehall and reggae fusion.",
+    "release_decade": 1990,
+    "speechiness": 0.18,
+    "tempo_bpm": 79,
+    "valence": 0.81
+   }
+  ]
+ },
+ "drill|389da5222c06928e": {
+  "songs": [
+   {
+    "acousticness": 0.05,
+    "danceability": 0.88,
+    "energy": 0.75,
+    "fits_genre": true,
+    "idx": 0,
+    "instrumentalness": 0.0,
+    "mood": "energetic",
+    "mood_tags": [
+     "confident",
+     "playful"
+    ],
+    "note": "Popular UK sample drill track.",
+    "release_decade": 2020,
+    "speechiness": 0.35,
+    "tempo_bpm": 140,
+    "valence": 0.65
+   },
+   {
+    "acousticness": 0.05,
+    "danceability": 0.8,
+    "energy": 0.85,
+    "fits_genre": true,
+    "idx": 1,
+    "instrumentalness": 0.0,
+    "mood": "intense",
+    "mood_tags": [
+     "confident",
+     "aggressive"
+    ],
+    "note": "High-energy UK drill collaboration.",
+    "release_decade": 2020,
+    "speechiness": 0.3,
+    "tempo_bpm": 140,
+    "valence": 0.55
+   },
+   {
+    "acousticness": 0.15,
+    "danceability": 0.75,
+    "energy": 0.65,
+    "fits_genre": true,
+    "idx": 2,
+    "instrumentalness": 0.0,
+    "mood": "moody",
+    "mood_tags": [
+     "melancholic",
+     "confident"
+    ],
+    "note": "Melodic UK sample drill track.",
+    "release_decade": 2020,
+    "speechiness": 0.25,
+    "tempo_bpm": 140,
+    "valence": 0.45
+   },
+   {
+    "acousticness": 0.1,
+    "danceability": 0.8,
+    "energy": 0.75,
+    "fits_genre": true,
+    "idx": 3,
+    "instrumentalness": 0.0,
+    "mood": "intense",
+    "mood_tags": [
+     "confident",
+     "dark"
+    ],
+    "note": "Iconic UK drill track with Drake.",
+    "release_decade": 2020,
+    "speechiness": 0.4,
+    "tempo_bpm": 142,
+    "valence": 0.4
+   },
+   {
+    "acousticness": 0.1,
+    "danceability": 0.82,
+    "energy": 0.78,
+    "fits_genre": true,
+    "idx": 4,
+    "instrumentalness": 0.0,
+    "mood": "energetic",
+    "mood_tags": [
+     "confident",
+     "groovy"
+    ],
+    "note": "UK drill track with pop rap crossover appeal.",
+    "release_decade": 2020,
+    "speechiness": 0.3,
+    "tempo_bpm": 140,
+    "valence": 0.6
+   },
+   {
+    "acousticness": 0.08,
+    "danceability": 0.85,
+    "energy": 0.8,
+    "fits_genre": true,
+    "idx": 5,
+    "instrumentalness": 0.0,
+    "mood": "energetic",
+    "mood_tags": [
+     "confident",
+     "groovy"
+    ],
+    "note": "Melodic UK drill track with house sample.",
+    "release_decade": 2010,
+    "speechiness": 0.28,
+    "tempo_bpm": 140,
+    "valence": 0.65
+   },
+   {
+    "acousticness": 0.15,
+    "danceability": 0.8,
+    "energy": 0.82,
+    "fits_genre": true,
+    "idx": 6,
+    "instrumentalness": 0.001,
+    "mood": "intense",
+    "mood_tags": [
+     "aggressive",
+     "confident"
+    ],
+    "note": "Definitive Brooklyn drill anthem.",
+    "release_decade": 2010,
+    "speechiness": 0.28,
+    "tempo_bpm": 142,
+    "valence": 0.6
+   },
+   {
+    "acousticness": 0.65,
+    "danceability": 0.7,
+    "energy": 0.7,
+    "fits_genre": false,
+    "idx": 7,
+    "instrumentalness": 0.0,
+    "mood": "romantic",
+    "mood_tags": [
+     "smooth",
+     "romantic"
+    ],
+    "note": "Pop rap and R&B track, not drill.",
+    "release_decade": 2020,
+    "speechiness": 0.1,
+    "tempo_bpm": 84,
+    "valence": 0.8
+   },
+   {
+    "acousticness": 0.23,
+    "danceability": 0.82,
+    "energy": 0.67,
+    "fits_genre": false,
+    "idx": 8,
+    "instrumentalness": 0.0,
+    "mood": "energetic",
+    "mood_tags": [
+     "confident",
+     "party"
+    ],
+    "note": "Trap and pop rap track, not drill.",
+    "release_decade": 2020,
+    "speechiness": 0.38,
+    "tempo_bpm": 126,
+    "valence": 0.65
+   },
+   {
+    "acousticness": 0.05,
+    "danceability": 0.78,
+    "energy": 0.8,
+    "fits_genre": true,
+    "idx": 9,
+    "instrumentalness": 0.0,
+    "mood": "energetic",
+    "mood_tags": [
+     "confident",
+     "rebellious"
+    ],
+    "note": "Energetic UK drill single.",
+    "release_decade": 2020,
+    "speechiness": 0.32,
+    "tempo_bpm": 141,
+    "valence": 0.55
+   },
+   {
+    "acousticness": 0.04,
+    "danceability": 0.85,
+    "energy": 0.82,
+    "fits_genre": true,
+    "idx": 10,
+    "instrumentalness": 0.0,
+    "mood": "intense",
+    "mood_tags": [
+     "aggressive",
+     "rebellious"
+    ],
+    "note": "Landmark UK drill track.",
+    "release_decade": 2020,
+    "speechiness": 0.35,
+    "tempo_bpm": 142,
+    "valence": 0.5
+   },
+   {
+    "acousticness": 0.05,
+    "danceability": 0.8,
+    "energy": 0.78,
+    "fits_genre": true,
+    "idx": 11,
+    "instrumentalness": 0.0,
+    "mood": "intense",
+    "mood_tags": [
+     "aggressive",
+     "dark"
+    ],
+    "note": "Classic UK drill hit.",
+    "release_decade": 2010,
+    "speechiness": 0.38,
+    "tempo_bpm": 141,
+    "valence": 0.45
+   }
+  ]
+ },
+ "folk|2d8e45495794ca77": {
+  "songs": [
+   {
+    "acousticness": 0.85,
+    "danceability": 0.4,
+    "energy": 0.35,
+    "fits_genre": true,
+    "idx": 0,
+    "instrumentalness": 0.0,
+    "mood": "sad",
+    "mood_tags": [
+     "melancholic",
+     "heartbroken"
+    ],
+    "note": "Iconic indie folk track with acoustic guitar and falsetto vocals.",
+    "release_decade": 2000,
+    "speechiness": 0.05,
+    "tempo_bpm": 76,
+    "valence": 0.25
+   },
+   {
+    "acousticness": 0.9,
+    "danceability": 0.45,
+    "energy": 0.25,
+    "fits_genre": true,
+    "idx": 1,
+    "instrumentalness": 0.0,
+    "mood": "chill",
+    "mood_tags": [
+     "peaceful",
+     "dreamy"
+    ],
+    "note": "Atmospheric acoustic indie folk track with layered vocals.",
+    "release_decade": 2000,
+    "speechiness": 0.04,
+    "tempo_bpm": 110,
+    "valence": 0.2
+   },
+   {
+    "acousticness": 0.8,
+    "danceability": 0.5,
+    "energy": 0.45,
+    "fits_genre": true,
+    "idx": 2,
+    "instrumentalness": 0.0,
+    "mood": "relaxed",
+    "mood_tags": [
+     "cozy",
+     "nostalgic"
+    ],
+    "note": "Warm acoustic indie folk track with horns and falsetto.",
+    "release_decade": 2000,
+    "speechiness": 0.04,
+    "tempo_bpm": 80,
+    "valence": 0.4
+   },
+   {
+    "acousticness": 0.7,
+    "danceability": 0.45,
+    "energy": 0.6,
+    "fits_genre": true,
+    "idx": 3,
+    "instrumentalness": 0.0,
+    "mood": "relaxed",
+    "mood_tags": [
+     "peaceful",
+     "dreamy"
+    ],
+    "note": "Choral indie folk classic with vocal harmonies and acoustic strumming.",
+    "release_decade": 2000,
+    "speechiness": 0.03,
+    "tempo_bpm": 125,
+    "valence": 0.55
+   },
+   {
+    "acousticness": 0.5,
+    "danceability": 0.42,
+    "energy": 0.65,
+    "fits_genre": true,
+    "idx": 4,
+    "instrumentalness": 0.01,
+    "mood": "moody",
+    "mood_tags": [
+     "nostalgic",
+     "hopeful"
+    ],
+    "note": "Dynamic indie folk song with soaring vocal harmonies.",
+    "release_decade": 2000,
+    "speechiness": 0.04,
+    "tempo_bpm": 112,
+    "valence": 0.4
+   },
+   {
+    "acousticness": 0.65,
+    "danceability": 0.4,
+    "energy": 0.5,
+    "fits_genre": true,
+    "idx": 5,
+    "instrumentalness": 0.01,
+    "mood": "chill",
+    "mood_tags": [
+     "peaceful",
+     "nostalgic"
+    ],
+    "note": "Lush indie folk track featuring piano, acoustic guitars, and harmonies.",
+    "release_decade": 2000,
+    "speechiness": 0.03,
+    "tempo_bpm": 140,
+    "valence": 0.35
+   },
+   {
+    "acousticness": 0.15,
+    "danceability": 0.6,
+    "energy": 0.65,
+    "fits_genre": false,
+    "idx": 6,
+    "instrumentalness": 0.0,
+    "mood": "moody",
+    "mood_tags": [
+     "melancholic",
+     "nostalgic"
+    ],
+    "note": "Indie rock song featuring electric guitars and upbeat driving rhythms.",
+    "release_decade": 2010,
+    "speechiness": 0.04,
+    "tempo_bpm": 144,
+    "valence": 0.4
+   },
+   {
+    "acousticness": 0.85,
+    "danceability": 0.5,
+    "energy": 0.3,
+    "fits_genre": true,
+    "idx": 7,
+    "instrumentalness": 0.05,
+    "mood": "sad",
+    "mood_tags": [
+     "melancholic",
+     "nostalgic"
+    ],
+    "note": "Gentle indie folk track with acoustic instrumentation and reflective lyrics.",
+    "release_decade": 2010,
+    "speechiness": 0.04,
+    "tempo_bpm": 115,
+    "valence": 0.25
+   },
+   {
+    "acousticness": 0.45,
+    "danceability": 0.35,
+    "energy": 0.6,
+    "fits_genre": false,
+    "idx": 8,
+    "instrumentalness": 0.02,
+    "mood": "intense",
+    "mood_tags": [
+     "dark",
+     "melancholic"
+    ],
+    "note": "Art rock and indie rock track ending in an intense climax.",
+    "release_decade": 2020,
+    "speechiness": 0.05,
+    "tempo_bpm": 112,
+    "valence": 0.2
+   },
+   {
+    "acousticness": 0.63,
+    "danceability": 0.56,
+    "energy": 0.66,
+    "fits_genre": false,
+    "idx": 9,
+    "instrumentalness": 0.0,
+    "mood": "intense",
+    "mood_tags": [
+     "dark",
+     "melancholic"
+    ],
+    "note": "Blues rock and soul track driven by gospel-style vocals.",
+    "release_decade": 2010,
+    "speechiness": 0.05,
+    "tempo_bpm": 129,
+    "valence": 0.26
+   },
+   {
+    "acousticness": 0.03,
+    "danceability": 0.72,
+    "energy": 0.7,
+    "fits_genre": false,
+    "idx": 10,
+    "instrumentalness": 0.0,
+    "mood": "chill",
+    "mood_tags": [
+     "groovy",
+     "smooth"
+    ],
+    "note": "Pop rock and indie pop song with a prominent bass groove.",
+    "release_decade": 2020,
+    "speechiness": 0.04,
+    "tempo_bpm": 117,
+    "valence": 0.7
+   },
+   {
+    "acousticness": 0.8,
+    "danceability": 0.5,
+    "energy": 0.46,
+    "fits_genre": true,
+    "idx": 11,
+    "instrumentalness": 0.0,
+    "mood": "romantic",
+    "mood_tags": [
+     "peaceful",
+     "romantic"
+    ],
+    "note": "Indie folk and soul song with gospel stomps and acoustic guitar.",
+    "release_decade": 2010,
+    "speechiness": 0.03,
+    "tempo_bpm": 127,
+    "valence": 0.3
+   },
+   {
+    "acousticness": 0.55,
+    "danceability": 0.5,
+    "energy": 0.85,
+    "fits_genre": true,
+    "idx": 12,
+    "instrumentalness": 0.0,
+    "mood": "energetic",
+    "mood_tags": [
+     "rebellious",
+     "hopeful"
+    ],
+    "note": "High-energy indie folk song with banjo and acoustic guitars.",
+    "release_decade": 2000,
+    "speechiness": 0.06,
+    "tempo_bpm": 139,
+    "valence": 0.55
+   },
+   {
+    "acousticness": 0.4,
+    "danceability": 0.45,
+    "energy": 0.8,
+    "fits_genre": true,
+    "idx": 13,
+    "instrumentalness": 0.0,
+    "mood": "energetic",
+    "mood_tags": [
+     "uplifting",
+     "hopeful"
+    ],
+    "note": "Fast-paced indie folk track built around banjo strumming.",
+    "release_decade": 2000,
+    "speechiness": 0.05,
+    "tempo_bpm": 142,
+    "valence": 0.5
+   },
+   {
+    "acousticness": 0.25,
+    "danceability": 0.48,
+    "energy": 0.85,
+    "fits_genre": true,
+    "idx": 14,
+    "instrumentalness": 0.0,
+    "mood": "energetic",
+    "mood_tags": [
+     "uplifting",
+     "hopeful"
+    ],
+    "note": "Upbeat indie folk anthem with driving banjo strumming and group vocals.",
+    "release_decade": 2010,
+    "speechiness": 0.06,
+    "tempo_bpm": 130,
+    "valence": 0.65
+   }
+  ]
+ },
+ "highlife|840aaeefcf8f9898": {
+  "songs": [
+   {
+    "acousticness": 0.35,
+    "danceability": 0.72,
+    "energy": 0.65,
+    "fits_genre": true,
+    "idx": 0,
+    "instrumentalness": 0.05,
+    "mood": "happy",
+    "mood_tags": [
+     "groovy",
+     "uplifting"
+    ],
+    "note": "Iconic classic Igbo highlife anthem from Nigeria.",
+    "release_decade": 1980,
+    "speechiness": 0.06,
+    "tempo_bpm": 115,
+    "valence": 0.75
+   },
+   {
+    "acousticness": 0.4,
+    "danceability": 0.68,
+    "energy": 0.55,
+    "fits_genre": true,
+    "idx": 1,
+    "instrumentalness": 0.02,
+    "mood": "relaxed",
+    "mood_tags": [
+     "smooth",
+     "cozy"
+    ],
+    "note": "Smooth classic Igbo highlife song.",
+    "release_decade": 1980,
+    "speechiness": 0.05,
+    "tempo_bpm": 110,
+    "valence": 0.65
+   },
+   {
+    "acousticness": 0.38,
+    "danceability": 0.7,
+    "energy": 0.62,
+    "fits_genre": true,
+    "idx": 2,
+    "instrumentalness": 0.03,
+    "mood": "happy",
+    "mood_tags": [
+     "uplifting",
+     "groovy"
+    ],
+    "note": "Classic Igbo highlife song promoting unity.",
+    "release_decade": 1980,
+    "speechiness": 0.06,
+    "tempo_bpm": 112,
+    "valence": 0.72
+   },
+   {
+    "acousticness": 0.45,
+    "danceability": 0.76,
+    "energy": 0.75,
+    "fits_genre": true,
+    "idx": 3,
+    "instrumentalness": 0.08,
+    "mood": "energetic",
+    "mood_tags": [
+     "groovy",
+     "playful"
+    ],
+    "note": "Essential 1960s Nigerian guitar-driven highlife hit.",
+    "release_decade": 1960,
+    "speechiness": 0.06,
+    "tempo_bpm": 124,
+    "valence": 0.82
+   },
+   {
+    "acousticness": 0.42,
+    "danceability": 0.74,
+    "energy": 0.7,
+    "fits_genre": true,
+    "idx": 4,
+    "instrumentalness": 0.05,
+    "mood": "happy",
+    "mood_tags": [
+     "playful",
+     "uplifting"
+    ],
+    "note": "Upbeat vintage Nigerian highlife track.",
+    "release_decade": 1970,
+    "speechiness": 0.05,
+    "tempo_bpm": 120,
+    "valence": 0.85
+   },
+   {
+    "acousticness": 0.5,
+    "danceability": 0.73,
+    "energy": 0.68,
+    "fits_genre": true,
+    "idx": 5,
+    "instrumentalness": 0.05,
+    "mood": "happy",
+    "mood_tags": [
+     "playful",
+     "groovy"
+    ],
+    "note": "Famous 1960s Nigerian highlife classic hit.",
+    "release_decade": 1960,
+    "speechiness": 0.06,
+    "tempo_bpm": 118,
+    "valence": 0.78
+   },
+   {
+    "acousticness": 0.35,
+    "danceability": 0.75,
+    "energy": 0.72,
+    "fits_genre": true,
+    "idx": 6,
+    "instrumentalness": 0.02,
+    "mood": "happy",
+    "mood_tags": [
+     "groovy",
+     "party"
+    ],
+    "note": "Classic Ogene highlife track praising People's Club.",
+    "release_decade": 1970,
+    "speechiness": 0.07,
+    "tempo_bpm": 116,
+    "valence": 0.8
+   },
+   {
+    "acousticness": 0.4,
+    "danceability": 0.65,
+    "energy": 0.58,
+    "fits_genre": true,
+    "idx": 7,
+    "instrumentalness": 0.02,
+    "mood": "moody",
+    "mood_tags": [
+     "nostalgic",
+     "melancholic"
+    ],
+    "note": "Narrative Igbo highlife moral story composition.",
+    "release_decade": 1980,
+    "speechiness": 0.08,
+    "tempo_bpm": 110,
+    "valence": 0.45
+   },
+   {
+    "acousticness": 0.38,
+    "danceability": 0.74,
+    "energy": 0.7,
+    "fits_genre": true,
+    "idx": 8,
+    "instrumentalness": 0.03,
+    "mood": "energetic",
+    "mood_tags": [
+     "confident",
+     "groovy"
+    ],
+    "note": "Vibrant and celebratory classic Igbo highlife song.",
+    "release_decade": 1990,
+    "speechiness": 0.07,
+    "tempo_bpm": 115,
+    "valence": 0.75
+   },
+   {
+    "acousticness": 0.55,
+    "danceability": 0.65,
+    "energy": 0.5,
+    "fits_genre": true,
+    "idx": 9,
+    "instrumentalness": 0.04,
+    "mood": "relaxed",
+    "mood_tags": [
+     "smooth",
+     "nostalgic"
+    ],
+    "note": "Laid-back, philosophical 1970s Igbo highlife song.",
+    "release_decade": 1970,
+    "speechiness": 0.05,
+    "tempo_bpm": 104,
+    "valence": 0.6
+   },
+   {
+    "acousticness": 0.58,
+    "danceability": 0.62,
+    "energy": 0.48,
+    "fits_genre": true,
+    "idx": 10,
+    "instrumentalness": 0.05,
+    "mood": "relaxed",
+    "mood_tags": [
+     "peaceful",
+     "hopeful"
+    ],
+    "note": "Deep philosophical and contemplative Igbo highlife track.",
+    "release_decade": 1970,
+    "speechiness": 0.04,
+    "tempo_bpm": 102,
+    "valence": 0.58
+   },
+   {
+    "acousticness": 0.6,
+    "danceability": 0.6,
+    "energy": 0.45,
+    "fits_genre": true,
+    "idx": 11,
+    "instrumentalness": 0.05,
+    "mood": "relaxed",
+    "mood_tags": [
+     "smooth",
+     "cozy"
+    ],
+    "note": "Classic mellow Igbo highlife with gentle percussion.",
+    "release_decade": 1970,
+    "speechiness": 0.04,
+    "tempo_bpm": 100,
+    "valence": 0.55
+   },
+   {
+    "acousticness": 0.15,
+    "danceability": 0.82,
+    "energy": 0.85,
+    "fits_genre": true,
+    "idx": 12,
+    "instrumentalness": 0.0,
+    "mood": "energetic",
+    "mood_tags": [
+     "confident",
+     "party"
+    ],
+    "note": "Modern contemporary Igbo highlife with energetic percussion.",
+    "release_decade": 2020,
+    "speechiness": 0.09,
+    "tempo_bpm": 120,
+    "valence": 0.8
+   },
+   {
+    "acousticness": 0.1,
+    "danceability": 0.8,
+    "energy": 0.88,
+    "fits_genre": true,
+    "idx": 13,
+    "instrumentalness": 0.0,
+    "mood": "happy",
+    "mood_tags": [
+     "party",
+     "euphoric"
+    ],
+    "note": "Modern highlife fusion club anthem.",
+    "release_decade": 2010,
+    "speechiness": 0.08,
+    "tempo_bpm": 125,
+    "valence": 0.85
+   },
+   {
+    "acousticness": 0.12,
+    "danceability": 0.85,
+    "energy": 0.86,
+    "fits_genre": true,
+    "idx": 14,
+    "instrumentalness": 0.0,
+    "mood": "energetic",
+    "mood_tags": [
+     "party",
+     "groovy"
+    ],
+    "note": "Upbeat contemporary highlife dance track.",
+    "release_decade": 2010,
+    "speechiness": 0.1,
+    "tempo_bpm": 126,
+    "valence": 0.88
+   },
+   {
+    "acousticness": 0.3,
+    "danceability": 0.72,
+    "energy": 0.78,
+    "fits_genre": true,
+    "idx": 15,
+    "instrumentalness": 0.25,
+    "mood": "intense",
+    "mood_tags": [
+     "groovy",
+     "focused"
+    ],
+    "note": "Iconic Ghanaian afro-highlife fusion track.",
+    "release_decade": 2010,
+    "speechiness": 0.06,
+    "tempo_bpm": 118,
+    "valence": 0.65
+   },
+   {
+    "acousticness": 0.32,
+    "danceability": 0.7,
+    "energy": 0.75,
+    "fits_genre": true,
+    "idx": 16,
+    "instrumentalness": 0.3,
+    "mood": "energetic",
+    "mood_tags": [
+     "groovy",
+     "uplifting"
+    ],
+    "note": "Ghanaian afro-highlife with prominent brass and guitar.",
+    "release_decade": 2010,
+    "speechiness": 0.05,
+    "tempo_bpm": 115,
+    "valence": 0.72
+   },
+   {
+    "acousticness": 0.4,
+    "danceability": 0.68,
+    "energy": 0.6,
+    "fits_genre": true,
+    "idx": 17,
+    "instrumentalness": 0.15,
+    "mood": "relaxed",
+    "mood_tags": [
+     "smooth",
+     "groovy"
+    ],
+    "note": "estimated from artist style",
+    "release_decade": 2010,
+    "speechiness": 0.05,
+    "tempo_bpm": 108,
+    "valence": 0.68
+   },
+   {
+    "acousticness": 0.65,
+    "danceability": 0.72,
+    "energy": 0.55,
+    "fits_genre": true,
+    "idx": 18,
+    "instrumentalness": 0.05,
+    "mood": "happy",
+    "mood_tags": [
+     "smooth",
+     "nostalgic"
+    ],
+    "note": "Pioneer classic Ghanaian big band highlife song.",
+    "release_decade": 1950,
+    "speechiness": 0.05,
+    "tempo_bpm": 112,
+    "valence": 0.75
+   },
+   {
+    "acousticness": 0.6,
+    "danceability": 0.74,
+    "energy": 0.6,
+    "fits_genre": true,
+    "idx": 19,
+    "instrumentalness": 0.04,
+    "mood": "happy",
+    "mood_tags": [
+     "uplifting",
+     "nostalgic"
+    ],
+    "note": "Pan-African highlife classic from King of Highlife.",
+    "release_decade": 1960,
+    "speechiness": 0.05,
+    "tempo_bpm": 114,
+    "valence": 0.78
+   },
+   {
+    "acousticness": 0.58,
+    "danceability": 0.75,
+    "energy": 0.65,
+    "fits_genre": true,
+    "idx": 20,
+    "instrumentalness": 0.03,
+    "mood": "happy",
+    "mood_tags": [
+     "euphoric",
+     "uplifting"
+    ],
+    "note": "Historic Ghanaian independence celebratory highlife track.",
+    "release_decade": 1950,
+    "speechiness": 0.06,
+    "tempo_bpm": 116,
+    "valence": 0.85
+   }
+  ]
+ },
+ "hip hop|34ed0213e4309fb9": {
+  "songs": [
+   {
+    "acousticness": 0.0,
+    "danceability": 0.9,
+    "energy": 0.76,
+    "fits_genre": true,
+    "idx": 0,
+    "instrumentalness": 0.0,
+    "mood": "intense",
+    "mood_tags": [
+     "confident",
+     "aggressive"
+    ],
+    "note": "Iconic trap-infused hard-hitting hip-hop single.",
+    "release_decade": 2010,
+    "speechiness": 0.1,
+    "tempo_bpm": 150,
+    "valence": 0.42
+   },
+   {
+    "acousticness": 0.07,
+    "danceability": 0.72,
+    "energy": 0.53,
+    "fits_genre": true,
+    "idx": 1,
+    "instrumentalness": 0.0,
+    "mood": "chill",
+    "mood_tags": [
+     "smooth",
+     "nostalgic"
+    ],
+    "note": "Classic laid-back West Coast hip-hop track.",
+    "release_decade": 2010,
+    "speechiness": 0.12,
+    "tempo_bpm": 72,
+    "valence": 0.34
+   },
+   {
+    "acousticness": 0.01,
+    "danceability": 0.88,
+    "energy": 0.78,
+    "fits_genre": true,
+    "idx": 2,
+    "instrumentalness": 0.0,
+    "mood": "energetic",
+    "mood_tags": [
+     "confident",
+     "aggressive"
+    ],
+    "note": "High-energy West Coast bounce diss track.",
+    "release_decade": 2020,
+    "speechiness": 0.28,
+    "tempo_bpm": 101,
+    "valence": 0.65
+   },
+   {
+    "acousticness": 0.32,
+    "danceability": 0.69,
+    "energy": 0.52,
+    "fits_genre": true,
+    "idx": 3,
+    "instrumentalness": 0.0,
+    "mood": "moody",
+    "mood_tags": [
+     "nostalgic",
+     "confident"
+    ],
+    "note": "Melodic conscious hip-hop track with iconic sample.",
+    "release_decade": 2010,
+    "speechiness": 0.33,
+    "tempo_bpm": 100,
+    "valence": 0.49
+   },
+   {
+    "acousticness": 0.08,
+    "danceability": 0.63,
+    "energy": 0.7,
+    "fits_genre": true,
+    "idx": 4,
+    "instrumentalness": 0.0,
+    "mood": "chill",
+    "mood_tags": [
+     "nostalgic",
+     "playful"
+    ],
+    "note": "Storytelling hip-hop track with soulful boom-bap beat.",
+    "release_decade": 2010,
+    "speechiness": 0.34,
+    "tempo_bpm": 176,
+    "valence": 0.61
+   },
+   {
+    "acousticness": 0.16,
+    "danceability": 0.83,
+    "energy": 0.61,
+    "fits_genre": true,
+    "idx": 5,
+    "instrumentalness": 0.0,
+    "mood": "happy",
+    "mood_tags": [
+     "groovy",
+     "playful"
+    ],
+    "note": "Upbeat crossover hip-hop track sampling Paula Abdul.",
+    "release_decade": 2010,
+    "speechiness": 0.09,
+    "tempo_bpm": 93,
+    "valence": 0.81
+   },
+   {
+    "acousticness": 0.04,
+    "danceability": 0.73,
+    "energy": 0.82,
+    "fits_genre": true,
+    "idx": 6,
+    "instrumentalness": 0.0,
+    "mood": "happy",
+    "mood_tags": [
+     "party",
+     "euphoric"
+    ],
+    "note": "Upbeat, party-ready frat rap classic.",
+    "release_decade": 2010,
+    "speechiness": 0.11,
+    "tempo_bpm": 124,
+    "valence": 0.76
+   },
+   {
+    "acousticness": 0.48,
+    "danceability": 0.56,
+    "energy": 0.45,
+    "fits_genre": true,
+    "idx": 7,
+    "instrumentalness": 0.0,
+    "mood": "moody",
+    "mood_tags": [
+     "dreamy",
+     "melancholic"
+    ],
+    "note": "Atmospheric, two-part alternative hip-hop single.",
+    "release_decade": 2010,
+    "speechiness": 0.07,
+    "tempo_bpm": 122,
+    "valence": 0.23
+   },
+   {
+    "acousticness": 0.38,
+    "danceability": 0.67,
+    "energy": 0.33,
+    "fits_genre": true,
+    "idx": 8,
+    "instrumentalness": 0.0,
+    "mood": "relaxed",
+    "mood_tags": [
+     "cozy",
+     "smooth"
+    ],
+    "note": "Soulful, jazz-influenced reflective hip-hop track.",
+    "release_decade": 2010,
+    "speechiness": 0.12,
+    "tempo_bpm": 111,
+    "valence": 0.3
+   },
+   {
+    "acousticness": 0.37,
+    "danceability": 0.56,
+    "energy": 0.56,
+    "fits_genre": true,
+    "idx": 9,
+    "instrumentalness": 0.0,
+    "mood": "romantic",
+    "mood_tags": [
+     "dreamy",
+     "smooth"
+    ],
+    "note": "Lush pop-rap and neo-soul collaboration.",
+    "release_decade": 2010,
+    "speechiness": 0.09,
+    "tempo_bpm": 79,
+    "valence": 0.63
+   },
+   {
+    "acousticness": 0.23,
+    "danceability": 0.55,
+    "energy": 0.5,
+    "fits_genre": true,
+    "idx": 10,
+    "instrumentalness": 0.06,
+    "mood": "happy",
+    "mood_tags": [
+     "playful",
+     "groovy"
+    ],
+    "note": "Experimental hip-hop and synth-pop fusion.",
+    "release_decade": 2010,
+    "speechiness": 0.07,
+    "tempo_bpm": 80,
+    "valence": 0.45
+   },
+   {
+    "acousticness": 0.3,
+    "danceability": 0.43,
+    "energy": 0.63,
+    "fits_genre": false,
+    "idx": 11,
+    "instrumentalness": 0.0,
+    "mood": "intense",
+    "mood_tags": [
+     "heartbroken",
+     "melancholic"
+    ],
+    "note": "Psychedelic soul and neo-soul ballad.",
+    "release_decade": 2010,
+    "speechiness": 0.04,
+    "tempo_bpm": 113,
+    "valence": 0.28
+   },
+   {
+    "acousticness": 0.01,
+    "danceability": 0.66,
+    "energy": 0.57,
+    "fits_genre": true,
+    "idx": 12,
+    "instrumentalness": 0.0,
+    "mood": "energetic",
+    "mood_tags": [
+     "party",
+     "confident"
+    ],
+    "note": "Melodic trap hip-hop anthem.",
+    "release_decade": 2010,
+    "speechiness": 0.05,
+    "tempo_bpm": 128,
+    "valence": 0.26
+   },
+   {
+    "acousticness": 0.02,
+    "danceability": 0.64,
+    "energy": 0.72,
+    "fits_genre": true,
+    "idx": 13,
+    "instrumentalness": 0.0,
+    "mood": "intense",
+    "mood_tags": [
+     "dark",
+     "aggressive"
+    ],
+    "note": "Epic, dark Southern trap and hip-hop single.",
+    "release_decade": 2010,
+    "speechiness": 0.06,
+    "tempo_bpm": 124,
+    "valence": 0.23
+   },
+   {
+    "acousticness": 0.09,
+    "danceability": 0.52,
+    "energy": 0.67,
+    "fits_genre": true,
+    "idx": 14,
+    "instrumentalness": 0.0,
+    "mood": "moody",
+    "mood_tags": [
+     "dreamy",
+     "dark"
+    ],
+    "note": "Atmospheric multi-phased psychedelic trap hip-hop track.",
+    "release_decade": 2010,
+    "speechiness": 0.05,
+    "tempo_bpm": 121,
+    "valence": 0.33
+   }
+  ]
+ },
+ "indie pop|0938830314b3836f": {
+  "songs": [
+   {
+    "acousticness": 0.2,
+    "danceability": 0.6,
+    "energy": 0.65,
+    "fits_genre": true,
+    "idx": 0,
+    "instrumentalness": 0.0,
+    "mood": "romantic",
+    "mood_tags": [
+     "dreamy",
+     "romantic"
+    ],
+    "note": "Fits indie pop perfectly with catchy guitar riff and synth production.",
+    "release_decade": 2010,
+    "speechiness": 0.04,
+    "tempo_bpm": 116,
+    "valence": 0.65
+   },
+   {
+    "acousticness": 0.6,
+    "danceability": 0.55,
+    "energy": 0.45,
+    "fits_genre": true,
+    "idx": 1,
+    "instrumentalness": 0.0,
+    "mood": "chill",
+    "mood_tags": [
+     "nostalgic",
+     "dreamy"
+    ],
+    "note": "Quintessential bedroom indie pop track driven by electric piano and guitar.",
+    "release_decade": 2010,
+    "speechiness": 0.04,
+    "tempo_bpm": 105,
+    "valence": 0.4
+   },
+   {
+    "acousticness": 0.65,
+    "danceability": 0.7,
+    "energy": 0.4,
+    "fits_genre": true,
+    "idx": 2,
+    "instrumentalness": 0.0,
+    "mood": "chill",
+    "mood_tags": [
+     "cozy",
+     "playful"
+    ],
+    "note": "Lo-fi bedroom pop classic with quirky synth pop elements.",
+    "release_decade": 2010,
+    "speechiness": 0.05,
+    "tempo_bpm": 120,
+    "valence": 0.6
+   },
+   {
+    "acousticness": 0.4,
+    "danceability": 0.65,
+    "energy": 0.65,
+    "fits_genre": true,
+    "idx": 3,
+    "instrumentalness": 0.0,
+    "mood": "happy",
+    "mood_tags": [
+     "uplifting",
+     "playful"
+    ],
+    "note": "Vibrant indie pop blending soul hooks and horn arrangements.",
+    "release_decade": 2010,
+    "speechiness": 0.06,
+    "tempo_bpm": 108,
+    "valence": 0.7
+   },
+   {
+    "acousticness": 0.35,
+    "danceability": 0.7,
+    "energy": 0.7,
+    "fits_genre": true,
+    "idx": 4,
+    "instrumentalness": 0.0,
+    "mood": "happy",
+    "mood_tags": [
+     "groovy",
+     "uplifting"
+    ],
+    "note": "Upbeat indie pop track with groovy bassline and brass section.",
+    "release_decade": 2010,
+    "speechiness": 0.05,
+    "tempo_bpm": 144,
+    "valence": 0.8
+   },
+   {
+    "acousticness": 0.6,
+    "danceability": 0.4,
+    "energy": 0.35,
+    "fits_genre": true,
+    "idx": 5,
+    "instrumentalness": 0.0,
+    "mood": "romantic",
+    "mood_tags": [
+     "romantic",
+     "melancholic"
+    ],
+    "note": "Emotional indie pop ballad with lush string arrangements.",
+    "release_decade": 2010,
+    "speechiness": 0.04,
+    "tempo_bpm": 80,
+    "valence": 0.3
+   },
+   {
+    "acousticness": 0.3,
+    "danceability": 0.8,
+    "energy": 0.55,
+    "fits_genre": true,
+    "idx": 6,
+    "instrumentalness": 0.0,
+    "mood": "chill",
+    "mood_tags": [
+     "groovy",
+     "dreamy"
+    ],
+    "note": "Laid-back psychedelic indie pop track with catchy guitar grooves.",
+    "release_decade": 2010,
+    "speechiness": 0.05,
+    "tempo_bpm": 85,
+    "valence": 0.75
+   },
+   {
+    "acousticness": 0.25,
+    "danceability": 0.75,
+    "energy": 0.5,
+    "fits_genre": true,
+    "idx": 7,
+    "instrumentalness": 0.01,
+    "mood": "relaxed",
+    "mood_tags": [
+     "groovy",
+     "smooth"
+    ],
+    "note": "Playful indie pop with r&b grooves and eccentric production.",
+    "release_decade": 2010,
+    "speechiness": 0.06,
+    "tempo_bpm": 110,
+    "valence": 0.7
+   },
+   {
+    "acousticness": 0.35,
+    "danceability": 0.76,
+    "energy": 0.52,
+    "fits_genre": true,
+    "idx": 8,
+    "instrumentalness": 0.0,
+    "mood": "chill",
+    "mood_tags": [
+     "groovy",
+     "playful"
+    ],
+    "note": "Quirky indie pop blending slick basslines and breezy vocals.",
+    "release_decade": 2010,
+    "speechiness": 0.05,
+    "tempo_bpm": 92,
+    "valence": 0.68
+   },
+   {
+    "acousticness": 0.7,
+    "danceability": 0.75,
+    "energy": 0.45,
+    "fits_genre": true,
+    "idx": 9,
+    "instrumentalness": 0.05,
+    "mood": "relaxed",
+    "mood_tags": [
+     "smooth",
+     "playful"
+    ],
+    "note": "Bossa nova influenced indie pop track with breezy vocals.",
+    "release_decade": 2020,
+    "speechiness": 0.05,
+    "tempo_bpm": 104,
+    "valence": 0.7
+   },
+   {
+    "acousticness": 0.85,
+    "danceability": 0.5,
+    "energy": 0.3,
+    "fits_genre": true,
+    "idx": 10,
+    "instrumentalness": 0.0,
+    "mood": "romantic",
+    "mood_tags": [
+     "romantic",
+     "cozy"
+    ],
+    "note": "Tender acoustic indie pop track with sweet string accompaniment.",
+    "release_decade": 2020,
+    "speechiness": 0.03,
+    "tempo_bpm": 102,
+    "valence": 0.6
+   },
+   {
+    "acousticness": 0.8,
+    "danceability": 0.55,
+    "energy": 0.35,
+    "fits_genre": true,
+    "idx": 11,
+    "instrumentalness": 0.0,
+    "mood": "sad",
+    "mood_tags": [
+     "melancholic",
+     "nostalgic"
+    ],
+    "note": "Melodic acoustic indie pop song exploring post-breakup acceptance.",
+    "release_decade": 2020,
+    "speechiness": 0.04,
+    "tempo_bpm": 96,
+    "valence": 0.45
+   },
+   {
+    "acousticness": 0.1,
+    "danceability": 0.68,
+    "energy": 0.75,
+    "fits_genre": true,
+    "idx": 12,
+    "instrumentalness": 0.05,
+    "mood": "happy",
+    "mood_tags": [
+     "uplifting",
+     "groovy"
+    ],
+    "note": "Upbeat, catchy indie pop hit with shimmering guitars and synths.",
+    "release_decade": 2010,
+    "speechiness": 0.04,
+    "tempo_bpm": 128,
+    "valence": 0.8
+   },
+   {
+    "acousticness": 0.08,
+    "danceability": 0.7,
+    "energy": 0.8,
+    "fits_genre": true,
+    "idx": 13,
+    "instrumentalness": 0.02,
+    "mood": "energetic",
+    "mood_tags": [
+     "playful",
+     "uplifting"
+    ],
+    "note": "Energetic indie pop with bright guitar riffs and bouncy rhythm.",
+    "release_decade": 2010,
+    "speechiness": 0.04,
+    "tempo_bpm": 132,
+    "valence": 0.85
+   },
+   {
+    "acousticness": 0.05,
+    "danceability": 0.72,
+    "energy": 0.78,
+    "fits_genre": true,
+    "idx": 14,
+    "instrumentalness": 0.01,
+    "mood": "happy",
+    "mood_tags": [
+     "groovy",
+     "uplifting"
+    ],
+    "note": "80s synth-pop inspired indie pop tune with upbeat energy.",
+    "release_decade": 2020,
+    "speechiness": 0.04,
+    "tempo_bpm": 120,
+    "valence": 0.85
+   }
+  ]
+ },
+ "jazz|c5eea43070ba9be0": {
+  "songs": [
+   {
+    "acousticness": 0.85,
+    "danceability": 0.55,
+    "energy": 0.35,
+    "fits_genre": true,
+    "idx": 0,
+    "instrumentalness": 0.85,
+    "mood": "chill",
+    "mood_tags": [
+     "smooth",
+     "groovy"
+    ],
+    "note": "Essential modal jazz track from Kind of Blue.",
+    "release_decade": 1950,
+    "speechiness": 0.05,
+    "tempo_bpm": 136,
+    "valence": 0.5
+   },
+   {
+    "acousticness": 0.95,
+    "danceability": 0.35,
+    "energy": 0.15,
+    "fits_genre": true,
+    "idx": 1,
+    "instrumentalness": 0.9,
+    "mood": "sad",
+    "mood_tags": [
+     "melancholic",
+     "peaceful"
+    ],
+    "note": "Iconic melancholic modal jazz ballad from Kind of Blue.",
+    "release_decade": 1950,
+    "speechiness": 0.04,
+    "tempo_bpm": 65,
+    "valence": 0.2
+   },
+   {
+    "acousticness": 0.8,
+    "danceability": 0.6,
+    "energy": 0.45,
+    "fits_genre": true,
+    "idx": 2,
+    "instrumentalness": 0.85,
+    "mood": "chill",
+    "mood_tags": [
+     "groovy",
+     "smooth"
+    ],
+    "note": "Classic blues-form jazz track from Kind of Blue.",
+    "release_decade": 1950,
+    "speechiness": 0.04,
+    "tempo_bpm": 128,
+    "valence": 0.65
+   },
+   {
+    "acousticness": 0.75,
+    "danceability": 0.45,
+    "energy": 0.6,
+    "fits_genre": true,
+    "idx": 3,
+    "instrumentalness": 0.8,
+    "mood": "happy",
+    "mood_tags": [
+     "uplifting",
+     "playful"
+    ],
+    "note": "Famous modal jazz interpretation of a musical standard.",
+    "release_decade": 1960,
+    "speechiness": 0.05,
+    "tempo_bpm": 138,
+    "valence": 0.65
+   },
+   {
+    "acousticness": 0.9,
+    "danceability": 0.3,
+    "energy": 0.2,
+    "fits_genre": true,
+    "idx": 4,
+    "instrumentalness": 0.85,
+    "mood": "relaxed",
+    "mood_tags": [
+     "peaceful",
+     "dreamy"
+    ],
+    "note": "Beautiful and peaceful jazz ballad dedicated to his wife.",
+    "release_decade": 1950,
+    "speechiness": 0.04,
+    "tempo_bpm": 70,
+    "valence": 0.35
+   },
+   {
+    "acousticness": 0.9,
+    "danceability": 0.35,
+    "energy": 0.2,
+    "fits_genre": true,
+    "idx": 5,
+    "instrumentalness": 0.1,
+    "mood": "romantic",
+    "mood_tags": [
+     "romantic",
+     "smooth"
+    ],
+    "note": "Heartfelt vocal and saxophone jazz ballad standard.",
+    "release_decade": 1960,
+    "speechiness": 0.04,
+    "tempo_bpm": 65,
+    "valence": 0.35
+   },
+   {
+    "acousticness": 0.92,
+    "danceability": 0.45,
+    "energy": 0.25,
+    "fits_genre": true,
+    "idx": 6,
+    "instrumentalness": 0.9,
+    "mood": "relaxed",
+    "mood_tags": [
+     "peaceful",
+     "cozy"
+    ],
+    "note": "Delicate jazz waltz collaboration with Jim Hall.",
+    "release_decade": 1960,
+    "speechiness": 0.04,
+    "tempo_bpm": 105,
+    "valence": 0.45
+   },
+   {
+    "acousticness": 0.98,
+    "danceability": 0.3,
+    "energy": 0.1,
+    "fits_genre": true,
+    "idx": 7,
+    "instrumentalness": 0.95,
+    "mood": "relaxed",
+    "mood_tags": [
+     "peaceful",
+     "dreamy"
+    ],
+    "note": "Tranquil solo piano modal jazz improvisation.",
+    "release_decade": 1950,
+    "speechiness": 0.04,
+    "tempo_bpm": 60,
+    "valence": 0.3
+   },
+   {
+    "acousticness": 0.88,
+    "danceability": 0.5,
+    "energy": 0.35,
+    "fits_genre": true,
+    "idx": 8,
+    "instrumentalness": 0.85,
+    "mood": "happy",
+    "mood_tags": [
+     "playful",
+     "nostalgic"
+    ],
+    "note": "Signature jazz waltz composed by Bill Evans.",
+    "release_decade": 1950,
+    "speechiness": 0.04,
+    "tempo_bpm": 110,
+    "valence": 0.6
+   },
+   {
+    "acousticness": 0.35,
+    "danceability": 0.55,
+    "energy": 0.75,
+    "fits_genre": true,
+    "idx": 9,
+    "instrumentalness": 0.8,
+    "mood": "energetic",
+    "mood_tags": [
+     "groovy",
+     "confident"
+    ],
+    "note": "High-energy contemporary spiritual jazz and funk fusion.",
+    "release_decade": 2010,
+    "speechiness": 0.05,
+    "tempo_bpm": 108,
+    "valence": 0.6
+   },
+   {
+    "acousticness": 0.45,
+    "danceability": 0.4,
+    "energy": 0.8,
+    "fits_genre": true,
+    "idx": 10,
+    "instrumentalness": 0.75,
+    "mood": "intense",
+    "mood_tags": [
+     "uplifting",
+     "confident"
+    ],
+    "note": "Epic spiritual jazz opener with lush choir and horns.",
+    "release_decade": 2010,
+    "speechiness": 0.06,
+    "tempo_bpm": 130,
+    "valence": 0.55
+   },
+   {
+    "acousticness": 0.6,
+    "danceability": 0.35,
+    "energy": 0.5,
+    "fits_genre": true,
+    "idx": 11,
+    "instrumentalness": 0.85,
+    "mood": "relaxed",
+    "mood_tags": [
+     "dreamy",
+     "peaceful"
+    ],
+    "note": "Spiritual jazz reinterpretation of Debussy's classical piece.",
+    "release_decade": 2010,
+    "speechiness": 0.04,
+    "tempo_bpm": 90,
+    "valence": 0.4
+   },
+   {
+    "acousticness": 0.95,
+    "danceability": 0.35,
+    "energy": 0.15,
+    "fits_genre": true,
+    "idx": 12,
+    "instrumentalness": 0.05,
+    "mood": "romantic",
+    "mood_tags": [
+     "melancholic",
+     "romantic"
+    ],
+    "note": "Iconic cool jazz vocal ballad and trumpet signature.",
+    "release_decade": 1950,
+    "speechiness": 0.04,
+    "tempo_bpm": 60,
+    "valence": 0.25
+   },
+   {
+    "acousticness": 0.95,
+    "danceability": 0.35,
+    "energy": 0.15,
+    "fits_genre": true,
+    "idx": 13,
+    "instrumentalness": 0.02,
+    "mood": "romantic",
+    "mood_tags": [
+     "romantic",
+     "melancholic"
+    ],
+    "note": "Classic vocal cool jazz ballad.",
+    "release_decade": 1950,
+    "speechiness": 0.04,
+    "tempo_bpm": 65,
+    "valence": 0.3
+   },
+   {
+    "acousticness": 0.85,
+    "danceability": 0.6,
+    "energy": 0.4,
+    "fits_genre": true,
+    "idx": 14,
+    "instrumentalness": 0.05,
+    "mood": "happy",
+    "mood_tags": [
+     "playful",
+     "cozy"
+    ],
+    "note": "Upbeat vocal cool jazz track with warm swing beat.",
+    "release_decade": 1950,
+    "speechiness": 0.05,
+    "tempo_bpm": 130,
+    "valence": 0.65
+   }
+  ]
+ },
+ "liquid dnb|fd0e2b6766ec756a": {
+  "songs": [
+   {
+    "acousticness": 0.05,
+    "danceability": 0.65,
+    "energy": 0.85,
+    "fits_genre": true,
+    "idx": 0,
+    "instrumentalness": 0.3,
+    "mood": "energetic",
+    "mood_tags": [
+     "uplifting",
+     "smooth"
+    ],
+    "note": "Classic uplifting liquid drum and bass track by High Contrast.",
+    "release_decade": 2000,
+    "speechiness": 0.05,
+    "tempo_bpm": 174,
+    "valence": 0.7
+   },
+   {
+    "acousticness": 0.1,
+    "danceability": 0.6,
+    "energy": 0.88,
+    "fits_genre": true,
+    "idx": 1,
+    "instrumentalness": 0.15,
+    "mood": "happy",
+    "mood_tags": [
+     "uplifting",
+     "euphoric"
+    ],
+    "note": "Iconic liquid drum and bass anthem with gospel vocal samples.",
+    "release_decade": 2000,
+    "speechiness": 0.06,
+    "tempo_bpm": 174,
+    "valence": 0.8
+   },
+   {
+    "acousticness": 0.15,
+    "danceability": 0.62,
+    "energy": 0.75,
+    "fits_genre": true,
+    "idx": 2,
+    "instrumentalness": 0.5,
+    "mood": "chill",
+    "mood_tags": [
+     "smooth",
+     "dreamy"
+    ],
+    "note": "Smooth liquid drum and bass track with rich musicality.",
+    "release_decade": 2000,
+    "speechiness": 0.05,
+    "tempo_bpm": 174,
+    "valence": 0.65
+   },
+   {
+    "acousticness": 0.1,
+    "danceability": 0.65,
+    "energy": 0.85,
+    "fits_genre": true,
+    "idx": 3,
+    "instrumentalness": 0.2,
+    "mood": "happy",
+    "mood_tags": [
+     "uplifting",
+     "groovy"
+    ],
+    "note": "Uplifting liquid drum and bass cover of a soul classic.",
+    "release_decade": 2010,
+    "speechiness": 0.05,
+    "tempo_bpm": 174,
+    "valence": 0.85
+   },
+   {
+    "acousticness": 0.05,
+    "danceability": 0.6,
+    "energy": 0.9,
+    "fits_genre": true,
+    "idx": 4,
+    "instrumentalness": 0.7,
+    "mood": "energetic",
+    "mood_tags": [
+     "euphoric",
+     "uplifting"
+    ],
+    "note": "Melodic, energetic liquid drum and bass track by Netsky.",
+    "release_decade": 2010,
+    "speechiness": 0.06,
+    "tempo_bpm": 175,
+    "valence": 0.75
+   },
+   {
+    "acousticness": 0.1,
+    "danceability": 0.55,
+    "energy": 0.78,
+    "fits_genre": true,
+    "idx": 5,
+    "instrumentalness": 0.6,
+    "mood": "moody",
+    "mood_tags": [
+     "dreamy",
+     "melancholic"
+    ],
+    "note": "Melodic and atmospheric liquid drum and bass song.",
+    "release_decade": 2010,
+    "speechiness": 0.05,
+    "tempo_bpm": 174,
+    "valence": 0.5
+   },
+   {
+    "acousticness": 0.08,
+    "danceability": 0.58,
+    "energy": 0.85,
+    "fits_genre": true,
+    "idx": 6,
+    "instrumentalness": 0.2,
+    "mood": "happy",
+    "mood_tags": [
+     "uplifting",
+     "euphoric"
+    ],
+    "note": "Quintessential uplifting liquid drum and bass classic.",
+    "release_decade": 2000,
+    "speechiness": 0.05,
+    "tempo_bpm": 174,
+    "valence": 0.75
+   },
+   {
+    "acousticness": 0.2,
+    "danceability": 0.65,
+    "energy": 0.8,
+    "fits_genre": true,
+    "idx": 7,
+    "instrumentalness": 0.4,
+    "mood": "chill",
+    "mood_tags": [
+     "groovy",
+     "smooth"
+    ],
+    "note": "Jazz-infused early liquid drum and bass title track.",
+    "release_decade": 2000,
+    "speechiness": 0.06,
+    "tempo_bpm": 172,
+    "valence": 0.7
+   },
+   {
+    "acousticness": 0.15,
+    "danceability": 0.55,
+    "energy": 0.82,
+    "fits_genre": true,
+    "idx": 8,
+    "instrumentalness": 0.75,
+    "mood": "intense",
+    "mood_tags": [
+     "focused",
+     "dreamy"
+    ],
+    "note": "Atmospheric drum and bass track with lush strings and bass.",
+    "release_decade": 2000,
+    "speechiness": 0.05,
+    "tempo_bpm": 174,
+    "valence": 0.45
+   },
+   {
+    "acousticness": 0.15,
+    "danceability": 0.65,
+    "energy": 0.72,
+    "fits_genre": true,
+    "idx": 9,
+    "instrumentalness": 0.35,
+    "mood": "chill",
+    "mood_tags": [
+     "smooth",
+     "melancholic"
+    ],
+    "note": "Soulful and deep liquid drum and bass classic by Calibre.",
+    "release_decade": 2010,
+    "speechiness": 0.05,
+    "tempo_bpm": 172,
+    "valence": 0.55
+   },
+   {
+    "acousticness": 0.1,
+    "danceability": 0.68,
+    "energy": 0.85,
+    "fits_genre": true,
+    "idx": 10,
+    "instrumentalness": 0.6,
+    "mood": "happy",
+    "mood_tags": [
+     "uplifting",
+     "groovy"
+    ],
+    "note": "Iconic liquid dnb anthem with warm brass and smooth beat.",
+    "release_decade": 2000,
+    "speechiness": 0.05,
+    "tempo_bpm": 174,
+    "valence": 0.8
+   },
+   {
+    "acousticness": 0.2,
+    "danceability": 0.65,
+    "energy": 0.7,
+    "fits_genre": true,
+    "idx": 11,
+    "instrumentalness": 0.7,
+    "mood": "focused",
+    "mood_tags": [
+     "smooth",
+     "dreamy"
+    ],
+    "note": "Deep, atmospheric liquid drum and bass track by Calibre.",
+    "release_decade": 2010,
+    "speechiness": 0.05,
+    "tempo_bpm": 172,
+    "valence": 0.45
+   },
+   {
+    "acousticness": 0.25,
+    "danceability": 0.5,
+    "energy": 0.75,
+    "fits_genre": true,
+    "idx": 12,
+    "instrumentalness": 0.05,
+    "mood": "romantic",
+    "mood_tags": [
+     "romantic",
+     "melancholic"
+    ],
+    "note": "Emotional vocal liquid drum and bass track featuring Catching Cairo.",
+    "release_decade": 2010,
+    "speechiness": 0.05,
+    "tempo_bpm": 174,
+    "valence": 0.5
+   },
+   {
+    "acousticness": 0.3,
+    "danceability": 0.52,
+    "energy": 0.72,
+    "fits_genre": true,
+    "idx": 13,
+    "instrumentalness": 0.1,
+    "mood": "moody",
+    "mood_tags": [
+     "melancholic",
+     "dreamy"
+    ],
+    "note": "Atmospheric and emotional vocal liquid drum and bass track.",
+    "release_decade": 2010,
+    "speechiness": 0.04,
+    "tempo_bpm": 174,
+    "valence": 0.4
+   },
+   {
+    "acousticness": 0.2,
+    "danceability": 0.55,
+    "energy": 0.76,
+    "fits_genre": true,
+    "idx": 14,
+    "instrumentalness": 0.05,
+    "mood": "moody",
+    "mood_tags": [
+     "melancholic",
+     "hopeful"
+    ],
+    "note": "Vocal-driven, melodic liquid drum and bass song featuring Grimm.",
+    "release_decade": 2010,
+    "speechiness": 0.05,
+    "tempo_bpm": 174,
+    "valence": 0.5
+   }
+  ]
+ },
+ "lofi|d64452b88540dba1": {
+  "songs": [
+   {
+    "acousticness": 0.4,
+    "danceability": 0.7,
+    "energy": 0.6,
+    "fits_genre": true,
+    "idx": 0,
+    "instrumentalness": 0.05,
+    "mood": "chill",
+    "mood_tags": [
+     "smooth",
+     "nostalgic"
+    ],
+    "note": "Classic jazz hop track with smooth hip hop production.",
+    "release_decade": 2000,
+    "speechiness": 0.25,
+    "tempo_bpm": 84,
+    "valence": 0.7
+   },
+   {
+    "acousticness": 0.5,
+    "danceability": 0.75,
+    "energy": 0.65,
+    "fits_genre": true,
+    "idx": 1,
+    "instrumentalness": 0.0,
+    "mood": "relaxed",
+    "mood_tags": [
+     "smooth",
+     "groovy"
+    ],
+    "note": "Iconic jazz hop track with lush guitar samples.",
+    "release_decade": 2000,
+    "speechiness": 0.2,
+    "tempo_bpm": 85,
+    "valence": 0.75
+   },
+   {
+    "acousticness": 0.4,
+    "danceability": 0.7,
+    "energy": 0.55,
+    "fits_genre": true,
+    "idx": 2,
+    "instrumentalness": 0.01,
+    "mood": "chill",
+    "mood_tags": [
+     "nostalgic",
+     "romantic"
+    ],
+    "note": "Seminal jazz-infused lofi hip hop song featuring Shing02.",
+    "release_decade": 2000,
+    "speechiness": 0.2,
+    "tempo_bpm": 85,
+    "valence": 0.65
+   },
+   {
+    "acousticness": 0.8,
+    "danceability": 0.6,
+    "energy": 0.3,
+    "fits_genre": true,
+    "idx": 3,
+    "instrumentalness": 0.85,
+    "mood": "sad",
+    "mood_tags": [
+     "melancholic",
+     "cozy"
+    ],
+    "note": "Famous lofi hip hop track sampling Shiloh Dynasty.",
+    "release_decade": 2010,
+    "speechiness": 0.05,
+    "tempo_bpm": 75,
+    "valence": 0.3
+   },
+   {
+    "acousticness": 0.7,
+    "danceability": 0.65,
+    "energy": 0.35,
+    "fits_genre": true,
+    "idx": 4,
+    "instrumentalness": 0.8,
+    "mood": "chill",
+    "mood_tags": [
+     "cozy",
+     "nostalgic"
+    ],
+    "note": "Melodic lofi hip hop track with soft brass and guitar.",
+    "release_decade": 2010,
+    "speechiness": 0.08,
+    "tempo_bpm": 78,
+    "valence": 0.4
+   },
+   {
+    "acousticness": 0.75,
+    "danceability": 0.6,
+    "energy": 0.3,
+    "fits_genre": true,
+    "idx": 5,
+    "instrumentalness": 0.9,
+    "mood": "chill",
+    "mood_tags": [
+     "romantic",
+     "cozy"
+    ],
+    "note": "Relaxing lofi beat with subtle warm acoustic guitar.",
+    "release_decade": 2010,
+    "speechiness": 0.06,
+    "tempo_bpm": 72,
+    "valence": 0.5
+   },
+   {
+    "acousticness": 0.85,
+    "danceability": 0.55,
+    "energy": 0.25,
+    "fits_genre": true,
+    "idx": 6,
+    "instrumentalness": 0.9,
+    "mood": "chill",
+    "mood_tags": [
+     "peaceful",
+     "cozy"
+    ],
+    "note": "Popular ambient lofi beat with soft piano chords.",
+    "release_decade": 2010,
+    "speechiness": 0.05,
+    "tempo_bpm": 75,
+    "valence": 0.35
+   },
+   {
+    "acousticness": 0.8,
+    "danceability": 0.5,
+    "energy": 0.3,
+    "fits_genre": true,
+    "idx": 7,
+    "instrumentalness": 0.85,
+    "mood": "chill",
+    "mood_tags": [
+     "dreamy",
+     "melancholic"
+    ],
+    "note": "Atmospheric lofi track with mellow piano and vinyl crackle.",
+    "release_decade": 2010,
+    "speechiness": 0.05,
+    "tempo_bpm": 70,
+    "valence": 0.3
+   },
+   {
+    "acousticness": 0.9,
+    "danceability": 0.5,
+    "energy": 0.25,
+    "fits_genre": true,
+    "idx": 8,
+    "instrumentalness": 0.9,
+    "mood": "relaxed",
+    "mood_tags": [
+     "peaceful",
+     "dreamy"
+    ],
+    "note": "Peaceful lofi instrumental featuring quiet piano textures.",
+    "release_decade": 2010,
+    "speechiness": 0.04,
+    "tempo_bpm": 80,
+    "valence": 0.4
+   },
+   {
+    "acousticness": 0.7,
+    "danceability": 0.65,
+    "energy": 0.35,
+    "fits_genre": true,
+    "idx": 9,
+    "instrumentalness": 0.85,
+    "mood": "relaxed",
+    "mood_tags": [
+     "cozy",
+     "smooth"
+    ],
+    "note": "Essential lofi beat with warm sampled piano melodies.",
+    "release_decade": 2010,
+    "speechiness": 0.06,
+    "tempo_bpm": 75,
+    "valence": 0.55
+   },
+   {
+    "acousticness": 0.75,
+    "danceability": 0.6,
+    "energy": 0.3,
+    "fits_genre": true,
+    "idx": 10,
+    "instrumentalness": 0.9,
+    "mood": "relaxed",
+    "mood_tags": [
+     "nostalgic",
+     "cozy"
+    ],
+    "note": "Nostalgic lofi hip hop beat with soul samples.",
+    "release_decade": 2010,
+    "speechiness": 0.05,
+    "tempo_bpm": 72,
+    "valence": 0.45
+   },
+   {
+    "acousticness": 0.6,
+    "danceability": 0.7,
+    "energy": 0.4,
+    "fits_genre": true,
+    "idx": 11,
+    "instrumentalness": 0.85,
+    "mood": "chill",
+    "mood_tags": [
+     "groovy",
+     "smooth"
+    ],
+    "note": "Groovy lofi beat featuring vintage synth and jazz chops.",
+    "release_decade": 2010,
+    "speechiness": 0.07,
+    "tempo_bpm": 80,
+    "valence": 0.6
+   },
+   {
+    "acousticness": 0.85,
+    "danceability": 0.55,
+    "energy": 0.25,
+    "fits_genre": true,
+    "idx": 12,
+    "instrumentalness": 0.95,
+    "mood": "chill",
+    "mood_tags": [
+     "peaceful",
+     "dreamy"
+    ],
+    "note": "Quiet lofi track with soothing piano and ambient sounds.",
+    "release_decade": 2010,
+    "speechiness": 0.04,
+    "tempo_bpm": 74,
+    "valence": 0.4
+   },
+   {
+    "acousticness": 0.8,
+    "danceability": 0.55,
+    "energy": 0.3,
+    "fits_genre": true,
+    "idx": 13,
+    "instrumentalness": 0.9,
+    "mood": "relaxed",
+    "mood_tags": [
+     "cozy",
+     "peaceful"
+    ],
+    "note": "Mellow lofi hip hop instrumental with organic acoustic instruments.",
+    "release_decade": 2010,
+    "speechiness": 0.05,
+    "tempo_bpm": 76,
+    "valence": 0.45
+   },
+   {
+    "acousticness": 0.9,
+    "danceability": 0.5,
+    "energy": 0.25,
+    "fits_genre": true,
+    "idx": 14,
+    "instrumentalness": 0.95,
+    "mood": "chill",
+    "mood_tags": [
+     "dreamy",
+     "cozy"
+    ],
+    "note": "Soft ambient lofi song with warm piano chords.",
+    "release_decade": 2020,
+    "speechiness": 0.04,
+    "tempo_bpm": 72,
+    "valence": 0.35
+   }
+  ]
+ },
+ "metal|daa9c4bd3a01ad9a": {
+  "songs": [
+   {
+    "acousticness": 0.002,
+    "danceability": 0.57,
+    "energy": 0.83,
+    "fits_genre": true,
+    "idx": 0,
+    "instrumentalness": 0.0,
+    "mood": "intense",
+    "mood_tags": [
+     "aggressive",
+     "confident"
+    ],
+    "note": "Iconic heavy metal track with a memorable riff.",
+    "release_decade": 1990,
+    "speechiness": 0.07,
+    "tempo_bpm": 123,
+    "valence": 0.62
+   },
+   {
+    "acousticness": 0.046,
+    "danceability": 0.55,
+    "energy": 0.39,
+    "fits_genre": true,
+    "idx": 1,
+    "instrumentalness": 0.0,
+    "mood": "sad",
+    "mood_tags": [
+     "melancholic",
+     "dreamy"
+    ],
+    "note": "Classic heavy metal power ballad with acoustic intro.",
+    "release_decade": 1990,
+    "speechiness": 0.03,
+    "tempo_bpm": 142,
+    "valence": 0.16
+   },
+   {
+    "acousticness": 0.001,
+    "danceability": 0.35,
+    "energy": 0.93,
+    "fits_genre": true,
+    "idx": 2,
+    "instrumentalness": 0.001,
+    "mood": "angry",
+    "mood_tags": [
+     "aggressive",
+     "rebellious"
+    ],
+    "note": "Seminal thrash metal anthem with complex song structure.",
+    "release_decade": 1980,
+    "speechiness": 0.11,
+    "tempo_bpm": 212,
+    "valence": 0.58
+   },
+   {
+    "acousticness": 0.001,
+    "danceability": 0.51,
+    "energy": 0.97,
+    "fits_genre": true,
+    "idx": 3,
+    "instrumentalness": 0.0,
+    "mood": "angry",
+    "mood_tags": [
+     "aggressive",
+     "rebellious"
+    ],
+    "note": "Aggressive nu metal track featuring heavy percussion.",
+    "release_decade": 2000,
+    "speechiness": 0.14,
+    "tempo_bpm": 144,
+    "valence": 0.34
+   },
+   {
+    "acousticness": 0.0003,
+    "danceability": 0.44,
+    "energy": 0.98,
+    "fits_genre": true,
+    "idx": 4,
+    "instrumentalness": 0.0,
+    "mood": "angry",
+    "mood_tags": [
+     "aggressive",
+     "rebellious"
+    ],
+    "note": "Classic nu metal track blending melodic hooks and harsh vocals.",
+    "release_decade": 1990,
+    "speechiness": 0.12,
+    "tempo_bpm": 186,
+    "valence": 0.28
+   },
+   {
+    "acousticness": 0.0002,
+    "danceability": 0.47,
+    "energy": 0.97,
+    "fits_genre": true,
+    "idx": 5,
+    "instrumentalness": 0.0,
+    "mood": "energetic",
+    "mood_tags": [
+     "aggressive",
+     "rebellious"
+    ],
+    "note": "High-energy alternative metal anthem with driving guitars.",
+    "release_decade": 2000,
+    "speechiness": 0.09,
+    "tempo_bpm": 127,
+    "valence": 0.41
+   },
+   {
+    "acousticness": 0.0004,
+    "danceability": 0.42,
+    "energy": 0.93,
+    "fits_genre": true,
+    "idx": 6,
+    "instrumentalness": 0.0,
+    "mood": "intense",
+    "mood_tags": [
+     "aggressive",
+     "rebellious"
+    ],
+    "note": "Iconic alternative metal song with dynamic vocal shifts.",
+    "release_decade": 2000,
+    "speechiness": 0.14,
+    "tempo_bpm": 127,
+    "valence": 0.43
+   },
+   {
+    "acousticness": 0.0003,
+    "danceability": 0.44,
+    "energy": 0.92,
+    "fits_genre": true,
+    "idx": 7,
+    "instrumentalness": 0.0,
+    "mood": "intense",
+    "mood_tags": [
+     "aggressive",
+     "rebellious"
+    ],
+    "note": "Hard-hitting alternative metal track with syncopated rhythm.",
+    "release_decade": 2000,
+    "speechiness": 0.08,
+    "tempo_bpm": 117,
+    "valence": 0.44
+   },
+   {
+    "acousticness": 0.08,
+    "danceability": 0.47,
+    "energy": 0.72,
+    "fits_genre": true,
+    "idx": 8,
+    "instrumentalness": 0.0,
+    "mood": "sad",
+    "mood_tags": [
+     "melancholic",
+     "dark"
+    ],
+    "note": "Melancholic alternative metal ballad with soaring guitar solo.",
+    "release_decade": 2000,
+    "speechiness": 0.04,
+    "tempo_bpm": 114,
+    "valence": 0.23
+   },
+   {
+    "acousticness": 0.005,
+    "danceability": 0.44,
+    "energy": 0.9,
+    "fits_genre": true,
+    "idx": 9,
+    "instrumentalness": 0.001,
+    "mood": "energetic",
+    "mood_tags": [
+     "rebellious",
+     "confident"
+    ],
+    "note": "Classic heavy metal song featuring galloping basslines.",
+    "release_decade": 1980,
+    "speechiness": 0.07,
+    "tempo_bpm": 174,
+    "valence": 0.63
+   },
+   {
+    "acousticness": 0.04,
+    "danceability": 0.38,
+    "energy": 0.92,
+    "fits_genre": true,
+    "idx": 10,
+    "instrumentalness": 0.0,
+    "mood": "intense",
+    "mood_tags": [
+     "dark",
+     "aggressive"
+    ],
+    "note": "Iconic heavy metal track with famous spoken intro.",
+    "release_decade": 1980,
+    "speechiness": 0.09,
+    "tempo_bpm": 199,
+    "valence": 0.46
+   },
+   {
+    "acousticness": 0.0001,
+    "danceability": 0.33,
+    "energy": 0.91,
+    "fits_genre": true,
+    "idx": 11,
+    "instrumentalness": 0.001,
+    "mood": "energetic",
+    "mood_tags": [
+     "confident",
+     "rebellious"
+    ],
+    "note": "Legendary heavy metal song with famous twin guitar harmony.",
+    "release_decade": 1980,
+    "speechiness": 0.06,
+    "tempo_bpm": 160,
+    "valence": 0.61
+   }
+  ]
+ },
+ "pop|7400a84ab2086274": {
+  "songs": [
+   {
+    "acousticness": 0.01,
+    "danceability": 0.79,
+    "energy": 0.79,
+    "fits_genre": true,
+    "idx": 0,
+    "instrumentalness": 0.0,
+    "mood": "energetic",
+    "mood_tags": [
+     "groovy",
+     "confident"
+    ],
+    "note": "Upbeat nu-disco and dance-pop track.",
+    "release_decade": 2010,
+    "speechiness": 0.08,
+    "tempo_bpm": 124,
+    "valence": 0.68
+   },
+   {
+    "acousticness": 0.0,
+    "danceability": 0.76,
+    "energy": 0.7,
+    "fits_genre": true,
+    "idx": 1,
+    "instrumentalness": 0.0,
+    "mood": "energetic",
+    "mood_tags": [
+     "confident",
+     "playful"
+    ],
+    "note": "Tropical house infused dance-pop anthem.",
+    "release_decade": 2010,
+    "speechiness": 0.07,
+    "tempo_bpm": 116,
+    "valence": 0.61
+   },
+   {
+    "acousticness": 0.02,
+    "danceability": 0.7,
+    "energy": 0.83,
+    "fits_genre": true,
+    "idx": 2,
+    "instrumentalness": 0.0,
+    "mood": "happy",
+    "mood_tags": [
+     "party",
+     "groovy"
+    ],
+    "note": "Groovy disco-pop single with danceable rhythms.",
+    "release_decade": 2020,
+    "speechiness": 0.06,
+    "tempo_bpm": 103,
+    "valence": 0.91
+   },
+   {
+    "acousticness": 0.1,
+    "danceability": 0.75,
+    "energy": 0.68,
+    "fits_genre": true,
+    "idx": 3,
+    "instrumentalness": 0.0,
+    "mood": "energetic",
+    "mood_tags": [
+     "playful",
+     "confident"
+    ],
+    "note": "Slick electropop hit with minimal synth production.",
+    "release_decade": 2010,
+    "speechiness": 0.05,
+    "tempo_bpm": 96,
+    "valence": 0.57
+   },
+   {
+    "acousticness": 0.12,
+    "danceability": 0.55,
+    "energy": 0.7,
+    "fits_genre": true,
+    "idx": 4,
+    "instrumentalness": 0.0,
+    "mood": "energetic",
+    "mood_tags": [
+     "euphoric",
+     "nostalgic"
+    ],
+    "note": "Vibrant synth-pop track with dramatic vocals.",
+    "release_decade": 2010,
+    "speechiness": 0.16,
+    "tempo_bpm": 170,
+    "valence": 0.53
+   },
+   {
+    "acousticness": 0.06,
+    "danceability": 0.65,
+    "energy": 0.8,
+    "fits_genre": true,
+    "idx": 5,
+    "instrumentalness": 0.0,
+    "mood": "happy",
+    "mood_tags": [
+     "playful",
+     "uplifting"
+    ],
+    "note": "Upbeat brass-heavy dance-pop anthem.",
+    "release_decade": 2010,
+    "speechiness": 0.11,
+    "tempo_bpm": 160,
+    "valence": 0.94
+   },
+   {
+    "acousticness": 0.14,
+    "danceability": 0.68,
+    "energy": 0.59,
+    "fits_genre": true,
+    "idx": 6,
+    "instrumentalness": 0.0,
+    "mood": "intense",
+    "mood_tags": [
+     "confident",
+     "dark"
+    ],
+    "note": "Sleek electropop and R&B pop track.",
+    "release_decade": 2010,
+    "speechiness": 0.07,
+    "tempo_bpm": 186,
+    "valence": 0.49
+   },
+   {
+    "acousticness": 0.0,
+    "danceability": 0.51,
+    "energy": 0.73,
+    "fits_genre": true,
+    "idx": 7,
+    "instrumentalness": 0.0,
+    "mood": "energetic",
+    "mood_tags": [
+     "euphoric",
+     "nostalgic"
+    ],
+    "note": "Pulsing 80s synth-pop track.",
+    "release_decade": 2010,
+    "speechiness": 0.06,
+    "tempo_bpm": 171,
+    "valence": 0.33
+   },
+   {
+    "acousticness": 0.14,
+    "danceability": 0.58,
+    "energy": 0.56,
+    "fits_genre": false,
+    "idx": 8,
+    "instrumentalness": 0.0,
+    "mood": "moody",
+    "mood_tags": [
+     "dark",
+     "melancholic"
+    ],
+    "note": "Dark alternative R&B and trap song.",
+    "release_decade": 2010,
+    "speechiness": 0.06,
+    "tempo_bpm": 113,
+    "valence": 0.14
+   },
+   {
+    "acousticness": 0.34,
+    "danceability": 0.52,
+    "energy": 0.73,
+    "fits_genre": true,
+    "idx": 9,
+    "instrumentalness": 0.0,
+    "mood": "happy",
+    "mood_tags": [
+     "groovy",
+     "nostalgic"
+    ],
+    "note": "Fast-paced indie pop and synth-pop hit.",
+    "release_decade": 2020,
+    "speechiness": 0.06,
+    "tempo_bpm": 174,
+    "valence": 0.66
+   },
+   {
+    "acousticness": 0.03,
+    "danceability": 0.35,
+    "energy": 0.61,
+    "fits_genre": false,
+    "idx": 10,
+    "instrumentalness": 0.0,
+    "mood": "intense",
+    "mood_tags": [
+     "melancholic",
+     "hopeful"
+    ],
+    "note": "70s style soft rock and glam rock ballad.",
+    "release_decade": 2010,
+    "speechiness": 0.03,
+    "tempo_bpm": 120,
+    "valence": 0.21
+   },
+   {
+    "acousticness": 0.12,
+    "danceability": 0.55,
+    "energy": 0.82,
+    "fits_genre": true,
+    "idx": 11,
+    "instrumentalness": 0.0,
+    "mood": "happy",
+    "mood_tags": [
+     "playful",
+     "groovy"
+    ],
+    "note": "Funky pop-rock summer single.",
+    "release_decade": 2010,
+    "speechiness": 0.05,
+    "tempo_bpm": 95,
+    "valence": 0.56
+   },
+   {
+    "acousticness": 0.11,
+    "danceability": 0.7,
+    "energy": 0.76,
+    "fits_genre": true,
+    "idx": 12,
+    "instrumentalness": 0.0,
+    "mood": "happy",
+    "mood_tags": [
+     "playful",
+     "groovy"
+    ],
+    "note": "Catchy nu-disco pop track.",
+    "release_decade": 2020,
+    "speechiness": 0.03,
+    "tempo_bpm": 104,
+    "valence": 0.69
+   },
+   {
+    "acousticness": 0.28,
+    "danceability": 0.7,
+    "energy": 0.62,
+    "fits_genre": true,
+    "idx": 13,
+    "instrumentalness": 0.0,
+    "mood": "relaxed",
+    "mood_tags": [
+     "playful",
+     "smooth"
+    ],
+    "note": "Retro country-pop synth track.",
+    "release_decade": 2020,
+    "speechiness": 0.05,
+    "tempo_bpm": 107,
+    "valence": 0.69
+   },
+   {
+    "acousticness": 0.04,
+    "danceability": 0.68,
+    "energy": 0.84,
+    "fits_genre": true,
+    "idx": 14,
+    "instrumentalness": 0.0,
+    "mood": "energetic",
+    "mood_tags": [
+     "playful",
+     "confident"
+    ],
+    "note": "Guitar-driven pop-rock song.",
+    "release_decade": 2020,
+    "speechiness": 0.07,
+    "tempo_bpm": 112,
+    "valence": 0.82
+   }
+  ]
+ },
+ "r&b|914b4b049841d91a": {
+  "songs": [
+   {
+    "acousticness": 0.05,
+    "danceability": 0.54,
+    "energy": 0.55,
+    "fits_genre": true,
+    "idx": 0,
+    "instrumentalness": 0.0,
+    "mood": "moody",
+    "mood_tags": [
+     "groovy",
+     "smooth"
+    ],
+    "note": "Fits contemporary R&B with pop elements.",
+    "release_decade": 2020,
+    "speechiness": 0.07,
+    "tempo_bpm": 89,
+    "valence": 0.42
+   },
+   {
+    "acousticness": 0.14,
+    "danceability": 0.56,
+    "energy": 0.55,
+    "fits_genre": true,
+    "idx": 1,
+    "instrumentalness": 0.0,
+    "mood": "romantic",
+    "mood_tags": [
+     "romantic",
+     "smooth"
+    ],
+    "note": "Fits contemporary R&B style perfectly.",
+    "release_decade": 2020,
+    "speechiness": 0.06,
+    "tempo_bpm": 143,
+    "valence": 0.39
+   },
+   {
+    "acousticness": 0.5,
+    "danceability": 0.44,
+    "energy": 0.52,
+    "fits_genre": true,
+    "idx": 2,
+    "instrumentalness": 0.0,
+    "mood": "chill",
+    "mood_tags": [
+     "dreamy",
+     "peaceful"
+    ],
+    "note": "Fits alternative R&B with neo-soul elements.",
+    "release_decade": 2020,
+    "speechiness": 0.06,
+    "tempo_bpm": 121,
+    "valence": 0.41
+   },
+   {
+    "acousticness": 0.67,
+    "danceability": 0.54,
+    "energy": 0.54,
+    "fits_genre": true,
+    "idx": 3,
+    "instrumentalness": 0.0,
+    "mood": "relaxed",
+    "mood_tags": [
+     "smooth",
+     "nostalgic"
+    ],
+    "note": "Fits alternative R&B and neo-soul.",
+    "release_decade": 2010,
+    "speechiness": 0.1,
+    "tempo_bpm": 160,
+    "valence": 0.55
+   },
+   {
+    "acousticness": 0.4,
+    "danceability": 0.7,
+    "energy": 0.35,
+    "fits_genre": true,
+    "idx": 4,
+    "instrumentalness": 0.0,
+    "mood": "moody",
+    "mood_tags": [
+     "melancholic",
+     "smooth"
+    ],
+    "note": "Classic modern alternative R&B ballad.",
+    "release_decade": 2010,
+    "speechiness": 0.09,
+    "tempo_bpm": 94,
+    "valence": 0.2
+   },
+   {
+    "acousticness": 0.03,
+    "danceability": 0.91,
+    "energy": 0.6,
+    "fits_genre": true,
+    "idx": 5,
+    "instrumentalness": 0.0,
+    "mood": "energetic",
+    "mood_tags": [
+     "groovy",
+     "playful"
+    ],
+    "note": "Upbeat alternative R&B with pop soul vibes.",
+    "release_decade": 2010,
+    "speechiness": 0.23,
+    "tempo_bpm": 123,
+    "valence": 0.49
+   },
+   {
+    "acousticness": 0.42,
+    "danceability": 0.66,
+    "energy": 0.36,
+    "fits_genre": true,
+    "idx": 6,
+    "instrumentalness": 0.0,
+    "mood": "romantic",
+    "mood_tags": [
+     "romantic",
+     "smooth"
+    ],
+    "note": "Soulful, sensual alternative R&B duet.",
+    "release_decade": 2010,
+    "speechiness": 0.04,
+    "tempo_bpm": 146,
+    "valence": 0.35
+   },
+   {
+    "acousticness": 0.8,
+    "danceability": 0.47,
+    "energy": 0.3,
+    "fits_genre": true,
+    "idx": 7,
+    "instrumentalness": 0.0,
+    "mood": "romantic",
+    "mood_tags": [
+     "romantic",
+     "cozy"
+    ],
+    "note": "Beautiful acoustic R&B duet.",
+    "release_decade": 2010,
+    "speechiness": 0.03,
+    "tempo_bpm": 75,
+    "valence": 0.43
+   },
+   {
+    "acousticness": 0.46,
+    "danceability": 0.5,
+    "energy": 0.37,
+    "fits_genre": true,
+    "idx": 8,
+    "instrumentalness": 0.0,
+    "mood": "romantic",
+    "mood_tags": [
+     "smooth",
+     "romantic"
+    ],
+    "note": "Slow-burning, soulful neo-soul R&B ballad.",
+    "release_decade": 2010,
+    "speechiness": 0.04,
+    "tempo_bpm": 130,
+    "valence": 0.32
+   },
+   {
+    "acousticness": 0.7,
+    "danceability": 0.58,
+    "energy": 0.42,
+    "fits_genre": true,
+    "idx": 9,
+    "instrumentalness": 0.0,
+    "mood": "moody",
+    "mood_tags": [
+     "melancholic",
+     "dark"
+    ],
+    "note": "Atmospheric alternative R&B interlude song.",
+    "release_decade": 2020,
+    "speechiness": 0.12,
+    "tempo_bpm": 120,
+    "valence": 0.18
+   },
+   {
+    "acousticness": 0.15,
+    "danceability": 0.78,
+    "energy": 0.7,
+    "fits_genre": true,
+    "idx": 10,
+    "instrumentalness": 0.0,
+    "mood": "energetic",
+    "mood_tags": [
+     "groovy",
+     "confident"
+    ],
+    "note": "Upbeat contemporary R&B track sampling classic soul style.",
+    "release_decade": 2020,
+    "speechiness": 0.08,
+    "tempo_bpm": 105,
+    "valence": 0.75
+   },
+   {
+    "acousticness": 0.25,
+    "danceability": 0.65,
+    "energy": 0.48,
+    "fits_genre": true,
+    "idx": 11,
+    "instrumentalness": 0.0,
+    "mood": "romantic",
+    "mood_tags": [
+     "smooth",
+     "romantic"
+    ],
+    "note": "Smooth alternative R&B love song.",
+    "release_decade": 2020,
+    "speechiness": 0.05,
+    "tempo_bpm": 136,
+    "valence": 0.52
+   },
+   {
+    "acousticness": 0.35,
+    "danceability": 0.55,
+    "energy": 0.4,
+    "fits_genre": true,
+    "idx": 12,
+    "instrumentalness": 0.0,
+    "mood": "moody",
+    "mood_tags": [
+     "melancholic",
+     "smooth"
+    ],
+    "note": "Slow contemporary trap R&B duet.",
+    "release_decade": 2010,
+    "speechiness": 0.09,
+    "tempo_bpm": 110,
+    "valence": 0.25
+   },
+   {
+    "acousticness": 0.65,
+    "danceability": 0.63,
+    "energy": 0.32,
+    "fits_genre": true,
+    "idx": 13,
+    "instrumentalness": 0.0,
+    "mood": "romantic",
+    "mood_tags": [
+     "smooth",
+     "romantic"
+    ],
+    "note": "Smooth contemporary R&B ballad.",
+    "release_decade": 2010,
+    "speechiness": 0.04,
+    "tempo_bpm": 138,
+    "valence": 0.36
+   },
+   {
+    "acousticness": 0.72,
+    "danceability": 0.6,
+    "energy": 0.38,
+    "fits_genre": true,
+    "idx": 14,
+    "instrumentalness": 0.0,
+    "mood": "romantic",
+    "mood_tags": [
+     "romantic",
+     "cozy"
+    ],
+    "note": "Warm, romantic acoustic R&B song.",
+    "release_decade": 2010,
+    "speechiness": 0.05,
+    "tempo_bpm": 120,
+    "valence": 0.48
+   }
+  ]
+ },
+ "reggaeton|1bd55d68a3eaef5e": {
+  "songs": [
+   {
+    "acousticness": 0.15,
+    "danceability": 0.82,
+    "energy": 0.78,
+    "fits_genre": true,
+    "idx": 0,
+    "instrumentalness": 0.0,
+    "mood": "energetic",
+    "mood_tags": [
+     "party",
+     "confident"
+    ],
+    "note": "Classic Bad Bunny reggaeton track with melodic elements.",
+    "release_decade": 2020,
+    "speechiness": 0.22,
+    "tempo_bpm": 92,
+    "valence": 0.65
+   },
+   {
+    "acousticness": 0.05,
+    "danceability": 0.88,
+    "energy": 0.85,
+    "fits_genre": true,
+    "idx": 1,
+    "instrumentalness": 0.0,
+    "mood": "energetic",
+    "mood_tags": [
+     "party",
+     "groovy"
+    ],
+    "note": "Heavy dembow influence typical of modern reggaeton.",
+    "release_decade": 2020,
+    "speechiness": 0.25,
+    "tempo_bpm": 96,
+    "valence": 0.7
+   },
+   {
+    "acousticness": 0.1,
+    "danceability": 0.85,
+    "energy": 0.82,
+    "fits_genre": true,
+    "idx": 2,
+    "instrumentalness": 0.0,
+    "mood": "energetic",
+    "mood_tags": [
+     "party",
+     "confident"
+    ],
+    "note": "Iconic reggaeton anthem with strong dembow rhythm.",
+    "release_decade": 2020,
+    "speechiness": 0.28,
+    "tempo_bpm": 107,
+    "valence": 0.68
+   },
+   {
+    "acousticness": 0.3,
+    "danceability": 0.65,
+    "energy": 0.55,
+    "fits_genre": true,
+    "idx": 3,
+    "instrumentalness": 0.0,
+    "mood": "moody",
+    "mood_tags": [
+     "melancholic",
+     "romantic"
+    ],
+    "note": "A slower, melodic reggaeton track with R&B influences.",
+    "release_decade": 2010,
+    "speechiness": 0.15,
+    "tempo_bpm": 85,
+    "valence": 0.4
+   },
+   {
+    "acousticness": 0.02,
+    "danceability": 0.9,
+    "energy": 0.88,
+    "fits_genre": true,
+    "idx": 4,
+    "instrumentalness": 0.0,
+    "mood": "energetic",
+    "mood_tags": [
+     "party",
+     "groovy"
+    ],
+    "note": "Global reggaeton hit with a very danceable beat.",
+    "release_decade": 2010,
+    "speechiness": 0.18,
+    "tempo_bpm": 105,
+    "valence": 0.75
+   },
+   {
+    "acousticness": 0.1,
+    "danceability": 0.8,
+    "energy": 0.75,
+    "fits_genre": true,
+    "idx": 5,
+    "instrumentalness": 0.0,
+    "mood": "energetic",
+    "mood_tags": [
+     "party",
+     "confident"
+    ],
+    "note": "Standard J Balvin reggaeton sound, estimated from artist style.",
+    "release_decade": 2010,
+    "speechiness": 0.2,
+    "tempo_bpm": 95,
+    "valence": 0.6
+   },
+   {
+    "acousticness": 0.05,
+    "danceability": 0.95,
+    "energy": 0.92,
+    "fits_genre": true,
+    "idx": 6,
+    "instrumentalness": 0.0,
+    "mood": "energetic",
+    "mood_tags": [
+     "party",
+     "confident"
+    ],
+    "note": "The definitive reggaeton track that popularized the genre.",
+    "release_decade": 2000,
+    "speechiness": 0.25,
+    "tempo_bpm": 97,
+    "valence": 0.8
+   },
+   {
+    "acousticness": 0.08,
+    "danceability": 0.9,
+    "energy": 0.85,
+    "fits_genre": true,
+    "idx": 7,
+    "instrumentalness": 0.0,
+    "mood": "energetic",
+    "mood_tags": [
+     "party",
+     "groovy"
+    ],
+    "note": "Modern reggaeton dance track, estimated from artist style.",
+    "release_decade": 2010,
+    "speechiness": 0.15,
+    "tempo_bpm": 94,
+    "valence": 0.75
+   },
+   {
+    "acousticness": 0.05,
+    "danceability": 0.88,
+    "energy": 0.9,
+    "fits_genre": true,
+    "idx": 8,
+    "instrumentalness": 0.0,
+    "mood": "energetic",
+    "mood_tags": [
+     "party",
+     "aggressive"
+    ],
+    "note": "Classic high-energy reggaeton track.",
+    "release_decade": 2000,
+    "speechiness": 0.3,
+    "tempo_bpm": 98,
+    "valence": 0.7
+   },
+   {
+    "acousticness": 0.1,
+    "danceability": 0.92,
+    "energy": 0.88,
+    "fits_genre": false,
+    "idx": 9,
+    "instrumentalness": 0.0,
+    "mood": "energetic",
+    "mood_tags": [
+     "party",
+     "playful"
+    ],
+    "note": "This is primarily a merengue track.",
+    "release_decade": 2020,
+    "speechiness": 0.15,
+    "tempo_bpm": 125,
+    "valence": 0.85
+   },
+   {
+    "acousticness": 0.15,
+    "danceability": 0.85,
+    "energy": 0.75,
+    "fits_genre": true,
+    "idx": 10,
+    "instrumentalness": 0.0,
+    "mood": "energetic",
+    "mood_tags": [
+     "party",
+     "confident"
+    ],
+    "note": "Pop-reggaeton fusion hit.",
+    "release_decade": 2010,
+    "speechiness": 0.18,
+    "tempo_bpm": 96,
+    "valence": 0.65
+   },
+   {
+    "acousticness": 0.2,
+    "danceability": 0.8,
+    "energy": 0.65,
+    "fits_genre": true,
+    "idx": 11,
+    "instrumentalness": 0.0,
+    "mood": "chill",
+    "mood_tags": [
+     "smooth",
+     "dreamy"
+    ],
+    "note": "Chill, summer-vibe reggaeton track.",
+    "release_decade": 2020,
+    "speechiness": 0.12,
+    "tempo_bpm": 92,
+    "valence": 0.7
+   },
+   {
+    "acousticness": 0.25,
+    "danceability": 0.75,
+    "energy": 0.6,
+    "fits_genre": true,
+    "idx": 12,
+    "instrumentalness": 0.0,
+    "mood": "chill",
+    "mood_tags": [
+     "smooth",
+     "romantic"
+    ],
+    "note": "Melodic reggaeton track.",
+    "release_decade": 2020,
+    "speechiness": 0.1,
+    "tempo_bpm": 90,
+    "valence": 0.55
+   },
+   {
+    "acousticness": 0.05,
+    "danceability": 0.8,
+    "energy": 0.85,
+    "fits_genre": false,
+    "idx": 13,
+    "instrumentalness": 0.0,
+    "mood": "energetic",
+    "mood_tags": [
+     "uplifting",
+     "playful"
+    ],
+    "note": "This is a synth-pop track.",
+    "release_decade": 2020,
+    "speechiness": 0.08,
+    "tempo_bpm": 120,
+    "valence": 0.9
+   },
+   {
+    "acousticness": 0.05,
+    "danceability": 0.85,
+    "energy": 0.88,
+    "fits_genre": true,
+    "idx": 14,
+    "instrumentalness": 0.0,
+    "mood": "energetic",
+    "mood_tags": [
+     "party",
+     "confident"
+    ],
+    "note": "High-energy reggaeton track, estimated from artist style.",
+    "release_decade": 2020,
+    "speechiness": 0.2,
+    "tempo_bpm": 95,
+    "valence": 0.7
+   }
+  ]
+ },
+ "rock|d764b7731e1ea203": {
+  "songs": [
+   {
+    "acousticness": 0.01,
+    "danceability": 0.52,
+    "energy": 0.72,
+    "fits_genre": true,
+    "idx": 0,
+    "instrumentalness": 0.01,
+    "mood": "moody",
+    "mood_tags": [
+     "melancholic",
+     "nostalgic"
+    ],
+    "note": "Iconic indie rock track with a dramatic emotional buildup.",
+    "release_decade": 2000,
+    "speechiness": 0.05,
+    "tempo_bpm": 140,
+    "valence": 0.23
+   },
+   {
+    "acousticness": 0.19,
+    "danceability": 0.55,
+    "energy": 0.53,
+    "fits_genre": true,
+    "idx": 1,
+    "instrumentalness": 0.0,
+    "mood": "moody",
+    "mood_tags": [
+     "dark",
+     "groovy"
+    ],
+    "note": "Heavy stomping indie rock riff driven track.",
+    "release_decade": 2010,
+    "speechiness": 0.04,
+    "tempo_bpm": 85,
+    "valence": 0.41
+   },
+   {
+    "acousticness": 0.05,
+    "danceability": 0.69,
+    "energy": 0.63,
+    "fits_genre": true,
+    "idx": 2,
+    "instrumentalness": 0.0,
+    "mood": "moody",
+    "mood_tags": [
+     "groovy",
+     "dark"
+    ],
+    "note": "Groovy R&B-infused indie rock track.",
+    "release_decade": 2010,
+    "speechiness": 0.07,
+    "tempo_bpm": 92,
+    "valence": 0.73
+   },
+   {
+    "acousticness": 0.0,
+    "danceability": 0.41,
+    "energy": 0.88,
+    "fits_genre": true,
+    "idx": 3,
+    "instrumentalness": 0.0,
+    "mood": "intense",
+    "mood_tags": [
+     "rebellious",
+     "nostalgic"
+    ],
+    "note": "Quintessential 90s alternative rock anthem with driving energy.",
+    "release_decade": 1990,
+    "speechiness": 0.04,
+    "tempo_bpm": 158,
+    "valence": 0.41
+   },
+   {
+    "acousticness": 0.0,
+    "danceability": 0.43,
+    "energy": 0.96,
+    "fits_genre": true,
+    "idx": 4,
+    "instrumentalness": 0.0,
+    "mood": "intense",
+    "mood_tags": [
+     "aggressive",
+     "rebellious"
+    ],
+    "note": "High-energy hard rock anthem with powerful riffs.",
+    "release_decade": 2000,
+    "speechiness": 0.08,
+    "tempo_bpm": 173,
+    "valence": 0.37
+   },
+   {
+    "acousticness": 0.0,
+    "danceability": 0.46,
+    "energy": 0.89,
+    "fits_genre": true,
+    "idx": 5,
+    "instrumentalness": 0.0,
+    "mood": "energetic",
+    "mood_tags": [
+     "uplifting",
+     "rebellious"
+    ],
+    "note": "Powerful alternative rock hit with driving drums.",
+    "release_decade": 1990,
+    "speechiness": 0.06,
+    "tempo_bpm": 77,
+    "valence": 0.45
+   },
+   {
+    "acousticness": 0.0,
+    "danceability": 0.59,
+    "energy": 0.77,
+    "fits_genre": true,
+    "idx": 6,
+    "instrumentalness": 0.0,
+    "mood": "chill",
+    "mood_tags": [
+     "melancholic",
+     "nostalgic"
+    ],
+    "note": "Melodic alternative rock song with reflective themes.",
+    "release_decade": 1990,
+    "speechiness": 0.03,
+    "tempo_bpm": 96,
+    "valence": 0.32
+   },
+   {
+    "acousticness": 0.08,
+    "danceability": 0.59,
+    "energy": 0.59,
+    "fits_genre": true,
+    "idx": 7,
+    "instrumentalness": 0.0,
+    "mood": "chill",
+    "mood_tags": [
+     "melancholic",
+     "peaceful"
+    ],
+    "note": "Laid-back funk rock with brilliant slide guitar solos.",
+    "release_decade": 1990,
+    "speechiness": 0.03,
+    "tempo_bpm": 89,
+    "valence": 0.56
+   },
+   {
+    "acousticness": 0.06,
+    "danceability": 0.55,
+    "energy": 0.44,
+    "fits_genre": true,
+    "idx": 8,
+    "instrumentalness": 0.0,
+    "mood": "sad",
+    "mood_tags": [
+     "melancholic",
+     "heartbroken"
+    ],
+    "note": "Classic alternative rock ballad with an uplifting gospel outro.",
+    "release_decade": 1990,
+    "speechiness": 0.05,
+    "tempo_bpm": 84,
+    "valence": 0.46
+   },
+   {
+    "acousticness": 0.29,
+    "danceability": 0.41,
+    "energy": 0.4,
+    "fits_genre": true,
+    "idx": 9,
+    "instrumentalness": 0.0,
+    "mood": "intense",
+    "mood_tags": [
+     "dark",
+     "euphoric"
+    ],
+    "note": "Operatic rock masterpiece blending classic rock and progressive elements.",
+    "release_decade": 1970,
+    "speechiness": 0.05,
+    "tempo_bpm": 72,
+    "valence": 0.22
+   },
+   {
+    "acousticness": 0.05,
+    "danceability": 0.56,
+    "energy": 0.87,
+    "fits_genre": true,
+    "idx": 10,
+    "instrumentalness": 0.0,
+    "mood": "happy",
+    "mood_tags": [
+     "euphoric",
+     "uplifting"
+    ],
+    "note": "Upbeat pop-rock anthem packed with exuberant piano and guitar.",
+    "release_decade": 1970,
+    "speechiness": 0.17,
+    "tempo_bpm": 156,
+    "valence": 0.61
+   },
+   {
+    "acousticness": 0.15,
+    "danceability": 0.81,
+    "energy": 0.53,
+    "fits_genre": true,
+    "idx": 11,
+    "instrumentalness": 0.28,
+    "mood": "energetic",
+    "mood_tags": [
+     "groovy",
+     "confident"
+    ],
+    "note": "Iconic bass-driven funk rock and disco-influenced track.",
+    "release_decade": 1980,
+    "speechiness": 0.16,
+    "tempo_bpm": 110,
+    "valence": 0.75
+   }
+  ]
+ },
+ "synthwave|8c2fc3a7f701111a": {
+  "songs": [
+   {
+    "acousticness": 0.05,
+    "danceability": 0.65,
+    "energy": 0.75,
+    "fits_genre": true,
+    "idx": 0,
+    "instrumentalness": 0.05,
+    "mood": "energetic",
+    "mood_tags": [
+     "nostalgic",
+     "euphoric"
+    ],
+    "note": "Quintessential modern synthwave track with nostalgic vocal melodies.",
+    "release_decade": 2010,
+    "speechiness": 0.04,
+    "tempo_bpm": 110,
+    "valence": 0.6
+   },
+   {
+    "acousticness": 0.03,
+    "danceability": 0.65,
+    "energy": 0.8,
+    "fits_genre": true,
+    "idx": 1,
+    "instrumentalness": 0.02,
+    "mood": "energetic",
+    "mood_tags": [
+     "nostalgic",
+     "uplifting"
+    ],
+    "note": "Iconic synthwave anthem featuring driving beats and saxophone.",
+    "release_decade": 2010,
+    "speechiness": 0.05,
+    "tempo_bpm": 120,
+    "valence": 0.7
+   },
+   {
+    "acousticness": 0.04,
+    "danceability": 0.6,
+    "energy": 0.78,
+    "fits_genre": true,
+    "idx": 2,
+    "instrumentalness": 0.45,
+    "mood": "intense",
+    "mood_tags": [
+     "nostalgic",
+     "dark"
+    ],
+    "note": "Synthwave track blending 80s synth-pop with prominent saxophone solos.",
+    "release_decade": 2010,
+    "speechiness": 0.04,
+    "tempo_bpm": 115,
+    "valence": 0.5
+   },
+   {
+    "acousticness": 0.05,
+    "danceability": 0.68,
+    "energy": 0.7,
+    "fits_genre": true,
+    "idx": 3,
+    "instrumentalness": 0.01,
+    "mood": "romantic",
+    "mood_tags": [
+     "nostalgic",
+     "dreamy"
+    ],
+    "note": "Defining vocal synthwave track with rich 80s nostalgia.",
+    "release_decade": 2010,
+    "speechiness": 0.04,
+    "tempo_bpm": 104,
+    "valence": 0.65
+   },
+   {
+    "acousticness": 0.02,
+    "danceability": 0.65,
+    "energy": 0.75,
+    "fits_genre": true,
+    "idx": 4,
+    "instrumentalness": 0.85,
+    "mood": "happy",
+    "mood_tags": [
+     "nostalgic",
+     "uplifting"
+    ],
+    "note": "Uplifting instrumental synthwave track with strong retro production.",
+    "release_decade": 2010,
+    "speechiness": 0.04,
+    "tempo_bpm": 116,
+    "valence": 0.8
+   },
+   {
+    "acousticness": 0.06,
+    "danceability": 0.62,
+    "energy": 0.65,
+    "fits_genre": true,
+    "idx": 5,
+    "instrumentalness": 0.05,
+    "mood": "romantic",
+    "mood_tags": [
+     "nostalgic",
+     "dreamy"
+    ],
+    "note": "Emotional vocal synthwave track evoking 1980s cinematic pop.",
+    "release_decade": 2010,
+    "speechiness": 0.03,
+    "tempo_bpm": 108,
+    "valence": 0.6
+   },
+   {
+    "acousticness": 0.01,
+    "danceability": 0.75,
+    "energy": 0.6,
+    "fits_genre": true,
+    "idx": 6,
+    "instrumentalness": 0.2,
+    "mood": "moody",
+    "mood_tags": [
+     "dark",
+     "nostalgic"
+    ],
+    "note": "Iconic dark synthwave classic famous from Drive soundtrack.",
+    "release_decade": 2010,
+    "speechiness": 0.05,
+    "tempo_bpm": 118,
+    "valence": 0.35
+   },
+   {
+    "acousticness": 0.02,
+    "danceability": 0.7,
+    "energy": 0.82,
+    "fits_genre": true,
+    "idx": 7,
+    "instrumentalness": 0.3,
+    "mood": "intense",
+    "mood_tags": [
+     "dark",
+     "confident"
+    ],
+    "note": "Gritty electro-synthwave track with heavy basslines.",
+    "release_decade": 2010,
+    "speechiness": 0.06,
+    "tempo_bpm": 115,
+    "valence": 0.45
+   },
+   {
+    "acousticness": 0.01,
+    "danceability": 0.58,
+    "energy": 0.88,
+    "fits_genre": true,
+    "idx": 8,
+    "instrumentalness": 0.85,
+    "mood": "intense",
+    "mood_tags": [
+     "dark",
+     "aggressive"
+    ],
+    "note": "High-octane cinematic synthwave track inspired by 80s action.",
+    "release_decade": 2010,
+    "speechiness": 0.07,
+    "tempo_bpm": 125,
+    "valence": 0.35
+   },
+   {
+    "acousticness": 0.03,
+    "danceability": 0.6,
+    "energy": 0.72,
+    "fits_genre": true,
+    "idx": 9,
+    "instrumentalness": 0.02,
+    "mood": "moody",
+    "mood_tags": [
+     "nostalgic",
+     "dark"
+    ],
+    "note": "Classic vocal synthwave track featuring sci-fi aesthetic and synths.",
+    "release_decade": 2010,
+    "speechiness": 0.04,
+    "tempo_bpm": 100,
+    "valence": 0.4
+   },
+   {
+    "acousticness": 0.02,
+    "danceability": 0.62,
+    "energy": 0.85,
+    "fits_genre": true,
+    "idx": 10,
+    "instrumentalness": 0.05,
+    "mood": "intense",
+    "mood_tags": [
+     "dark",
+     "confident"
+    ],
+    "note": "Dynamic synthwave song with atmospheric production and driving beats.",
+    "release_decade": 2010,
+    "speechiness": 0.05,
+    "tempo_bpm": 124,
+    "valence": 0.45
+   },
+   {
+    "acousticness": 0.08,
+    "danceability": 0.55,
+    "energy": 0.6,
+    "fits_genre": true,
+    "idx": 11,
+    "instrumentalness": 0.1,
+    "mood": "chill",
+    "mood_tags": [
+     "dreamy",
+     "nostalgic"
+    ],
+    "note": "Melodic synthwave track blending ambient textures with retro pop.",
+    "release_decade": 2010,
+    "speechiness": 0.04,
+    "tempo_bpm": 95,
+    "valence": 0.5
+   },
+   {
+    "acousticness": 0.05,
+    "danceability": 0.6,
+    "energy": 0.65,
+    "fits_genre": true,
+    "idx": 12,
+    "instrumentalness": 0.9,
+    "mood": "chill",
+    "mood_tags": [
+     "dreamy",
+     "nostalgic"
+    ],
+    "note": "Smooth instrumental synthwave track with signature nostalgic pads.",
+    "release_decade": 2010,
+    "speechiness": 0.03,
+    "tempo_bpm": 105,
+    "valence": 0.55
+   },
+   {
+    "acousticness": 0.08,
+    "danceability": 0.62,
+    "energy": 0.58,
+    "fits_genre": true,
+    "idx": 13,
+    "instrumentalness": 0.05,
+    "mood": "romantic",
+    "mood_tags": [
+     "dreamy",
+     "romantic"
+    ],
+    "note": "Dreamy vocal synthwave track standard for the subgenre.",
+    "release_decade": 2010,
+    "speechiness": 0.04,
+    "tempo_bpm": 100,
+    "valence": 0.5
+   },
+   {
+    "acousticness": 0.1,
+    "danceability": 0.58,
+    "energy": 0.55,
+    "fits_genre": true,
+    "idx": 14,
+    "instrumentalness": 0.02,
+    "mood": "sad",
+    "mood_tags": [
+     "melancholic",
+     "nostalgic"
+    ],
+    "note": "Melancholic vocal synthwave track focused on retro romance.",
+    "release_decade": 2010,
+    "speechiness": 0.04,
+    "tempo_bpm": 98,
+    "valence": 0.35
+   }
+  ]
+ }
+}
