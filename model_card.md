@@ -78,7 +78,10 @@ Full details: [`evaluation/README.md`](evaluation/README.md).
   The DJ tone rules made a clear, measurable difference. The few-shot examples did not (see section 8).
 - **Consistency:** the same request 3 times. Specific requests gave identical playlists; the vague "summer road trip"
   kept 3 of 5 songs. Average overlap **0.87**.
-- **Human review:** [`evaluation/human_review.md`](evaluation/human_review.md), 8 playlists rated by a person.
+- **Human review:** I rated 8 of the playlists myself ([`evaluation/human_review.md`](evaluation/human_review.md)):
+  **average 4.25 / 5**. Three got a 5 (the owambe, *I dey feel somehow* and dinner-date playlists). The lowest was
+  *"songs like Tems"* at **3 / 5**: good songs, but they don't really sound like Tems. The automated test had
+  *passed* that case, because it only checks that Tems is included and the genres match.
 
 ---
 
@@ -132,6 +135,9 @@ Full details: [`evaluation/README.md`](evaluation/README.md).
   ("No Love (with SZA)"). The agent's trace showed me the false alarm.
 - **Speed was a setting, not a hardware problem.** Lowering Gemini's thinking level made calls 4x faster with the
   same test results.
+- **My own ears disagreed with the automated tests.** *"Songs like Tems"* passed every automated check, but when I
+  rated it myself I gave it 3 / 5: the songs were from the right scene, but they didn't *sound* like her. Checks
+  like "is the artist included" and "are the genres right" can't measure that, which is why human review matters.
 - **Even my test checker had bugs.** It counted "bitter*sweet*" and "*body* of work" as Pidgin words.
 
 ## 9. Describe your collaboration with AI during this project

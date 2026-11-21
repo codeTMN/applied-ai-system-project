@@ -325,6 +325,9 @@ $ python eval.py --table      # comparison of the saved runs (agent row re-run a
 - The confidence score can't tell when a request was *misread*: without retrieval it was actually *higher* (0.89),
   because songs fit the wrong profile well.
 - Vague requests ("summer road trip") vary run to run: 3 of 5 songs stayed the same.
+- **My own review caught what the tests missed.** I rated 8 playlists myself (average **4.25 / 5**,
+  [human_review.md](evaluation/human_review.md)). *"Songs like Tems"* passed every automated check but got
+  3 / 5 from me: right scene, but the songs don't really sound like her.
 
 **What I learned:** test the whole system, not just the AI parts. The worst bug the evaluation found was in my own
 Module 3 rules, not in Gemini. And measure every "improvement": one I was sure about (few-shot) did nothing, and one I

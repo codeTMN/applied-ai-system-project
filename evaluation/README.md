@@ -23,7 +23,7 @@ This folder holds the saved results of every test run. Everything here can be re
 | [tone.md](tone.md) | DJ tone/style rules vs a plain baseline write-up (same songs) | `python eval.py --tone` |
 | [specialization.md](specialization.md) | Request reading with vs without few-shot examples | `python eval.py --parser` |
 | [consistency.md](consistency.md) | Same 3 requests run 3 times: do the picks stay the same? | `python eval.py --consistency` |
-| [human_review.md](human_review.md) | A person rates 8 playlists by ear | filled in by hand |
+| [human_review.md](human_review.md) | I rated 8 playlists by ear: **average 4.25 / 5** (lowest: "songs like Tems", 3 / 5) | filled in by hand |
 | `agent_traces/` | Reasoning traces from the agent-mode run | (written by the agent variant) |
 
 ## How a case is checked
@@ -78,6 +78,13 @@ Running the same request 3 times ([consistency.md](consistency.md)): "I dey feel
 for a quiet evening" gave **identical playlists every time**. The vaguer "upbeat songs for a summer road trip"
 kept 3 of 5 songs across all runs. **Average overlap: 0.87.** The scorer is deterministic; the variation comes
 from Gemini reading a vague request slightly differently each time.
+
+## Human review vs automated checks
+
+I rated 8 playlists myself ([human_review.md](human_review.md)): **average 4.25 / 5**. The automated checks and I
+mostly agreed, with one useful exception: *"songs like Tems"* passed all its automated checks (Tems included,
+4+ songs from the Afro/R&B scenes) but I gave it **3 / 5**, because the songs don't actually sound like Tems.
+Automated checks can confirm the right *ingredients*; only a listener can confirm the right *sound*.
 
 ## Bugs the evaluation found (and fixes)
 
