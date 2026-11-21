@@ -42,7 +42,7 @@ Agent mode: the same steps exposed as Gemini function-calling tools
 | 3. Documentation | README: base project named + 2-3 sentence summary, title & summary, architecture overview, setup steps, 2-3 sample interactions, design decisions, testing summary, brief reflection (graded reflection goes in `model_card.md`) | Task 8 |
 | 4. Reliability and evaluation | At least one way to measure reliability (tests, confidence scores, logging, human eval in a parseable table) + a few-line testing summary ("x of y passed...") | Tasks 3, 7 (add a confidence score) |
 | 5. Reflection and ethics | `model_card.md` with clear headers: limitations/biases, misuse + prevention, what surprised me in testing, AI collaboration (one suggestion accepted, one rejected/revised, and why) | Task 8 |
-| 6. Presentation and portfolio | README **text evidence** (fenced code blocks or `.txt` logs): sample commands, inputs, outputs, guardrail/eval results; portfolio paragraph "what this project says about me as an AI engineer"; optional Loom link; 5-7 min presentation (you) | Task 8 |
+| 6. Presentation and portfolio | README **text evidence** (fenced code blocks or `.txt` logs): sample commands, inputs, outputs, guardrail/eval results; portfolio paragraph "what this project says about me as an AI engineer"; no Loom video (presenting in class instead); 5-7 min presentation (you) | Task 8 |
 | Submission checklist | Public repo, README.md, model_card.md, Mermaid diagram in `diagrams/`, images in `assets/`, multiple meaningful commits, pushed before the deadline | Task 8 |
 
 ## Tasks (one commit per task, pushed as we go)
@@ -85,7 +85,7 @@ Agent mode: the same steps exposed as Gemini function-calling tools
   - Specialization: tone rules 4.0 vs 1.0 Pidgin words per reply; few-shot examples made no measurable difference (38/38 both) -> honest finding for the model card
   - Consistency 0.87 average overlap; human review sheet `evaluation/human_review.md` for the user to fill in
 - [x] **8. Docs:** new `README.md` (base project, summary, architecture + Mermaid overview, step-by-step setup incl. getting a Gemini key, 5 real sample runs, reliability table, testing summary, design decisions, reflection + portfolio paragraph), new `model_card.md` (section 5 questions as headers, baseline vs specialized, RAG before/after, AI collaboration with accepted/rejected suggestions), `assets/sample_runs.txt` (10 real command outputs), final diagram; Module 3 docs moved to `docs/`
-  - Still yours: rate `evaluation/human_review.md`, optional Loom link + screenshots, review the reflection wording
+  - Still yours: rate `evaluation/human_review.md`, optional screenshots, review the reflection wording
 
 ## Models (checked with `models.list()` on 2026-11-15)
 

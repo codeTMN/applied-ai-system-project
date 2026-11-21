@@ -368,8 +368,6 @@ My full reflection (limitations, misuse, what surprised me, and how I worked wit
 accepted and rejected) is in **[`model_card.md`](model_card.md)**. The agent's reasoning traces are in
 [`ai_interactions.md`](ai_interactions.md).
 
-**Video walkthrough (optional):** *add Loom link here*
-
 ## 10. Project map
 
 ```
